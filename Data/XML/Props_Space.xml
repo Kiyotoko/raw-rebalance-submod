@@ -1,0 +1,565 @@
+<?xml version="1.0"?>
+<SpaceProps>
+
+	<SpaceProp Name="Orbital_NightCloak_Dathomir">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>EB_construction_pod.alo</Space_Model_Name>
+		<Scale_Factor>1.75</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+
+
+	<SpaceProp Name="DeathStar Trench">
+		<Text_ID/>
+		<Space_Model_Name>EB_DeathStar_Trench_A.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-1000.0</Layer_Z_Adjust>
+
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Flats">
+		<Text_ID/>
+		<Space_Model_Name>EB_DeathStar_Flat_A.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-1000.0</Layer_Z_Adjust>
+
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar ExhaustPort">
+		<Text_ID/>
+		<Space_Model_Name>EB_DeathStar_Port.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-1000.0</Layer_Z_Adjust>
+
+	</SpaceProp>
+
+
+	<SpaceProp Name="Space_Movement_Compass">
+		<Text_ID/>
+		<Space_Model_Name>I_FACING_ARROW.ALO</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Space_Girder_Wall">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_space_girder00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+	</SpaceProp>
+
+
+	<SpaceProp Name="PropOnly_Empire_Dock_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+
+	<SpaceProp Name="PropOnly_Empire_Dock_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+
+	<SpaceProp Name="PropOnly_Empire_Dock_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Dock">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Space_Obstacle_Radius>130</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Size>0.18  0.18</Radar_Icon_Size>
+		<Affiliation>Empire, Neutral</Affiliation>
+	</SpaceProp>
+
+	<SpaceProp Name="Raxus_Dock">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Raxus.ALO</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Space_Obstacle_Radius>130</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Size>0.18  0.18</Radar_Icon_Size>
+	</SpaceProp>
+
+	<SpaceProp Name="_Cloud_Car">
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Space_Model_Name>w_cloud_car.alo</Space_Model_Name>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.3</Scale_Factor>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Star_Destroyer_Construction">
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+		<Space_Model_Name>W_Star_Destroyer_Construction.ALO</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>300</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>100 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repair">
+		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
+		<Space_Model_Name>RV_MonCalCruiser_Hulk.ALO</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>300</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>100 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Space_Maw_Landing_A">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Space_Model_Name>W_Urban_CorBuild_C.alo</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Maw_Landing_B">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Urban_Builds_Generic01.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Maw_Landing_C">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_UrbanWall_A.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Maw_Landing_D">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_UrbanWall_B.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Space_Polis_Massa_Base_A">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_uplink_station.alo</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Polis_Massa_Base_B">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>RV_TRANSPORT.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Polis_Massa_Base_C">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_SCH.alo</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Polis_Massa_Base_D">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>EB_ICC_landingpad.alo</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Polis_Massa_Base_E">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>RB_COMCENTER.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Polis_Massa_Base_F">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_SHUTTERSHIELDGEN.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Polis_Massa_Base_G">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>nb_piratebase_01.alo</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Satellite_A">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_satelite1.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Centerpoint_Station_Prop">
+		<Text_ID>TEXT_CENTERPOINT</Text_ID>
+		<Space_Model_Name>W_CENTERPOINT.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.004</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Space_Duros_A">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_KaminoBuilding00.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Duros_B">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_KaminoBuilding00.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Duros_C">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Kamino_Tower_lrg.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Duros_D">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Bespin_Building03.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Deathstar_2">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_deathstar02_II.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Space_The_Wheel_Station">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_The_Wheel.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Space_Merchant_Dock_A">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Spacedock_01.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Merchant_Dock_B">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Spacedock_02.ALO</Space_Model_Name>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Behavior>IDLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type>Armor_Satellite</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Death_Projectiles>Proj_Space_Mine_Detonation</Death_Projectiles>
+
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Merchant_Dock_C">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Spacedock_03.ALO</Space_Model_Name>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Behavior>IDLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type>Armor_Satellite</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Death_Projectiles>Proj_Space_Mine_Detonation</Death_Projectiles>
+
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Merchant_Dock_D">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Spacedock_04.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Merchant_Dock_E">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Spacedock_05.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	
+	<SpaceProp Name="Space_Skyhook">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Skyhook.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+
+	<SpaceProp Name="Space_Sluis_Van_Dock">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>NB_Sluis_Van.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</SpaceProp>
+	
+	<SpaceProp Name="Space_Wreck_Large">
+		<Text_ID/>
+		<Space_Model_Name>NV_Inexpugnable_Wreck.ALO</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
+		<Space_Obstacle_Radius>700</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	
+	<SpaceProp Name="Providence_Construction">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>SeV_Providence_Under_Construction.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Behavior>IDLE</Behavior>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Decoration>Yes</Is_Decoration>
+	</SpaceProp>
+
+</SpaceProps>

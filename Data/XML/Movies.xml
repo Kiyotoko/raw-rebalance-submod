@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<Movies>
+
+	<Movie Name="Logo1">
+		<Movie_File>Data\Art\Movies\Binked\LucasArtsLogo.bik</Movie_File>
+		<Cannot_Skip>false</Cannot_Skip>
+	</Movie>
+
+	<Movie Name="Logo2">
+		<Movie_File>Data\Art\Movies\Binked\intro1.bik</Movie_File>
+		<Cannot_Skip>false</Cannot_Skip>
+	</Movie>
+
+	<Movie Name="Logo3">
+		<Movie_File>Data\Art\Movies\Binked\logo.bik</Movie_File>
+		<Cannot_Skip>false</Cannot_Skip>
+	</Movie>
+
+	<Movie Name="FotJ_Campaign_Text">
+		<Movie_File>Data\Art\Movies\Binked\Text_Scroll_Intro_Music.bik</Movie_File>
+		<Text_Crawl_Name>FALL_OF_THE_JEDI_CAMPAIGN_TEXT_CRAWL</Text_Crawl_Name>
+		<Text_Crawl_Start_Frame>315</Text_Crawl_Start_Frame><!-- was 250-->
+		<Has_Credits>false</Has_Credits>
+		<Alpha>false</Alpha>
+		<Pause_Game_While_Playing>true</Pause_Game_While_Playing>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Cannot_Skip>True</Cannot_Skip>
+	</Movie>
+
+	<Movie Name="Intro_Fox">
+		<Movie_File>Data\Art\Movies\Binked\Intro_Fox.bik</Movie_File>
+		<Alpha>false</Alpha>
+		<Cannot_Skip>true</Cannot_Skip>
+	</Movie>
+
+	<Movie Name="Default_Incoming_Transmission">
+		<Movie_File>Data\Art\Movies\Binked\incoming_transmission.bik</Movie_File>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Light_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Light_loop.bik</Movie_File>
+		<Alpha>true</Alpha>
+		<Commandbar_Offset>5 5</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Clone_Captain_Loop">
+		<Movie_File>Data\Art\Movies\Binked\capt_holo2.bik</Movie_File>
+		<Alpha>true</Alpha>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Count_Dooku_Loop">
+		<Movie_File>Data\Art\Movies\Binked\dooku0.bik</Movie_File>
+		<Alpha>true</Alpha>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="General_Grievous_Kamino">
+		<Movie_File>Data\Art\Movies\Binked\Grievous.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Cp_Rex_Loop">
+		<Movie_File>Data\Art\Movies\Binked\rex.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Alpha>true</Alpha>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Commander_Cody_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Cody.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Clone_Ph1_Loop_Kamino">
+		<Movie_File>Data\Art\Movies\Binked\capt_holo2.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Anakin_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Anakin.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Obiwan_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Obiwan.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Yoda_Loop">
+		<Movie_File>Data\Art\Movies\Binked\yoda.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Mace_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Mace.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Palpatine_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Palpatine.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Anakin_Saber_Loop">
+		<Movie_File>Data\Art\Movies\Binked\AnakinSword.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Anakin_Saber_Draw">
+		<Movie_File>Data\Art\Movies\Binked\AnakinDraw.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>5 0</Commandbar_Offset>
+		<Alpha>true</Alpha>
+	</Movie>
+
+	<Movie Name="Credits">
+		<Movie_File>Data\Art\Movies\Binked\credits_loop.bik</Movie_File>
+		<Has_Credits>true</Has_Credits>
+		<Overlay>true</Overlay>
+		<Movie_Start_Frame>1</Movie_Start_Frame>
+	</Movie>
+
+	<Movie Name="Star_Wars_Intro">
+		<Movie_File>Data\Art\Movies\Binked\Text_Intro.bik</Movie_File>
+		<Text_Crawl_Name>A_Long_Time_Ago</Text_Crawl_Name>
+		<Text_Crawl_Start_Frame>0</Text_Crawl_Start_Frame>
+		<Cannot_Skip>true</Cannot_Skip>
+		<Has_Credits>false</Has_Credits>
+		<Alpha>true</Alpha>
+		<Pause_Game_While_Playing>true</Pause_Game_While_Playing>
+	</Movie>
+
+
+	<Movie Name="Order66_Montage">
+		<Movie_File>Data\Art\Movies\Binked\Order66.bik</Movie_File>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>-37 -301</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Clone_Wars_End_Win">
+		<Movie_File>Data\Art\Movies\Binked\republic_win.bik</Movie_File>
+		<Cannot_Skip>true</Cannot_Skip>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Has_Credits>false</Has_Credits>
+		<Movie_Start_Frame>1</Movie_Start_Frame>
+		<Commandbar_Offset>-37 -301</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Clone_Wars_End_Lose">
+		<Movie_File>Data\Art\Movies\Binked\republic_lose.bik</Movie_File>
+		<Cannot_Skip>true</Cannot_Skip>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>-37 -301</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="CIS_End_Win">
+		<Movie_File>Data\Art\Movies\Binked\cis_win.bik</Movie_File>
+		<Cannot_Skip>true</Cannot_Skip>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>-37 -301</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="CIS_End_Lose">
+		<Movie_File>Data\Art\Movies\Binked\cis_lose.bik</Movie_File>
+		<Cannot_Skip>true</Cannot_Skip>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>-37 -301</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Empire_End_Win">
+		<Movie_File>Data\Art\Movies\Binked\empire_win.bik</Movie_File>
+		<Cannot_Skip>true</Cannot_Skip>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>-37 -301</Commandbar_Offset>
+	</Movie>
+
+	<Movie Name="Empire_End_Lose">
+		<Movie_File>Data\Art\Movies\Binked\empire_lose.bik</Movie_File>
+		<Cannot_Skip>true</Cannot_Skip>
+		<Halt_Game_Music>Yes</Halt_Game_Music>
+		<Commandbar_Offset>-37 -301</Commandbar_Offset>
+	</Movie>
+
+</Movies>

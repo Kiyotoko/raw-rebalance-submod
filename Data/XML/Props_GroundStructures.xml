@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<Props_GroundStructures>
+
+	<!-- From GroundStructures.xml becuase it's impossible to tell where we might use these as props somewhere -->
+
+	<GroundStructure Name="Comm_Jammer">
+		<Text_ID>TEXT_STRUCTURE_COMM_JAMMER_EMPIRE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_Comm_Jamm.alo</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Sensor_Array_Loop</SFXEvent_Ambient_Loop>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Behavior>SELECTABLE, TACTICAL_SELL</Behavior>
+		<LandBehavior>IDLE,LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+
+		<Land_Damage_Thresholds>1, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>false</Remove_Upon_Death>
+
+		<Tactical_Sell_Credits>250</Tactical_Sell_Credits>
+		<SFXEvent_Sold_Tactical>RHD_Sensor_Node_Sold</SFXEvent_Sold_Tactical>
+
+		<Required_Special_Structures>Communications_Array_E</Required_Special_Structures>
+
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Select_Box_Scale>50</Select_Box_Scale>
+
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		<GUI_Bracket_Width>20</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+	</GroundStructure>
+
+
+	<GroundStructure Name="Abstract_Sensor_Array">
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_NODE</Encyclopedia_Text>
+		<Land_Model_Name>NB_SensorNode.alo</Land_Model_Name>
+		<Icon_Name>i_button_sensor_node.tga</Icon_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Structure_Sensor_Array_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Behavior>SELECTABLE, TACTICAL_SELL</Behavior>
+		<LandBehavior>IDLE, REVEAL, HIDE_WHEN_FOGGED, LAND_OBSTACLE</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range><!-- was 500 -->
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Select_Box_Scale>50</Select_Box_Scale>
+
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		<GUI_Bracket_Width>20</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+	</GroundStructure>
+
+	<GroundStructure Name="Sensor_Array">
+		<Variant_Of_Existing_Type>Abstract_Sensor_Array</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_SENSOR_REBEL</Text_ID>
+		<Tactical_Sell_Credits>500</Tactical_Sell_Credits>
+		<SFXEvent_Sold_Tactical>UHD_Sensor_Node_Sold</SFXEvent_Sold_Tactical>
+		<Required_Special_Structures>Communications_Array_R</Required_Special_Structures>
+		<Affiliation>Rebel</Affiliation>
+		<Obstacle_Proxy_Type>Rebel_Build_Pad</Obstacle_Proxy_Type>
+	</GroundStructure>
+
+	<GroundStructure Name="Sensor_Array_Empire">
+		<Variant_Of_Existing_Type>Abstract_Sensor_Array</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_SENSOR_EMPIRE</Text_ID>
+		<Tactical_Sell_Credits>250</Tactical_Sell_Credits>
+		<SFXEvent_Sold_Tactical>RHD_Sensor_Node_Sold</SFXEvent_Sold_Tactical>
+		<Required_Special_Structures>Communications_Array_E</Required_Special_Structures>
+		<Affiliation>Empire</Affiliation>
+		<Obstacle_Proxy_Type>Empire_Build_Pad</Obstacle_Proxy_Type>
+	</GroundStructure>
+
+	
+	<GroundStructure Name="Empire_Landing_Platform">
+		<Text_ID>TEXT_STRUCTURE_LANDING_PAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_ICC_landingpad.alo</Land_Model_Name>
+		<Behavior/>
+		<LandBehavior>IDLE,LAND_OBSTACLE,REVEAL</LandBehavior>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.2</Radar_Icon_Size>
+
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
+
+		<Obstacle_Width>160.0</Obstacle_Width>
+		<Obstacle_Height>100.0</Obstacle_Height>
+		<Obstacle_X_Offset>-80.0</Obstacle_X_Offset>
+		<Obstacle_Y_Offset>-50.0</Obstacle_Y_Offset>
+
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<GUI_Bracket_Width>50</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Landing_Platform_2X">
+		<Variant_Of_Existing_Type>Empire_Landing_Platform</Variant_Of_Existing_Type>
+		<LandBehavior>IDLE, REVEAL</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+	</GroundStructure>
+
+
+	<GroundStructure Name="Invisible_Reveal_Object">
+		<Text_ID/>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Behavior/>
+		<LandBehavior>REVEAL</LandBehavior>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>999999</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Neutral</Affiliation>
+		<!--<Base_Level_Available>0</Base_Level_Available>-->
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<CategoryMask>Wall</CategoryMask>
+	</GroundStructure>
+
+
+
+	<GroundStructure Name="Imperial_Observation_Bunker">
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+		<Text_ID>TEXT_STRUCTURE_EMPIRE_BUNKER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_TEstbunker.alo</Land_Model_Name>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI</Behavior>
+		<LandBehavior>IDLE, LAND_OBSTACLE, SPACE_OBSTACLE, REVEAL</LandBehavior>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>800</Tactical_Health>
+		<Autoresolve_Health>500</Autoresolve_Health>
+
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<AI_Combat_Power>5</AI_Combat_Power>
+
+	</GroundStructure>
+
+
+	<GroundStructure Name="Droid_Interface_Station">
+		<Text_ID>TEXT_STRUCTURE_DROID_INTERFACE_STATION</Text_ID>
+		<Land_Model_Name>W_R2_Terminal.alo</Land_Model_Name>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.8</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>0</Base_Level_Available>-->
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CategoryMask>Structure</CategoryMask>
+		<AI_Combat_Power>5</AI_Combat_Power>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+
+	</GroundStructure>
+
+	<GroundStructure Name="Uplink_Station">
+		<Icon_Name>i_button_uplink_station.tga</Icon_Name>
+		<GUI_Bounds_Scale>0.15</GUI_Bounds_Scale>
+		<Text_ID>TEXT_STRUCTURE_UPLINK_STATION</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>w_uplink_station.alo</Land_Model_Name>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>LAND_OBSTACLE, EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>800</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>0</Base_Level_Available>-->
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CategoryMask>Structure</CategoryMask>
+		<AI_Combat_Power>5</AI_Combat_Power>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+	</GroundStructure>
+
+
+	<GroundStructure Name="Uplink_Station_Abandoned">
+		<Variant_Of_Existing_Type>Uplink_Station</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
+		<Encyclopedia_Text>TEXT_STRUCTURE_ABANDONED_UPLINK_STATION</Encyclopedia_Text>
+		<Land_Model_Name>w_uplink_station_abandon.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Checkpoint">
+		<Land_Model_Name>EB_CheckPointStructure.alo</Land_Model_Name><!--jdg updated model 7/13/06 was NB_twilek_building.alo-->
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, DUMMY_TOOLTIP</LandBehavior>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Is_Branched_Map_Discardable>False</Is_Branched_Map_Discardable>
+
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
+		<Affiliation>Neutral</Affiliation>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+	</GroundStructure>
+
+</Props_GroundStructures>

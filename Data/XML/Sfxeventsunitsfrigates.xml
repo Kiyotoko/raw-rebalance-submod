@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+	<SFXEvent Name="Unit_Attack_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0101_ENG.wav U000_PRF0102_ENG.wav U000_PRF0106_ENG.wav U000_PRF0107_ENG.wav U000_PRF0108_ENG.wav U000_PRF0109_ENG.wav U000_PRF0110_ENG.wav U000_PRF0111_ENG.wav U000_PRF0112_ENG.wav U000_PRF0113_ENG.wav U000_PRF0114_ENG.wav U000_PRF0115_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_ATTACK_1, TEXT_SFX_PRF_ATTACK_2, TEXT_SFX_PRF_ATTACK_6, TEXT_SFX_PRF_ATTACK_7, TEXT_SFX_PRF_ATTACK_8, TEXT_SFX_PRF_ATTACK_9, TEXT_SFX_PRF_ATTACK_10, TEXT_SFX_PRF_ATTACK_11, TEXT_SFX_PRF_ATTACK_12, TEXT_SFX_PRF_ATTACK_13, TEXT_SFX_PRF_ATTACK_14, TEXT_SFX_PRF_ATTACK_15</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0201_ENG.wav U000_PRF0202_ENG.wav U000_PRF0203_ENG.wav U000_PRF0204_ENG.wav U000_PRF0205_ENG.wav U000_PRF0206_ENG.wav U000_PRF0207_ENG.wav U000_PRF0208_ENG.wav U000_PRF0209_ENG.wav U000_PRF0210_ENG.wav U000_PRF0211_ENG.wav U000_PRF0212_ENG.wav U000_PRF0213_ENG.wav U000_PRF0214_ENG.wav U000_PRF0215_ENG.wav U000_PRF0216_ENG.wav U000_PRF0217_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_MOVE_1, TEXT_SFX_PRF_MOVE_2, TEXT_SFX_PRF_MOVE_3, TEXT_SFX_PRF_MOVE_4, TEXT_SFX_PRF_MOVE_5, TEXT_SFX_PRF_MOVE_6, TEXT_SFX_PRF_MOVE_7, TEXT_SFX_PRF_MOVE_8, TEXT_SFX_PRF_MOVE_9, TEXT_SFX_PRF_MOVE_10, TEXT_SFX_PRF_MOVE_11, TEXT_SFX_PRF_MOVE_12, TEXT_SFX_PRF_MOVE_13, TEXT_SFX_PRF_MOVE_14, TEXT_SFX_PRF_MOVE_15, TEXT_SFX_PRF_MOVE_16, TEXT_SFX_PRF_MOVE_17</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0201_ENG.wav U000_PRF0202_ENG.wav U000_PRF0203_ENG.wav U000_PRF0204_ENG.wav U000_PRF0205_ENG.wav U000_PRF0207_ENG.wav  U000_PRF0209_ENG.wav U000_PRF0210_ENG.wav U000_PRF0212_ENG.wav U000_PRF0213_ENG.wav U000_PRF0214_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_MOVE_1, TEXT_SFX_PRF_MOVE_2, TEXT_SFX_PRF_MOVE_3, TEXT_SFX_PRF_MOVE_4, TEXT_SFX_PRF_MOVE_5, TEXT_SFX_PRF_MOVE_7, TEXT_SFX_PRF_MOVE_9, TEXT_SFX_PRF_MOVE_10, TEXT_SFX_PRF_MOVE_12, TEXT_SFX_PRF_MOVE_13, TEXT_SFX_PRF_MOVE_14</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Select_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0301_ENG.wav U000_PRF0302_ENG.wav U000_PRF0303_ENG.wav U000_PRF0304_ENG.wav U000_PRF0305_ENG.wav U000_PRF0306_ENG.wav U000_PRF0307_ENG.wav U000_PRF0308_ENG.wav U000_PRF0309_ENG.wav U000_PRF0310_ENG.wav U000_PRF0311_ENG.wav U000_PRF0312_ENG.wav U000_PRF0313_ENG.wav U000_PRF0314_ENG.wav U000_PRF0315_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_SELECT_1, TEXT_SFX_PRF_SELECT_2, TEXT_SFX_PRF_SELECT_3, TEXT_SFX_PRF_SELECT_4, TEXT_SFX_PRF_SELECT_5, TEXT_SFX_PRF_SELECT_6, TEXT_SFX_PRF_SELECT_7, TEXT_SFX_PRF_SELECT_8, TEXT_SFX_PRF_SELECT_9, TEXT_SFX_PRF_SELECT_10, TEXT_SFX_PRF_SELECT_11, TEXT_SFX_PRF_SELECT_12, TEXT_SFX_PRF_SELECT_13, TEXT_SFX_PRF_SELECT_14, TEXT_SFX_PRF_SELECT_15</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Complete_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0308_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_SELECT_8</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0501_ENG.wav U000_PRF0502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_GUARD_1, TEXT_SFX_PRF_GUARD_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Stop_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0601_ENG.wav U000_PRF0602_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_STOP_1, TEXT_SFX_PRF_STOP_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Barrage_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF0701_ENG.wav U000_PRF0702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_BARRAGE_1, TEXT_SFX_PRF_BARRAGE_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Asteroids_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF1301_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_ASTEROIDS_1</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Nebula_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF1401_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_NEBULA_1</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Laser_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF1701_ENG.wav U000_PRF1702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_LASER_1, TEXT_SFX_PRF_HP_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Missile_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF1801_ENG.wav U000_PRF1802_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_MISSILE_1, TEXT_SFX_PRF_HP_MISSILE_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Torp_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF1901_ENG.wav U000_PRF1902_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_TORP_1, TEXT_SFX_PRF_HP_TORP_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Ion_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2001_ENG.wav U000_PRF2002_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_ION_1, TEXT_SFX_PRF_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Engines_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2201_ENG.wav U000_PRF2202_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_ENGINES_1, TEXT_SFX_PRF_HP_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Shields_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2301_ENG.wav U000_PRF2302_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_SHIELDS_1, TEXT_SFX_PRF_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Grav_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2401_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Bay_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2501_ENG.wav U000_PRF2502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_HP_BAY_1, TEXT_SFX_PRF_HP_BAY_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Laser_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2601_ENG.wav U000_PRF2602_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_LOST_LASER_1, TEXT_SFX_PRF_LOST_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Lost_Shields_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2701_ENG.wav U000_PRF2702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_LOST_SHIELDS_1, TEXT_SFX_PRF_LOST_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Engines_Pirate_Frigate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PRF2801_ENG.wav U000_PRF2802_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PRF_LOST_ENGINES_1, TEXT_SFX_PRF_LOST_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Frigate</Overlap_Test>
+	</SFXEvent>
+
+</SFXEvents>

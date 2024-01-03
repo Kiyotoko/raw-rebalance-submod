@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+	<SFXEvent Name="Unit_Select_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0101_ENG.wav U000_TFP0102_ENG.wav U000_TFP0103_ENG.wav U000_TFP0104_ENG.wav U000_TFP0105_ENG.wav U000_TFP0106_ENG.wav U000_TFP0107_ENG.wav U000_TFP0108_ENG.wav U000_TFP0109_ENG.wav U000_TFP0110_ENG.wav U000_TFP0111_ENG.wav U000_TFP0112_ENG.wav U000_TFP0113_ENG.wav U000_TFP0114_ENG.wav U000_TFP0115_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_SELECT_1, TEXT_SFX_TFP_SELECT_2, TEXT_SFX_TFP_SELECT_3, TEXT_SFX_TFP_SELECT_4, TEXT_SFX_TFP_SELECT_5, TEXT_SFX_TFP_SELECT_6, TEXT_SFX_TFP_SELECT_7, TEXT_SFX_TFP_SELECT_8, TEXT_SFX_TFP_SELECT_9, TEXT_SFX_TFP_SELECT_10, TEXT_SFX_TFP_SELECT_11, TEXT_SFX_TFP_SELECT_12, TEXT_SFX_TFP_SELECT_13, TEXT_SFX_TFP_SELECT_14, TEXT_SFX_TFP_SELECT_15</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Complete_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0101_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_SELECT_1</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0201_ENG.wav U000_TFP0202_ENG.wav U000_TFP0203_ENG.wav U000_TFP0204_ENG.wav U000_TFP0205_ENG.wav U000_TFP0206_ENG.wav U000_TFP0207_ENG.wav U000_TFP0208_ENG.wav U000_TFP0209_ENG.wav U000_TFP0210_ENG.wav U000_TFP0211_ENG.wav U000_TFP0212_ENG.wav U000_TFP0213_ENG.wav U000_TFP0214_ENG.wav U000_TFP0215_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_MOVE_1, TEXT_SFX_TFP_MOVE_2, TEXT_SFX_TFP_MOVE_3, TEXT_SFX_TFP_MOVE_4, TEXT_SFX_TFP_MOVE_5, TEXT_SFX_TFP_MOVE_6, TEXT_SFX_TFP_MOVE_7, TEXT_SFX_TFP_MOVE_8, TEXT_SFX_TFP_MOVE_9, TEXT_SFX_TFP_MOVE_10, TEXT_SFX_TFP_MOVE_11, TEXT_SFX_TFP_MOVE_12, TEXT_SFX_TFP_MOVE_13, TEXT_SFX_TFP_MOVE_14, TEXT_SFX_TFP_MOVE_15</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0201_ENG.wav U000_TFP0202_ENG.wav  U000_TFP0204_ENG.wav  U000_TFP0206_ENG.wav U000_TFP0207_ENG.wav U000_TFP0208_ENG.wav U000_TFP0209_ENG.wav U000_TFP0210_ENG.wav U000_TFP0211_ENG.wav U000_TFP0212_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_MOVE_1, TEXT_SFX_TFP_MOVE_2,  TEXT_SFX_TFP_MOVE_4,  TEXT_SFX_TFP_MOVE_6, TEXT_SFX_TFP_MOVE_7, TEXT_SFX_TFP_MOVE_8, TEXT_SFX_TFP_MOVE_9, TEXT_SFX_TFP_MOVE_10, TEXT_SFX_TFP_MOVE_11, TEXT_SFX_TFP_MOVE_12</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Attack_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0301_ENG.wav U000_TFP0302_ENG.wav U000_TFP0303_ENG.wav U000_TFP0304_ENG.wav U000_TFP0305_ENG.wav U000_TFP0306_ENG.wav U000_TFP0307_ENG.wav U000_TFP0308_ENG.wav U000_TFP0309_ENG.wav U000_TFP0310_ENG.wav U000_TFP0311_ENG.wav U000_TFP0312_ENG.wav U000_TFP0313_ENG.wav U000_TFP0314_ENG.wav U000_TFP0315_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_ATTACK_1, TEXT_SFX_TFP_ATTACK_2, TEXT_SFX_TFP_ATTACK_3, TEXT_SFX_TFP_ATTACK_4, TEXT_SFX_TFP_ATTACK_5, TEXT_SFX_TFP_ATTACK_6, TEXT_SFX_TFP_ATTACK_7, TEXT_SFX_TFP_ATTACK_8, TEXT_SFX_TFP_ATTACK_9, TEXT_SFX_TFP_ATTACK_10, TEXT_SFX_TFP_ATTACK_11, TEXT_SFX_TFP_ATTACK_12, TEXT_SFX_TFP_ATTACK_13, TEXT_SFX_TFP_ATTACK_14, TEXT_SFX_TFP_ATTACK_15</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0501_ENG.wav U000_TFP0502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_GUARD_1, TEXT_SFX_TFP_GUARD_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Asteroids_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0601_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_ASTEROIDS_1</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Nebula_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0701_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_NEBULA_1</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Health_Low_Tie_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_TF10902_ENG.wav U000_TF21002_ENG.wav U000_TF21003_ENG.wav U000_TF21005_ENG.wav U000_TF21008_ENG.wav U000_TF31102_ENG.wav U000_TF31103_ENG.wav U000_TF51302_ENG.wav U000_TF51306_ENG.wav U000_TF61401_ENG.wav U000_TF61409_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TF1_CHATTER_2, TEXT_SFX_TF2_CHATTER_2, TEXT_SFX_TF2_CHATTER_3, TEXT_SFX_TF2_CHATTER_5, TEXT_SFX_TF2_CHATTER_8, TEXT_SFX_TF3_CHATTER_2, TEXT_SFX_TF3_CHATTER_3, TEXT_SFX_TF5_CHATTER_2, TEXT_SFX_TF5_CHATTER_6, TEXT_SFX_TF6_CHATTER_1, TEXT_SFX_TF6_CHATTER_9</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Health_Critical_Tie_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_TFP0801_ENG.wav U000_TFP0802_ENG.wav U000_TFP0803_ENG.wav U000_TFP0804_ENG.wav U000_TFP0805_ENG.wav U000_TFP0806_ENG.wav U000_TFP0807_ENG.wav U000_TFP0808_ENG.wav U000_TFP0809_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_DEATH_1, TEXT_SFX_TFP_DEATH_2, TEXT_SFX_TFP_DEATH_3, TEXT_SFX_TFP_DEATH_4,TEXT_SFX_TFP_DEATH_5, TEXT_SFX_TFP_DEATH_6, TEXT_SFX_TFP_DEATH_7, TEXT_SFX_TFP_DEATH_8, TEXT_SFX_TFP_DEATH_9</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Enemy_Health_Low_Tie_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_TF10906_ENG.wav U000_TF21006_ENG.wav U000_TF31104_ENG.wav U000_TF31109_ENG.wav U000_TF41204_ENG.wav U000_TF41205_ENG.wav U000_TF41206_ENG.wav U000_TF61405_ENG.wav U000_TF61407_ENG.wav U000_TF61408_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TF1_CHATTER_6, TEXT_SFX_TF2_CHATTER_6, TEXT_SFX_TF3_CHATTER_4, TEXT_SFX_TF3_CHATTER_9, TEXT_SFX_TF4_CHATTER_4, TEXT_SFX_TF4_CHATTER_5, TEXT_SFX_TF4_CHATTER_6, TEXT_SFX_TF6_CHATTER_5, TEXT_SFX_TF6_CHATTER_7, TEXT_SFX_TF6_CHATTER_8,</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Enemy_Health_Critical_Tie_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_TF10909_ENG.wav U000_TF21007_ENG.wav U000_TF21009_ENG.wav U000_TF51307_ENG.wav U000_TF51308_ENG.wav U000_TF61403_ENG.wav U000_TF61404_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TF1_CHATTER_9, TEXT_SFX_TF2_CHATTER_7, TEXT_SFX_TF2_CHATTER_9, TEXT_SFX_TF5_CHATTER_7, TEXT_SFX_TF5_CHATTER_8, TEXT_SFX_TF6_CHATTER_3, TEXT_SFX_TF6_CHATTER_4</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_HP_Laser_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP0901_ENG.wav U000_TFP0902_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_LASER_1, TEXT_SFX_TFP_HP_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Missile_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP1001_ENG.wav U000_TFP1002_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_MISSILE_1, TEXT_SFX_TFP_HP_MISSILE_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Torp_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP1101_ENG.wav U000_TFP1102_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_TORP_1, TEXT_SFX_TFP_HP_TORP_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Ion_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP1201_ENG.wav U000_TFP1202_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_ION_1, TEXT_SFX_TFP_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Engines_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP1301_ENG.wav U000_TFP1302_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_ENGINES_1, TEXT_SFX_TFP_HP_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Shields_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP1401_ENG.wav U000_TFP1402_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_SHIELDS_1, TEXT_SFX_TFP_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Grav_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP1501_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Bay_Tie_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TFP1601_ENG.wav U000_TFP1602_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_TFP_HP_BAY_1, TEXT_SFX_TFP_HP_BAY_2</Text_ID>
+		<Overlap_Test>Unit_Tie_Fighter</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Select_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0101_ENG.wav U000_XWP0102_ENG.wav U000_XWP0103_ENG.wav U000_XWP0104_ENG.wav U000_XWP0105_ENG.wav U000_XWP0106_ENG.wav U000_XWP0107_ENG.wav U000_XWP0108_ENG.wav U000_XWP0109_ENG.wav U000_XWP0110_ENG.wav U000_XWP0111_ENG.wav U000_XWP0112_ENG.wav U000_XWP0113_ENG.wav U000_XWP0114_ENG.wav U000_XWP0115_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_SELECT_1, TEXT_SFX_XWP_SELECT_2, TEXT_SFX_XWP_SELECT_3, TEXT_SFX_XWP_SELECT_4, TEXT_SFX_XWP_SELECT_5, TEXT_SFX_XWP_SELECT_6, TEXT_SFX_XWP_SELECT_7, TEXT_SFX_XWP_SELECT_8, TEXT_SFX_XWP_SELECT_9, TEXT_SFX_XWP_SELECT_10, TEXT_SFX_XWP_SELECT_11, TEXT_SFX_XWP_SELECT_12, TEXT_SFX_XWP_SELECT_13, TEXT_SFX_XWP_SELECT_14, TEXT_SFX_XWP_SELECT_15</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Complete_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0101_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_SELECT_1</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Move_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0201_ENG.wav U000_XWP0202_ENG.wav U000_XWP0203_ENG.wav U000_XWP0204_ENG.wav U000_XWP0205_ENG.wav U000_XWP0206_ENG.wav U000_XWP0207_ENG.wav U000_XWP0208_ENG.wav U000_XWP0209_ENG.wav U000_XWP0210_ENG.wav U000_XWP0211_ENG.wav U000_XWP0212_ENG.wav U000_XWP0213_ENG.wav U000_XWP0214_ENG.wav U000_XWP0215_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_MOVE_1, TEXT_SFX_XWP_MOVE_2, TEXT_SFX_XWP_MOVE_3, TEXT_SFX_XWP_MOVE_4, TEXT_SFX_XWP_MOVE_5, TEXT_SFX_XWP_MOVE_6, TEXT_SFX_XWP_MOVE_7, TEXT_SFX_XWP_MOVE_8, TEXT_SFX_XWP_MOVE_9, TEXT_SFX_XWP_MOVE_10, TEXT_SFX_XWP_MOVE_11, TEXT_SFX_XWP_MOVE_12, TEXT_SFX_XWP_MOVE_13, TEXT_SFX_XWP_MOVE_14, TEXT_SFX_XWP_MOVE_15</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0202_ENG.wav U000_XWP0203_ENG.wav U000_XWP0204_ENG.wav U000_XWP0205_ENG.wav U000_XWP0206_ENG.wav U000_XWP0207_ENG.wav U000_XWP0208_ENG.wav U000_XWP0209_ENG.wav U000_XWP0210_ENG.wav U000_XWP0211_ENG.wav U000_XWP0212_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_MOVE_2, TEXT_SFX_XWP_MOVE_3, TEXT_SFX_XWP_MOVE_4, TEXT_SFX_XWP_MOVE_5, TEXT_SFX_XWP_MOVE_6, TEXT_SFX_XWP_MOVE_7, TEXT_SFX_XWP_MOVE_8, TEXT_SFX_XWP_MOVE_9, TEXT_SFX_XWP_MOVE_10, TEXT_SFX_XWP_MOVE_11, TEXT_SFX_XWP_MOVE_12</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Attack_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0301_ENG.wav U000_XWP0302_ENG.wav U000_XWP0303_ENG.wav U000_XWP0304_ENG.wav U000_XWP0305_ENG.wav U000_XWP0306_ENG.wav U000_XWP0307_ENG.wav U000_XWP0308_ENG.wav U000_XWP0309_ENG.wav U000_XWP0310_ENG.wav U000_XWP0311_ENG.wav U000_XWP0312_ENG.wav U000_XWP0313_ENG.wav U000_XWP0314_ENG.wav U000_XWP0315_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_ATTACK_1, TEXT_SFX_XWP_ATTACK_2, TEXT_SFX_XWP_ATTACK_3, TEXT_SFX_XWP_ATTACK_4, TEXT_SFX_XWP_ATTACK_5, TEXT_SFX_XWP_ATTACK_6, TEXT_SFX_XWP_ATTACK_7, TEXT_SFX_XWP_ATTACK_8, TEXT_SFX_XWP_ATTACK_9, TEXT_SFX_XWP_ATTACK_10, TEXT_SFX_XWP_ATTACK_11, TEXT_SFX_XWP_ATTACK_12, TEXT_SFX_XWP_ATTACK_13, TEXT_SFX_XWP_ATTACK_14, TEXT_SFX_XWP_ATTACK_15</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0501_ENG.wav U000_XWP0502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_GUARD_1, TEXT_SFX_XWP_GUARD_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Assist_Move_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XW11803_ENG.wav U000_XW11809_ENG.wav U000_XW21901_ENG.wav U000_XW21902_ENG.wav U000_XW21903_ENG.wav U000_XW32004_ENG.wav U000_XW32007_ENG.wav U000_XW42101_ENG.wav U000_XW42106_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Probability>50</Probability>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XW1_CHATTER_3, TEXT_SFX_XW1_CHATTER_9, TEXT_SFX_XW2_CHATTER_1, TEXT_SFX_XW2_CHATTER_2, TEXT_SFX_XW2_CHATTER_3, TEXT_SFX_XW3_CHATTER_4, TEXT_SFX_XW3_CHATTER_7, TEXT_SFX_XW4_CHATTER_1, TEXT_SFX_XW4_CHATTER_6</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Assist_Attack_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XW11801_ENG.wav U000_XW11802_ENG.wav U000_XW11804_ENG.wav U000_XW11805_ENG.wav U000_XW11807_ENG.wav U000_XW11808_ENG.wav U000_XW21904_ENG.wav U000_XW21907_ENG.wav U000_XW21909_ENG.wav U000_XW32001_ENG.wav U000_XW32003_ENG.wav U000_XW32008_ENG.wav U000_XW32009_ENG.wav U000_XW42102_ENG.wav U000_XW42103_ENG.wav U000_XW42104_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Probability>50</Probability>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XW1_CHATTER_1, TEXT_SFX_XW1_CHATTER_2, TEXT_SFX_XW1_CHATTER_4, TEXT_SFX_XW1_CHATTER_5, TEXT_SFX_XW1_CHATTER_7, TEXT_SFX_XW1_CHATTER_8, TEXT_SFX_XW2_CHATTER_4, TEXT_SFX_XW2_CHATTER_7, TEXT_SFX_XW2_CHATTER_9, TEXT_SFX_XW3_CHATTER_1, TEXT_SFX_XW3_CHATTER_3, TEXT_SFX_XW3_CHATTER_8, TEXT_SFX_XW3_CHATTER_9, TEXT_SFX_XW4_CHATTER_2, TEXT_SFX_XW4_CHATTER_3, TEXT_SFX_XW4_CHATTER_4</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Asteroids_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0601_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_ASTEROIDS_1</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Nebula_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP0701_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_NEBULA_1</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Laser_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1001_ENG.wav U000_XWP1002_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_LASER_1, TEXT_SFX_XWP_HP_LASER_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Missile_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1101_ENG.wav U000_XWP1102_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_MISSILE_1, TEXT_SFX_XWP_HP_MISSILE_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Torp_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1201_ENG.wav U000_XWP1202_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_TORP_1, TEXT_SFX_XWP_HP_TORP_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Ion_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1301_ENG.wav U000_XWP1302_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_ION_1, TEXT_SFX_XWP_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Engines_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1401_ENG.wav U000_XWP1402_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_ENGINES_1, TEXT_SFX_XWP_HP_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Shields_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1501_ENG.wav U000_XWP1502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_SHIELDS_1, TEXT_SFX_XWP_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Grav_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1601_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Bay_X_Wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_XWP1701_ENG.wav U000_XWP1702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_XWP_HP_BAY_1, TEXT_SFX_XWP_HP_BAY_2</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Health_Low_X_Wing">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_XW62306_ENG.wav U000_XW52208_ENG.wav U000_XW21905_ENG.wav  U000_XW21909_ENG.wav  U000_XW52209_ENG.wav U000_XW62309_ENG.wav    U000_VW11103_ENG.wav U000_VW11106_ENG.wav U000_VW11109_ENG.wav U000_VW21204_ENG.wav U000_VW31303_ENG.wav U000_VW31306_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Text_ID>TEXT_SFX_XW6_CHATTER_6, TEXT_SFX_XW5_CHATTER_8, TEXT_SFX_XW2_CHATTER_5,  TEXT_SFX_XW2_CHATTER_9, TEXT_SFX_XW5_CHATTER_9, TEXT_SFX_XW6_CHATTER_9,    TEXT_SFX_VW1_CHATTER_3, TEXT_SFX_VW1_CHATTER_6, TEXT_SFX_VW1_CHATTER_9, TEXT_SFX_VW2_CHATTER_4, TEXT_SFX_VW3_CHATTER_3, TEXT_SFX_VW3_CHATTER_6,</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Health_Critical_X_Wing">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_XWP0901_ENG.wav U000_XWP0902_ENG.wav U000_XWP0903_ENG.wav  U000_XWP0905_ENG.wav U000_XWP0906_ENG.wav U000_XWP0907_ENG.wav  U000_XWP0909_ENG.wav  U000_VWP0901_ENG.wav U000_VWP0902_ENG.wav U000_VWP0903_ENG.wav U000_VWP0904_ENG.wav U000_VWP0905_ENG.wav U000_VWP0906_ENG.wav U000_VWP0907_ENG.wav U000_VWP0908_ENG.wav U000_VW31307_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Text_ID>TEXT_SFX_XWP_DEATH_1, TEXT_SFX_XWP_DEATH_2, TEXT_SFX_XWP_DEATH_3, TEXT_SFX_XWP_DEATH_5, TEXT_SFX_XWP_DEATH_6, TEXT_SFX_XWP_DEATH_7,  TEXT_SFX_XWP_DEATH_9,  TEXT_SFX_VWP_DEATH_1, TEXT_SFX_VWP_DEATH_2, TEXT_SFX_VWP_DEATH_3, TEXT_SFX_VWP_DEATH_4,TEXT_SFX_VWP_DEATH_5, TEXT_SFX_VWP_DEATH_6, TEXT_SFX_VWP_DEATH_7, TEXT_SFX_VWP_DEATH_8, TEXT_SFX_VW3_CHATTER_7</Text_ID>
+		<Overlap_Test>Unit_X_Wing</Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Select_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0101_ENG.wav U000_PFP0102_ENG.wav U000_PFP0103_ENG.wav U000_PFP0104_ENG.wav U000_PFP0105_ENG.wav U000_PFP0106_ENG.wav U000_PFP0107_ENG.wav U000_PFP0108_ENG.wav U000_PFP0109_ENG.wav U000_PFP0110_ENG.wav U000_PFP0111_ENG.wav U000_PFP0112_ENG.wav U000_PFP0113_ENG.wav U000_PFP0114_ENG.wav U000_PFP0115_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_SELECT_1, TEXT_SFX_PFP_SELECT_2, TEXT_SFX_PFP_SELECT_3, TEXT_SFX_PFP_SELECT_4, TEXT_SFX_PFP_SELECT_5, TEXT_SFX_PFP_SELECT_6, TEXT_SFX_PFP_SELECT_7, TEXT_SFX_PFP_SELECT_8, TEXT_SFX_PFP_SELECT_9, TEXT_SFX_PFP_SELECT_10, TEXT_SFX_PFP_SELECT_11, TEXT_SFX_PFP_SELECT_12, TEXT_SFX_PFP_SELECT_13, TEXT_SFX_PFP_SELECT_14, TEXT_SFX_PFP_SELECT_15</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Complete_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0101_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_SELECT_1</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0201_ENG.wav U000_PFP0202_ENG.wav U000_PFP0203_ENG.wav U000_PFP0204_ENG.wav U000_PFP0205_ENG.wav U000_PFP0206_ENG.wav U000_PFP0207_ENG.wav U000_PFP0208_ENG.wav U000_PFP0209_ENG.wav U000_PFP0210_ENG.wav U000_PFP0211_ENG.wav U000_PFP0212_ENG.wav U000_PFP0213_ENG.wav U000_PFP0214_ENG.wav U000_PFP0215_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_MOVE_1, TEXT_SFX_PFP_MOVE_2, TEXT_SFX_PFP_MOVE_3, TEXT_SFX_PFP_MOVE_4, TEXT_SFX_PFP_MOVE_5, TEXT_SFX_PFP_MOVE_6, TEXT_SFX_PFP_MOVE_7, TEXT_SFX_PFP_MOVE_8, TEXT_SFX_PFP_MOVE_9, TEXT_SFX_PFP_MOVE_10, TEXT_SFX_PFP_MOVE_11, TEXT_SFX_PFP_MOVE_12, TEXT_SFX_PFP_MOVE_13, TEXT_SFX_PFP_MOVE_14, TEXT_SFX_PFP_MOVE_15</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0202_ENG.wav U000_PFP0203_ENG.wav U000_PFP0204_ENG.wav U000_PFP0205_ENG.wav U000_PFP0206_ENG.wav U000_PFP0207_ENG.wav U000_PFP0208_ENG.wav U000_PFP0209_ENG.wav U000_PFP0210_ENG.wav U000_PFP0211_ENG.wav U000_PFP0212_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_MOVE_2, TEXT_SFX_PFP_MOVE_3, TEXT_SFX_PFP_MOVE_4, TEXT_SFX_PFP_MOVE_5, TEXT_SFX_PFP_MOVE_6, TEXT_SFX_PFP_MOVE_7, TEXT_SFX_PFP_MOVE_8, TEXT_SFX_PFP_MOVE_9, TEXT_SFX_PFP_MOVE_10, TEXT_SFX_PFP_MOVE_11, TEXT_SFX_PFP_MOVE_12</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Attack_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0301_ENG.wav U000_PFP0302_ENG.wav U000_PFP0303_ENG.wav U000_PFP0304_ENG.wav U000_PFP0305_ENG.wav U000_PFP0306_ENG.wav U000_PFP0307_ENG.wav U000_PFP0308_ENG.wav U000_PFP0309_ENG.wav U000_PFP0310_ENG.wav U000_PFP0311_ENG.wav U000_PFP0312_ENG.wav U000_PFP0313_ENG.wav U000_PFP0314_ENG.wav U000_PFP0315_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_ATTACK_1, TEXT_SFX_PFP_ATTACK_2, TEXT_SFX_PFP_ATTACK_3, TEXT_SFX_PFP_ATTACK_4, TEXT_SFX_PFP_ATTACK_5, TEXT_SFX_PFP_ATTACK_6, TEXT_SFX_PFP_ATTACK_7, TEXT_SFX_PFP_ATTACK_8, TEXT_SFX_PFP_ATTACK_9, TEXT_SFX_PFP_ATTACK_10, TEXT_SFX_PFP_ATTACK_11, TEXT_SFX_PFP_ATTACK_12, TEXT_SFX_PFP_ATTACK_13, TEXT_SFX_PFP_ATTACK_14, TEXT_SFX_PFP_ATTACK_15</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0501_ENG.wav U000_PFP0502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_GUARD_1, TEXT_SFX_PFP_GUARD_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Asteroids_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0601_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_ASTEROIDS_1</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Nebula_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP0701_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_NEBULA_1</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Laser_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1001_ENG.wav U000_PFP1002_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_LASER_1, TEXT_SFX_PFP_HP_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Missile_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1101_ENG.wav U000_PFP1102_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_MISSILE_1, TEXT_SFX_PFP_HP_MISSILE_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Torp_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1201_ENG.wav U000_PFP1202_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_TORP_1, TEXT_SFX_PFP_HP_TORP_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Ion_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1301_ENG.wav U000_PFP1302_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_ION_1, TEXT_SFX_PFP_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Engines_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1401_ENG.wav U000_PFP1402_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_ENGINES_1, TEXT_SFX_PFP_HP_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Shields_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1501_ENG.wav U000_PFP1502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_SHIELDS_1, TEXT_SFX_PFP_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Grav_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1601_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_Bay_Pirate_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_PFP1701_ENG.wav U000_PFP1702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_PFP_HP_BAY_1, TEXT_SFX_PFP_HP_BAY_2</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Health_Low_Pirate_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_PF11102_ENG.wav U000_PF11103_ENG.wav U000_PF11104_ENG.wav  U000_PF11106_ENG.wav  U000_PF11108_ENG.wav U000_PF21201_ENG.wav  U000_PF21204_ENG.wav U000_PF21205_ENG.wav U000_PF31303_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Text_ID>TEXT_SFX_PF1_CHATTER_2, TEXT_SFX_PF1_CHATTER_3, TEXT_SFX_PF1_CHATTER_4,  TEXT_SFX_PF1_CHATTER_6, TEXT_SFX_PF1_CHATTER_8, TEXT_SFX_PF2_CHATTER_1, TEXT_SFX_PF2_CHATTER_4, TEXT_SFX_PF2_CHATTER_5, TEXT_SFX_PF3_CHATTER_3</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Health_Critical_Pirate_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_PFP0901_ENG.wav U000_PFP0902_ENG.wav U000_PFP0903_ENG.wav U000_PFP0904_ENG.wav U000_PFP0905_ENG.wav U000_PFP0906_ENG.wav U000_PFP0907_ENG.wav U000_PFP0908_ENG.wav U000_PFP0909_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Text_ID>TEXT_SFX_PFP_DEATH_1, TEXT_SFX_PFP_DEATH_2, TEXT_SFX_PFP_DEATH_3, TEXT_SFX_PFP_DEATH_4,TEXT_SFX_PFP_DEATH_5, TEXT_SFX_PFP_DEATH_6, TEXT_SFX_PFP_DEATH_7, TEXT_SFX_PFP_DEATH_8, TEXT_SFX_PFP_DEATH_9</Text_ID>
+		<Overlap_Test>Unit_Pirate_Fighter</Overlap_Test>
+	</SFXEvent>
+
+</SFXEvents>

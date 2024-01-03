@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<Yoden_Moving_Heroes>
+
+	<Yoden_Moving_Hero Name="moving_Hero_R2D3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RI_R2D3.alo</Land_Model_Name>
+		<LandBehavior> WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor>
+		
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 8.0 </Rotation_Animation_Speed>
+		<Min_Speed> .1 </Min_Speed>
+		<Max_Speed>.6</Max_Speed>
+		<Max_Rate_Of_Turn>20</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Tech_Structure />
+		<Required_Planets />
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>150</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>50</Tactical_Health>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<SFXEvent_Select />
+		<SFXEvent_Move />
+		<SFXEvent_Attack />
+		<Victory_Relevant>no</Victory_Relevant>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		
+		<!-- need these to be able to move this object -->
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		
+		<Death_Fade_Time>0.8</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Movie_Object>false</Movie_Object>
+		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+	</Yoden_Moving_Hero>  
+
+	<Yoden_Moving_Hero Name="moving_Hero_R2D2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RI_R2.ALO</Land_Model_Name>
+		<LandBehavior> WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor>
+		
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 8.0 </Rotation_Animation_Speed>
+		<Min_Speed> .1 </Min_Speed>
+		<Max_Speed>.6</Max_Speed>
+		<Max_Rate_Of_Turn>20</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Tech_Structure />
+		<Required_Planets />
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>150</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>50</Tactical_Health>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<SFXEvent_Select />
+		<SFXEvent_Move />
+		<SFXEvent_Attack />
+		<Victory_Relevant>no</Victory_Relevant>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		
+		<!-- need these to be able to move this object -->
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		
+		<Death_Fade_Time>0.8</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Movie_Object>false</Movie_Object>
+		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+	</Yoden_Moving_Hero>  
+
+	<Yoden_Moving_Hero Name="moving_Hero_C3P0">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RI_C3PO.ALO</Land_Model_Name>
+		<LandBehavior> WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor>
+		
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 8.0 </Rotation_Animation_Speed>
+		<Min_Speed> .1 </Min_Speed>
+		<Max_Speed>.6</Max_Speed>
+		<Max_Rate_Of_Turn>20</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Tech_Structure />
+		<Required_Planets />
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>150</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>50</Tactical_Health>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<SFXEvent_Select />
+		<SFXEvent_Move />
+		<SFXEvent_Attack />
+		<Victory_Relevant>no</Victory_Relevant>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		
+		<!-- need these to be able to move this object -->
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		
+		<Death_Fade_Time>0.8</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Movie_Object>false</Movie_Object>
+		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+	</Yoden_Moving_Hero>
+
+
+</Yoden_Moving_Heroes>

@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+
+<Conqueror_Data>
+
+	<GroundVehicle Name="Conqueror">
+		<Text_ID>TEXT_UNIT_CONQUEROR</Text_ID>
+		<Encyclopedia_Good_Against>Saber_Tank AT-TE_Walker AT_AP</Encyclopedia_Good_Against> <!-- need to be tweaked -->
+		<Encyclopedia_Vulnerable_To>V19_Fighter LAAT A6_Juggernaut</Encyclopedia_Vulnerable_To> <!-- need to be tweaked -->
+		<Encyclopedia_Text> TEXT_TOOLTIP_CONQUEROR </Encyclopedia_Text> 
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_AERIAL_VEHICLE </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CONQUEROR.tga </Icon_Name>
+
+		<Land_Model_Name>SeV_Conqueror.ALO</Land_Model_Name>
+		<Select_Box_Scale>500</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		
+		<Scale_Factor>0.8</Scale_Factor>
+		<Mass>1.0</Mass>
+		<Size_Value>150</Size_Value>
+
+		<Max_Speed>1.1</Max_Speed>
+		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
+	
+		<Behavior>SELECTABLE</Behavior>
+		
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			WALK_LOCOMOTOR,
+			IDLE,
+			TARGETING,
+			POWERED, 
+			REVEAL, 
+			HIDE_WHEN_FOGGED,
+			UNIT_AI,
+			SURFACE_FX,
+			AFFECTED_BY_SHIELD,
+			STUNNABLE,
+			WIND_DISTURBANCE,
+			DAMAGE_TRACKING,
+			SQUASH
+		</LandBehavior>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
+		<Is_Supercrusher>Yes</Is_Supercrusher>
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+
+		<Wind_Disturbance_Radius>300</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<Affiliation>Rebel</Affiliation>
+
+		<Armor_Type> Armor_ATAT </Armor_Type>
+		<Tactical_Health>2250</Tactical_Health>
+		<Autoresolve_Health>2250</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>	
+		<Energy_Capacity>9999</Energy_Capacity>
+		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
+		<AI_Combat_Power>1500</AI_Combat_Power>
+		<Damage>100</Damage>
+
+		<Land_FOW_Reveal_Range>550.0</Land_FOW_Reveal_Range>
+		<!-- This value must be less than the range of the hard points -->
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>
+
+
+		<HardPoints>
+			HP_01_Conqueror,
+			HP_02_Conqueror,
+			HP_03_Conqueror,
+			HP_04_Conqueror,
+			HP_05_Conqueror,
+			HP_06_Conqueror,
+			HP_07_Conqueror,
+			HP_08_Conqueror,
+			HP_09_Conqueror,
+			HP_10_Conqueror,
+			HP_11_Conqueror,
+			HP_12_Conqueror,
+			HP_13_Conqueror,
+			HP_14_Conqueror,
+			HP_15_Conqueror,
+			HP_16_Conqueror,
+			HP_17_Conqueror,
+			HP_18_Conqueror,
+			HP_19_Conqueror,
+			HP_20_Conqueror,
+			HP_21_Conqueror,
+			HP_22_Conqueror,
+			HP_23_Conqueror,
+			HP_24_Conqueror,
+			HP_AA_01_Conqueror,
+			HP_AA_02_Conqueror,
+			HP_AA_03_Conqueror,
+			HP_AA_04_Conqueror,
+			HP_AA_05_Conqueror
+		</HardPoints>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+	
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Select>Unit_Select_Battle_Droid</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Battle_Droid</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Conqueror</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Battle_Droid</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Battle_Droid</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Battle_Droid</SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Conqueror</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Conqueror</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Fire>Unit_AT_AT_Fire</SFXEvent_Fire>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		<SFXEvent_Engine_Idle_Loop>Unit_Gargantuan_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Gargantuan_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
+		<SFXEvent_Unit_Lost>Unit_Defeat_Gargantuan</SFXEvent_Unit_Lost>
+		
+		<Overall_Length>100.0</Overall_Length>
+		<Overall_Width>100.0</Overall_Width>
+
+		<CategoryMask>Vehicle | AntiVehicle | AntiInfantry | AntiAir | AntiStructure</CategoryMask>
+		<MovementClass>LargeHover</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Weather_Category>LargeWalker</Weather_Category>
+		<Ranking_In_Category>3</Ranking_In_Category>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Giant Vehicle</UnitCollisionClass>
+		<Custom_Hard_XExtent>75.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>25.0</Custom_Hard_YExtent>
+		<FormationGrouping>Solo</FormationGrouping>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
+		<Score_Cost_Credits>18000</Score_Cost_Credits>
+		<Population_Value>5</Population_Value>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Death_Clone>Damage_Normal, Conqueror_Death_Clone</Death_Clone>
+		<Movement_Directions_Count>2</Movement_Directions_Count>
+		<Lua_Script>ObjectScript_Gargantuan</Lua_Script>
+		
+		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<AI_Combat_Power>1500</AI_Combat_Power>
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>10.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Select_Box_Scale>500</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Weather_Category>LargeWalker</Weather_Category>
+
+
+		<Death_Clone>Damage_Normal, Conqueror_Death_Clone</Death_Clone>
+		<Movement_Directions_Count>2</Movement_Directions_Count>
+
+		<Score_Cost_Credits>333</Score_Cost_Credits>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+	</GroundVehicle>
+
+
+	<GroundVehicle Name="Conqueror_Death_Clone">
+		<Variant_Of_Existing_Type>Conqueror</Variant_Of_Existing_Type>
+		<Land_Model_Name>SeV_Conqueror_D.ALO</Land_Model_Name>
+		<xxxLand_Model_Name>SeV_Conqueror.ALO</xxxLand_Model_Name>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+		<Custom_Hard_XExtent>34.0</Custom_Hard_XExtent>
+		<Custom_Hard_XExtent_Offset>-9.0</Custom_Hard_XExtent_Offset>
+		<Death_Persistence_Duration>10</Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+		<IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+		<IsDeathClone>true</IsDeathClone>
+	</GroundVehicle>
+
+	<GroundCompany Name="Conqueror_Company">
+		<Text_ID>TEXT_UNIT_CONQUEROR</Text_ID>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CONQUEROR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CONQUEROR.tga</Icon_Name>
+
+		<GUI_Row>1</GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>600</Damage>
+		<Autoresolve_Health>400</Autoresolve_Health>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>3800</Build_Cost_Credits>
+		<Build_Time_Seconds>120</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/><!--R_Ground_Heavy_Vehicle_Factory-->
+		<Required_Planets>Mechis</Required_Planets>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+
+		<Company_Transport_Unit>Cis_Hardcell_Transport</Company_Transport_Unit><!-- need to be tweaked -->
+		<Company_Units>Conqueror</Company_Units>
+		<Max_Squad_Size>1</Max_Squad_Size>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Conqueror</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
+
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>2</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	</GroundCompany>
+
+</Conqueror_Data>
