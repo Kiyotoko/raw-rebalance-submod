@@ -1,6 +1,6 @@
-<center>
+<p align = center>
     <img src="RaW.ico">
-</center>
+</P>
 
 <h1 align=center>RaW Rebalance Submod</h1>
 
