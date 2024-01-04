@@ -33,9 +33,9 @@
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>
-		<Shield_Points>1800</Shield_Points><!-- From 1400 --><!-- changed from 1600 to 1800 via Task 461 - Republic Low Tier Buff -->
+		<Shield_Points>1400</Shield_Points><!-- From 1400 --><!-- changed from 1600 to 1800 via Task 461 - Republic Low Tier Buff --><!-- Rebalance Note: Changed from 1800 -->
 		<Tactical_Health>2300</Tactical_Health>
-		<Shield_Refresh_Rate>62</Shield_Refresh_Rate><!-- was 50 -->
+		<Shield_Refresh_Rate>55</Shield_Refresh_Rate><!-- was 50 --><!-- Rebalance Note: Changed from 62 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 

@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Victory_Class_Destroyer_Data>
-
 	<SpaceUnit Name="Republic_Victory_Destroyer">
 		<No_Colorization_Color>255, 160, 156, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
@@ -16,7 +15,6 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>1.28</Max_Speed>
-
 
 		<Projectile_Types>Proj_Ship_Concussion_Missile</Projectile_Types>
 		<MovementClass>Space</MovementClass>
@@ -60,7 +58,6 @@
 		<Build_Cost_Credits>3800</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>7000</AI_Combat_Power>
-		<!--<Build_Time_Seconds>45</Build_Time_Seconds>-->
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -238,9 +235,4 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceUnit>
-
-
-
-
-
 </Victory_Class_Destroyer_Data>

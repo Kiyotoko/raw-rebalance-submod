@@ -997,7 +997,7 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Scarab_Squadron,
+				Vulture_Droid_Squadron, <!-- Rebalance Note: Replaced Scarab_Squadron with Vulture_Droid_Squadron -->
 				CIS_Bomber_Squadron,
 				CS_Enhanced_Engines_L1_Upgrade,
         CS_Improved_Weapons_L1_Upgrade,
@@ -1094,7 +1094,8 @@
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
 			<!-- Jango_Fett_Team_Space_MP, -->
-				Scarab_Squadron,
+				Vulture_Droid_Squadron, <!-- Rebalance Note: Changed form Scrab_Squadron to 
+				Vulture_Droid_Squadron -->
 				CIS_Bomber_Squadron,
 				Hammer_Class_Picket, 
 				Cis_Patrol_Frigate,
@@ -1450,6 +1451,7 @@
 				Supply_Ship,
 				Providence_Class_Carrier,
 				Lucrehulk_Battleship,
+				CIS_Bulwark, <!-- Rebalance Note: Added for Starbase Level 5 -->
 				Malevolence_Skirmish,
 				CS_Enhanced_Engines_L1_Upgrade,
 				CS_Enhanced_Engines_L2_Upgrade,

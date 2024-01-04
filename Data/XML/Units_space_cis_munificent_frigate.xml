@@ -15,7 +15,7 @@
 		<Scale_Factor>3.0</Scale_Factor>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>
-		<Shield_Points>1400</Shield_Points><!-- Rebalance Note: Changed from 1200 -->
+		<Shield_Points>1500</Shield_Points><!-- Rebalance Note: Changed from 1200 -->
 		<Tactical_Health>2500</Tactical_Health>
 		<Shield_Refresh_Rate>65</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>

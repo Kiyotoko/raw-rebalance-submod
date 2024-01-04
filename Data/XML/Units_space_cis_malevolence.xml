@@ -38,11 +38,11 @@
 		<Visible_On_Radar_When_Fogged>false</Visible_On_Radar_When_Fogged>
 		<Armor_Type>Armor_SSD</Armor_Type>
 		<Shield_Armor_Type>Shield_SSD</Shield_Armor_Type>
-		<Damage>100</Damage>
+		<Damage>140</Damage><!-- Rebalance Note: Changed from 100 -->
 		<Autoresolve_Health>11000</Autoresolve_Health>
-		<Shield_Points>8000</Shield_Points>
+		<Shield_Points>11000</Shield_Points><!-- Rebalance Note: Changed from 8000 -->
 		<Tactical_Health>8000</Tactical_Health>
-		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>140</Shield_Refresh_Rate><!-- Rebalance Note: Changed from 100 -->
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 

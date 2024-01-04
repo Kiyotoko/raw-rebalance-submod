@@ -950,7 +950,7 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				A6_Squadron,
+				V19_Squadron,<!-- Rebalance Note: Replaced A6_Squadron with V19_Squadron-->
 				NTB_630_Squadron,
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -1036,8 +1036,8 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Luminara_Team_Space_MP,
-				A6_Squadron,
+				<!-- Rebalance Note: Removed Luminara_Team_Space_MP -->
+				V19_Squadron,<!-- Rebalance Note: Replaced A6_Squadron with V19_Squadron-->
 				NTB_630_Squadron,
 				Republic_light_frigate,
 				Republic_light_assault_cruiser,
@@ -1140,7 +1140,7 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Luminara_Team_Space_MP,
+				<!-- Rebalance Note: Removed Luminara_Team_Space_MP -->
 				Mace_Windu_Team_Space_MP,
 				V19_Squadron,
 				NTB_630_Squadron,
@@ -1257,7 +1257,7 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Luminara_Team_Space_MP,
+				<!-- Rebalance Note: Removed Luminara_Team_Space_MP -->
 				Mace_Windu_Team_Space_MP,
 				Anakin_Skywalker_Team_Space_MP,
 				Obiwan_Team_Space_MP,
@@ -1272,6 +1272,7 @@
 				Republic_Light_Cruiser,
 				Rep_Centax_Heavy_Frigate,
 				Dreadnaught_Cruiser,
+				Republic_Victory_Destroyer,<!-- Rebalance Note: Added Republic Victory Destroyer -->
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Enhanced_Shielding_L2_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -1385,8 +1386,7 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Luminara_Team_Space_MP,
-				Plokoon_Team_Space_MP,
+				<!-- Rebalance Note: Removed Luminara_Team_Space_MP -->
 				Mace_Windu_Team_Space_MP,
 				Anakin_Skywalker_Team_Space_MP,
 				Obiwan_Team_Space_MP,
@@ -1402,8 +1402,9 @@
 				Republic_Light_Cruiser,
 				Rep_Centax_Heavy_Frigate,
 				Dreadnaught_Cruiser,
+				Republic_Victory_Destroyer,<!-- Rebalance Note: Added Republic Victory Destroyer -->
 				Venator,
-				Rothana_Destroyer,
+				<!-- Rebalance Note: Removed Rothana Destroyer -->
 				Mandator_Super_Star_Destroyer,
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Enhanced_Shielding_L2_Upgrade,
