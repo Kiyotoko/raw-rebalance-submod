@@ -1,0 +1,13 @@
+# Executable files
+*.exe
+
+## This files can only be found in a release. Check out the latest release on GitHub!
+# Unchanged copy paths
+Data/Art/
+Data/Audio/
+Data/Resources/
+Data/Text/
+
+# Unchanged / To Large for git
+Data/CUSTOMMAPS
+DATA/SCRIPTS

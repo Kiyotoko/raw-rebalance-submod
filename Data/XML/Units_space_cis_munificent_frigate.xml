@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Munificent_Data>
-
 	<SpaceUnit Name="Munificent_Frigate">
 		<Text_ID>TEXT_UNIT_MUNIFICENT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_MUNIFICENT</Encyclopedia_Text>
@@ -16,8 +15,8 @@
 		<Scale_Factor>3.0</Scale_Factor>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>
-		<Shield_Points>1800</Shield_Points>
-		<Tactical_Health>2800</Tactical_Health>
+		<Shield_Points>1400</Shield_Points><!-- Rebalance Note: Changed from 1200 -->
+		<Tactical_Health>2500</Tactical_Health>
 		<Shield_Refresh_Rate>65</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -56,7 +55,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<!-- <Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>
 		<Required_Planets>Mechis</Required_Planets>-->
-		<Build_Cost_Credits>2600</Build_Cost_Credits>
+		<Build_Cost_Credits>2650</Build_Cost_Credits><!-- Rebalance Note: Changed from 3000 -->
 		<AI_Combat_Power>2000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -166,7 +165,7 @@
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2650</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3000 -->
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -211,9 +210,8 @@
 		</Abilities>
 
 
-		<Score_Cost_Credits>2700</Score_Cost_Credits>
+		<Score_Cost_Credits>3200</Score_Cost_Credits>
 		<Population_Value>2</Population_Value>
-
 	</SpaceUnit>
 
 	<SpaceUnit Name="Munificent_Frigate_Death_Clone">
@@ -233,9 +231,5 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
-
-
-
 </Munificent_Data>

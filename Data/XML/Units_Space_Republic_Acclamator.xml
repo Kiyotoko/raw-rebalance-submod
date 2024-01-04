@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-
-
 <Republic_Acclamator_Data>
-
-
 	<SpaceUnit Name="Rep_Acclamator_Assault_Ship">
 		<No_Colorization_Color>255, 160, 156, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
@@ -58,7 +54,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2200</Build_Cost_Credits>
+		<Build_Cost_Credits>2100</Build_Cost_Credits><!-- Rebalance Note: Changed from 1900 -->
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -224,8 +220,8 @@
 		<Custom_Hard_XExtent>200</Custom_Hard_XExtent>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 2350 -->
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 6000 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -250,12 +246,5 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
-
-
-
-
-
-
 </Republic_Acclamator_Data>

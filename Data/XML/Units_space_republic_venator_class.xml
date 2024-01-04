@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Venator_Data>
-
 	<SpaceUnit Name="Venator">
 		<Text_ID>TEXT_UNIT_VENATOR</Text_ID>
 		<No_Colorization_Color>170, 1, 1, 255</No_Colorization_Color>
@@ -58,10 +57,10 @@
 		<Squadron_Capacity>15</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>5600</Build_Cost_Credits><!-- From 4100 -->
+		<Build_Cost_Credits>5600</Build_Cost_Credits><!-- From 4100 --><!-- Rebalance Note: Changed from 5500 -->
 		<AI_Combat_Power>7000</AI_Combat_Power>
 		<!--<Build_Time_Seconds>50</Build_Time_Seconds>-->
-		<Build_Time_Seconds>54</Build_Time_Seconds>
+		<Build_Time_Seconds>56</Build_Time_Seconds><!-- Rebalance Note: Changed from 50 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -211,8 +210,8 @@
 		<Custom_Hard_XExtent>550</Custom_Hard_XExtent>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5600</Tactical_Build_Cost_Multiplayer><!-- From 4100 -->
-		<Tactical_Build_Time_Seconds>54</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5600</Tactical_Build_Cost_Multiplayer><!-- From 4100 --><!-- Rebalance Note: Changed from 5500 -->
+		<Tactical_Build_Time_Seconds>56</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 50 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -237,9 +236,5 @@
 		<Death_Persistence_Duration>1.5</Death_Persistence_Duration>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
-
-
-
 </Venator_Data>

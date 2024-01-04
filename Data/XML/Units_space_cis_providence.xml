@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Providence_Data>
-
 	<SpaceUnit Name="Providence_Class_Carrier">
 		<Text_ID>TEXT_UNIT_PROVIDENCE</Text_ID>
 		<Encyclopedia_Good_Against>Rep_Acclamator_Assault_Ship Dreadnaught_Cruiser Rep_Centax_Heavy_Frigate</Encyclopedia_Good_Against>
@@ -59,7 +58,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>6300</AI_Combat_Power><!-- From 7000 -->
-		<Build_Cost_Credits>5900</Build_Cost_Credits><!-- From 5700 -->
+		<Build_Cost_Credits>5800</Build_Cost_Credits><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -226,9 +225,6 @@
 
 		</Unit_Abilities_Data>
 
-
-
-
 		<Encyclopedia_Text>TEXT_TOOLTIP_PROVIDENCE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>5700</Score_Cost_Credits>
@@ -236,7 +232,7 @@
 		<Custom_Hard_XExtent>1100</Custom_Hard_XExtent>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5900</Tactical_Build_Cost_Multiplayer><!-- From 5700 -->
+		<Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -262,6 +258,4 @@
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
-
 </Providence_Data>
