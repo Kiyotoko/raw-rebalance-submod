@@ -80,12 +80,12 @@
 		<HardPoints>
 			HP_Pelta_01,
 			HP_Pelta_02,
-			HP_Pelta_03,
-			HP_Pelta_04,
+			<!--HP_Pelta_03,
+			HP_Pelta_04,--><!-- Rebalance Note: Removed Hardpoint -->
 			HP_Pelta_05,
 			HP_Pelta_06,
-			HP_Pelta_07,
-			HP_Pelta_08,
+			<!--HP_Pelta_07,
+			HP_Pelta_08,--><!-- Rebalance Note: Removed Hardpoint -->
 			HP_Pelta_09,
 			HP_Pelta_10,
 			HP_Pelta_Shield,

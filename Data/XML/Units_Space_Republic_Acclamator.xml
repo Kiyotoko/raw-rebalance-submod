@@ -200,7 +200,7 @@
 			</Unit_Ability>
 			
 			<!-- Added for buffing the Acclamator via Task 461 - Republic Low Tier Buff, is weaker than the Venator version but may help in early game. -->
-			<Unit_Ability>
+			<!--Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2</Mod_Multiplier>
 				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.3</Mod_Multiplier>
@@ -209,7 +209,7 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
-			</Unit_Ability>
+			</Unit_Ability--><!-- Rebalance Note: Comment out Unit Ability -->
 
 		</Unit_Abilities_Data>
 

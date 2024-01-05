@@ -63,10 +63,7 @@
 		<Tech_Level>3</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Build_Cost_Credits>3500</Build_Cost_Credits>
-		<AI_Combat_Power>4000</AI_Combat_Power>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Cost_Credits>3000</Build_Cost_Credits><!-- Rebalace Note: Changed from 3500 to 3000 -->
 
 		<Cheap_Bribe_Cost>70</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>130</Expensive_Bribe_Cost>
@@ -189,10 +186,8 @@
 			</Laser_Defense_Ability>
 		</Abilities>
 
-
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer><!-- Rebalace Note: Changed from 3500 to 3000 -->
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

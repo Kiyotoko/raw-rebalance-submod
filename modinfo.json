@@ -2,17 +2,19 @@
 	"name": "Republic at War Rebalance Submod",
 	"summary": "Republic at War is a total conversion modification for Star Wars Empire at War Forces of Corruption. The mod replaces the Empire with the Galactic Republic and the Rebel Alliance with the Confederacy. Republic at War focuses heavily on the theatrical films but also contains content from the Clone Wars cartoon series as well as the expanded universe. Players can re-enact various Clone War campaigns such as the Outer Rim Sieges. Players will have the choice to fight as either the CIS or the Republic and wage war for control of the galaxy. Realism is key and players will have unprecedented control over how and where they fight. Push forward with an entire clone legion such as the 501st or 212th or overwhelm your opponent with a seemingly endless number of B1 battledroids. The choice is yours. There are also a number of expansions planned that will add new (as well as polish existing) content.",
 	"icon": "RaW.ico",
-	"version": "1.3.4",
-	"modid": "1129810972",
+	"version": "0.1.0",
+	"modid": "3131109252",
 	"steamdata": {
-		"publishedfileid": "1129810972",
-		"contentfolder": "Republic at War",
-		"previewfile": "Republic at War\\splash.png",
-		"visibility": 0,
-		"title": "Republic at War",
-		"description": "[h1]What is Republic at War?[/h1]\r\n\r\nRepublic at War is a total conversion modification for Star Wars Empire at War Forces of Corruption. The mod replaces the Empire with the Galactic Republic and the Rebel Alliance with the Confederacy. Republic at War focuses heavily on the theatrical films but also contains content from the Clone Wars cartoon series as well as the expanded universe. Players can re-enact various Clone War campaigns such as the Outer Rim Sieges. Players will have the choice to fight as either the CIS or the Republic and wage war for control of the galaxy. Realism is key and players will have unprecedented control over how and where they fight. Push forward with an entire clone legion such as the 501st or 212th or overwhelm your opponent with a seemingly endless number of B1 battledroids. The choice is yours. There are also a number of expansions planned that will add new (as well as polish existing) content.\r\n\r\n[h1]About Republic at War 1.3[/h1]\r\n[b]After a long break we are back with our newest update: Into New Worlds[/b]\r\n\r\nWe have added the following content:\r\n[list]\r\n[*] Added 4 totally new planets: Christophsis, Pammant, Yag'Dhul, Ringo Vinda\r\n[*] Complete redesign of all singleplayer GCs\r\n[*] Add new CIS units: Conqueror atmospheric dreadnaught, Scarab fighter\r\n[*] Add new Republic units: Clone flame trooper, Rothana Destroyer, A-6 Fighter\r\n[*] Improved visuals, like planet textures, projectiles, etc.\r\n[*] Re-Added missing planets from the movies like Dagobah\r\n[*] many many minor fixes\r\n[/list]\r\n\r\nYou can view the full changelog [url=https://republicatwar.com/changelog]here[/url].\r\n\r\n[h1]Where to get more information?[/h1]\r\n\r\nOur Community place is at [url=https://discord.gg/UktGQBt ]Discord[/url]\r\n\r\nFor detailed information about the mod and new updates please visit our discprd or [url=http://www.moddb.com/mods/republic-at-war]Moddb[/url] page.\r\n\r\n[h1]Running Republic at War[/h1]\r\n\r\n[b]After subscribing to this mod, please wait until the download is finished![/b]\r\n\r\nThe recommended way of launching Republic at War is by using the FoC Launcher. The launcher can be downloaded [url=https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/foc-launcher]here[/url]. You might want to suppress your Anti-Virus for this file. For more information how to download the mod please get the latest install guides from [url=http://www.moddb.com/mods/republic-at-war/downloads/republic-at-war-manual-and-guides]here[/url].\r\n\r\nAlternatively you can use the built-in steam method to launch a Forces of Corruption Mod. \r\nIf the game doesn't re-launch when you enable the mod ingame, or you want to just directly launch into the mod, go to the properties for Empire at War in Steam and paste the following into launch options (including steammod):\r\n[b]STEAMMOD=1129810972[/b]\r\n\r\n\r\nCurrent Version: 1.3.4\r",
+		"publishedfileid": "3131109252",
+		"contentfolder": "RaWRebalanceSubmod",
+		"previewfile": "RaWRebalanceSubmod/splash.png",
+		"visibility": 2,
+		"title": "RaW Rebalance Submod",
+		"description": "This mod rebalances many space units from RaW for space multiplayer.\n\nMod-ID: 3131109252",
 		"metadata": "",
 		"tags": [
+			"SinglePlayer",
+			"MultiPlayer",
 			"FOC"
 		]
 	}

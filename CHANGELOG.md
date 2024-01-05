@@ -14,3 +14,9 @@
 - Removed Buildable Object Plokoon Team Space MP in Republic Starbase for Level 5
 - Removed Buildable Object Rothana_Destroyer in Republic Starbase for Level 5
 - Added Buildable Object Republic Victory Destroyer in Republic Starbase for Level 4 and 5
+- Removed Tactical Build Prerequisites from Victory Destroyer
+- Removed Ability "Fire All Batteries" from Acclamator
+- Removed Pelta Hardpoints 3, 4, 7 and 8 form Pelta
+- Changed Dreadnaught Build Cost from 3500 to 3000
+- Changed Wavecrest Build Cost from 3500 to 2800
+- Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2300
