@@ -14,7 +14,7 @@
 		<Select_Box_Z_Adjust>-90</Select_Box_Z_Adjust>
 		<No_Colorization_Color>112, 129, 250, 255</No_Colorization_Color>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.78</Scale_Factor>
+		<Scale_Factor>0.4</Scale_Factor><!-- Rebalance Note: Changed from 0.78 -->
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>1.6</Max_Speed>
@@ -279,7 +279,7 @@
 		<Score_Cost_Credits>5700</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 7500 -->
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

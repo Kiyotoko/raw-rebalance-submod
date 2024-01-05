@@ -164,7 +164,7 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
+			<!--Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Expiration_Seconds>20</Expiration_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3f</Mod_Multiplier>
@@ -173,6 +173,28 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Special_Weapons_Rep_Ship</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability--><!-- Rebalance Note: Replaced Ability with below -->
+
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Recharge_Seconds>0</Recharge_Seconds>
+				<Expiration_Seconds>0</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_EJECT</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_EJECT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SQUADRON_EJECT.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+				<Expiration_Seconds>0</Expiration_Seconds>
+				<Recharge_Seconds>0</Recharge_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_INJECT</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_INJECT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SQUADRON_INJECT.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 

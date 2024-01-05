@@ -1093,7 +1093,6 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			<!-- Jango_Fett_Team_Space_MP, -->
 				Vulture_Droid_Squadron, <!-- Rebalance Note: Changed form Scrab_Squadron to 
 				Vulture_Droid_Squadron -->
 				CIS_Bomber_Squadron,
@@ -1196,7 +1195,6 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			<!-- Jango_Fett_Team, -->
 				Asajj_Ventress_Team_Space,
 				Vulture_Droid_Squadron, 
 				CIS_Bomber_Squadron,
@@ -1312,17 +1310,17 @@
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
 				Asajj_Ventress_Team_Space,
-				Slave_I,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Slave_I -->
+				Jango_Fett_Team_Space_MP,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Jango_Fett_Team_Space_MP -->
 				Admiral_Trench,
 				Vulture_Droid_Squadron, 
 				CIS_Bomber_Squadron,
 				Hammer_Class_Picket, 
 				Cis_Patrol_Frigate,
 				Munificent_Frigate,
-				Recusant_Frigate,
-				Technounion_Frigate,
 				Wavecrest_Frigate,
+				Technounion_Frigate,
 				CIS_Carrier,
+				Recusant_Frigate,
 				Lucrehulk_Battleship,
 				Supply_Ship,
 				CS_Enhanced_Engines_L1_Upgrade,
@@ -1433,7 +1431,7 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			    Slave_I,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Slave_I -->
+			    Jango_Fett_Team_Space_MP,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Jango_Fett_Team_Space_MP -->
 				Asajj_Ventress_Team_Space,
 				Admiral_Trench,
 				Invisible_Hand,<!-- Rebalance Note: Added for Starbase Level 5 -->

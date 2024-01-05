@@ -52,7 +52,7 @@
 		<Land_Bomber_Type>NTB_630_Bombing_Run</Land_Bomber_Type>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>5</Number_per_Squadron>
+		<Number_per_Squadron>4</Number_per_Squadron><!-- Rebalance Note: Changed from 5 -->
 		<Size_Value>8</Size_Value>
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

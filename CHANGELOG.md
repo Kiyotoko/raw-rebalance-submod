@@ -3,7 +3,7 @@
 - Changed Lucrehulk Build Cost from 8000 to 7800 and Build Time from 90 to 82
 - Changed Munificent Frigate Build Cost from 3000 to 2650 and Shield Points from 1200 to 1500
 - Changed Providence Build Cost from 6000 to 5800
-- Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2100, Build Cost (Skirmish) from 2350 to 2500 and Build Time (Skirmish) from 20 to 28
+- Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2250, Build Cost (Skirmish) from 2350 to 2600 and Build Time (Skirmish) from 20 to 30
 - Changed Venator Build Cost from 5500 to 5600 and Build Time from 50 to 56
 - Changed Technounion Frigate Build Cost from 3500 to 3000 and Shield Points from 700 to 1000
 - Changed Malevolence Damage (Auto Resolve) from 100 to 140, Shield Points from 8000 to 11000 and Shield Refresh Rate from 100 to 140
@@ -19,10 +19,20 @@
 - Removed Pelta Hardpoints 3, 4, 7 and 8 form Pelta
 - Changed Dreadnaught Build Cost from 3500 to 3000
 - Changed Wavecrest Build Cost from 3500 to 2800
-- Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2300
+- Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2200 and Build Time from 30 to 20 Seconds
 - Changed Lucrehulk Spawned Squadron Delay from 6 to 4 Seconds
 - Added Buildable Object Invisible Hand in CIS Starbase Level 5
-- Replaced Buildable Object Durge Team Space MP with Slave I for Starbase Level 4 to 5
+- Replaced Buildable Object Durge Team Space MP with Jango Fett Team Space MP for Starbase Level 4 to 5
 - Changed Mace Windu Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 500 to 400
 - Changed Obiwan Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 500 to 400
 - Changed Anakin Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 525 to 400
+- Changed ARC-170 Fighter Units per Squadron from 5 to 4
+- Changed ARC-170 Torpedo Fire Range Distance from 700 to 500 and Fire Min Recharge from 8 to 10 and Fire Max Recharge from 8 to 12
+- Replaced ARC-170 Squatron with NTB 630 Squadron in Venator
+- Replaced Ability "Power to Weapons" in Pelta with "Squadron Eject" and "Squadron Inject"
+- Changed Supply Ship Build Cost from 4300 to 3800
+- Changed Jango Fett Team Space MP Build Cost from 1337 to 22
+- Changed Recusant Frigate Shield Points from 2600 to 3200 and Tactical Health from 3800 to 4600 and Build Cost from 3200 to 3800 and Build Time from 30 to 40 Seconds
+- Replaced Ability "Power to Weapons" in Recusant Frigate with "Fire Batteries" and "Reveal Ping"
+- Changed Invisible Hand Build Cost from 7200 to 6400 and Build Time from 20 to 60 Seconds
+- Changed Admiral Trench Build Cost from 7500 to 6500 and Scale Factor from 0.78 to 0.4

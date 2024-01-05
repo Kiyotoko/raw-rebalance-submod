@@ -15,8 +15,8 @@
 		<Scale_Factor>5.0</Scale_Factor>
 		<Damage>30</Damage>
 		<Autoresolve_Health>4500</Autoresolve_Health>
-		<Shield_Points>2600</Shield_Points><!-- From 2300 -->
-		<Tactical_Health>3800</Tactical_Health><!-- From 3500 -->
+		<Shield_Points>3200</Shield_Points><!-- From 2300 --><!-- Rebalance Note: Changed from 2600 -->
+		<Tactical_Health>4600</Tactical_Health><!-- From 3500 --><!-- Rebalance Note: Changed from 3800 -->
 		<Shield_Refresh_Rate>90</Shield_Refresh_Rate><!-- From 85 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -51,8 +51,8 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>4000</AI_Combat_Power>
-		<Build_Cost_Credits>3200</Build_Cost_Credits><!-- From 2900 -->
-		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Cost_Credits>3800</Build_Cost_Credits><!-- From 2900 --><!-- Rebalance Note: Changed from 3200 -->
+		<Build_Time_Seconds>40</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -160,8 +160,8 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3200 -->
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 40 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->
@@ -173,7 +173,7 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
+			<!--Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3f</Mod_Multiplier>
@@ -184,8 +184,26 @@
 				<Expiration_Seconds>15</Expiration_Seconds>
 
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Recusant</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
+			</Unit_Ability--><!-- Rebalance Note: Replaced Ability with below -->
 
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.5</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Special_Space_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
+				<Effective_Radius>0.0</Effective_Radius><!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance>600.0</Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name></GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 
