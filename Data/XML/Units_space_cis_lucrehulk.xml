@@ -66,7 +66,7 @@
 		<!-- Fighter complement -->
 		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds><!-- Rebalance Note: Changed from 6 -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 24</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 12</Reserve_Spawned_Units_Tech_0>
 
@@ -74,7 +74,7 @@
 		<Starting_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 8</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>CIS_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds><!-- Rebalance Note: Changed from 6 -->
 		<Reserve_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 24</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>CIS_Bomber_Squadron, 9</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 5</Reserve_Spawned_Units_Tech_4>

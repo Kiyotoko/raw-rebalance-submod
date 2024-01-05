@@ -433,8 +433,8 @@
 		<Armor_Type>Armor_Hero_Transport</Armor_Type>
 
 		<Affiliation>Empire</Affiliation>
-		<Shield_Points>300</Shield_Points><!-- From 600 -->
-		<Tactical_Health>500</Tactical_Health><!-- From 1000 -->
+		<Shield_Points>200</Shield_Points><!-- From 600 --><!-- Rebalance Note: Change from 300 to 200 -->
+		<Tactical_Health>500</Tactical_Health><!-- From 1000 --><!-- Rebalance Note: Change from 500 to 400 -->
 		<Shield_Refresh_Rate>55</Shield_Refresh_Rate><!-- From 85 -->
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>

@@ -1311,9 +1311,8 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			<!-- Jango_Fett_Team, -->
 				Asajj_Ventress_Team_Space,
-				Durge_Team_Space_MP,
+				Slave_I,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Slave_I -->
 				Admiral_Trench,
 				Vulture_Droid_Squadron, 
 				CIS_Bomber_Squadron,
@@ -1434,10 +1433,10 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			<!-- Jango_Fett_Team, -->
+			    Slave_I,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Slave_I -->
 				Asajj_Ventress_Team_Space,
-				Durge_Team_Space_MP,
 				Admiral_Trench,
+				Invisible_Hand,<!-- Rebalance Note: Added for Starbase Level 5 -->
 				Vulture_Droid_Squadron,
 				CIS_Bomber_Squadron,
 				Tri_Droid_Squadron, 

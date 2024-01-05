@@ -6,7 +6,7 @@
 - Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2100, Build Cost (Skirmish) from 2350 to 2500 and Build Time (Skirmish) from 20 to 28
 - Changed Venator Build Cost from 5500 to 5600 and Build Time from 50 to 56
 - Changed Technounion Frigate Build Cost from 3500 to 3000 and Shield Points from 700 to 1000
-- Changed Malevolence Damage from 100 to 140, Shield Points from 8000 to 11000 and Shield Refresh Rate from 100 to 140
+- Changed Malevolence Damage (Auto Resolve) from 100 to 140, Shield Points from 8000 to 11000 and Shield Refresh Rate from 100 to 140
 - Replaced Buildable Object Scarab Squadron with Vulture Droid Squadron in CIS Stabase for Level 1 and 2
 - Added Buildable Object CIS Bulwark for CIS Starbase Level 5
 - Replaced Buildable Object A6 Squadron with V19 Squadro in Republic Starbase for Level 1 and 2
@@ -20,3 +20,9 @@
 - Changed Dreadnaught Build Cost from 3500 to 3000
 - Changed Wavecrest Build Cost from 3500 to 2800
 - Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2300
+- Changed Lucrehulk Spawned Squadron Delay from 6 to 4 Seconds
+- Added Buildable Object Invisible Hand in CIS Starbase Level 5
+- Replaced Buildable Object Durge Team Space MP with Slave I for Starbase Level 4 to 5
+- Changed Mace Windu Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 500 to 400
+- Changed Obiwan Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 500 to 400
+- Changed Anakin Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 525 to 400
