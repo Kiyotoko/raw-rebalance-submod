@@ -72,11 +72,13 @@
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 
+		<!--
 		<Starting_Spawned_Units_Tech_5>Republic_VWing_Squadron, 3</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>NTB_630_Squadron, 2</Starting_Spawned_Units_Tech_5><!-- Rebalance Note: Replaced Arc_170_Squadron -->
+		<Starting_Spawned_Units_Tech_5>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_5>Republic_VWing_Squadron, 5</Reserve_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>NTB_630_Squadron, 3</Reserve_Spawned_Units_Tech_5--><!-- Rebalance Note: Replaced Arc_170_Squadron -->
+		<Reserve_Spawned_Units_Tech_5>Arc_170_Squadron, 3</Reserve_Spawned_Units_Tech_5>
+		--><!-- Rebalance Note: Removed Arc_170_Squadron -->
 
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

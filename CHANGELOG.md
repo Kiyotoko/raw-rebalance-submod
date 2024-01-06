@@ -28,7 +28,7 @@
 - Changed Anakin Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 525 to 400
 - Changed ARC-170 Fighter Units per Squadron from 5 to 4
 - Changed ARC-170 Torpedo Fire Range Distance from 700 to 500 and Fire Min Recharge from 8 to 10 and Fire Max Recharge from 8 to 12
-- Replaced ARC-170 Squatron with NTB 630 Squadron in Venator
+- Removed ARC-170 Squatron from Venator
 - Replaced Ability "Power to Weapons" in Pelta with "Squadron Eject" and "Squadron Inject"
 - Changed Supply Ship Build Cost from 4300 to 3800
 - Changed Jango Fett Team Space MP Build Cost from 1337 to 22
