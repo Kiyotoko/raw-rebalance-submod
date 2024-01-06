@@ -1,6 +1,6 @@
 ## v0.1.0
 
-- Changed Lucrehulk Build Cost from 8000 to 7800 and Build Time from 90 to 82
+- Changed Lucrehulk Build Cost from 8000 to 7500 and Build Time from 90 to 78
 - Changed Munificent Frigate Build Cost from 3000 to 2650 and Shield Points from 1200 to 1500
 - Changed Providence Build Cost from 6000 to 5800
 - Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2250, Build Cost (Skirmish) from 2350 to 2600 and Build Time (Skirmish) from 20 to 30
@@ -36,3 +36,6 @@
 - Replaced Ability "Power to Weapons" in Recusant Frigate with "Fire Batteries" and "Reveal Ping"
 - Changed Invisible Hand Build Cost from 7200 to 6400 and Build Time from 20 to 60 Seconds
 - Changed Admiral Trench Build Cost from 7500 to 6500 and Scale Factor from 0.78 to 0.4
+- Changed CIS Bulwark Build Cost from 6500 to 6000 and Build Time from 85 to 68 Seconds
+- Replaced Ability "Self Destruct" in CIS Bulwark with "Fire Batteries"
+- Changed CIS Carrier Build Cost from 3700 to 3500

@@ -57,7 +57,7 @@
 		<Squadron_Capacity>15</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>3700</Build_Cost_Credits>
+		<Build_Cost_Credits>3500</Build_Cost_Credits><!-- Build Cost: Changed from 3700 -->
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>4200</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
@@ -207,7 +207,7 @@
 		<Score_Cost_Credits>2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer><!-- Build Cost: Changed from 3700 -->
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
