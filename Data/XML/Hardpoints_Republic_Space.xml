@@ -5328,7 +5328,7 @@
 
 	</HardPoint>
 
-	<HardPoint Name="HP_Pelta_03">
+	<!--HardPoint Name="HP_Pelta_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5364,9 +5364,9 @@
 		<Fire_Inaccuracy_Distance>Capital, 50.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint>
+	</HardPoint--><!-- Rebalance Note: Removed hard point-->
 
-	<HardPoint Name="HP_Pelta_04">
+	<!--HardPoint Name="HP_Pelta_04">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5403,7 +5403,7 @@
 		<Fire_Inaccuracy_Distance>Capital, 50.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint>
+	</HardPoint--><!-- Rebalance Note: Removed hard point -->
 
 
 	<HardPoint Name="HP_Pelta_05">
@@ -5486,7 +5486,7 @@
 
 	</HardPoint>
 
-	<HardPoint Name="HP_Pelta_07">
+	<!--HardPoint Name="HP_Pelta_07">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5511,7 +5511,7 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-		<Projectile_Damage>35</Projectile_Damage><!-- Buff for Pelta Ion Cannons -->
+		<Projectile_Damage>35</Projectile_Damage>
 
 
 		<Fire_Inaccuracy_Distance>Fighter, 30.0</Fire_Inaccuracy_Distance>
@@ -5522,9 +5522,9 @@
 		<Fire_Inaccuracy_Distance>Capital, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint>
+	</HardPoint--><!-- Rebalance Note: Removed hard point -->
 
-	<HardPoint Name="HP_Pelta_08">
+	<!--HardPoint Name="HP_Pelta_08">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5549,7 +5549,7 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-		<Projectile_Damage>35</Projectile_Damage><!-- Buff for Pelta Ion Cannons -->
+		<Projectile_Damage>35</Projectile_Damage>
 
 
 		<Fire_Inaccuracy_Distance>Fighter, 30.0</Fire_Inaccuracy_Distance>
@@ -5560,7 +5560,7 @@
 		<Fire_Inaccuracy_Distance>Capital, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint>
+	</HardPoint--><!-- Rebalance Note: Removed hard point -->
 
 	<HardPoint Name="HP_Pelta_09">
 		<Type>HARD_POINT_WEAPON_LASER</Type>

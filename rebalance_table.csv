@@ -1,0 +1,36 @@
+Faction,Unit,Price [Credits],Time [Seconds]
+CIS,Bomber,450,14
+CIS,Bulwark,6000,68
+CIS,Carrier,3500,35
+CIS,Hammer Picket,1000,15
+CIS,Hyena,200,15
+CIS,Lucrehulk,7500,78
+CIS,Malevolence,60000,120
+CIS,Munificent,2600,26
+CIS,Nantex,450,10
+CIS,Patrol,1650,18
+CIS,Providence,5800,60
+CIS,Recusant,3800,40
+CIS,Supply Ship,3800,40
+CIS,Technounion Frigate,3000,35
+CIS,Tri Droid,500,10
+CIS,Vulture Droid,350,8
+CIS,Wavecrest,2800,23
+Republic,Acclamator,2600,26
+Republic,ARC-170,375,8
+Republic,Carrack,1600,16
+Republic,Centax,2400,25
+Republic,CR-90,1800,15
+Republic,Dreadnaught,3000,30
+Republic,Freefall,3500,35
+Republic,Guardian Mantis,2000,30
+Republic,G-400 Fighter,400,10
+Republic,Havoc,3500,35
+Republic,Light Cruiser,2400,24
+Republic,Light Frigate,1220,15
+Republic,Mandator,70000,120
+Republic,NTB-630 Fighter,550,17
+Republic,Pelta,1800,18
+Republic,V19 Fighter,400,8
+Republic,Venator,5600,56
+Republic,Victory,4000,40

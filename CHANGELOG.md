@@ -1,9 +1,9 @@
 ## v0.1.0
 
 - Changed Lucrehulk Build Cost from 8000 to 7500 and Build Time from 90 to 78
-- Changed Munificent Frigate Build Cost from 3000 to 2650 and Shield Points from 1200 to 1500
+- Changed Munificent Frigate Build Cost from 3000 to 2600 and Build Time from 30 to 26 Seconds and Shield Points from 1200 to 1500
 - Changed Providence Build Cost from 6000 to 5800
-- Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2250, Build Cost (Skirmish) from 2350 to 2600 and Build Time (Skirmish) from 20 to 30
+- Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2250, Build Cost (Skirmish) from 2350 to 2600 and Build Time (Skirmish) from 20 to 26
 - Changed Venator Build Cost from 5500 to 5600 and Build Time from 50 to 56
 - Changed Technounion Frigate Build Cost from 3500 to 3000 and Shield Points from 700 to 1000
 - Changed Malevolence Damage (Auto Resolve) from 100 to 140, Shield Points from 8000 to 11000 and Shield Refresh Rate from 100 to 140
@@ -16,10 +16,10 @@
 - Added Buildable Object Republic Victory Destroyer in Republic Starbase for Level 4 and 5
 - Removed Tactical Build Prerequisites from Victory Destroyer
 - Removed Ability "Fire All Batteries" from Acclamator
-- Removed Pelta Hardpoints 3, 4, 7 and 8 form Pelta
+- Removed Pelta Hardpoints 3, 4, 7 and 8 from Pelta
 - Changed Dreadnaught Build Cost from 3500 to 3000
 - Changed Wavecrest Build Cost from 3500 to 2800
-- Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2200 and Build Time from 30 to 20 Seconds
+- Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2400 and Build Time from 30 to 24 Seconds and Shield Points from 1200 to 800 and Shield Refresh Rate from 65 to 50
 - Changed Lucrehulk Spawned Squadron Delay from 6 to 4 Seconds
 - Added Buildable Object Invisible Hand in CIS Starbase Level 5
 - Replaced Buildable Object Durge Team Space MP with Jango Fett Team Space MP for Starbase Level 4 to 5
@@ -33,9 +33,12 @@
 - Changed Supply Ship Build Cost from 4300 to 3800
 - Changed Jango Fett Team Space MP Build Cost from 1337 to 22
 - Changed Recusant Frigate Shield Points from 2600 to 3200 and Tactical Health from 3800 to 4600 and Build Cost from 3200 to 3800 and Build Time from 30 to 40 Seconds
-- Replaced Ability "Power to Weapons" in Recusant Frigate with "Fire Batteries" and "Reveal Ping"
+- Replaced Ability "Power to Weapons" in Recusant Frigate with "Fire Batteries" and "Recusant Laser Defense"
 - Changed Invisible Hand Build Cost from 7200 to 6400 and Build Time from 20 to 60 Seconds
 - Changed Admiral Trench Build Cost from 7500 to 6500 and Scale Factor from 0.78 to 0.4
 - Changed CIS Bulwark Build Cost from 6500 to 6000 and Build Time from 85 to 68 Seconds
 - Replaced Ability "Self Destruct" in CIS Bulwark with "Fire Batteries"
 - Changed CIS Carrier Build Cost from 3700 to 3500
+- Changed Victory Destroyer Build Time (Skirmish) from 30 to 40 Seconds
+- Changed Mandator Build Time (Global) from 90 to 120 Seconds and Build Time (Skirmish) from 110 to 120 Seconds
+- Changed Carrack Built Time from 20 to 16 Seconds

@@ -73,7 +73,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>70000</Build_Cost_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
-		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Time_Seconds>120</Build_Time_Seconds><!-- Rebalance Note: Changed from 90 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 
@@ -301,7 +301,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>70000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>110</Tactical_Build_Time_Seconds><!-- From 100 -->
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds><!-- From 100 --><!-- Rebalance Note: Changed from 110 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>

@@ -55,9 +55,9 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<!-- <Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>
 		<Required_Planets>Mechis</Required_Planets>-->
-		<Build_Cost_Credits>2650</Build_Cost_Credits><!-- Rebalance Note: Changed from 3000 -->
+		<Build_Cost_Credits>2600</Build_Cost_Credits><!-- Rebalance Note: Changed from 3000 -->
 		<AI_Combat_Power>2000</AI_Combat_Power>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Time_Seconds>26</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
 		<Cheap_Bribe_Cost>220</Cheap_Bribe_Cost>
@@ -165,8 +165,8 @@
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2650</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3000 -->
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3000 -->
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->

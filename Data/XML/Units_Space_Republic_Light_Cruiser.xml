@@ -13,9 +13,9 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2400</Autoresolve_Health>
-		<Shield_Points>1200</Shield_Points><!-- From 1600 -->
+		<Shield_Points>800</Shield_Points><!-- From 1600 --><!-- Rebalance Note: Changed from 1200 -->
 		<Tactical_Health>2900</Tactical_Health>
-		<Shield_Refresh_Rate>65</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate><!-- Rebalance Note: Changed from 65-->
 		<Energy_Capacity>4000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -57,10 +57,10 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2200</Build_Cost_Credits><!-- Rebalance Note: Changed from 3200 to 2200 -->
+		<Build_Cost_Credits>2400</Build_Cost_Credits><!-- Rebalance Note: Changed from 3200 -->
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2200</AI_Combat_Power>
-		<Build_Time_Seconds>20</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 to 20 -->
+		<Build_Time_Seconds>24</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -179,8 +179,8 @@
 		<Custom_Hard_XExtent>450</Custom_Hard_XExtent>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3200 to 2300 -->
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 to 20 -->
+		<Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3200 -->
+		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
