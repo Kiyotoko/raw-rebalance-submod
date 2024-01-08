@@ -82,11 +82,11 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1220</Build_Cost_Credits>
+		<Build_Cost_Credits>1200</Build_Cost_Credits><!-- Rebalance Note: Changed from 1220 -->
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Slice_Cost_Credits>675</Slice_Cost_Credits>
 		<AI_Combat_Power>1800</AI_Combat_Power><!-- From 1500 -->
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Seconds>12</Build_Time_Seconds><!-- Rebalance Note: Changed from 15 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -177,8 +177,8 @@
 		<Score_Cost_Credits>1250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1220</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 1220 -->
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 15 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

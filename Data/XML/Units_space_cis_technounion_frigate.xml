@@ -55,7 +55,7 @@
 		<!--<Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>
 		<Required_Planets>Mechis</Required_Planets>-->
 		<Build_Cost_Credits>3000</Build_Cost_Credits><!-- Rebalance Note: Changed from 3500 -->
-		<Build_Time_Seconds>35</Build_Time_Seconds>
+		<Build_Time_Seconds>30</Build_Time_Seconds><!-- Rebalance Note: Changed from 35 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
 		<Cheap_Bribe_Cost>110</Cheap_Bribe_Cost>
@@ -174,7 +174,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3500 -->
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 35 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

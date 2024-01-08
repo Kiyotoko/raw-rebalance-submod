@@ -207,12 +207,12 @@
 		<!--<Required_Planets>Ord_Mantell</Required_Planets>-->
 		<Required_Special_Structures/>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Arc_170, Arc_170, Arc_170, Arc_170, Arc_170</Squadron_Units>
+		<Squadron_Units>Arc_170, Arc_170, Arc_170, Arc_170</Squadron_Units><!-- Rebalance Note: Changed Units per Squadron from 5 -->
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,31.0,-10.0</Squadron_Offsets>
 		<Squadron_Offsets>5.0,-30.0,-8.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,57.0,10.0</Squadron_Offsets>
-		<Squadron_Offsets>-58.0,-60.0,12.0</Squadron_Offsets>
+		<!-- Squadron_Offsets>-58.0,-60.0,12.0</Squadron_Offsets --><!-- Rebalance Note: Changed Units per Squadron from 5 -->
 		<GUI_Model_Name>rev_arc170.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -236,8 +236,8 @@
 
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 375 -->
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 8 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

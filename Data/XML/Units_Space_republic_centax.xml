@@ -60,7 +60,7 @@
 		<Build_Cost_Credits>2400</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2700</AI_Combat_Power>
-		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Seconds>24</Build_Time_Seconds><!-- Rebalance Note: Changed from 25 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -199,7 +199,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 25 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

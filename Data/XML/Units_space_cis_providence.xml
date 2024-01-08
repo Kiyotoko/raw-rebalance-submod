@@ -58,8 +58,8 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>6300</AI_Combat_Power><!-- From 7000 -->
-		<Build_Cost_Credits>5800</Build_Cost_Credits><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
-		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Cost_Credits>5900</Build_Cost_Credits><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
+		<Build_Time_Seconds>59</Build_Time_Seconds><!-- Rebalance Note: Changed from 60 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -82,7 +82,7 @@
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		
-		<!-- On Tech 5, replace the CIS Bombers with Hyenas -->
+		<!--
 		<Starting_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 4</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Tri_Droid_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
@@ -90,6 +90,7 @@
 		<Reserve_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 6</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Tri_Droid_Squadron, 4</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_4>
+		--><!-- Rebalance Note: Removed Hyena Bomber -->
 
 		<HardPoints>
 			HP_Providence_01,
@@ -232,8 +233,8 @@
 		<Custom_Hard_XExtent>1100</Custom_Hard_XExtent>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5900</Tactical_Build_Cost_Multiplayer><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
+		<Tactical_Build_Time_Seconds>59</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 60 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

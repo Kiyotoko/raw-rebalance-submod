@@ -4100,7 +4100,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
-		<Health>1000.0</Health>
+		<Health>2000.0</Health><!-- Rebalance Note: Changed from 1000 -->
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Special_Death</Death_Explosion_SFXEvent>
 		<Damage_Type>Damage_Star_Destroyer</Damage_Type>
@@ -4140,7 +4140,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
-		<Health>1000.0</Health>
+		<Health>2000.0</Health><!-- Rebalance Note: Changed from 1000 -->
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Special_Death</Death_Explosion_SFXEvent>
 		<Damage_Type>Damage_Star_Destroyer</Damage_Type>
@@ -4180,7 +4180,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
-		<Health>1000.0</Health>
+		<Health>2000.0</Health><!-- Rebalance Note: Changed from 1000 -->
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Special_Death</Death_Explosion_SFXEvent>
 		<Damage_Type>Damage_Star_Destroyer</Damage_Type>
@@ -4220,7 +4220,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
-		<Health>1000.0</Health>
+		<Health>2000.0</Health><!-- Rebalance Note: Changed from 1000 -->
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Special_Death</Death_Explosion_SFXEvent>
 		<Damage_Type>Damage_Star_Destroyer</Damage_Type>
@@ -4260,7 +4260,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-		<Health>1000.0</Health>
+		<Health>2500.0</Health><!-- Rebalance Note: Changed from 1000 -->
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 		<Death_Breakoff_Prop/>

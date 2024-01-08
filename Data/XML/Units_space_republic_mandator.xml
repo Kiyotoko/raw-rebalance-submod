@@ -59,11 +59,9 @@
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Damage>70</Damage>
 		<Autoresolve_Health>12000</Autoresolve_Health>
-		<Shield_Points>8000</Shield_Points>
-
-		<Tactical_Health>9000</Tactical_Health>
-
-		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Shield_Points>30000</Shield_Points><!-- Rebalance Note: Changed from 8000 -->
+		<Tactical_Health>50000</Tactical_Health><!-- Rebalance Note: Changed from 9000 -->
+		<Shield_Refresh_Rate>750</Shield_Refresh_Rate><!-- Rebalance Note: Changed from 100 -->
 		<Energy_Capacity>99000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Ship_Class>super</Ship_Class>
@@ -71,7 +69,7 @@
 
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>70000</Build_Cost_Credits>
+		<Build_Cost_Credits>60000</Build_Cost_Credits><!-- Rebalance Note: Changed from 70000 -->
 		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>120</Build_Time_Seconds><!-- Rebalance Note: Changed from 90 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -300,7 +298,7 @@
 		<Score_Cost_Credits>100000</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>70000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>60000</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 70000 -->
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds><!-- From 100 --><!-- Rebalance Note: Changed from 110 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
