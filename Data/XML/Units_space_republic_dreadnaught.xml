@@ -149,7 +149,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Score_Cost_Credits>1250</Score_Cost_Credits>
-		<Population_Value>2</Population_Value>
+		<Population_Value>3</Population_Value><!-- Rebalance Note: Changed from 2 -->
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
 		<!-- Non-Hero unit abilities description -->

@@ -5328,7 +5328,7 @@
 
 	</HardPoint>
 
-	<!--HardPoint Name="HP_Pelta_03">
+	<HardPoint Name="HP_Pelta_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5364,9 +5364,8 @@
 		<Fire_Inaccuracy_Distance>Capital, 50.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint--><!-- Rebalance Note: Removed hard point-->
-
-	<!--HardPoint Name="HP_Pelta_04">
+	</HardPoint>
+	<HardPoint Name="HP_Pelta_04">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5403,8 +5402,7 @@
 		<Fire_Inaccuracy_Distance>Capital, 50.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint--><!-- Rebalance Note: Removed hard point -->
-
+	</HardPoint>
 
 	<HardPoint Name="HP_Pelta_05">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
@@ -5486,7 +5484,7 @@
 
 	</HardPoint>
 
-	<!--HardPoint Name="HP_Pelta_07">
+	<HardPoint Name="HP_Pelta_07">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5522,9 +5520,9 @@
 		<Fire_Inaccuracy_Distance>Capital, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint--><!-- Rebalance Note: Removed hard point -->
+	</HardPoint>
 
-	<!--HardPoint Name="HP_Pelta_08">
+	<HardPoint Name="HP_Pelta_08">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -5560,7 +5558,7 @@
 		<Fire_Inaccuracy_Distance>Capital, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-	</HardPoint--><!-- Rebalance Note: Removed hard point -->
+	</HardPoint>
 
 	<HardPoint Name="HP_Pelta_09">
 		<Type>HARD_POINT_WEAPON_LASER</Type>

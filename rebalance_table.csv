@@ -1,37 +1,37 @@
-Faction,Unit,Price [Credits],Time [Seconds]
-CIS,Bomber,450,10
-CIS,Bulwark,6000,68
-CIS,Carrier,3500,35
-CIS,Hammer Picket,1200,12
-CIS,Hyena,550,11
-CIS,Lucrehulk,7500,78
-CIS,Malevolence,60000,120
-CIS,Munificent,2600,26
-CIS,Nantex,450,10
-CIS,Patrol,1400,14
-CIS,Providence,5900,59
-CIS,Recusant,3800,38
-CIS,Supply Ship,3800,38
-CIS,Technounion Frigate,3000,30
-CIS,Tri Droid,500,10
-CIS,Vulture Droid,350,8
-CIS,Wavecrest,2600,26
-Republic,Acclamator,2600,26
-Republic,ARC-170,550,11
-Republic,Carrack,1600,16
-Republic,Centax,2400,24
-Republic,CR-90,1800,15
-Republic,Dreadnaught,3000,30
-Republic,Freefall,3500,35
-Republic,Guardian Mantis,2000,30
-Republic,G-400 Fighter,400,10
-Republic,Havoc,3500,35
-Republic,Light Assault Cruiser,1400,14
-Republic,Light Cruiser,2400,24
-Republic,Light Frigate,1200,12
-Republic,Mandator,60000,120
-Republic,NTB-630 Fighter,500,10
-Republic,Pelta,1800,18
-Republic,V19 Fighter,400,8
-Republic,Venator,5600,56
-Republic,Victory,4000,40
+Faction,Unit,Price [Credits],Time [Seconds],Population
+CIS,Bomber,450,10,1
+CIS,Bulwark,6000,68,4
+CIS,Carrier,3500,35,3
+CIS,Hammer Picket,1200,12,1
+CIS,Hyena,550,11,1
+CIS,Lucrehulk,7500,78,5
+CIS,Malevolence,60000,120,8
+CIS,Munificent,2600,26,2
+CIS,Nantex,450,10,1
+CIS,Patrol,1400,14,1
+CIS,Providence,6000,60,4
+CIS,Recusant,3200,32,3
+CIS,Supply Ship,3800,38,3
+CIS,Technounion Frigate,3000,30,3
+CIS,Tri Droid,500,10,1
+CIS,Vulture Droid,350,8,1
+CIS,Wavecrest,2600,26,2
+Republic,Acclamator,2600,26,2
+Republic,ARC-170,550,11,1
+Republic,Carrack,1600,16,1
+Republic,Centax,2400,24,2
+Republic,CR-90,1800,15,1
+Republic,Dreadnaught,3000,30,2
+Republic,Freefall,3500,35,1
+Republic,Guardian Mantis,2000,30,1
+Republic,G-400 Fighter,400,10,1
+Republic,Havoc,3500,35,1
+Republic,Light Assault Cruiser,1400,14,1
+Republic,Light Cruiser,2400,24,2
+Republic,Light Frigate,1200,12,1
+Republic,Mandator,60000,120,8
+Republic,NTB-630 Fighter,500,10,1
+Republic,Pelta,1800,18,2
+Republic,V19 Fighter,400,8,1
+Republic,Venator,5400,54,4
+Republic,Victory,4000,40,3

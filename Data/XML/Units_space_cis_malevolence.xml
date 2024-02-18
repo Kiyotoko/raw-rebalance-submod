@@ -42,7 +42,7 @@
 		<Autoresolve_Health>11000</Autoresolve_Health>
 		<Shield_Points>30000</Shield_Points><!-- Rebalance Note: Changed from 8000 -->
 		<Tactical_Health>50000</Tactical_Health><!-- Rebalance Note: Changed from 8000 -->
-		<Shield_Refresh_Rate>750</Shield_Refresh_Rate><!-- Rebalance Note: Changed from 100 -->
+		<Shield_Refresh_Rate>120</Shield_Refresh_Rate><!-- Rebalance Note: Changed from 100 -->
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
@@ -267,7 +267,7 @@
 
 
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
-		<Population_Value>5</Population_Value>
+		<Population_Value>8</Population_Value><!-- Rebalance Note: Changed from 5 -->
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>60000</Tactical_Build_Cost_Multiplayer><!-- From 80000 -->
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>

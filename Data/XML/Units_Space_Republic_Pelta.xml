@@ -80,12 +80,12 @@
 		<HardPoints>
 			HP_Pelta_01,
 			HP_Pelta_02,
-			<!--HP_Pelta_03,
-			HP_Pelta_04,--><!-- Rebalance Note: Removed Hardpoint -->
+			HP_Pelta_03,
+			HP_Pelta_04,
 			HP_Pelta_05,
 			HP_Pelta_06,
-			<!--HP_Pelta_07,
-			HP_Pelta_08,--><!-- Rebalance Note: Removed Hardpoint -->
+			HP_Pelta_07,
+			HP_Pelta_08,
 			HP_Pelta_09,
 			HP_Pelta_10,
 			HP_Pelta_Shield,
@@ -173,32 +173,8 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Special_Weapons_Rep_Ship</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability--><!-- Rebalance Note: Replaced Ability with below -->
-
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Recharge_Seconds>0</Recharge_Seconds>
-				<Expiration_Seconds>0</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_EJECT</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_EJECT_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_SQUADRON_EJECT.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated/>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-				<Expiration_Seconds>0</Expiration_Seconds>
-				<Recharge_Seconds>0</Recharge_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_INJECT</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SQUADRON_INJECT_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_SQUADRON_INJECT.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated/>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
+			</Unit_Ability--><!-- Rebalance Note: Removed Ability -->
 		</Unit_Abilities_Data>
-
-
 
 		<Custom_Hard_XExtent>350</Custom_Hard_XExtent>
 

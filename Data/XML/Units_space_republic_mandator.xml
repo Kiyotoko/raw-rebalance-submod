@@ -225,7 +225,7 @@
 		<Radar_Icon_Scale_Space>0.6</Radar_Icon_Scale_Space><!-- From 1.0 -->
 		<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
 
-		<Space_Override_Population_Value>5</Space_Override_Population_Value>
+		<Space_Override_Population_Value>8</Space_Override_Population_Value><!-- Rebalance Note: Changed from 5 -->
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

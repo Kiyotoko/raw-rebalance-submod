@@ -162,7 +162,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		<Score_Cost_Credits>42500</Score_Cost_Credits>
-		<Population_Value>4</Population_Value>
+		<Population_Value>5</Population_Value><!-- Rebalance Note: Changed from 4 -->
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 

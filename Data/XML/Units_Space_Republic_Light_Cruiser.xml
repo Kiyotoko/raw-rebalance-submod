@@ -15,7 +15,7 @@
 		<Autoresolve_Health>2400</Autoresolve_Health>
 		<Shield_Points>800</Shield_Points><!-- From 1600 --><!-- Rebalance Note: Changed from 1200 -->
 		<Tactical_Health>2900</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate><!-- Rebalance Note: Changed from 65-->
+		<Shield_Refresh_Rate>70</Shield_Refresh_Rate><!-- Rebalance Note: Changed from 65-->
 		<Energy_Capacity>4000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 

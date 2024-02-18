@@ -58,8 +58,8 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>6300</AI_Combat_Power><!-- From 7000 -->
-		<Build_Cost_Credits>5900</Build_Cost_Credits><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
-		<Build_Time_Seconds>59</Build_Time_Seconds><!-- Rebalance Note: Changed from 60 -->
+		<Build_Cost_Credits>6000</Build_Cost_Credits><!-- From 5700 -->
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -233,14 +233,14 @@
 		<Custom_Hard_XExtent>1100</Custom_Hard_XExtent>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5900</Tactical_Build_Cost_Multiplayer><!-- From 5700 --><!-- Rebalance Note: Changed from 6000 -->
-		<Tactical_Build_Time_Seconds>59</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 60 -->
+		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer><!-- From 5700 -->
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>4</Population_Value><!-- Rebalance Note: Changed from 3 -->
 	</SpaceUnit>
 
 	<SpaceUnit Name="Providence_Cruiser_Death_Clone">

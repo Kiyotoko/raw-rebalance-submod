@@ -9,3 +9,7 @@
 > This mod modifies only the `XML` folder. Therefore, and because it largely relyes on RaW, all other folders like `Art`, `Audio`, etc. are ignored. This submod will not work with the git files alone. Check out RaW for the full source code.
 
 This mod has rebalanced space units for multiplayer. No other changes were made. Check out the changelog [here](CHANGELOG.md) for all changes that were made.
+
+## Installation
+
+You can install it from the Steam Worshop or from the last GitHub Release.
