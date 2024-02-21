@@ -16,7 +16,7 @@
 - Added Buildable Object Republic Victory Destroyer in Republic Starbase for Level 4 and 5
 - Removed Tactical Build Prerequisites from Victory Destroyer
 - Removed Ability "Fire All Batteries" from Acclamator
-- Changed Dreadnaught Build Cost from 3500 to 3000 and Population Value from 2 to 3
+- Changed Dreadnaught Build Cost from 3500 to 3000 and Population Value from 2 to 3 and Shield Points from 1900 to 2400 and Tactical Health from 2200 to 2400
 - Changed Wavecrest Build Cost from 3500 to 2600 and Build Time (Global) from 45 to 26 Seconds and Build Time (Skirmish) from 23 to 26 Seconds and Population Value from 3 to 2
 - Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2400 and Build Time from 30 to 24 Seconds and Shield Points from 1200 to 800 and Shield Refresh Rate from 65 to 70
 - Changed Lucrehulk Spawned Squadron Delay from 6 to 4 Seconds
@@ -30,11 +30,11 @@
 - Removed ARC-170 Squatron from Venator
 - Removed Ability "Power to Weapons" from Pelta
 - Changed Supply Ship Build Cost from 4300 to 3800 and Build Time from 40 to 38 Seconds
-- Changed Jango Fett Team Space MP Build Cost from 1337 to 22
-- Changed Recusant Frigate Shield Points from 2600 to 3200 and Tactical Health from 3800 to 4600 and Build Time from 30 to 32 Seconds and Population Value from 2 to 3
-- Replaced Ability "Power to Weapons" in Recusant Frigate with "Fire Batteries" and "Recusant Laser Defense"
-- Changed Invisible Hand Build Cost from 7200 to 6400 and Build Time from 20 to 60 Seconds
-- Changed Admiral Trench Build Cost from 7500 to 6500 and Scale Factor from 0.78 to 0.4
+- Changed Jango Fett Team Space MP Build Cost from 1337 to 2200 and Build Time from 28 to 22 Seconds
+- Changed Recusant Frigate Shield Points from 2600 to 3200 and Tactical Health from 3800 to 4600 and Build Time from 30 to 32 Seconds and Population Value from 2 to 3 and Space FOW Reveal Range from 3000 to 2000
+- Replaced Ability "Power to Weapons" in Recusant Frigate with "Assault" and "Recusant Laser Defense"
+- Changed Invisible Hand Build Cost from 7200 to 6400 and Build Time from 20 to 60 Seconds and Population Value from 3 to 4
+- Changed Admiral Trench Build Cost from 7500 to 6400 and Scale Factor (Unit) from 0.78 to 0.4 and Scale Factor (Death Clone) from 0.8 to 0.4 and Population Value from 3 to 4
 - Changed CIS Bulwark Build Cost from 6500 to 6000 and Build Time from 85 to 68 Seconds and Population Value from 3 to 4
 - Replaced Ability "Self Destruct" in CIS Bulwark with "Fire Batteries"
 - Changed CIS Carrier Build Cost from 3700 to 3500 and Population Value from 2 to 3
@@ -51,3 +51,5 @@
 - Changed NTB-630 Fighter Build Cost (Skirmish) from 550 to 500 and Build Time (Global) from 13 to 10 Seconds and Build Time (Skirmish) from 17 to 10 Seconds
 - Changed Subjugator Special Hardpoint Health from 1000 to 2000
 - Changed Subjugator Shield Generator Health from 1000 to 2500
+- Changed Yularen Build Cost from 6000 to 5800 and Build Time from 50 to 54 Seconds
+- Added Ability "Defend" to Dreadnaught

@@ -277,16 +277,7 @@
 
 
 
-
-
-
-
-
-
-
 	<!-- COMPANY DATA -->
-
-
 	<HeroCompany Name="General_Grievous_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_GENERAL_GRIEVOUS</Text_ID>
@@ -600,7 +591,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>4</Population_Value><!-- Rebalance Note: Changed from 3 -->
 	</UniqueUnit>
 
 	<UniqueUnit Name="Invisible_Hand_Death_Clone">
@@ -621,8 +612,6 @@
 	</UniqueUnit>
 
 
-
-
 	<HeroCompany Name="General_Grievous_Team_Land_MP">
 		<Variant_Of_Existing_Type>General_Grievous_Team</Variant_Of_Existing_Type>
 		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer><!--1600-->
@@ -633,8 +622,6 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
-
-
 
 
 </General_Grievous_Hero_Files>

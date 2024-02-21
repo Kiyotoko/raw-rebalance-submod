@@ -69,7 +69,7 @@
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 
-		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range><!-- Rebalance Note: Changed from 3000 -->
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
@@ -189,12 +189,13 @@
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.5</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
 				<Recharge_Seconds>50</Recharge_Seconds>
 				<Expiration_Seconds>7</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 			<Unit_Ability>
 				<Type>LASER_DEFENSE</Type>

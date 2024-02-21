@@ -1,37 +1,59 @@
-Faction,Unit,Price [Credits],Time [Seconds],Population
-CIS,Bomber,450,10,1
-CIS,Bulwark,6000,68,4
-CIS,Carrier,3500,35,3
-CIS,Hammer Picket,1200,12,1
-CIS,Hyena,550,11,1
-CIS,Lucrehulk,7500,78,5
-CIS,Malevolence,60000,120,8
-CIS,Munificent,2600,26,2
-CIS,Nantex,450,10,1
-CIS,Patrol,1400,14,1
-CIS,Providence,6000,60,4
-CIS,Recusant,3200,32,3
-CIS,Supply Ship,3800,38,3
-CIS,Technounion Frigate,3000,30,3
-CIS,Tri Droid,500,10,1
-CIS,Vulture Droid,350,8,1
-CIS,Wavecrest,2600,26,2
-Republic,Acclamator,2600,26,2
-Republic,ARC-170,550,11,1
-Republic,Carrack,1600,16,1
-Republic,Centax,2400,24,2
-Republic,CR-90,1800,15,1
-Republic,Dreadnaught,3000,30,2
-Republic,Freefall,3500,35,1
-Republic,Guardian Mantis,2000,30,1
-Republic,G-400 Fighter,400,10,1
-Republic,Havoc,3500,35,1
-Republic,Light Assault Cruiser,1400,14,1
-Republic,Light Cruiser,2400,24,2
-Republic,Light Frigate,1200,12,1
-Republic,Mandator,60000,120,8
-Republic,NTB-630 Fighter,500,10,1
-Republic,Pelta,1800,18,2
-Republic,V19 Fighter,400,8,1
-Republic,Venator,5400,54,4
-Republic,Victory,4000,40,3
+Faction,Area,Unit,Price [Credits],Time [Seconds],Population
+CIS,Land,Asaj Ventress,2000,30,1
+CIS,Land,Cad Bane,1600,20,1
+CIS,Land,Count Dooku,5800,45,1
+CIS,Land,Grievous,4200,30,1
+CIS,Land,Jango,1800,25,1
+CIS,Space,Asajjj Ventress,2000,30,1
+CIS,Space,Invisible Hand,6400,60,4
+CIS,Space,Jango,2200,28,1
+CIS,Space,Admiral Trench,6400,60,4
+CIS,Space,Bomber,450,10,1
+CIS,Space,Bulwark,6000,68,4
+CIS,Space,Carrier,3500,35,3
+CIS,Space,Hammer Picket,1200,12,1
+CIS,Space,Hyena,550,11,1
+CIS,Space,Lucrehulk,7500,78,5
+CIS,Space,Malevolence,60000,120,8
+CIS,Space,Munificent,2600,26,2
+CIS,Space,Nantex,450,10,1
+CIS,Space,Patrol,1400,14,1
+CIS,Space,Providence,6000,60,4
+CIS,Space,Recusant,3200,32,3
+CIS,Space,Supply Ship,3800,38,3
+CIS,Space,Technounion Frigate,3000,30,3
+CIS,Space,Tri Droid,500,10,1
+CIS,Space,Vulture Droid,350,8,1
+CIS,Space,Wavecrest,2600,26,2
+Republic,Land,Aayla Secura,1200,25,1
+Republic,Land,Anakin Skywalker,3500,24,1
+Republic,Land,Commander Cody,1500,25,1
+Republic,Land,Deltasquad,2000,30,1
+Republic,Land,Kit Fisto,1900,25,1
+Republic,Land,Luminara,1900,25,1
+Republic,Land,Mace Windu,3500,24,1
+Republic,Land,Obiwan,3500,25,1
+Republic,Land,Yoda,5800,45,1
+Republic,Space,Anakin Skywalker,3500,25,1
+Republic,Space,Mace Windu,3500,25,1
+Republic,Space,Obiwan,3500,25,1
+Republic,Space,Yularen,5800,54,4
+Republic,Space,Acclamator,2600,26,2
+Republic,Space,ARC-170,550,11,1
+Republic,Space,Carrack,1600,16,1
+Republic,Space,Centax,2400,24,2
+Republic,Space,CR-90,1800,15,1
+Republic,Space,Dreadnaught,3000,30,3
+Republic,Space,Freefall,3500,35,1
+Republic,Space,Guardian Mantis,2000,30,1
+Republic,Space,G-400 Fighter,400,10,1
+Republic,Space,Havoc,3500,35,1
+Republic,Space,Light Assault Cruiser,1400,14,1
+Republic,Space,Light Cruiser,2400,24,2
+Republic,Space,Light Frigate,1200,12,1
+Republic,Space,Mandator,60000,120,8
+Republic,Space,NTB-630 Fighter,500,10,1
+Republic,Space,Pelta,1800,18,2
+Republic,Space,V19 Fighter,400,8,1
+Republic,Space,Venator,5400,54,4
+Republic,Space,Victory,4000,40,3
