@@ -1,12 +1,5 @@
 ## v0.1.0
 
-- Changed Lucrehulk Build Cost from 8000 to 7500 and Build Time from 90 to 78 and Population Value from 4 to 5
-- Changed Munificent Frigate Build Cost from 3000 to 2600 and Build Time from 30 to 26 Seconds and Shield Points from 1200 to 1500
-- Changed Providence Population Value from 3 to 4
-- Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2250, Build Cost (Skirmish) from 2350 to 2600 and Build Time (Skirmish) from 20 to 26
-- Changed Venator Build Cost from 5500 to 5400 and Build Time from 50 to 54 and Population Value from 3 to 4
-- Changed Technounion Frigate Build Cost from 3500 to 3000 and Build Time from 35 to 30 Seconds and Shield Points from 700 to 1000
-- Changed Malevolence Damage (Auto Resolve) from 100 to 140, Shield Points from 8000 to 30000 and Shield Refresh Rate from 100 to 120 and Tactical Health from 8000 to 50000 and Population Value from 5 to 8
 - Replaced Buildable Object Scarab Squadron with Vulture Droid Squadron in CIS Stabase for Level 1 and 2
 - Added Buildable Object CIS Bulwark for CIS Starbase Level 5
 - Replaced Buildable Object A6 Squadron with V19 Squadro in Republic Starbase for Level 1 and 2
@@ -14,29 +7,38 @@
 - Removed Buildable Object Plokoon Team Space MP in Republic Starbase for Level 5
 - Removed Buildable Object Rothana_Destroyer in Republic Starbase for Level 5
 - Added Buildable Object Republic Victory Destroyer in Republic Starbase for Level 4 and 5
-- Removed Tactical Build Prerequisites from Victory Destroyer
+- Added Buildable Object Invisible Hand in CIS Starbase Level 5
 - Removed Ability "Fire All Batteries" from Acclamator
+- Replaced Ability "Power to Weapons" in Pelta  with "Repair Facility Healing"
+- Added "Repair Facility Healing" Ability to Supply Ship
+- Replaced Ability "Power to Weapons" in Recusant Frigate with "Assault" and "Recusant Laser Defense"
+- Replaced Ability "Self Destruct" in CIS Bulwark with "Fire Batteries"
+- Added Ability "Defend" to Dreadnaught
+- Replaced Buildable Object Durge Team Space MP with Jango Fett Team Space MP for Starbase Level 4 to 5
+- Changed Lucrehulk Build Cost from 8000 to 7500 and Build Time from 90 to 78 and Population Value from 4 to 5
+- Changed Munificent Frigate Build Cost from 3000 to 2600 and Build Time from 30 to 26 Seconds and Shield Points from 1200 to 1500
+- Changed Providence Population Value from 3 to 4
+- Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2250, Build Cost (Skirmish) from 2350 to 2600 and Build Time (Skirmish) from 20 to 26
+- Changed Venator Build Cost from 5500 to 5400 and Build Time from 50 to 54 and Population Value from 3 to 4
+- Changed Technounion Frigate Build Cost from 3500 to 3000 and Build Time from 35 to 30 Seconds and Shield Points from 700 to 1000
+- Changed Malevolence Damage (Auto Resolve) from 100 to 140, Shield Points from 8000 to 30000 and Shield Refresh Rate from 100 to 120 and Tactical Health from 8000 to 50000 and Population Value from 5 to 8
+- Removed Tactical Build Prerequisites from Victory Destroyer
 - Changed Dreadnaught Build Cost from 3500 to 3000 and Population Value from 2 to 3 and Shield Points from 1900 to 2400 and Tactical Health from 2200 to 2400
 - Changed Wavecrest Build Cost from 3500 to 2600 and Build Time (Global) from 45 to 26 Seconds and Build Time (Skirmish) from 23 to 26 Seconds and Population Value from 3 to 2
 - Changed Republic Light Cruiser (Arquitens Class) Build Cost from 3200 to 2400 and Build Time from 30 to 24 Seconds and Shield Points from 1200 to 800 and Shield Refresh Rate from 65 to 70
 - Changed Lucrehulk Spawned Squadron Delay from 6 to 4 Seconds
-- Added Buildable Object Invisible Hand in CIS Starbase Level 5
-- Replaced Buildable Object Durge Team Space MP with Jango Fett Team Space MP for Starbase Level 4 to 5
 - Changed Mace Windu Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 500 to 400
 - Changed Obiwan Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 500 to 400
 - Changed Anakin Jedi Eta2 Shield Points from 300 to 200 and Tactical Health from 525 to 400
 - Changed ARC-170 Build Cost from 375 to 550 and Build Time from 8 to 11 Seconds and Fighter Units per Squadron from 5 to 4
 - Changed ARC-170 Torpedo Fire Range Distance from 700 to 500 and Fire Min Recharge from 8 to 10 and Fire Max Recharge from 8 to 12
 - Removed ARC-170 Squatron from Venator
-- Removed Ability "Power to Weapons" from Pelta
 - Changed Supply Ship Build Cost from 4300 to 3800 and Build Time from 40 to 38 Seconds
 - Changed Jango Fett Team Space MP Build Cost from 1337 to 2200 and Build Time from 28 to 22 Seconds
 - Changed Recusant Frigate Shield Points from 2600 to 3200 and Tactical Health from 3800 to 4600 and Build Time from 30 to 32 Seconds and Population Value from 2 to 3 and Space FOW Reveal Range from 3000 to 2000
-- Replaced Ability "Power to Weapons" in Recusant Frigate with "Assault" and "Recusant Laser Defense"
 - Changed Invisible Hand Build Cost from 7200 to 6400 and Build Time from 20 to 60 Seconds and Population Value from 3 to 4
 - Changed Admiral Trench Build Cost from 7500 to 6400 and Scale Factor (Unit) from 0.78 to 0.4 and Scale Factor (Death Clone) from 0.8 to 0.4 and Population Value from 3 to 4
 - Changed CIS Bulwark Build Cost from 6500 to 6000 and Build Time from 85 to 68 Seconds and Population Value from 3 to 4
-- Replaced Ability "Self Destruct" in CIS Bulwark with "Fire Batteries"
 - Changed CIS Carrier Build Cost from 3700 to 3500 and Population Value from 2 to 3
 - Changed Victory Destroyer Build Time (Skirmish) from 30 to 40 Seconds
 - Changed Mandator Build Cost from 70000 to 60000 and Build Time (Global) from 90 to 120 Seconds and Build Time (Skirmish) from 110 to 120 Seconds and Shield Points from 8000 to 30000 and Shield Refresh Rate from 100 to 750 and Tactical Health from 9000 to 50000 and Population Value from 5 to 8
@@ -52,4 +54,3 @@
 - Changed Subjugator Special Hardpoint Health from 1000 to 2000
 - Changed Subjugator Shield Generator Health from 1000 to 2500
 - Changed Yularen Build Cost from 6000 to 5800 and Build Time from 50 to 54 Seconds
-- Added Ability "Defend" to Dreadnaught
