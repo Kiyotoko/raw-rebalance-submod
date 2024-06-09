@@ -1,10 +1,17 @@
-Faction,Area,Unit,Price [Credits],Time [Seconds],Population
+Faction,Area,Unit,Price [Credits],Time [Seconds],Population,Available
 CIS,Land,Asaj Ventress,2000,30,1
-CIS,Land,Cad Bane,1600,20,1
+CIS,Land,Aurra Sing,1100,15,1,2
+CIS,Land,Bossk,1250,15,1,1
+CIS,Land,Cad Bane,1600,20,1,1
 CIS,Land,Count Dooku,5800,45,1
 CIS,Land,Grievous,4200,30,1
 CIS,Land,Jango,1800,25,1
+CIS,Land,Repair_Droid_Squad_Skirmish,
+CIS,Land,Magnaguard_Squad_Skirmish,
+CIS,Land,Bx_Commando_Squad,
+CIS,Land,IG86_Squad
 CIS,Space,Asajjj Ventress,2000,30,1
+CIS,Space,Aurra Sing,1800,22,1,/
 CIS,Space,Invisible Hand,6400,60,4
 CIS,Space,Jango,2200,28,1
 CIS,Space,Admiral Trench,6400,60,4

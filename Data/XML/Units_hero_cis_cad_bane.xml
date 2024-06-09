@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
 <Cad_Bane_Hero_Files>
-
-
-
 	<HeroUnit Name="Cad_Bane">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
@@ -471,11 +468,5 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-
-
-
 	</HeroCompany>
-
-
-
 </Cad_Bane_Hero_Files>

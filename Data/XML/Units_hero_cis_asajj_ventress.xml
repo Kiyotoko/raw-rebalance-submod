@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
 <Asajj_Ventress_Data>
-
-
-
-
-
-
 	<HeroUnit Name="Asajj_Ventress">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_ASAJJ_VENTRESS</Text_ID>
