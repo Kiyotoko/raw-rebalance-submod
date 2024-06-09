@@ -70,7 +70,7 @@
 		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
 		<Lobbing_Superweapon_Chargeup_Particle>Magnepulse_Chargeup_Particles</Lobbing_Superweapon_Chargeup_Particle>
 		<Lobbing_Superweapon_Chargeup_Particle_Bone_Name>attack_cool_bone</Lobbing_Superweapon_Chargeup_Particle_Bone_Name>
-		<Lobbing_Superweapon_SFXEvent_Chargeup>Structure_Magnepulse_Charge</Lobbing_Superweapon_SFXEvent_Chargeup>
+		<Lobbing_Superweapon_SFXEvent_Chargeup>Unit_Siege_Mortar_Start</Lobbing_Superweapon_SFXEvent_Chargeup>
 		<Lobbing_Superweapon_SFXEvent_Fire>Unit_Magnepulse_Fire</Lobbing_Superweapon_SFXEvent_Fire>
 		<Lobbing_Superweapon_Chargeup_Frames>90</Lobbing_Superweapon_Chargeup_Frames>
 

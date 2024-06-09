@@ -408,11 +408,11 @@
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds><!-- From 2 -->
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hyena_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Tri_Droid_Squadron, 3</Starting_Spawned_Units_Tech_4>
@@ -472,8 +472,10 @@
 		<SFXEvent_Move>Unit_Move_Space_Grievous</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Grievous</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Space_Grievous</SFXEvent_Attack>
-		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Recusant</SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Grievous</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Space_Grievous</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Space_Grievous</SFXEvent_Health_Critical_Warning>
 
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>

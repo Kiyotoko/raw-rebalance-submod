@@ -144,6 +144,36 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+		
+		<Force_Healing_Ability Name="Astromech_Repair">	
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>7.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Republic_Vwing_Fighter</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<SFXEvent_Target_Affected>Unit_Astromech_Repair_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>	
+
+
+		</Abilities>
 
 	</SpaceUnit>
 

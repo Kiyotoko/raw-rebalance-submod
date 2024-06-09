@@ -64,7 +64,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Build_Cost_Credits>1600</Build_Cost_Credits>
 		<AI_Combat_Power>2000</AI_Combat_Power>
-		<Build_Time_Seconds>20</Build_Time_Seconds><!-- Rebalance Note: Changed from 20 -->
+		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
 		<Cheap_Bribe_Cost>70</Cheap_Bribe_Cost>

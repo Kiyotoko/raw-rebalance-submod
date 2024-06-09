@@ -202,7 +202,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_HAILFIRE_TANK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_HAILFIRE.tga</Icon_Name>
-		<GUI_Row>1</GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>50</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>

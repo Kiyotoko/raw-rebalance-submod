@@ -198,7 +198,7 @@
 		<Text_ID>TEXT_UNIT_UT-AT</Text_ID>
 		<Encyclopedia_Good_Against>AAT_Tank Persuader_Droid_Enforcer Dwarf_Spider_Droid</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>HMP Heavy_Artillery_Gun Hailfire_Tank</Encyclopedia_Vulnerable_To>
-		<GUI_Row>1</GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>70</Damage>
 		<Autoresolve_Health>150</Autoresolve_Health>

@@ -13,15 +13,15 @@
 		<Encyclopedia_Good_Against>Hammer_Class_Picket CiS_Carrier Cis_Patrol_Frigate</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>CIS_Bomber Technounion_Frigate Providence_Class_Carrier</Encyclopedia_Vulnerable_To>
 		<GUI_Row>1</GUI_Row>
-		<Space_Model_Name>Rev_acclamator_landing.ALO</Space_Model_Name>
-		<Land_Model_Name>Rev_acclamator_landing.ALO</Land_Model_Name>
-
+		<Space_Model_Name>Rev_acclamator_assault_ship_landing.ALO</Space_Model_Name>
+		<Land_Model_Name>Rev_acclamator_assault_ship_landing.ALO</Land_Model_Name>
+		
 		<Landing_Transport_Variant>Republic_Acclamator_Tansport_Landing</Landing_Transport_Variant>
 
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -90,8 +90,8 @@
 		</HardPoints>
 
 		<CategoryMask>Transport</CategoryMask>
-		<Icon_Name>I_BUTTON_ACCLAMATOR_1.tga</Icon_Name>
-		<GUI_Model_Name>ReV_acclamator1.ALO</GUI_Model_Name>
+		<Icon_Name>i_button_acclamator_assaultship.tga</Icon_Name>
+		<GUI_Model_Name>ReV_acclamator_assault_ship.ALO</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -185,15 +185,15 @@
 		<Encyclopedia_Good_Against>Hammer_Class_Picket CiS_Carrier Cis_Patrol_Frigate</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>CIS_Bomber Technounion_Frigate Providence_Class_Carrier</Encyclopedia_Vulnerable_To>
 		<GUI_Row>1</GUI_Row>
-		<Space_Model_Name>Rev_acclamator_landing.ALO</Space_Model_Name>
-		<Land_Model_Name>Rev_acclamator_landing.ALO</Land_Model_Name>
+		<Space_Model_Name>Rev_acclamator_assault_ship_landing.ALO</Space_Model_Name>
+		<Land_Model_Name>Rev_acclamator_assault_ship_landing.ALO</Land_Model_Name>
 
 		<Landing_Transport_Variant>LAATC_Landing</Landing_Transport_Variant>
 
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -261,8 +261,8 @@
 		</HardPoints>
 
 		<CategoryMask>Transport</CategoryMask>
-		<Icon_Name>I_BUTTON_ACCLAMATOR_1.tga</Icon_Name>
-		<GUI_Model_Name>ReV_acclamator1.ALO</GUI_Model_Name>
+		<Icon_Name>i_button_acclamator_assaultship.tga</Icon_Name>
+		<GUI_Model_Name>ReV_acclamator_assault_ship.ALO</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>

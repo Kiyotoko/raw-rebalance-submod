@@ -140,18 +140,20 @@
 		<SFXEvent_Move>Unit_Move_Trench</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Trench</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Trench</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Move_Trench</SFXEvent_Guard>
+		<SFXEvent_Guard>Unit_Guard_Trench</SFXEvent_Guard>
 		<SFXEvent_Stop>Unit_Stop_Trench</SFXEvent_Stop>
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Trench</SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Trench</SFXEvent_Move_Into_Nebula>
 
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_Shields_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_Engines_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Trench</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Trench</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Trench</SFXEvent_Attack_Hardpoint>

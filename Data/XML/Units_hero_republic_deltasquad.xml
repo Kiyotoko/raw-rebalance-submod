@@ -679,6 +679,10 @@
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		
+		 <HardPoints>
+			HP_Deltasquad_Scorch_00
+		</HardPoints>
 
 		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
@@ -745,14 +749,14 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 
-			<!-- <Unit_Ability>
+			 <Unit_Ability>
 				<Type>SWAP_WEAPONS</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_SCORCH_LAUNCHER_SWAP</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_SCORCH_LAUNCHER_SWAP_DESCRIPTION</Alternate_Description_Text>
                 <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name> 
 				<Targeting_Max_Attack_Distance>200</Targeting_Max_Attack_Distance>
 				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability> -->
+			</Unit_Ability> 
 
 			<!-- Secondary ability -->
 			<Unit_Ability>

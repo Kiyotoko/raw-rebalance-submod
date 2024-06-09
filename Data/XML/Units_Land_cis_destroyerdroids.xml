@@ -8,7 +8,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_DESTROYER_DROID</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_DROIDEKA.tga</Icon_Name>
-		<Land_Model_Name>SeV_droidekka_mk1.ALO</Land_Model_Name>
+		<Land_Model_Name>SeV_droideka.ALO</Land_Model_Name>
 		<Select_Box_Scale>60</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
@@ -20,11 +20,11 @@
 		<Garrison_Value>2</Garrison_Value>
 		<Ranking_In_Category>7</Ranking_In_Category>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.6</Scale_Factor>
+		<Scale_Factor>0.4</Scale_Factor>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
-		<Movement_Animation_Speed>2.0</Movement_Animation_Speed>
-		<Rotation_Animation_Speed>2.0</Rotation_Animation_Speed>
-		<Max_Speed>1.8</Max_Speed>
+		<Movement_Animation_Speed>1.2</Movement_Animation_Speed>
+		<Rotation_Animation_Speed>1.2</Rotation_Animation_Speed>
+		<Max_Speed>2.5</Max_Speed>
 		<Max_Rate_Of_Turn>15.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>15.5</Stopped_Rate_Of_Turn>
 		<OverrideAcceleration>.5</OverrideAcceleration>
@@ -43,7 +43,7 @@
 		<FormationRaggedness>2.5</FormationRaggedness>
 		<MaxJiggleDistance>5</MaxJiggleDistance>
 		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
-		<Attack_Animation_Is_Overlay>Yes</Attack_Animation_Is_Overlay>
+		<!--<Attack_Animation_Is_Overlay>Yes</Attack_Animation_Is_Overlay>-->
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
@@ -127,8 +127,8 @@
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		<Must_Face_Target_To_Attack_When_Deployed>Yes</Must_Face_Target_To_Attack_When_Deployed>
 		<Max_Dist_Walk_While_Deployed>150.0</Max_Dist_Walk_While_Deployed>
-		<Deployed_Walk_Anim_Speed>2</Deployed_Walk_Anim_Speed>
-		<Deployed_Walk_Speed>2.0</Deployed_Walk_Speed>
+		<Deployed_Walk_Anim_Speed>1.5</Deployed_Walk_Anim_Speed>
+		<Deployed_Walk_Speed>1.0</Deployed_Walk_Speed>
 		<Shield_Sub_Mesh>Sphere01</Shield_Sub_Mesh>
 	</GroundVehicle>
 	<GroundVehicle Name="Destroyer_Droid_Attack">
@@ -297,7 +297,7 @@
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Cis_Hardcell_Transport</Company_Transport_Unit>
+		<Company_Transport_Unit>C9979_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Destroyer_Droid, Destroyer_Droid, Destroyer_Droid, Destroyer_Droid, Destroyer_Droid, Destroyer_Droid, Destroyer_Droid, Destroyer_Droid</Company_Units><!-- From 6 to 8 -->
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>

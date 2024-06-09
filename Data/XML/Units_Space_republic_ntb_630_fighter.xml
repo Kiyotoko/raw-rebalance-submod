@@ -203,8 +203,8 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 550 -->
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 17 -->
+		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

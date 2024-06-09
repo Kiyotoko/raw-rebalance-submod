@@ -499,7 +499,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures/>
 		<Required_Planets/>
-		<Icon_Name>i_button_rb_commandcenter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CIS_COMMAND_CENTER2.tga</Icon_Name>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,

@@ -6,11 +6,11 @@
 		<Encyclopedia_Good_Against>Hammer_Class_Picket Vulture_Droid_Fighter Cis_Patrol_Frigate</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>CIS_Bomber Technounion_Frigate Providence_Class_Carrier</Encyclopedia_Vulnerable_To>
 		<GUI_Row>1</GUI_Row>
-		<Space_Model_Name>ReV_acclamator1.ALO</Space_Model_Name>
+		<Space_Model_Name>ReV_acclamator_assault_ship.ALO</Space_Model_Name>
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -109,8 +109,8 @@
 		</HardPoints>
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>I_BUTTON_ACCLAMATOR_1.tga</Icon_Name>
-		<GUI_Model_Name>ReV_acclamator1.ALO</GUI_Model_Name>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_ASSAULTSHIP.TGA</Icon_Name>
+		<GUI_Model_Name>ReV_acclamator_assault_ship.ALO</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -232,11 +232,11 @@
 
 	<SpaceUnit Name="Rep_Acclamator_Death_Clone">
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
-		<Space_Model_Name>ReV_acclamator1_d.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>ReV_acclamator1.ALO</xxxSpace_Model_Name>
+		<Space_Model_Name>ReV_acclamator_assault_ship_d.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>ReV_acclamator_assault_ship.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>-->
+		<Scale_Factor>1.2</Scale_Factor>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>

@@ -32,7 +32,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets>Dantooine, Corellia, Saleucami, Abregado_Rae, Carida</Required_Planets>
+		<Required_Planets>Dantooine, Chandrila, Corellia, Saleucami, Abregado_Rae, Carida, Felucia</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
@@ -161,6 +161,7 @@
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>Corvette</Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
 	</SpecialStructure>
 
 	<SpecialStructure Name="Confederacy_Ground_Farm">
@@ -194,7 +195,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets>Dantooine, Corellia, Saleucami, Abregado_Rae, Carida</Required_Planets>
+		<Required_Planets>Dantooine, Chandrila, Corellia, Saleucami, Abregado_Rae, Carida, Felucia</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
@@ -294,6 +295,7 @@
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>Corvette</Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
 	</SpecialStructure>
 
 
@@ -323,7 +325,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>e_ground_barracks</Required_Special_Structures>
-		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth</Required_Planets>
+		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Christophsis, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth, Shola</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
@@ -453,7 +455,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>r_ground_barracks</Required_Special_Structures>
-		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth</Required_Planets>
+		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Christophsis, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth, Shola</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
@@ -585,7 +587,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>e_ground_barracks</Required_Special_Structures>
-		<Required_Planets>Bespin, Bonadan, Endor, Eriadu, Kashyyyk, Sluis_Van, Sullust, Rendili, Taris, Utapau</Required_Planets>
+		<Required_Planets>Bespin, Bonadan, Endor, Eriadu, Kashyyyk, Malastare, Sluis_Van, Sullust, Rendili, Taris, Utapau</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
@@ -747,7 +749,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>r_ground_barracks</Required_Special_Structures>
-		<Required_Planets>Bespin, Bonadan, Endor, Eriadu, Kashyyyk, Sluis_Van, Sullust, Rendili, Taris, Utapau</Required_Planets>
+		<Required_Planets>Bespin, Bonadan, Endor, Eriadu, Kashyyyk, Malastare, Sluis_Van, Sullust, Rendili, Taris, Utapau</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>

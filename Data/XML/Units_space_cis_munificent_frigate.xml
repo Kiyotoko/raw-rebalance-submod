@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Munificent_Data>
+
 	<SpaceUnit Name="Munificent_Frigate">
 		<Text_ID>TEXT_UNIT_MUNIFICENT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_MUNIFICENT</Encyclopedia_Text>

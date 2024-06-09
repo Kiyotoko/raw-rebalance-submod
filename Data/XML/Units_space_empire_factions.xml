@@ -485,8 +485,8 @@
 		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RS_Prototype_Level_Three_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>>-->
+		<!--<<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</SpaceUnit>
@@ -497,6 +497,15 @@
 		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Population_Value>4</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>8000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RS_Prototype_Level_Three_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
 	<SpaceUnit Name="Star_Destroyer_Death_Clone">

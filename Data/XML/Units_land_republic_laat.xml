@@ -189,7 +189,7 @@
 		<Icon_Name>i_button_laati.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<GUI_Bounds_Scale>0.35</GUI_Bounds_Scale>
-		<GUI_Row>1</GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>

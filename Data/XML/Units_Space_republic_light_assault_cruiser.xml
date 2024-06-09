@@ -197,7 +197,7 @@
 	<SpaceUnit Name="ReV_light_assault_cruiser_01_Death_Clone">
 		<Text_ID>TEXT_UNIT_REPUBLIC_LIGHT_CRUISER</Text_ID>
 		<Space_Model_Name>ReV_light_assault_cruiser_d.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>RReV_light_assault_cruiser.ALO</xxxSpace_Model_Name>
+		<xxxSpace_Model_Name>ReV_light_assault_cruiser.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>.5</Scale_Factor>

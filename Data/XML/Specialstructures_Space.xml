@@ -347,9 +347,18 @@
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<Required_Planets>Tatooine, NalHutta, Taris, Malastare, Coruscant, The_Wheel, Bespin</Required_Planets>
+		<Required_Planets>
+		 Tatooine,
+		 NalHutta,
+		 Taris,
+		 Malastare,
+		 Coruscant,
+		 The_Wheel,
+		 Bespin,
+		 Centerpoint_Station
+		 </Required_Planets>
 		<Tactical_Health>2500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>

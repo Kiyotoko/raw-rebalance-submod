@@ -64,6 +64,9 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Build_Cost_Credits>3000</Build_Cost_Credits><!-- Rebalace Note: Changed from 3500 to 3000 -->
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
 		<Cheap_Bribe_Cost>70</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>130</Expensive_Bribe_Cost>

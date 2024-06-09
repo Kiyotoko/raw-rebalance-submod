@@ -1778,8 +1778,8 @@
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
-		<Land_Model_Name>UB_DROIDWORKS.ALO</Land_Model_Name>
-		<Icon_Name>i_button_ub_droidworks.tga</Icon_Name>
+		<Land_Model_Name>SeB_droid_factory.ALO</Land_Model_Name>
+		<Icon_Name>i_button_seb_droidfactory.tga</Icon_Name>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
@@ -1821,8 +1821,8 @@
 		<Tactical_Buildable_Constructed>R_Ground_Barracks</Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z>50.0</Tactical_Build_Start_Lower_Z>
 		<Text_ID>TEXT_REBEL_BUILD_PAD</Text_ID>
-		<Land_Model_Name>UB_DROIDWORKS.ALO</Land_Model_Name>
-		<Icon_Name>i_button_ub_droidworks.tga</Icon_Name>
+		<Land_Model_Name>SeB_droid_factory.ALO</Land_Model_Name>
+		<Icon_Name>i_button_seb_droidfactory.tga</Icon_Name>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>

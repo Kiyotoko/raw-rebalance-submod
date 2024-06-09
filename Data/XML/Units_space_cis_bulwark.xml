@@ -74,17 +74,17 @@
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0><!-- From 4 -->
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0><!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 4 -->
+		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
-		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 2</Reserve_Spawned_Units_Tech_0><!-- From 8 -->
-		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0><!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- From 8 -->
+		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0> <!-- From 2 -->
 
 		<!-- On Tech 4, replace the CIS Bomber with a Hyena -->
 
-		<Starting_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 2</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>CIS_Mankvim_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>CIS_Mankvim_Squadron, 2</Reserve_Spawned_Units_Tech_4>
 
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_4>
@@ -155,7 +155,7 @@
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-		<Population_Value>4</Population_Value><!-- Rebalance Note: Changed from 3 -->
+		<Population_Value>3</Population_Value>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>

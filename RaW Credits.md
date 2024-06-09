@@ -1,50 +1,215 @@
 # Republic at War
 
-Thank You for installing Republic at War. Please take a moment to read through this "credits" and also we advise you to read the manual located in your install directory in order to acclamate you with the mods many new features.
+Thank You for installing Republic at War. Please take a moment to read through this file to appreciate the massive amount of that that was put into the mod. 
+
+If you have any question or you find your own work uncredited, please get in contact with us.
+
+Also we advise you to read the manual located in your install directory in order to acclamate you with the mods many new features.
 
 ## Thanks and special mentions
 
 - We'd like to thank everyone who contributed to this release! A huge thanks goes to all of our testers. We take quality control seriously and field-testing changes before they go live is a key part of that process.
-- Thank **Bullet** and the AoTr team for their encouragement, and assistance. Also thank Jeroen and the Remake team for their help and assistance.
+- We would like to thank **The One Bullet** and the entire AoTR team for their encouragement, and generous assistance.
 - Also thank **Farseer** for his help and generous contributions
-- Also thank **Jay the Gam3r** for his encouragement and support
-- Also thanks to **SmallPox** (PR) **Kad_Venku** (former YVaW) for the development of many tools which will make it possible to have shorter release cycles of Republic at War.
+- Also thanks to **SmallPox** (EaWX) **Kad_Venku** (former YVaW) for the development of many tools which will make it possible to have shorter release cycles of Republic at War.
 
 
 ## Permissions and asset usage:
 
-If you intend to use ANY and we stress the word ANY asset from this mod, be it a sound file, skin, particle, model, map, prop, lua, xml, icon, graphic file, animation, etc. Then this guide will explain all this. 
-If you wish to use any of the above in your mod the below credit file for the corresponding item must be used in your credits. 
-If you plan to use a specific model then the corresponding model credit line must be used exactly as it appears here. 
-If this is done properly then you do not need permission to use anything in this mod. If this is not done as exactly prescribed as above then you do NOT have permission to use any of the above items.
-If you wish to **edit** one of the above items that includes **improve**, **change**, **correct**, **alter**, or any other word you can think of for changing something you still must include the credit file exactly as it appears.  After that you may add what you did to change the item.
+### Version 1.4 Asset Usage and Permissions 
+
+Usage of Republic at War Assets from version 1.4 and up is ***explicitly prohibited*** witout *written* permission from **z3r0x** and the 2nd listed asset creator. 
+
+- Assets tagged with `Commissioned` are commissioned or contain commissioned work. The RaW Team has written and exclusive permission to distribute their work for Republic at War solely.
+- Assets tagged with `Replaced` got updated from version 1.3.x.
+
+*Assets used from versions 1.0 to 1.3.x remain free to use as long as the below guidelines are met.*
+
+Thanks for your understanding  
+Republic at War Modding Team
+
+---
+
+### Version 1.0 - 1.3 Asset Usage and Permissions 
+
+If you wish to use any asset from from version 1.3.x or below in your mod the corresponding item must be credited properly. In that case you do not need further permission. This also includes modifications to those assets.
 
 Below are examples of our credit and a acceptable credit line for someone who has changed a item.
 
 ```
-ModelFile: Mesh- z3r0x |Animation- z3r0x |Skin- z3r0x | Rigging- z3r0x   --GOOD
+ModelFile: Mesh- z3r0x | Animation- z3r0x | Skin- z3r0x | Rigging- z3r0x
+
+Another ModelFile: Mesh-z3r0x | Animation- z3r0x | Skin- z3r0x | Rigging- z3r0x | Low poly mesh edits- THIS IS YOU
 ```
 
-This is a perfect example. Next a credit line for someone who changed something. 
+## Asset Credits: 1.4 (restricted usage)
 
-```
-ModelFile: Mesh-z3r0x | Animation- z3r0x |Skin- z3r0x | Rigging- z3r0x | Low poly mesh edits- EAWmodmaker dude
-```
- 
-Above is a perfect example of someone who has made some changes to a item. Now we used models as examples but this will apply to any of the items in the mod. 
-If you agree to all this then you may use anything you wish with no permission needed and no PMs or emails telling us it will be in your mod etc. It goes a long way to be honest, so please provide credit the proper way. 
-You would be amazed at how well things would go when proper and *CORRECT* credit is given to authors.  
+Space Build Pads and turrets `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer
 
-Thanks 
+AT-TE `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer
 
-Republic at War Modding Team
+Clone Personal Walker `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer
 
-----
+AAT Tank `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer/z3r0x
+
+AAT Wreck `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer 
+
+Waterfall `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer 
+
+Space Debri and Derlicts `Commissioned`
+Mesh-Kharak | Texture-Kharak | Rigging-z3r0x
+
+Luckerhulk Control Ship (Mar Tuuk's Flagship)
+Mesh-Jeroen | Texture-Jeroen | Rigging-z3r0x
+
+Invincible-Class Heavy cruiser
+Mesh-Kharak | Texture-Kharak | Rigging-z3r0x
+
+Chandrila Props (W_chandrila_building_1 - 9 and other items tagged as Chanrila)
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
+
+Centerpoint Station
+Mesh-Doci | Texture-Doci | Rigging-z3r0x
+
+Chemical Tank (W_chemical_tank)
+Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
+
+Christophsis Props
+Mesh-Lucasarts/Barlex | Texture-Lucasarts/Barlex | Rigging-Barlex
+
+Acklay
+Mesh-Lucasarts/z3r0x | Texture-Lucasart/z3r0x | Rigging-z3r0x | Animaton - DICE/z3r0x
+
+Speeder Truck (Animated and Parked)
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x | Animaton -z3r0x
+
+Espo Infantry (AoTr)
+Mesh-Vade Parvis/Sly442 |Texture-Vade Parvis | Rigging-Sly442 | Animation- Petroglyph
+
+Warpod (AoTr)
+Mesh-Sly442 | Texture-Sly442 | Rigging-Sly442 
+
+Mimbanese Soldiers
+Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animation - Petroglyph/z3r0x
+
+Etti Light Cruiser
+Mesh-Doci | Textures-Doci | Rigging-z3r0x 
+
+Lance Walker
+Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null | Animations- Petroglyph/Warb Null
+
+Mankvim Fighter (AoTr)
+Mesh-EvilleJedi | Textures-EvilleJedi/Maxim | Rigging-Maxim
+
+Republic BuidPad Land Turrets 
+Mesh-Warb Null | Textures-Warb Null/z3r0x | Rigging-z3r0x
+
+Forward Command Post 
+Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null
+
+Republic Militia
+Mesh-EA/z3r0x | Textures-EA/z3r0x | Rigging-z3r0x | Animations- Petroglyph/z3r0x
+
+ARC-170
+Mesh-Thomas3190/z3r0x | Textures-Thomas3190/z3r0x | Rigging-z3r0x | Animations- z3r0x
+
+AT-RT
+Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animations- z3r0x
+
+BARC
+Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animations- z3r0x
+
+Dreadnaught Cruiser
+Mesh-EvilleJedi/z3r0x | Textures-EvilleJedi/z3r0x | Rigging-z3r0x
+
+Droid Factory
+Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null | Animations-Warb Null
+
+CIS Militia
+Mesh-EA/z3r0x | Textures-EA/z3r0x | Rigging-z3r0x | Animations- Petroglyph/z3r0x
+
+Droideka
+Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animations- DICE/z3r0x
+
+Providence Cruiser/Carrier 
+Mesh-Warb Null/Arvis Taljik | Textures-Warb Null/Arvis Taljik | Rigging-z3r0x
+
+Heavy STAP
+Mesh-Kubli/z3r0x | Texture-Kubli/z3r0x | Rigging-z3r0x | Animation-z3r0x
+
+Binary Loadlifters
+Mesh-Sony/z3r0x | Textures-Sony/z3r0x | Rigging-z3r0x
+
+Colored Birds
+Mesh-Petroglyph/z3r0x | Texture-Petroglyph/z3r0x | Rigging-Petroglyph/z3r0x | Animation-Petroglyph
+
+Comm Tower
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x
+
+Crane
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x
+
+Republic and CIS Crates
+Mesh-Krome/z3r0x | Texture-Krome/z3r0x | Rigging-z3r0x
+
+Farm Props (items with "Farm*" tag)
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x | Animation-z3r0x
+
+Lehon Props (items with Lehon_*)
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
+
+Rakata Props
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
+
+Urban Buildings (Labled 1-16)
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
+
+Hutt Tower
+Mesh-z3r0x | Textures-z3r0x | Rigging-z3r0x
+
+Snail Tank
+Mesh-DICE/Maxim/z3r0x | Textures-DICE/Maxim/z3r0x | Rigging-z3r0x | Animation-z3r0x
 
 
-## Asset Credits:
+## Asset Credits: 1.0 - 1.3
 
 ### Models and Textures
+
+ARC170: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi/z3r0x | Rigging-z3r0x
+
+ATRT: `Replaced`
+Mesh:z3r0x\Wildcat | Animations-Wildcat | Texture-z3r0x | Rigging-z3r0x
+
+ATTE: `Replaced`
+Original Mesh:Psyk0Sith | Mesh Re-build-z3r0x\Tijil | Animations-Tijil | Texture- Mars Marshall(NeoMarz)\Qui-Rom\z3r0x | Rigging-z3r0x
+
+BARC: `Replaced`
+Mesh-Edan\z3r0x | Animations-Lucasarts\z3r0x | Texture-Lynx\z3r0x | Rigging-z3r0x\Warbnull
+
+Dreadnaught: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x\Bryant\Warbnull
+
+LAAT/c: `Replaced`
+Mesh:Pysch0fred/z3r0x/Warbnull | Textures-pysch0fred/Warbnull | Animations-Warbnull | Rigging-Warbnull (Also we would like to thank Nomada Firefox for obtaining this mesh and permission to use it)
+
+AAT: `Replaced`
+Mesh-Keeper of Faith\z3r0x | Animations-z3r0x | Texture-z3r0x\Keeper of Faith\Lucasarts | Rigging-z3r0x
+
+Droideka: `Replaced`
+Mesh-Darkrider | Texture-Lucasarts\Darkrider | Rigging-z3r0x
+
+Snailtank: `Replaced`
+Mesh-Codeuser\z3r0x | Texture-z3r0x | Rigging-z3r0x
+
+Centerpoint Station: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 
 Bull Rancor: 
 Mesh-z3r0x/Lucasarts | Animations-Lucasarts | Texture- z3r0x\Lucasarts Rigging-z3r0x
@@ -253,9 +418,6 @@ Mesh-z3r0x | Animations-z3r0x/Lucasarts | Texture-Lucasarts\z3r0x | Rigging-z3r0
 Acclamator:
 Mesh-Evillejedi | Texture-Evillejedi/z3r0x | Rigging-z3r0x
 
-ARC170:
-Mesh-Evillejedi | Texture-Evillejedi/z3r0x | Rigging-z3r0x
-
 ARC Gunship:
 Mesh:Bailknight/z3r0x | Animations-Bailknight | Texture-z3r0x | Rigging-z3r0x
 
@@ -264,15 +426,6 @@ Mesh:z3r0x | Animations-z3r0x | Texture-z3r0x | Rigging-z3r0x
 
 ATPT:
 Mesh:Codeuser/Kalo | Animations-Codeuser/z3r0x | Texture-Master Windu | Rigging- z3r0x
-
-ATRT:
-Mesh:z3r0x\Wildcat | Animations-Wildcat | Texture-z3r0x | Rigging-z3r0x
-
-ATTE:
-Original Mesh:Psyk0Sith | Mesh Re-build-z3r0x\Tijil | Animations-Tijil | Texture- Mars Marshall(NeoMarz)\Qui-Rom\z3r0x | Rigging-z3r0x
-
-BARC:
-Mesh-Edan\z3r0x | Animations-Lucasarts\z3r0x | Texture-Lynx\z3r0x | Rigging-z3r0x\Warbnull
 
 Botajef Transport:
 Mesh-Evillejedi | Animations-Warbnull |Texture-Evillejedi | Rigging-Warbnull
@@ -286,17 +439,11 @@ Mesh:Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 CR20:
 Mesh-EvilleJedi | Animations-z3r0x  | Texture-Evillejedi\z3r0x| Rigging-z3r0x
 
-Dreadnaught:
-Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x\Bryant\Warbnull
-
-ETA-2�s:
+ETA-2 Actis:
 Mesh-Evillejedi | Animations-z3r0x | Texture-Evillejedi\z3r0x | Rigging-z3r0x
 
 LAAT:
 Mesh-Bailknight\z3r0x | Animations-Bailknight\Warbnull | Texture-Bailknight\z3r0x| Rigging-z3r0x
-
-LAAT/c:
-Mesh:Pysch0fred/z3r0x/Warbnull | Textures-pysch0fred/Warbnull | Animations-Warbnull | Rigging-Warbnull (Also we would like to thank Nomada Firefox for obtaining this mesh and permission to use it)
 
 Light Assault Cruiser:
 Mesh-Warbnull | Texture-Warbnull\z3r0x | Rigging-Warbnull
@@ -437,9 +584,6 @@ Mesh-z3r0x/Lucasarts | Animations-Lucasarts | Texture- z3r0x\Lucasarts | Rigging
 B2 Battledroid:
 Mesh:Keeper of Faith | Animations-Codeuser | Texture-Keeper of Faith | Rigging-Codeuser
 
-AAT:
-Mesh-Keeper of Faith\z3r0x | Animations-z3r0x | Texture-z3r0x\Keeper of Faith\Lucasarts | Rigging-z3r0x
-
 Aurra Sings Fighter:
 Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
 
@@ -457,9 +601,6 @@ Mesh-z3r0x | Animations-z3r0x\Petroglyph | Texture-z3r0x | Rigging-z3r0x
 
 Droid Bomber:
 Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
-
-Droideka:
-Mesh-Darkrider | Texture-Lucasarts\Darkrider | Rigging-z3r0x
 
 Asajj Ventress Fighter:
 Mesh-Evillejedi | Animations-z3r0x | Texture-Evillejedi | Rigging-z3r0x
@@ -512,9 +653,6 @@ Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 Sheathipede:
 Mesh-Warbnull | Animations-Warbnull\Jeroen | Texture-Warbnull | Rigging-Warbnull
 
-Snailtank:
-Mesh-Codeuser\z3r0x | Texture-z3r0x | Rigging-z3r0x
-
 STAP:
 Mesh-z3r0x | Animations-z3r0x | Texture- z3r0x\Lucasarts | Rigging-z3r0x
 
@@ -550,9 +688,6 @@ Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
 
 Cato Neimodia Streetlight:
 Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
-
-Centerpoint Station:
-Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 
 Christophis Crystals:
 Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
@@ -770,7 +905,9 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 - Credit goes to **CCArggee** for the following maps:
 	Endor (Multiplayer)
 - Credit goes to **RadicalEdward2** for the following maps:
-	Bespin, Corellia, Honoghr, Mustafar, Rhen Var, Tatooine, Tibrin, Yag'Dhul, Ringo Vinda
+	Bespin, Corellia, Honoghr, Mustafar, Rhen Var, Tatooine, Tibrin, Yag'Dhul, Ringo Vinda, Mimban, Lehon, Vulpter
+- Credit goes to the AoTR modding team for the following maps: Etti IV
+
 
 
 ### Code and Scripts
@@ -778,20 +915,22 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 - ALL Code/scripts, etc by **Republic at War Modding Team**, unless noted differently inside the files.
 - Additional script work by **SmallPox**, **Kad_Venku**, **MaxiM** and **Jesus7Freak**
 
-### SFX and VFX
+### SFX, VFX and Music
+*VFX credits only for english localization. See below for other languages if available.*
 
-- SFX and VFX are copyright of Disney/Lucasfilm LTD/LucasArts, unless noted differently.
+- SFX, VFX and Music are copyright of Disney/Lucasfilm LTD/LucasArts, unless noted differently.
 - Generic Battledroid Sounds by **z3r0x** and **E9**
 - Vulture droid sounds etc were composed by **Marios Aristopoulos**
 - Vulture droid Engines composed by **z3r0x**
-- Addutitional Droid VFX by **RadicalEdward2**
-- Explosions by **Marios Aristopoulos**
+- Addutitional Droid, Hyena Bomber and Trench, Mar Tuuk VFX by **RadicalEdward2**
+- The following characters contain additional AI generated VFX: Count Dooku, B1   
+- Explosion SFX by **Marios Aristopoulos**
 
 ### 2D-Art
 
-- All Icons by **z3r0x**, **Warbnull** and **AnakinRaW** with additional work by **vjeko1701**.
-- Splash screen by **GP1701**
-- Galaxy textures by **Elratie**
+- All Icons by **z3r0x**, **Warbnull** and **AnakinRaW** with additional work by **vjeko1701** and **JPJones**.
+- Splash screen by **CCArggee**
+- Galaxy textures by **Jeroen**
 
 ### Text
 
@@ -800,4 +939,12 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 ### Videos
 
 - All videos are copyright of Lucasfilm LTD. Videos prepared by **AnakinRaW**
-- Into Videos by **AnakinRaW**
+- Into Videos and Holograms by **AnakinRaW**
+
+## Localizations
+
+### German
+
+- News Texts written by **AnakinRaW**, **GP1701**, **Storm258**, **\_1ZAB2zab3ZAB\_**
+- SFX and VFX are copyright of Disney/Lucasfilm LTD/LucasArts, unless noted differently.
+- The following voice lines are owned by the Republic at War Team: **Durge**, **CIS Spaceships and Station**, **HAG**, **Snailtank**.

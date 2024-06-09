@@ -8,7 +8,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>TIE_Fighter</Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_Z95_CLONE.tga</Icon_Name>
 		<Space_Model_Name>RV_Z-95.ALO</Space_Model_Name>
 		<Mass>0.995</Mass>
 		<Scale_Factor>0.35</Scale_Factor><!-- From 0.6 -->
@@ -132,7 +132,7 @@
 		<Encyclopedia_Good_Against/>
 		<Encyclopedia_Vulnerable_To>TIE_Fighter</Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>RV_Z-95.ALO</Space_Model_Name>
-		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_Z95_CLONE.tga</Icon_Name>
 
 		<Mass>0.995</Mass>
 		<Scale_Factor>0.6</Scale_Factor>
@@ -302,7 +302,7 @@
 		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
-		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_Z95_CLONE.tga</Icon_Name>
 		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -374,7 +374,7 @@
 		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
-		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_Z95_CLONE.tga</Icon_Name>
 		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

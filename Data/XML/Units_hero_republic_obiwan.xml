@@ -689,13 +689,15 @@
 		<Encyclopedia_Vulnerable_To>Hammer_Class_Picket Tri_Droid_Fighter Cis_Patrol_Frigate</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_DELTA7.TGA</Icon_Name>
 		<Space_Model_Name>ReV_delta7b_obiwan.ALO</Space_Model_Name>
-		<Scale_Factor>0.1</Scale_Factor>
+		<Scale_Factor>0.05</Scale_Factor><!-- From 0.1 -->
 		<Select_Box_Scale>300</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
 		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Guard_Chase_Range>2000.0</Guard_Chase_Range><!-- Added -->
+		<Idle_Chase_Range>1000.0</Idle_Chase_Range><!-- Added -->
 		<Mass>0.98</Mass>
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>4.5</Min_Speed>

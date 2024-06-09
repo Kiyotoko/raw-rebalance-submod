@@ -219,15 +219,35 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
 		<Fire_Cone_Width>120.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_ATST_Blaster_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.7</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>150.0</Fire_Range_Distance>
+		<Fire_Range_Distance>200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_AAT_Side_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
+	</HardPoint>
+	
+	<HardPoint Name="HP_AAT_01">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Fire_Cone_Width>120.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_ATST_Blaster_Cannon_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.7</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_AAT_Side_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
@@ -974,10 +994,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HEAVY_LC</Tooltip_Text>
-		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-		
+		<Health>150.0</Health>
 		<Model_To_Attach>SeV_Conqueror_Turret01.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T01</Attachment_Bone>
 		<Collision_Mesh>HP_T01</Collision_Mesh>
@@ -992,21 +1009,29 @@
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>120.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
+		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
+		
 		<Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_01</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
-		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count><!-- need to be tweaked -->
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>400.0</Fire_Range_Distance><!-- need to be tweaked -->
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
 		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
 
-		<Fire_Category_Restrictions>Infantry,  Vehicle, Structure</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Air, 2.0</Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
 
 
@@ -1014,7 +1039,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-				
+		<Health>150.0</Health>		
 		<Model_To_Attach>SeV_Conqueror_Turret02.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T02</Attachment_Bone>
 		<Collision_Mesh>HP_T02</Collision_Mesh>
@@ -1029,31 +1054,36 @@
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>120.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
+		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_02</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_02</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
-		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count><!-- need to be tweaked -->
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>400.0</Fire_Range_Distance><!-- need to be tweaked -->
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
 		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
 
-		<Fire_Category_Restrictions>Infantry,  Vehicle, Structure</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Air, 2.0</Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
 
 	<Hardpoint Name="HP_AA_03_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HEAVY_LC</Tooltip_Text>
-		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-		
+		<Health>150.0</Health>
+				
 		<Model_To_Attach>SeV_Conqueror_Turret03.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T03</Attachment_Bone>
 		<Collision_Mesh>HP_T03</Collision_Mesh>
@@ -1068,29 +1098,35 @@
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>120.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
+		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_03</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_03</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
-		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count><!-- need to be tweaked -->
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>400.0</Fire_Range_Distance><!-- need to be tweaked -->
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
 		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
 
-		<Fire_Category_Restrictions>Infantry,  Vehicle, Structure</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Air, 2.0</Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
 
 	<Hardpoint Name="HP_AA_04_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+		<Health>150.0</Health>
 		
 		<Model_To_Attach>SeV_Conqueror_Turret04.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T04</Attachment_Bone>
@@ -1106,30 +1142,36 @@
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>120.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
+		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_04</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_04</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
-		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count><!-- need to be tweaked -->
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>400.0</Fire_Range_Distance><!-- need to be tweaked -->
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
 		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
 
-		<Fire_Category_Restrictions>Infantry,  Vehicle, Structure</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Air, 2.0</Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
 
 	<Hardpoint Name="HP_AA_05_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-		
+		<Health>150.0</Health>
+				
 		<Model_To_Attach>SeV_Conqueror_Turret05.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T05</Attachment_Bone>
 		<Collision_Mesh>HP_T05</Collision_Mesh>
@@ -1145,21 +1187,47 @@
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>120.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
+		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_05</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_05</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
-		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count><!-- need to be tweaked -->
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>400.0</Fire_Range_Distance><!-- need to be tweaked -->
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
 		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
 
-		<Fire_Category_Restrictions>Infantry,  Vehicle, Structure</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Air, 2.0</Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
+	<!-- Heavy STAP -->
+	<HardPoint Name="HP_Heavy_STAP_00">
+		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>80.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ground_to_Ground_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>9.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>9.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_MPTL_Tank_Fire</Fire_SFXEvent>
+		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+	</HardPoint>
 
 </HardPoints_Cis_Starbase>

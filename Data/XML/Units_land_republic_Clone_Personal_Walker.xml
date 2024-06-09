@@ -2,38 +2,24 @@
 
 
 
-<AT_RT_Data>
+<CPW_Data>
 
 
 
-
-
-
-
-
-	<GroundVehicle Name="AT_RT_Walker">
+	<GroundVehicle Name="Clone_Personal_Walker">
 		<LOD_Bias>4</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>TEXT_UNIT_AT_RT_WALKER</Text_ID>
-		<Encyclopedia_Good_Against>Battledroids Stap</Encyclopedia_Good_Against>
+		<Text_ID>TEXT_UNIT_CPW_SQUAD</Text_ID>
+		<Encyclopedia_Good_Against>Battledroids Super_Battledroid Stap</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Homing_Spider_Droid Persuader_Droid_Enforcer AAT_Tank</Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ATRT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CPW TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>REV_ATRT.ALO</Land_Model_Name>
-		<Land_Terrain_Model_Mapping>
-			Temperate, 			REV_ATRT_CAMO.ALO,
-			Urban, 				REV_ATRT.ALO,
-			Arctic, 			REV_ATRT.ALO,
-			Volcanic, 			REV_ATRT.ALO,
-			Desert, 			REV_ATRT.ALO,
-			Forest, 			REV_ATRT_CAMO.ALO,
-			Swamp, 				REV_ATRT_CAMO.ALO
-		</Land_Terrain_Model_Mapping>
+		<Land_Model_Name>REV_CPW.ALO</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING, SQUASH, HUNT</LandBehavior>
+		<LandBehavior>AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING, SQUASH, HUNT, TURRET</LandBehavior>
 		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
@@ -42,14 +28,14 @@
 		<Ranking_In_Category>7</Ranking_In_Category>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.7</Scale_Factor>
+		<Scale_Factor>0.19</Scale_Factor>
 
-		<Movement_Animation_Speed>0.8117</Movement_Animation_Speed>
+		<Movement_Animation_Speed>8.0</Movement_Animation_Speed>
 		<No_Colorization_Color>157, 280, 129, 255</No_Colorization_Color>
 		<Rotation_Animation_Speed>2.2</Rotation_Animation_Speed>
-		<Max_Speed>2.1</Max_Speed>
-		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
+		<Max_Speed>0.9</Max_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>2.0</Stopped_Rate_Of_Turn>
 		<Walk_Transition>No</Walk_Transition>
 		<Has_Pre_Turn_Anim>Yes</Has_Pre_Turn_Anim>
 		<Min_Speed_Fraction_For_Turn>.4</Min_Speed_Fraction_For_Turn>
@@ -69,7 +55,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
 		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
-		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
+		<Attack_Animation_Is_Overlay>No</Attack_Animation_Is_Overlay>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -79,37 +65,35 @@
 		<Size_Value>75</Size_Value>
 
 		<Armor_Type>Armor_ATST</Armor_Type>
-		<Damage_Type>Damage_ATST</Damage_Type>
-		<Projectile_Damage>7.0</Projectile_Damage>
 		<Damage>5</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>425</Tactical_Health>
+		<Tactical_Health>450</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
-		<Projectile_Types>Proj_ATRT_Blaster_Cannon_Blue</Projectile_Types>
+		<Projectile_Types>Proj_ATPT_Blaster_Cannon</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.8</Projectile_Fire_Recharge_Seconds><!-- From 2 -->
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>240.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>275.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>270.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust><!-- 18 -->
 
-		<!--<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
-		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
+		<Turret_Bone_Name>B_Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel_00</Barrel_Bone_Name>
 		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>-->
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
-		<!--<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
-		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>-->
+		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
 
 		<Targeting_Fire_Inaccuracy>Infantry, 10.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
@@ -135,8 +119,8 @@
 		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 
-		<CategoryMask>Vehicle | AntiVehicle</CategoryMask>
-		<Icon_Name>I_BUTTON_ATRT.TGA</Icon_Name>
+		<CategoryMask>Vehicle | AntiInfantry</CategoryMask>
+		<Icon_Name>I_BUTTON_CPW.TGA</Icon_Name>
 		<MovementClass>Walker</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -157,10 +141,10 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>150.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Scale>100</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 
@@ -175,7 +159,7 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 
 		<Score_Cost_Credits>37.5</Score_Cost_Credits>
-		<Influences_Capture_Point>True</Influences_Capture_Point>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
@@ -231,10 +215,10 @@
 
 
 
-	<GroundCompany Name="Republic_Light_Recon_Squad">
+	<GroundCompany Name="Republic_CPW_Squad">
 		<LOD_Bias>4</LOD_Bias>
-		<Text_ID>TEXT_UNIT_AT_RT_WALKER</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ATRT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_CPW_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CPW TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Battledroids Super_Battledroid Stap</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Homing_Spider_Droid Persuader_Droid_Enforcer AAT_Tank</Encyclopedia_Vulnerable_To>
@@ -243,7 +227,7 @@
 		<Damage>20</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>325</Build_Cost_Credits>
+		<Build_Cost_Credits>385</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
@@ -260,10 +244,10 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Republic_CR20_Transport</Company_Transport_Unit>
-		<Company_Units>AT_RT_Walker, AT_RT_Walker, AT_RT_Walker, AT_RT_Walker</Company_Units>
+		<Company_Units>Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
-		<Icon_Name>i_button_atrt.tga</Icon_Name>
-		<GUI_Model_Name>REV_ATRT.ALO</GUI_Model_Name>
+		<Icon_Name>i_button_cpw.tga</Icon_Name>
+		<GUI_Model_Name>REV_CPW.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 15</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -318,4 +302,4 @@
 
 
 
-</AT_RT_Data>
+</CPW_Data>

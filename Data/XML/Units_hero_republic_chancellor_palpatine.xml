@@ -12,7 +12,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_CHANCELLOR_PALPATINE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CHANCELLOR</Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_CHANCELLOR_PALPATINE.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_PALPATINE.tga</Icon_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->

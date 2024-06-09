@@ -116,9 +116,9 @@
 
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Recusant</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>Unit_Complete_Wavecrest</SFXEvent_Build_Complete>
 		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Unit_Select_Recusant</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Frigate</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Recusant</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Recusant</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Recusant</SFXEvent_Attack>
@@ -136,10 +136,10 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_CIS_HP_Gravity_Well</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_CIS_HP_Tractor_Beam</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_CIS_HP_Mass_Driver</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>

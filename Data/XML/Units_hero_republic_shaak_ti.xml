@@ -17,7 +17,7 @@
 		<Land_Model_Name>REI_SHAAKTI.ALO</Land_Model_Name>
 		<Show_Hero_Head>Yes</Show_Hero_Head>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
-		<Icon_Name>I_BUTTON_JEDI_SHAAK_TI_BUST.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_SHAAK_TI.TGA</Icon_Name>
 
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT</LandBehavior>
@@ -307,7 +307,7 @@
 		<Text_ID>TEXT_HERO_JEDI_SHAAK_TI</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_SHAAK_TI</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_JEDI_SHAAK_TI_BUST.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_SHAAK_TI.TGA</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Empire</Affiliation>

@@ -44,7 +44,7 @@
 		<Death_Clone_Is_Obstacle>true</Death_Clone_Is_Obstacle>
 
 		<Destruction_Survivors>
-			Republic_Clonetrooper_P1_Squad, 1.0
+			Republic_Clonetrooper_P1_Squad, 2.0
 
 		</Destruction_Survivors>
 
@@ -65,7 +65,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets>Alderaan, Anaxes, Bothawui, Cato_Neimoidia, Corulag, Coruscant, Ithor, Muunilinst, Naboo, BF2_Geonosis, BF2_Coruscant</Required_Planets>
+		<Required_Planets>Alderaan, Anaxes, Bothawui, Cato_Neimoidia, Corulag, Coruscant, Ithor, Muunilinst, Naboo, Geonosis, Hypori, Vulpter, Etti_IV, Foerost, BF2_Geonosis, BF2_Coruscant</Required_Planets>
 		<Tactical_Health>1500</Tactical_Health>
 		<Icon_Name>i_button_rb_researchfacility.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -195,7 +195,7 @@
 		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
-			BattleDroid_Squad, 1.0
+			BattleDroid_Squad, 4.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -217,7 +217,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets>Alderaan, Anaxes, Bothawui, Cato_Neimoidia, Corulag, Coruscant, Ithor, Muunilinst, Naboo, BF2_Geonosis, BF2_Coruscant</Required_Planets>
+		<Required_Planets>Alderaan, Anaxes, Bothawui, Cato_Neimoidia, Corulag, Coruscant, Ithor, Muunilinst, Naboo, Geonosis, Hypori, Vulpter, Etti_IV, Foerost, BF2_Geonosis,    BF2_Coruscant</Required_Planets>
 		<Tactical_Health>1500</Tactical_Health>
 		<Icon_Name>I_BUTTON_CIS_RESEARCHCENTER.TGA</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -353,7 +353,7 @@
 		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
-			Republic_Clonetrooper_P1_Squad, 1.0
+			Republic_Clonetrooper_P1_Squad, 2.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -429,16 +429,16 @@
 
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_5>Republic_Clonetrooper_P2_Company, 2</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>Republic_Clonetrooper_P2_Company, 4</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Republic_Clonetrooper_P2_Company, -1</Reserve_Spawned_Units_Tech_5>
 
-		<Starting_Spawned_Units_Tech_0>Barc_Speeder, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Barc_Speeder, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Barc_Speeder, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_5>Barc_Speeder, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>Barc_Speeder, 6</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Barc_Speeder, -1</Reserve_Spawned_Units_Tech_5>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
@@ -492,8 +492,8 @@
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
 
 		<GUI_Row>0</GUI_Row>
-		<Land_Model_Name>UB_DROIDWORKS.ALO</Land_Model_Name>
-		<Icon_Name>i_button_ub_droidworks.tga</Icon_Name>
+		<Land_Model_Name>SeB_droid_factory.ALO</Land_Model_Name>
+		<Icon_Name>i_button_seb_droidfactory.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
@@ -527,7 +527,7 @@
 		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
-			BattleDroid_Squad, 1.0
+			BattleDroid_Squad, 4.0
 
 		</Destruction_Survivors>
 
@@ -595,6 +595,7 @@
 				Cis_Stap_Squad,
 				Destroyer_Droid_Company,
 				Cis_Super_BattleDroid_Squad,
+				Cis_Heavy_Stap_Squad,
 				Field_Com_Cis_Team,
 				CL_Droid_Systems_L1_Upgrade_NO_PREREQ,
 				CL_Droid_Systems_L2_Upgrade_NO_PREREQ
@@ -605,14 +606,18 @@
 
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>BattleDroid_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>BattleDroid_Squad, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>BattleDroid_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Destroyer_Droid, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Destroyer_Droid, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stap, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Stap, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Cis_Super_BattleDroid_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cis_Super_BattleDroid_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cis_Super_BattleDroid_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
-		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Bones>SPAWN_01</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
 
@@ -709,7 +714,7 @@
 		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
-			Republic_Clonetrooper_P1_Squad, 1.0
+			Republic_Clonetrooper_P1_Squad, 2.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -771,6 +776,7 @@
 
 				Sabertank_Company,
 				Republic_Light_Recon_Squad,
+				Republic_CPW_Squad,
 				AT_PT_Company,
 				RL_Light_Reflective_Armor_L1_Upgrade,
 				RL_Light_Reflective_Armor_L2_Upgrade,
@@ -786,6 +792,8 @@
 		<AI_Combat_Power>500</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>AT_RT_Walker, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>AT_RT_Walker, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_PT, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_PT, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -871,7 +879,7 @@
 		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
-			BattleDroid_Squad, 1.0
+			BattleDroid_Squad, 4.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -929,8 +937,10 @@
 		<Property_Flags>InBase</Property_Flags>
 
 		<AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>AAT_Tank, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AAT_Tank, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>AAT_Tank, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Heavy_Artillery_Gun, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Heavy_Artillery_Gun, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -996,7 +1006,7 @@
 		<Variant_Of_Existing_Type>R_Ground_Light_Vehicle_Factory</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Destruction_Survivors>
-			BattleDroid_Squad, 1.0
+			BattleDroid_Squad, 4.0
 		</Destruction_Survivors>
 	</SpecialStructure>
 
@@ -1004,7 +1014,7 @@
 		<Variant_Of_Existing_Type>E_Ground_Light_Vehicle_Factory</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Destruction_Survivors>
-			Republic_Clonetrooper_P1_Squad, 1.0
+			Republic_Clonetrooper_P1_Squad, 2.0
 		</Destruction_Survivors>
 	</SpecialStructure>
 
@@ -1054,7 +1064,7 @@
 		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
-			Republic_Clonetrooper_P1_Squad, 1.0
+			Republic_Clonetrooper_P1_Squad, 2.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1130,8 +1140,10 @@
 
 
 		<AI_Combat_Power>800</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>AT_AP, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>AT_AP, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT-TE_Walker, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT-TE_Walker, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AV_7_Antivehicle_Cannon, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AV_7_Antivehicle_Cannon, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1218,7 +1230,7 @@
 		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
-			BattleDroid_Squad, 1.0
+			BattleDroid_Squad, 4.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1272,8 +1284,12 @@
 		<Property_Flags>InBase</Property_Flags>
 
 		<AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Persuader_Droid_Enforcer, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Persuader_Droid_Enforcer, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Persuader_Droid_Enforcer, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Hailfire_Tank, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hailfire_Tank, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Homing_Spider_Droid, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Homing_Spider_Droid, -1</Reserve_Spawned_Units_Tech_0>
 
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
@@ -1353,7 +1369,7 @@
 		<Variant_Of_Existing_Type>R_Ground_Heavy_Vehicle_Factory</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Destruction_Survivors>
-			BattleDroid_Squad, 1.0
+			BattleDroid_Squad, 4.0
 		</Destruction_Survivors>
 	</SpecialStructure>
 
@@ -1361,7 +1377,7 @@
 		<Variant_Of_Existing_Type>E_Ground_Heavy_Vehicle_Factory</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Destruction_Survivors>
-			Republic_Clonetrooper_P1_Squad, 1.0
+			Republic_Clonetrooper_P1_Squad, 2.0
 		</Destruction_Survivors>
 	</SpecialStructure>
 
@@ -1403,7 +1419,7 @@
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
 
 		<Destruction_Survivors>
-			Republic_Clonetrooper_P1_Squad, 1.0
+			Republic_Clonetrooper_P1_Squad, 2.0
 
 		</Destruction_Survivors>
 
@@ -1454,7 +1470,7 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<AI_Combat_Power>150</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Republic_Arc_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Arc_Trooper_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_Arc_Trooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>

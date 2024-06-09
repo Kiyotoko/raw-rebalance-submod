@@ -587,10 +587,14 @@
 		<!-- A or B present and C not present -->
 		<!-- Death Star present, Luke not present -->
 		<!-- A or B present and C not present -->
-		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Emperor_Palpatine, 		None, 				None, 				GRS_INTRO_SPACE_ATTACK_R_05</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>
+		<!-- A or B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> 	Nute_Gunray, 	  			None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Just Nute Gunray present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Chancellor_Palpatine, 		None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_04</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>
 		<!-- Just Empoeror Palpatine present -->
 		<!-- A or B present and C not present -->
-		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Empire_Star_Base_5, 				None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_01</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Mandator_Super_Star_Destroyer, 				None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_01</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>CSA_Invincible_Heavy_Cruiser, 				None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_02</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Hutt_IPV1_Craft, 				None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_03</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>
 		<!-- Just Mon Mothma present -->
 		<!-- A or B present and C not present -->
 		<!-- Just Mon Mothma present -->
@@ -657,7 +661,7 @@
 		</Land_Advisor_Hints>
 		<!-- End Droid Advisor Speech/Text -->
 		<Allies>Neutral, Civilian</Allies>
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Underworld_ORG</Enemies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Underworld_ORG, Corp_Sector_Authority</Enemies>
 		<Can_Control_Planets>true</Can_Control_Planets>
 		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
 		<Multiplayer_Beacon_Type>R_Multiplayer_Beacon</Multiplayer_Beacon_Type>
@@ -958,6 +962,11 @@
 		<SFXEvent_Unit_Type_Spotted>Mace_Windu,							Unit_Announce_Windu_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Destroyer_Droid,						Unit_Announce_Droideka_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Vulture_Droid_Fighter,						Unit_Announce_Vulture_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>AAT_Tank,						Unit_Announce_AAT_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Hailfire_Tank,						Unit_Announce_Hailfire_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Persuader_Droid_Enforcer,						Unit_Announce_Snailtank_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Multi_Troop_Transport,						Unit_Announce_MTT_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Dwarf_Spider_Droid,						Unit_Announce_DSD_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Enemy_Spotted>Unit_See_Enemy_Clone_Trooper</SFXEvent_Enemy_Spotted>
 		<!-- =============================================== -->
 		<!-- EMPIRE SUPERWEAPON ANNOUNCEMENTS                -->
@@ -1225,8 +1234,8 @@
 		<SpeechEvent_Tactical_Intro_Land_Raid_Defender>REP_INTRO_LAND_DEFEND_R_00</SpeechEvent_Tactical_Intro_Land_Raid_Defender>
 		<SpeechEvent_Tactical_Intro_Land_Raid_Attacker>REP_INTRO_LAND_ATTACK_R_00</SpeechEvent_Tactical_Intro_Land_Raid_Attacker>
 		<!-- N/A for Empire since does not raid -->
-		<SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>REP_INTRO_LAND_ATTACK_R_00</SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>
-		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>REP_INTRO_LAND_DEFEND_R_00</SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
+		<SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>REP_INTRO_LAND_ATTACK_R_01</SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>
+		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>REP_INTRO_LAND_ATTACK_R_01</SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
 		<!-- Note that conditionals will be evaluated in the order below, so order/priority is important -->
 		<!-- -->
 		<!-- Luke object types (4) : 		  	Luke_Skywalker, Luke_Team, Luke_XWing, Red_Squadron				-->
@@ -1311,7 +1320,7 @@
 		</Land_Advisor_Hints>
 		<!-- End Droid Advisor Speech/Text -->
 		<Allies>Neutral, Civilian</Allies>
-		<Enemies>Rebel, Pirates, Hostile, Sarlacc, Underworld, Hutts, Civilian, Underworld_ORG</Enemies>
+		<Enemies>Rebel, Pirates, Hostile, Sarlacc, Underworld, Hutts, Civilian, Underworld_ORG, Corp_Sector_Authority</Enemies>
 		<Can_Control_Planets>true</Can_Control_Planets>
 		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
 		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
@@ -1358,7 +1367,7 @@
 		<Debug_Ground_Structures>Pirate_Command_Center</Debug_Ground_Structures>
 		<Scatters_From_Crushers>true</Scatters_From_Crushers>
 		<Allies>Neutral, Civilian</Allies>
-		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Hutts, Underworld_ORG</Enemies>
+		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Hutts, Underworld_ORG, Corp_Sector_Authority</Enemies>
 		<Easily_Bribed>Yes</Easily_Bribed>
 		<Can_Control_Planets>true</Can_Control_Planets>
 	</Faction>
@@ -1463,4 +1472,43 @@
 		<Allies>Neutral, Civilian</Allies>
 		<Enemies>Empire, Rebel, Pirates, Hostile, Underworld, Hutts, Underworld_ORG</Enemies>
 	</Faction>
+	
+	<Faction Name="Corp_Sector_Authority">
+		<Is_Debug_Switchable_To>No</Is_Debug_Switchable_To>
+		<Create_Player_In_Multiplayer_Games>Yes</Create_Player_In_Multiplayer_Games>
+		<Text_ID>TEXT_FACTION_CORPORATE</Text_ID>
+		<Icon_Name>i_icon_pirate.tga</Icon_Name>
+		<Alternate_Icon_Name>pirate_icon.tga</Alternate_Icon_Name>
+		<Ground_Base_Icon_Name>groundbase_icon.tga</Ground_Base_Icon_Name>
+		<Star_Base_Icon_Name>spacestation_icon.tga</Star_Base_Icon_Name>
+		<Ground_Transport_Icon_Name>trooper_icon.tga</Ground_Transport_Icon_Name>
+		<Fleet_Icon_Name>i_icon_fleet.tga</Fleet_Icon_Name>
+		<Ship_Icon_Name>g_fleet.tga</Ship_Icon_Name>
+		<Squadron_Icon_Name>g_squad.tga</Squadron_Icon_Name>
+		<Color>8, 252, 2, 255</Color>
+		<No_Colorization_Color>8, 252, 2, 255</No_Colorization_Color>
+		<Display_Font_Color>8, 252, 2, 255</Display_Font_Color>
+		<Big_Fleet_Color>8, 252, 2, 255</Big_Fleet_Color>
+		<Credits_Accumulation_Factor>1.0</Credits_Accumulation_Factor>
+		<Planet_Icon_Scale>10.0</Planet_Icon_Scale>
+		<Planet_Icon_Offset>10.0, 10.0, -1.1</Planet_Icon_Offset>
+		<Is_Playable>False</Is_Playable>
+		<Primary_Enemy/>
+		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
+		<Is_Neutral>No</Is_Neutral>
+		<Force_Alignment>Neutral</Force_Alignment>
+		<Strategic_Map_Music_Event/>
+		<Space_Tactical_Unit_Cap>60</Space_Tactical_Unit_Cap>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
+		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
+		<Debug_Ground_Structures>CSA_Command_Center</Debug_Ground_Structures>
+		<Scatters_From_Crushers>true</Scatters_From_Crushers>
+		<Allies>Neutral, Civilian</Allies>
+		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Hutts, Underworld_ORG</Enemies>
+		<Easily_Bribed>Yes</Easily_Bribed>
+		<Can_Control_Planets>true</Can_Control_Planets>
+	</Faction>
+	
 </Factions>

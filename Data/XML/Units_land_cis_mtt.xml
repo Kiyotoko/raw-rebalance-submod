@@ -66,15 +66,15 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Battle_Droid</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Battle_Droid</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Battle_Droid</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Battle_Droid</SFXEvent_Guard>
+		<SFXEvent_Select>Unit_Select_MTT</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_MTT</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_DSD1</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_DSD1</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_CIS_Guard_Land</SFXEvent_Guard>
 		<SFXEvent_Engine_Idle_Loop>Unit_Gargantuan_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Gargantuan_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Assist_Move>Unit_Assist_Move_Battle_Droid</SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Battle_Droid</SFXEvent_Assist_Attack>
+		<SFXEvent_Assist_Move>Unit_Move_MTT</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_CIS_Assist_Attack_Land</SFXEvent_Assist_Attack>
 		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
@@ -119,7 +119,9 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Death_Clone>Damage_Normal, Multi_Troop_Transport_Death_Clone</Death_Clone>
+		<Destruction_Survivors>Battledroids, 8.0</Destruction_Survivors>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Destruction_Survivors>BattleDroid_Squad, 1.0</Destruction_Survivors>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- IMPORTANT! If you modify the ability below, please make same adjustments to unit's "Captured" clone. -->
 			<!-- I know this is awkward, hopefully we'll get a chance to re-write the code to fix it.   -Oksana -->
@@ -210,8 +212,8 @@
 		<Expensive_Bribe_Cost>90</Expensive_Bribe_Cost>
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Select_Battle_Droid</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete>Unit_Complete_MTT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_DSD1</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2800</Tactical_Build_Cost_Multiplayer>
 		<!--1800-->

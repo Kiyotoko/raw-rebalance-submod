@@ -68,6 +68,7 @@
 		<SFXEvent_Fire>Unit_Vulture_Droid_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Hyena</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Hyena</SFXEvent_Move>
+		<SFXEvent_Assist_Move>Unit_Patrol_Hyena</SFXEvent_Assist_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hyena</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Hyena</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Hyena</SFXEvent_Guard>

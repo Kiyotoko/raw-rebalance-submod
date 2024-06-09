@@ -15,19 +15,19 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_AAT_TANK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_AATD.tga</Icon_Name>
-		<Land_Model_Name>SeV_aat.ALO</Land_Model_Name>
+		<Land_Model_Name>SeV_aat_cis.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			sev_aat.ALO,
-			Urban, 				SeV_aat_blue.ALO,
-			Arctic, 			SeV_aat_blue.ALO,
-			Volcanic, 			SeV_aat_blue.ALO,
-			Desert, 			sev_aat.ALO,
-			Forest, 			sev_aat.ALO,
-			Swamp, 				SeV_aat_blue.ALO
+			Temperate, 			sev_aat_tf.ALO,
+			Urban, 				SeV_aat_cis.ALO,
+			Arctic, 			SeV_aat_cis.ALO,
+			Volcanic, 			SeV_aat_geo.ALO,
+			Desert, 			sev_aat_geo.ALO,
+			Forest, 			sev_aat_tf.ALO,
+			Swamp, 				SeV_aat_cis.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>SeV_aat.ALO</Land_Model_Anim_Override_Name>
+		<Land_Model_Anim_Override_Name>SeV_aat_cis.ALO</Land_Model_Anim_Override_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>0.8</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
 		<Deploys>No</Deploys>
@@ -59,7 +59,7 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
 		<Property_Flags>GoodInfantryCrusher</Property_Flags>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -78,7 +78,7 @@
 		<Turret_Targets_Air_Vehicles>9999</Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
 
-		<Projectile_Types>Proj_Ground_Laser_Cannon_Red_ATAT</Projectile_Types>
+		<Projectile_Types>Proj_Ground_Laser_Cannon_AAT</Projectile_Types>
 
 		<Land_FOW_Reveal_Range>310.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance><!-- From 400 -->
@@ -94,11 +94,9 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<HardPoints>
-				HP_AAT_00
-		</HardPoints>
+		<HardPoints>HP_AAT_00, HP_AAT_01</HardPoints>
 
-		<SFXEvent_Fire>Unit_Turbo_Tower_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_AAT_Turret_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Battle_Droid</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Battle_Droid</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
@@ -140,7 +138,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Select_Box_Scale>75</Select_Box_Scale>
+		<Select_Box_Scale>105</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Weather_Category>Hover</Weather_Category>
@@ -249,15 +247,15 @@
 		<Icon_Name>I_BUTTON_AATD.tga</Icon_Name>
 		<Land_Model_Name>SeV_aat.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			sev_aat.ALO,
-			Urban, 				SeV_aat_blue.ALO,
-			Arctic, 			SeV_aat_blue.ALO,
-			Volcanic, 			SeV_aat_blue.ALO,
-			Desert, 			sev_aat.ALO,
-			Forest, 			sev_aat.ALO,
-			Swamp, 				SeV_aat_blue.ALO
+			Temperate, 			sev_aat_tf.ALO,
+			Urban, 				SeV_aat_cis.ALO,
+			Arctic, 			SeV_aat_cis.ALO,
+			Volcanic, 			SeV_aat_geo.ALO,
+			Desert, 			sev_aat_geo.ALO,
+			Forest, 			sev_aat_tf.ALO,
+			Swamp, 				SeV_aat_cis.ALO
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>SeV_aat.ALO</Land_Model_Anim_Override_Name>
+		<Land_Model_Anim_Override_Name>SeV_aat_cis.ALO</Land_Model_Anim_Override_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>.95</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -330,21 +328,21 @@
 				HP_AAT_00
 		</HardPoints>
 
-		<SFXEvent_Fire>Unit_Turbo_Tower_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Sabertank</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Sabertank</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabertank</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Sabertank</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Move_Sabertank</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_AAT_Turret_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_AAT</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_MTT</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_DSD1</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_DSD1</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_CIS_Guard_Land</SFXEvent_Guard>
 		<SFXEvent_Turret_Rotating_Loop>Vehicle_Turret_Motor</SFXEvent_Turret_Rotating_Loop>
 		<SFXEvent_Engine_Idle_Loop>Unit_AAT_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_AAT_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Assist_Move>Unit_Move_Sabertank</SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack>Unit_Attack_Sabertank</SFXEvent_Assist_Attack>
-		<SFXEvent_Unit_Lost>RHD_Unit_Destroyed</SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started>RHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Assist_Move>Unit_Move_MTT</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_CIS_Assist_Attack_Land</SFXEvent_Assist_Attack>
+		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>UHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -523,8 +521,8 @@
 
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Select_Battle_Droid</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete>Unit_Complete_AAT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_DSD1</SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer><!-- From 350, for NORMAL AAT -->
@@ -536,28 +534,5 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</GroundCompany>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 </AAT_Tank_Data>
