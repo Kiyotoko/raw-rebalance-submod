@@ -1,5 +1,7 @@
-## v0.1.0
+## v1.0.0
 
+- Support for RaW v1.4.1
+- A LOT of balancing changes, as listed below:
 - Replaced Buildable Object Scarab Squadron with Vulture Droid Squadron in CIS Stabase for Level 1 and 2
 - Added Buildable Object CIS Bulwark for CIS Starbase Level 5
 - Replaced Buildable Object A6 Squadron with V19 Squadro in Republic Starbase for Level 1 and 2
