@@ -22,6 +22,7 @@ Usage of Republic at War Assets from version 1.4 and up is ***explicitly prohibi
 
 - Assets tagged with `Commissioned` are commissioned or contain commissioned work. The RaW Team has written and exclusive permission to distribute their work for Republic at War solely.
 - Assets tagged with `Replaced` got updated from version 1.3.x.
+- Assets with a different mod listed such as `AotR` or `Remake: Clone Wars Holdouts` we ask you reach out to them regarding use of their asset.
 
 *Assets used from versions 1.0 to 1.3.x remain free to use as long as the below guidelines are met.*
 
@@ -44,7 +45,40 @@ Another ModelFile: Mesh-z3r0x | Animation- z3r0x | Skin- z3r0x | Rigging- z3r0x 
 
 ## Asset Credits: 1.4 (restricted usage)
 
+Recalcitrant-class Light Cruiser (Remake: Clone Wars Holdouts)
+Mesh-Kharak | Texture-Kharak | Rigging-Emperor Niko | Coding-Dambo/JPJones
+
+CSA Station/CKS Yard (AoTr)
+Mesh-EvilleJedi/Steiner0815/z3r0x | Textures-EvilleJedi/Steiner0815 | Rigging-EvilleJedi/Steiner0815 | Coding-JPJones
+
+Golan 1 (AoTr)
+Mesh-EvilleJedi/Steiner0815/z3r0x | Textures-EvilleJedi/Steiner0815 | Rigging-EvilleJedi/Steiner0815 | Coding-JPJones
+
+Gladiator-class Star destroyer (AoTr)
+Mesh-(Gowron/Maxloef)/Steiner0815/z3r0x | Textures-(Gowron/Maxloef)/Steiner0815/z3r0x | Rigging-(Gowron/Maxloef)/Steiner0815/z3r0x | Coding-R3D2/JPJones
+
+Octuptarra Magna Tri-droid `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer/z3r0x | Animations-The Farseer | Coding-kasderan/JPJones
+
+RX-200 EMP Tank
+Mesh-Warb Null | Textures-Warb Null/z3r0x | Rigging-Warb Null | animations-z3r0x | Coding-AshUzumaki/JPJones
+
+RhinoDon Carrier (AoTr)
+Mesh-Sly442 | Textures-Sly442 | Rigging-Sly442 | Coding-JPJones
+
+ESPO Walker (AoTr)
+Mesh-EvilBobtheBobMesh | Texture-EvilBobtheBobMesh | Rigging-EvilBobtheBobMesh | Coding-JPJones
+
+Crabdroid
+Mesh-Lucasarts | Texture-Lucasarts | Rigging-z3r0x | Animation-Petroglyph/z3r0x
+
+Onderon Props
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
+
 Space Build Pads and turrets `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer
+
+Space mining Facilities `Commissioned`
 Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer
 
 AT-TE `Commissioned`
@@ -62,16 +96,22 @@ Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer
 Waterfall `Commissioned`
 Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer 
 
+Dreadnaught Cruiser `Commissioned`
+Mesh-Farseer | Textures-Farseer/z3r0x | Rigging-z3r0x
+
 Space Debri and Derlicts `Commissioned`
 Mesh-Kharak | Texture-Kharak | Rigging-z3r0x
 
 Luckerhulk Control Ship (Mar Tuuk's Flagship)
 Mesh-Jeroen | Texture-Jeroen | Rigging-z3r0x
 
+Munificent (Remake)
+Mesh-Jeroen/z3r0x | Texture-Jeroen | Rigging-z3r0x
+
 Invincible-Class Heavy cruiser
 Mesh-Kharak | Texture-Kharak | Rigging-z3r0x
 
-Chandrila Props (W_chandrila_building_1 - 9 and other items tagged as Chanrila)
+Chandrila Props (W_chandrila_building_1 - 9 and other items tagged as Chandrila)
 Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
 
 Centerpoint Station
@@ -124,9 +164,6 @@ Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animations- z3r0x
 
 BARC
 Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animations- z3r0x
-
-Dreadnaught Cruiser
-Mesh-EvilleJedi/z3r0x | Textures-EvilleJedi/z3r0x | Rigging-z3r0x
 
 Droid Factory
 Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null | Animations-Warb Null
@@ -193,8 +230,8 @@ Original Mesh:Psyk0Sith | Mesh Re-build-z3r0x\Tijil | Animations-Tijil | Texture
 BARC: `Replaced`
 Mesh-Edan\z3r0x | Animations-Lucasarts\z3r0x | Texture-Lynx\z3r0x | Rigging-z3r0x\Warbnull
 
-Dreadnaught: `Replaced`
-Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x\Bryant\Warbnull
+Dreadnaught Cruiser `Replaced`
+Mesh-EvilleJedi/z3r0x | Textures-EvilleJedi/z3r0x | Rigging-z3r0x
 
 LAAT/c: `Replaced`
 Mesh:Pysch0fred/z3r0x/Warbnull | Textures-pysch0fred/Warbnull | Animations-Warbnull | Rigging-Warbnull (Also we would like to thank Nomada Firefox for obtaining this mesh and permission to use it)
@@ -209,6 +246,9 @@ Snailtank: `Replaced`
 Mesh-Codeuser\z3r0x | Texture-z3r0x | Rigging-z3r0x
 
 Centerpoint Station: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
+
+Munificent: `Replaced`
 Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 
 Bull Rancor: 
@@ -626,9 +666,6 @@ Mesh-Evillejedi | Texture-Evillejedi | Rigging-Warbnull
 MTT:
 Mesh-z3r0x | Animations-z3r0x | Texture-Warbnull | Rigging-Warbnull\z3r0x
 
-Munificent:
-Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
-
 Nantex:
 Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 
@@ -905,8 +942,10 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 - Credit goes to **CCArggee** for the following maps:
 	Endor (Multiplayer)
 - Credit goes to **RadicalEdward2** for the following maps:
-	Bespin, Corellia, Honoghr, Mustafar, Rhen Var, Tatooine, Tibrin, Yag'Dhul, Ringo Vinda, Mimban, Lehon, Vulpter
-- Credit goes to the AoTR modding team for the following maps: Etti IV
+	Bespin, Corellia, Honoghr, Mustafar, Rhen Var, Tatooine, Tibrin, Yag'Dhul, Ringo Vinda, Mimban, Lehon, Vulpter, Onderon, Christophis
+- Credits goes to **AshUzumaki** for the following maps:
+	Bothawui, Kuat, Eriadu
+- Credit goes to the AoTR modding team for the following maps: Etti IV, Nar Shaddaa, Kashyyyk
 
 
 
@@ -919,6 +958,7 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 *VFX credits only for english localization. See below for other languages if available.*
 
 - SFX, VFX and Music are copyright of Disney/Lucasfilm LTD/LucasArts, unless noted differently.
+- "Battle Over Coruscant" by **Samuel Kim**
 - Generic Battledroid Sounds by **z3r0x** and **E9**
 - Vulture droid sounds etc were composed by **Marios Aristopoulos**
 - Vulture droid Engines composed by **z3r0x**
@@ -934,7 +974,7 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 
 ### Text
 
-- All text and descriptions written by **z3r0x**, **KillerHurdz** and **AnakinRaW** with additional work by **Daniel Cook**, **Unit757**, **Starwarsman222** and **RadicalEdward2**
+- All text and descriptions written by **z3r0x**, **KillerHurdz** and **AnakinRaW** with additional work by **JPJones**, **Devangelion**, **Daniel Cook**, **Unit757**, **Starwarsman222** and **RadicalEdward2**
 
 ### Videos
 

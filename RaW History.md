@@ -2,6 +2,156 @@
 
 #Republic At War: *A Call To Arms*
 
+**Version 1.4.5**
+
+## New Features
+- Onderon added as new Planet
+- New Republic Unit: Gladiator Class Star destroyer
+- New Republic Unit: RX-200 EMP Tank
+- New CIS Unit: Recalcitrant-class Light Cruiser
+- New CIS Unit: Octuptarra Magna Tri-droid
+- New CSA Units: CKS Station, Golan 1, RhinoDon Carrier, Strikebreaker, ESPO Walker
+
+## Updates
+- New Crabdroid Asset
+- Clone Z-95 Squadron Ability swapped from Hunt to Proton Torpedo Shot
+- 1 P38 squadron added to the Invisible Hand's fighter complement
+- 2 New Menu battles and new menu screen soundtrack
+
+
+## Balance Changes
+- Updated Reinforcements upgrades stats and vessels
+
+~~skirmish changes~~
+- Republic Elite fighters changed to elite forces. Added Gladiator to Open Circle Fleet buildable structure under elite forces 2 , moved Rothana Destroyer to Open Circle Fleet buildable structure under elite forces level 3.
+
+- Recalcitrant added to CIS High Command Buildable Structure. Added new upgrade option called CIS Advanced Units.  Level 1 contains Nantex, Level 2 contains Recalcitrant , Level 3 contains Bulwark.
+
+CIS:
+- Grevious Build time from 30s to 55s, cost from 4200 to 6500
+- Trench build time from 30s to 55s, cost from 4200 to 6500
+- Droid Bomber from 14 to 8s
+- CIS Scarab from 13 to 5s
+- Hammer Picket from 15s to 13s, cost from 1000 to 900
+- Patrol Frigate from 18 to 15s, cost 1650 to 1500
+- Bulwork from 85 to 50s, cost from 6500 to 5500
+- Munificent from 30 to 25s, 3000 to 3200
+- CIS Carrier from 35 to 30s, cost from 3700 to 3500
+- TUF from 35 to 32s, cost from 3500 to 3400
+- Recusant from 30 to 29, cost from 3200 to 3500
+- Saboth Destroyer from 28 to 35, cost from 5300 to 5600
+
+Republic:
+- Yularen from 50 to 55s
+- A6 fighter from 8 to 5s
+- V-19 from 8 to 6s
+- NTB-630 from 17 to 8s
+- C-70 Charger cost from 1220 to 1200
+- C-70 missile corvette from 15 to 17s, cost from 1400 to 1350
+- Pelta cost from 1800 to 1900
+- Arquitens from 25 to 28, cost from 3200 to 3500
+- Acclamator from 20 25, cost from 2350 to 2500. Bombers changed from 2 active to 1 active.
+- Centax from 25 to 28s, cost from 2400 to 2600
+- DHC from 30 to 28s, cost from 3500 to 3200
+- Venator from 50 to 55s, cost from 5500 to 5800
+
+~~Land Companies Changes~~
+- Moved the clone companies to the second row to prevent overflow of the top bar.
+- AAT: Pop from 2 to 1. Company size from 2 to 3
+- Droid commando: Company size from 4 to 6
+- Conquerer: Pop from 5 to 2
+- Crab Droid: Pop from 4 to 6
+- Droideka: amount from 8 to 10
+- Dwarf Spider Droid: Pop from 2 to 1, amount from 3 to 4
+- Droid Tank: Pop from 2 to 1, amount from 2 to 3
+- HAG: amount from 3 to 4
+- Hailfire: Pop from 2 to 1, amount from 3 to 4
+- Heavy Stap: Amount from 4 to 5
+- HMP: Pop from 2 to 1, amount from 2 to 3
+- Homing Spider Droid: Pop from 2 to 1, amount from 2 to 3
+- MTT: Pop from 3 to 1
+- Stap: Amount from 4 to 6
+- Super Tank: Pop from 2 to 1
+- 187th: Pop from 4 to 3
+- 212th: Pop from 3 to 2
+- 327th: Pop from 4 to 3
+- 41st: Pop from 5 to 4
+- 501st: Pop from 4 to 3
+- 7th: Pop from 3 to 2
+- A6 Juggernaut: Pop from 3 to 2
+- Arc Gunship: Pop from 2 to 1
+- AT-AP: Pop from 2 to 1, Amount from 2 to 3
+- AT-PT: Pop from 2 to 1, Amount from 4 to 5
+- AT-RT: Amount from 4 to 5
+- AT-TE: Pop from 2 to 1
+- AV7: Pop from 2 to 1
+- Barcs: Amount from 4 to 6
+- CPW: Amount from 4 to 6
+- P2 clones: Pop from 2 to 1
+- LAAT: Pop from 2 to 1
+- Saber Tank: Pop from 2 to 1, amount from 3 to 4
+
+##Fixes
+- numerous minor stability fixes
+
+
+**Version 1.4.4**
+
+## New Features
+- Added Nar Shaddaa as a new planet
+- New Fauna added: Reek
+
+## Updates
+- Munificent Frigate model and texture replaced
+- Republic Dreadnaught Heavy Cruiser model and texture replaced
+  - New texture for CSA Dreadnaught Heavy Cruiser
+- All new Audio/SFX for Dreadnaught Heavy Cruiser
+- Vanilla asteroid mining facility model and texture replaced
+- New space maps for the following planets:
+  - Bakura
+  - Dagobah
+  - Endor
+  - Geonosis
+  - Kuat
+  - Rattatak
+  - Yavin
+
+- New land maps for the following planets:
+  - Bothawui
+  - Eriadu
+  - Honoghr
+  - Kashyyyk
+  - Kuat
+
+New Fighter Icon Containers and Selectors
+
+## Fixes
+- Map Fixes for Pammant, and Saleucami
+- Fixed non-moving Air-Speeder Props
+
+
+**Version 1.4.2**
+
+## Gameplay
+- Reduced general land forces capacity from 20 to 10 
+
+## Bug Fixes
+- Fixed game crashes related to CSA controlled planets
+- Fixed SFX from vanilla FoC are not playing (all languages)
+- Fixed ISD and Rothana build limits in GC
+- Fixed missing trade route lines
+- Fixed Republic Heavy Reactor bonus was not applied to any unit
+- Added some missing voice overs for various units
+- Removed CIS Ship from Republic space on Rhen Var
+- Removed Rep AA turret on Foerost
+- Fixed missing particle on Coruscant building
+- Added SFX for Lance Walker
+- Fixed map preview image for Wayland
+- Fixed missing translations and text for Spanish, French, Italian, Polish and Russian
+- Generally improved stability by correcting minor coding issues
+
+
+
 **Version 1.4.1**
 
 ## Bug Fixes
