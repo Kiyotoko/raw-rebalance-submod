@@ -357,7 +357,8 @@
 		 Coruscant,
 		 The_Wheel,
 		 Bespin,
-		 Centerpoint_Station
+		 Centerpoint_Station,
+		 Nar_Shaddaa
 		 </Required_Planets>
 		<Tactical_Health>2500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>

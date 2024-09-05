@@ -1045,13 +1045,10 @@
 		<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>300.0</Fire_Range_Distance>
 		<Fire_Inaccuracy_Distance>Infantry, 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Droid, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Air, 90.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>LandHero, 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SmallVehicle, 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>BigVehicle, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>

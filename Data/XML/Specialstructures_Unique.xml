@@ -277,7 +277,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets>Dathomir, Endor, Felucia, Geonosis, Kashyyyk, NalHutta, Rattatak, Tatooine</Required_Planets>
+		<Required_Planets>Dathomir, Endor, Felucia, Geonosis, Kashyyyk, NalHutta, Rattatak, Tatooine, Nar_Shaddaa</Required_Planets>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
@@ -318,7 +318,7 @@
 				<!-- choose a new income modifier every 30 seconds -->
 				<Evaluation_Interval_In_Secs>30.0</Evaluation_Interval_In_Secs>
 				<!-- worst losses are -200% of the base -->
-				<Min_Income_Modifier>-2.00</Min_Income_Modifier>
+				<Min_Income_Modifier>-1.0</Min_Income_Modifier>
 				<!-- best positive income is +600% of the base -->
 				<Max_Income_Modifier>6.00</Max_Income_Modifier>
 				<!-- 80% of the time the income will be positive -->

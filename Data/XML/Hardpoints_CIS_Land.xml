@@ -1,6 +1,81 @@
 <?xml version="1.0"?>
 <HardPoints_Cis_Starbase>
- 
+
+	<!--CIS Octuptarra-->
+   	<HardPoint Name="HP_Octuptarra_LLC_00">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_MAIN_GUN</Tooltip_Text>	
+		<Health>1</Health>		
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Attachment_Bone></Attachment_Bone>
+        <Collision_Mesh></Collision_Mesh>		
+		<Death_Explosion_Particles>Ground_Explosion_Hardpoint_Weapon_Red</Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>	
+
+        <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>     
+        <Fire_Cone_Width>15.0</Fire_Cone_Width>
+        <Fire_Cone_Height>45.0</Fire_Cone_Height>
+
+		<Projectile_Types>Proj_Swamp_Speeder_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+        <Fire_Range_Distance>600.0</Fire_Range_Distance>
+        <Fire_SFXEvent></Fire_SFXEvent><!--adjust-->
+		<Fire_Inaccuracy_Distance> Infantry, 6 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> LandHero, 12 </Fire_Inaccuracy_Distance>		
+		<Fire_Inaccuracy_Distance> LightVehicle, 12 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 12 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> HeavyVehicle, 12 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Air, 51 </Fire_Inaccuracy_Distance>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
+		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
+		<Fire_Category_Restrictions/>	
+    </HardPoint>  
+   	<HardPoint Name="HP_Octuptarra_LML_00">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_MAIN_GUN</Tooltip_Text>	
+		<Health>1</Health>		
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Attachment_Bone></Attachment_Bone>
+        <Collision_Mesh></Collision_Mesh>		
+		<Death_Explosion_Particles>Ground_Explosion_Hardpoint_Weapon_Red</Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>	
+
+        <Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>   
+        <Fire_Cone_Width>15.0</Fire_Cone_Width>
+        <Fire_Cone_Height>45.0</Fire_Cone_Height>
+
+		<Projectile_Types>Proj_MAL_Concussion_Missile</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>3</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+
+        <Fire_Range_Distance>600.0</Fire_Range_Distance>
+        <Fire_SFXEvent>WPN_Vehicle_Laser_Medium_CIS</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Infantry, 15 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> LandHero, 15 </Fire_Inaccuracy_Distance>		
+		<Fire_Inaccuracy_Distance> LightVehicle, 15 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 15 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> HeavyVehicle, 15 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Air, 51 </Fire_Inaccuracy_Distance>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
+		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
+		<Fire_Category_Restrictions/>	
+    </HardPoint>  
+
+
 	<!--CIS HMP-->
 	<HardPoint Name="HP_HMP_00">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>

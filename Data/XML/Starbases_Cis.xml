@@ -1195,13 +1195,13 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
+			<!-- Jango_Fett_Team, -->
 				Asajj_Ventress_Team_Space,
 				Vulture_Droid_Squadron, 
 				CIS_Bomber_Squadron,
 				Hammer_Class_Picket, 
 				Cis_Patrol_Frigate,
 				Munificent_Frigate,
-				Wavecrest_Frigate,
 				Technounion_Frigate,
 				CIS_Carrier,
 				CS_Enhanced_Engines_L1_Upgrade,
@@ -1309,19 +1309,21 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
+			<!-- Jango_Fett_Team, -->
 				Asajj_Ventress_Team_Space,
 				Jango_Fett_Team_Space_MP,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Jango_Fett_Team_Space_MP -->
 				Admiral_Trench,
+				Captain_Mar_Tuuk,
 				Vulture_Droid_Squadron, 
 				CIS_Bomber_Squadron,
 				Hammer_Class_Picket, 
 				Cis_Patrol_Frigate,
 				Munificent_Frigate,
-				Wavecrest_Frigate,
+				Recusant_Frigate,
 				Technounion_Frigate,
+				Wavecrest_Frigate,
 				CIS_Carrier,
 				Supply_Ship,
-				Recusant_Frigate,
 				Lucrehulk_Battleship,
 				CS_Enhanced_Engines_L1_Upgrade,
 				CS_Enhanced_Engines_L2_Upgrade,
@@ -1433,7 +1435,9 @@
 			Rebel,
 			    Jango_Fett_Team_Space_MP,<!-- Rebalance Note: Replaced Durge_Team_Space_MP with Jango_Fett_Team_Space_MP -->
 				Asajj_Ventress_Team_Space,
+				Durge_Team_Space_MP,
 				Admiral_Trench,
+				Captain_Mar_Tuuk,
 				Invisible_Hand,<!-- Rebalance Note: Added for Starbase Level 5 -->
 				Vulture_Droid_Squadron,
 				CIS_Bomber_Squadron,
@@ -1441,7 +1445,6 @@
 				Hammer_Class_Picket, 
 				Cis_Patrol_Frigate,
 				Munificent_Frigate,
-				Wavecrest_Frigate,
 				Technounion_Frigate,
 				CIS_Carrier,
 				Supply_Ship,

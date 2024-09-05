@@ -42,7 +42,7 @@
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
@@ -94,7 +94,7 @@
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
@@ -147,7 +147,7 @@
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
@@ -199,7 +199,7 @@
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+				<Fire_SFXEvent>Unit_Pirate_Ship_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
