@@ -455,10 +455,10 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Merc_Vehicle_Transport_Rep_VFX</Company_Transport_Unit>
-		<Company_Units>Stolen_AAT_Tank, Stolen_AAT_Tank</Company_Units><!-- From 3 to 2 -->
+		<Company_Units>Stolen_AAT_Tank, Stolen_AAT_Tank</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Score_Cost_Credits>250</Score_Cost_Credits>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Cheap_Bribe_Cost>9</Cheap_Bribe_Cost>
@@ -510,7 +510,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>C9979_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>AAT_Tank, AAT_Tank</Company_Units><!-- From 4 to 2 -->
+		<Company_Units>AAT_Tank, AAT_Tank, AAT_Tank</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Score_Cost_Credits>250</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>

@@ -213,7 +213,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Republic_CR20_Transport</Company_Transport_Unit>
-		<Company_Units>AT_PT, AT_PT, AT_PT, AT_PT</Company_Units>
+		<Company_Units>AT_PT, AT_PT, AT_PT, AT_PT, AT_PT</Company_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
@@ -243,7 +243,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 		
 		<Score_Cost_Credits>200</Score_Cost_Credits>
 	</GroundCompany>

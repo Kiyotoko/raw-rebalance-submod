@@ -69,7 +69,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Militia</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Militia</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Militia</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Stormtrooper_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Militia</SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Militia</SFXEvent_Assist_Attack>

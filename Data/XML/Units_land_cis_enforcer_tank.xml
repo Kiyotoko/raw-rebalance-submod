@@ -222,10 +222,10 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>C9979_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Persuader_Droid_Enforcer, Persuader_Droid_Enforcer</Company_Units>
+		<Company_Units>Persuader_Droid_Enforcer, Persuader_Droid_Enforcer, Persuader_Droid_Enforcer</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Score_Cost_Credits>180</Score_Cost_Credits>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Cheap_Bribe_Cost>9</Cheap_Bribe_Cost>

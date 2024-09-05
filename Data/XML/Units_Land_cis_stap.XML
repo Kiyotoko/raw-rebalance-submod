@@ -160,7 +160,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>C9979_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Stap, Stap, Stap, Stap</Company_Units>
+		<Company_Units>Stap, Stap, Stap, Stap, Stap, Stap</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_stap.tga</Icon_Name>
 		<GUI_Model_Name>SeV_Stap_Blue.ALO</GUI_Model_Name>

@@ -156,7 +156,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>C9979_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Crab_Droid, Crab_Droid, Crab_Droid, Crab_Droid</Company_Units>
+		<Company_Units>Crab_Droid, Crab_Droid, Crab_Droid, Crab_Droid, Crab_Droid, Crab_Droid</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Icon_Name>I_BUTTON_CRABDROID.TGA</Icon_Name>
 		<!-- !!! -->

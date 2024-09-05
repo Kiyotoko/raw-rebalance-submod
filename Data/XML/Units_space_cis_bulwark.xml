@@ -89,6 +89,7 @@
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_4>
 
+
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SELF_DESTRUCT, ABILITY_COUNTDOWN, LURE, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
@@ -176,7 +177,7 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<!--Unit_Ability>
+			<Unit_Ability>
 				<Type>SELF_DESTRUCT</Type>
 				<Alternate_Description_Text>TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION</Alternate_Description_Text>
 				<Expiration_Seconds>3.5</Expiration_Seconds>
@@ -185,20 +186,9 @@
 				<GUI_Activated_Ability_Name>Vengeance_Self_Destruct</GUI_Activated_Ability_Name>
 				<Stop_When_Activated>No</Stop_When_Activated>
 
-				<!- -<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>- ->
+				<!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>-->
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 
-			</Unit_Ability--><!-- Rebalance Note: Replaced Ability with below -->
-			
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.25</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.75</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>7</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 			
 			<Unit_Ability>
@@ -226,9 +216,9 @@
 		<Score_Cost_Credits>5300</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer><!-- From 6000 --><!-- Rebalance Note: Changed from 6500 -->
-		<Tactical_Build_Time_Seconds>68</Tactical_Build_Time_Seconds><!-- From 65 --><!-- Rebalance Note: Changed from 85 -->
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer><!-- From 6000 -->
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds><!-- From 65 -->
+		<Tactical_Build_Prerequisites>CIS_Advanced_Units_Three</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->

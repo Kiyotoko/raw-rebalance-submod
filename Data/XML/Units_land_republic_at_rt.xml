@@ -260,7 +260,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Republic_CR20_Transport</Company_Transport_Unit>
-		<Company_Units>AT_RT_Walker, AT_RT_Walker, AT_RT_Walker, AT_RT_Walker</Company_Units>
+		<Company_Units>AT_RT_Walker, AT_RT_Walker, AT_RT_Walker, AT_RT_Walker, AT_RT_Walker</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Icon_Name>i_button_atrt.tga</Icon_Name>
 		<GUI_Model_Name>REV_ATRT.ALO</GUI_Model_Name>

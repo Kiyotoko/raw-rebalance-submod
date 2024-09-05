@@ -320,8 +320,8 @@
 		<Unit_Abilities_Data SubObjectList="Yes"></Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4200</Tactical_Build_Cost_Multiplayer><!--5500-->
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds><!--30-->
+		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer><!--5500-->
+		<Tactical_Build_Time_Seconds>55</Tactical_Build_Time_Seconds><!--30-->
 		<Tactical_Build_Prerequisites>RC_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -586,14 +586,14 @@
 		<Score_Cost_Credits>1800</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6400</Tactical_Build_Cost_Multiplayer><!-- From 6800 --><!-- Rebalance Note: Changed from 7200 -->
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 18 -->
+		<Tactical_Build_Cost_Multiplayer>7200</Tactical_Build_Cost_Multiplayer><!-- From 6800 -->
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>4</Population_Value><!-- Rebalance Note: Changed from 3 -->
+		<Population_Value>3</Population_Value>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Invisible_Hand_Death_Clone">
@@ -614,6 +614,8 @@
 	</UniqueUnit>
 
 
+
+
 	<HeroCompany Name="General_Grievous_Team_Land_MP">
 		<Variant_Of_Existing_Type>General_Grievous_Team</Variant_Of_Existing_Type>
 		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer><!--1600-->
@@ -624,6 +626,8 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
+
+
 
 
 </General_Grievous_Hero_Files>

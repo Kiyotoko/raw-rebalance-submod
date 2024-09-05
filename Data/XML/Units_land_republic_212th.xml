@@ -256,7 +256,7 @@
 		<Encyclopedia_Vulnerable_To>Destroyer_Droid Hailfire_Tank AAT_Tank</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_212TH TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTALION</Encyclopedia_Unit_Class>
-		<GUI_Row>1</GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
@@ -390,7 +390,7 @@
 
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>3</Population_Value>
+		<Population_Value>2</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
 
@@ -498,8 +498,8 @@
 		</Company_Units>
 		<Max_Squad_Size>9</Max_Squad_Size>
 		<Icon_Name>I_BUTTON_CLONETROOPER_P2_212_UNIT.tga</Icon_Name>
-		<GUI_Model_Name>RI_CLONE_212.ALO</GUI_Model_Name>
-		<Land_Model_Name>RI_CLONE_212.ALO</Land_Model_Name>
+		<GUI_Model_Name>REI_CLONETROOPER_212TH.ALO</GUI_Model_Name>
+		<Land_Model_Name>REI_CLONETROOPER_212TH.ALO</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<GUI_Offset>0 0 5</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>

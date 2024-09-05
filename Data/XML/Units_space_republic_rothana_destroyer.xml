@@ -231,12 +231,30 @@
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
+	<SpaceUnit Name="Rothana_Destroyer_Skirmish">
+		
+		<Variant_Of_Existing_Type>Rothana_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>6</Tech_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Population_Value>4</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RS_Elite_Squadrons_Level_Three_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+	
 	<SpaceUnit Name="Rothana_Destroyer_Death_Clone">
+	
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
 		<Space_Model_Name>ReV_Rothana_Destroyer_D</Space_Model_Name>
 		<xxxSpace_Model_Name>ReV_Rothana_Destroyer.ALO</xxxSpace_Model_Name>

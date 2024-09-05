@@ -205,7 +205,7 @@
 		<Encyclopedia_Vulnerable_To>Destroyer_Droid Hailfire_Tank AAT_Tank</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_41ST TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORPS</Encyclopedia_Unit_Class>
-		<GUI_Row>1</GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
@@ -411,7 +411,7 @@
 
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>5</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
 

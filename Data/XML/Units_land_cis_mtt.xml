@@ -114,7 +114,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Anti_All_Attack_Priority</Targeting_Priority_Set>
 		<Score_Cost_Credits>500</Score_Cost_Credits>
-		<Population_Value>3</Population_Value>
+		<Population_Value>1</Population_Value>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>

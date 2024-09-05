@@ -201,7 +201,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Republic_Botajef</Company_Transport_Unit>
-		<Company_Units>AT_AP, AT_AP</Company_Units><!-- From 3 -->
+		<Company_Units>AT_AP, AT_AP, AT_AP</Company_Units><!-- From 3 -->
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_ATAP</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_WALKER</Encyclopedia_Unit_Class>
@@ -230,7 +230,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Population_Value>2</Population_Value><!-- From 3 -->
+		<Population_Value>1</Population_Value><!-- From 3 -->
 
 	</GroundCompany>
 

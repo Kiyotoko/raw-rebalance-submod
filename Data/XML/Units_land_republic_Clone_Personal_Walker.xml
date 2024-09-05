@@ -244,7 +244,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Republic_CR20_Transport</Company_Transport_Unit>
-		<Company_Units>Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker</Company_Units>
+		<Company_Units>Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker, Clone_Personal_Walker</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Icon_Name>i_button_cpw.tga</Icon_Name>
 		<GUI_Model_Name>REV_CPW.ALO</GUI_Model_Name>

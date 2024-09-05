@@ -280,7 +280,7 @@
 		<Ship_Class>walker</Ship_Class>
 
 		<Company_Transport_Unit>Republic_Botajef</Company_Transport_Unit>
-		<Company_Units>Saber_Tank, Saber_Tank, Saber_Tank</Company_Units>
+		<Company_Units>Saber_Tank, Saber_Tank, Saber_Tank, Saber_Tank</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -290,7 +290,7 @@
 
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>

@@ -10,7 +10,7 @@
 		<Encyclopedia_Good_Against>Saber_Tank AT_AP AT_RT_Walker</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>AT-TE_Walker AV_7_Antivehicle_Cannon LAAT</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HOMING_SPIDER_DROID</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 
 		<Land_Model_Name>SeV_homingspider.ALO</Land_Model_Name>
@@ -213,7 +213,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>C9979_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Homing_Spider_Droid,Homing_Spider_Droid</Company_Units>
+		<Company_Units>Homing_Spider_Droid, Homing_Spider_Droid, Homing_Spider_Droid</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Icon_Name>I_BUTTON_HOMINGSPIDER.tga</Icon_Name>
 		<!-- !!! --><SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -236,7 +236,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_HOMING_SPIDER_DROID</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 
 
 	</GroundCompany>

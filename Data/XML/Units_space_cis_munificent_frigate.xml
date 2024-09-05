@@ -7,7 +7,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Carrack Rep_Acclamator_Assault_Ship Republic_light_assault_cruiser</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>NTB630 Venator Republic_Victory_Destroyer</Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>SeV_munificent.ALO</Space_Model_Name>
+		<Space_Model_Name>SeV_Munificent_Frigate.ALO</Space_Model_Name>
 		<Icon_Name>I_BUTTON_Munificent.tga</Icon_Name>
 		<Tech_Level>0</Tech_Level>
 		<No_Colorization_Color>159, 167, 250, 255</No_Colorization_Color>
@@ -218,7 +218,7 @@
 	<SpaceUnit Name="Munificent_Frigate_Death_Clone">
 		<Text_ID>TEXT_UNIT_MUNIFICENT</Text_ID>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Space_Model_Name>SeV_munificent_d.ALO</Space_Model_Name>
+		<Space_Model_Name>SeV_Munificent_Frigate_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Persistence_Duration>0</Death_Persistence_Duration>

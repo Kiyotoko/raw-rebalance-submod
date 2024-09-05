@@ -80,18 +80,18 @@
 		<!-- At Tech 2, give the V19 Reserves + two single Bomber squadrons -->
 		<Starting_Spawned_Units_Tech_2>V19_Squadron, 2</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>V19_Squadron, 2</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>NTB_630_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>NTB_630_Squadron, 1</Starting_Spawned_Units_Tech_2>
 
 		<!-- At Tech 3, double the V19 reserves + two reserve Bomber squadrons -->
 		<Starting_Spawned_Units_Tech_3>V19_Squadron, 2</Starting_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>V19_Squadron, 4</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>NTB_630_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>NTB_630_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>NTB_630_Squadron, 2</Reserve_Spawned_Units_Tech_3>
 
 		<!-- No changes on Tech 4, but on Tech 5 switch V19 for V-Wing and Bomber for ARC-170 -->
 
 		<Starting_Spawned_Units_Tech_5>Republic_VWing_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Republic_VWing_Squadron, 4</Reserve_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Arc_170_Squadron, 2</Reserve_Spawned_Units_Tech_5>
 

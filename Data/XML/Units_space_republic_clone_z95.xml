@@ -49,9 +49,6 @@
 		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>8</Damage>
-		<HardPoints>
-			HP_Z-95_Torpedo_01
-		</HardPoints>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Blue</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
@@ -91,7 +88,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_CF </SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_CF </SFXEvent_Enemy_Damaged_Health_Low_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_CF </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
-		<SFXEvent_Ambient_Moving> Unit_Headhunter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Headhunter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
@@ -113,17 +110,23 @@
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
-		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Headhunter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
+
+
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-				<Type>HUNT</Type>
+				<Type>ION_CANNON_SHOT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
+	
+	
+	
 	<!-- **** SQUADRON INFORMATION **** -->
 	<Squadron Name="Clone_Z95_Squadron">
 		<Text_ID>TEXT_UNIT_CLONE_Z95_SQUADRON</Text_ID>
@@ -159,6 +162,7 @@
 		<Squadron_Offsets>0.0,-18.0,-10.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,30.0,10.0</Squadron_Offsets>
 		<Squadron_Offsets>-28.0,-30.0,9.0</Squadron_Offsets>
+		<Create_Team_Type>Clone_Z95_Team</Create_Team_Type>
 		<GUI_Model_Name>ReV_z95_clone_fighter.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -184,11 +188,71 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
+
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-				<Type>HUNT</Type>
+				<Type>ION_CANNON_SHOT</Type>
+				<Alternate_Icon_Name>I_SA_TORPEDO_SHOT.TGA</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
 	</Squadron>
+	
+	<Container Name="Clone_Z95_Team">
+		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONE_Z95</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CLONE_Z95</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Nantex Vulture_Droid_Fighter CIS_Bomber </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Hammer_Class_Picket Tri_Droid_Fighter Cis_Patrol_Frigate</Encyclopedia_Vulnerable_To>
+		<Icon_Name>I_BUTTON_Z95_CLONE.tga</Icon_Name>
+		<GUI_Model_Name>ReV_z95_clone_fighter.ALO</GUI_Model_Name>
+		<GUI_Distance>115</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+
+		<Icon_Name/>
+
+		<CategoryMask>Fighter | AntiBomber</CategoryMask>
+		<Max_Speed>4.75</Max_Speed>
+		<Min_Speed>3.5</Min_Speed>
+		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>0.0</Hyperspace_Speed>
+
+			
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<GUI_Activated_Ability_Name>Proton_Torpedo_Attack</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<Projectile_Types_Override>Proj_Ship_Proton_Torpedo</Projectile_Types_Override>
+				<Recharge_Seconds>15.0</Recharge_Seconds>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_SHOT</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_SHOT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_TORPEDO_SHOT.TGA</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Proton_Torpedo_Attack">
+				<Activation_Style>User_Input</Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
+
+	</Container>	
+	
+	
 </V19_Fighter_Data>

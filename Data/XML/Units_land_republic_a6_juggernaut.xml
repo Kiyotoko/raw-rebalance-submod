@@ -271,7 +271,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabertank</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>3</Population_Value>
+		<Population_Value>2</Population_Value>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>

@@ -1573,7 +1573,6 @@
 
 		<Score_Cost_Credits>37.5</Score_Cost_Credits>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
-		<Vehicle_Thief_Inside_Clone>Lance_Walker_Captured</Vehicle_Thief_Inside_Clone>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
 		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
@@ -1599,7 +1598,7 @@
 				<Mod_Multiplier>FIRE_RATE_MULTIPLIER, 2.5f</Mod_Multiplier>
 
                 <SFXEvent_Target_Ability> Unit_Barrage_Interdictor </SFXEvent_Target_Ability>
-				<Projectile_Types_Override>AT_ST_Barrage</Projectile_Types_Override>
+				<Projectile_Types_Override>Lance_Barrage</Projectile_Types_Override>
 
                 <!-- radius depends on the explosion size and inaccuracy of 'Proj_Ship_Diamond_Boron_Missile_Barrage' -->                                                                   
                 <Area_Effect_Decal_Distance> 75.0 </Area_Effect_Decal_Distance>

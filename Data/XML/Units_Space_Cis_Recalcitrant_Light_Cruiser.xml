@@ -1,128 +1,113 @@
-﻿<?xml version="1.0"?>
-
-
-<Technounion_Frigate>
-
-
-
-
-	<SpaceUnit Name="Technounion_Frigate">
-		<Text_ID>TEXT_UNIT_TECHNOUNION_FRIGATE</Text_ID>
-		<Encyclopedia_Good_Against>Carrack Rep_Acclamator_Assault_Ship Rep_Centax_Heavy_Frigate</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>NTB630 Arc_170 Venator</Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TECHNOUNION_FRIGATE</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>SeV_technounion_frigate.ALO</Space_Model_Name>
-		<Icon_Name>I_BUTTON_Technounionfrigate.tga</Icon_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-
-		<Select_Box_Scale>500</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-
+<?xml version="1.0"?>
+<Recalcitrant_Light_Cruiser_Data>
+	<SpaceUnit Name="Recalcitrant_Light_Cruiser">
+		<Text_ID>TEXT_UNIT_RECALCRITRANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RECALCRITRANT</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>Rep_Acclamator_Assault_Ship Carrack Rep_Centax_Heavy_Frigate</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Arc_170 NTB630 Venator</Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>SeV_Commerce_Guild_Light_Cruiser.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_COMMERCE_GUILD_LC.tga</Icon_Name>
+		<Tech_Level>3</Tech_Level>
+		<No_Colorization_Color>159, 167, 250, 255</No_Colorization_Color>
 		<GUI_Row>1</GUI_Row>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.1</Scale_Factor><!-- From 1.3 -->
-		<Damage>40</Damage>
-		<Autoresolve_Health>3000</Autoresolve_Health>
-		<Shield_Points>1000</Shield_Points><!-- Rebalance Note: Changed from 700 -->
-		<Tactical_Health>3500</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
-		<Energy_Capacity>3000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
-
+		<Scale_Factor>1.5</Scale_Factor>
+		<Damage>35</Damage>
+		<Autoresolve_Health>2300</Autoresolve_Health>
+		<Shield_Points>2500</Shield_Points>
+		<Tactical_Health>2800</Tactical_Health>
+		<Shield_Refresh_Rate>80</Shield_Refresh_Rate>
+		<Energy_Capacity>9999</Energy_Capacity>
+		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
+		
 		<Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.5</Max_Speed>
-		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Max_Speed>2.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<MovementClass>Space</MovementClass>
 		<Space_Layer>Frigate</Space_Layer>
-		<Layer_Z_Adjust>-125.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<OverrideAcceleration>.05</OverrideAcceleration>
-		<OverrideDeceleration>.05</OverrideDeceleration>
+		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+
+		<Bank_Turn_Angle>10</Bank_Turn_Angle>
+		<OverrideAcceleration>0.5</OverrideAcceleration>
+		<OverrideDeceleration>0.5</OverrideDeceleration>
 
 		<Armor_Type>Armor_Assault_Frigate</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-
-		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Thrust>1.75</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
+		<Select_Box_Scale>575</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
-
-		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>
-		<Required_Planets>Mechis</Required_Planets>-->
-		<Build_Cost_Credits>3000</Build_Cost_Credits><!-- Rebalance Note: Changed from 3500 -->
-		<Build_Time_Seconds>30</Build_Time_Seconds><!-- Rebalance Note: Changed from 35 -->
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
-		<Cheap_Bribe_Cost>110</Cheap_Bribe_Cost>
-		<Expensive_Bribe_Cost>220</Expensive_Bribe_Cost>
-		<Tactical_Bribe_Cost>1600</Tactical_Bribe_Cost>
 
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
-		<Squadron_Capacity>10</Squadron_Capacity>
-		<Transport_Capacity>8</Transport_Capacity>
+		<Squadron_Capacity>1</Squadron_Capacity>
+		<Transport_Capacity>1</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		
+		<Build_Cost_Credits>3600</Build_Cost_Credits>
+		<Required_Planets>Felucia</Required_Planets>
+		<AI_Combat_Power>2300</AI_Combat_Power>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		
+		<Cheap_Bribe_Cost>1</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>1</Expensive_Bribe_Cost>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		
 		<Size_Value>8</Size_Value>
-
+		
+		<Death_Clone>Damage_Normal, Recalcitrant_Light_Cruiser_Death_Clone</Death_Clone>
+		
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
-		<Space_FOW_Reveal_Range>1300.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+		
+		<Space_FOW_Reveal_Range>1600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
+		<Dense_FOW_Reveal_Range_Multiplier>0.5</Dense_FOW_Reveal_Range_Multiplier>
+		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
 		<HardPoints>
-			HP_Technounion_01, 
-			HP_Technounion_02, 
-			HP_Technounion_03, 
-			HP_Technounion_04, 
-			HP_Technounion_05, 
-			HP_Technounion_06, 
-			HP_Technounion_07, 
-			HP_Technounion_08, 
-			HP_Technounion_09, 
-			HP_Technounion_10,
-			HP_Technounion_11, 
-			HP_Technounion_12, 
-			HP_Technounion_13, 
-			HP_Technounion_14, 
-			HP_Technounion_15, 
-			HP_Technounion_16, 
-			HP_Technounion_17, 
-			HP_Technounion_18, 
-			HP_Technounion_19, 
-			HP_Technounion_20,
-			HP_Technounion_21, 
-			HP_Technounion_22,
-			HP_Technounion_Shield_Generator, 
-			HP_Technounion_Engines
+			HP_Recalcitrant_Light_Cruiser_Engine,
+			HP_Recalcitrant_Light_Cruiser_Shield_Generator,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_01,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_02,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_03,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_04,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_05,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_06,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_07,
+			HP_Recalcitrant_Light_Cruiser_Twin_Turbo_Laser_08,
+			HP_Recalcitrant_Light_Cruiser_Concussion_Missile_01,
+			HP_Recalcitrant_Light_Cruiser_Concussion_Missile_02,
+			HP_Recalcitrant_Light_Cruiser_Concussion_Missile_03,
+			HP_Recalcitrant_Light_Cruiser_Concussion_Missile_04,
+			HP_Recalcitrant_Light_Cruiser_Concussion_Missile_05,
+			HP_Recalcitrant_Light_Cruiser_Concussion_Missile_06,
+			HP_Recalcitrant_Light_Cruiser_Dual_Heavy_Ion_Cannon
 		</HardPoints>
-
+		
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Techno_Union_Frigate</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>CIS_Complete_Commerce_Guild_LC</SFXEvent_Build_Complete>
 
-
-		<SFXEvent_Select>Unit_Select_Frigate</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Recusant</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Recusant</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Recusant</SFXEvent_Fleet_Move>
+		<SFXEvent_Fleet_Move>Unit_Select_CIS_Unit</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Recusant</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Recusant</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Recusant</SFXEvent_Move_Into_Asteroid_Field>
@@ -156,8 +141,11 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Nebulon_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
-
-		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
+		<SFXEvent_Health_Critical_Warning>Unit_CIS_Space_Critical_Health</SFXEvent_Health_Critical_Warning>
+		
+		
+		
+		<CategoryMask>Frigate | AntiCorvette | AntiFrigate</CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
@@ -170,23 +158,17 @@
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-		<Score_Cost_Credits>2000</Score_Cost_Credits>
-		<Population_Value>3</Population_Value>
-
-		<Death_Clone>Damage_Normal, Techno_Death_Clone</Death_Clone>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3500 -->
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 35 -->
-		<Tactical_Build_Prerequisites/>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
-		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
+		<Score_Cost_Credits>4000</Score_Cost_Credits>
+		<Population_Value>2</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>CIS_Advanced_Units_Two</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	
+	<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
@@ -199,82 +181,30 @@
 				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
+	
 	</SpaceUnit>
-
-	<SpaceUnit Name="Techno_Death_Clone">
-		<Text_ID>TEXT_UNIT_PIRATE_FRIGATE</Text_ID>
-		<Space_Model_Name>SeV_technounion_frigate_d.ALO</Space_Model_Name>
+		
+		
+		<!--<DEATH CLONE>-->
+		
+	<SpaceUnit Name="Recalcitrant_Light_Cruiser_Death_Clone">
+		<Text_ID>text</Text_ID>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+		<Space_Model_Name>SeV_Commerce_Guild_Light_Cruiser_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Persistence_Duration>0</Death_Persistence_Duration>
-		<Scale_Factor>0.846154</Scale_Factor><!-- From 1.0 -->
-		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+		<Death_Persistence_Duration>18</Death_Persistence_Duration>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Layer_Z_Adjust>1</Layer_Z_Adjust>
+		<Max_Speed>1</Max_Speed>
+		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
 		<Max_Thrust>1</Max_Thrust>
-		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>0</Bank_Turn_Angle>
-		<Affiliation>Empire</Affiliation>
+		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>1</Bank_Turn_Angle>
+		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</Technounion_Frigate>
+</Recalcitrant_Light_Cruiser_Data>

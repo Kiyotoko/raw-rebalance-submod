@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehicle_Octuptarra>
+<!--Author: Kasderan & JPJones-->
+<!--August Update-->
+<!--Modified to be used with the old combat system. Nothing else but the unit file is needed.-->
+<!--Do NOT merge with the version on the GroundOverhaul branch-->
+
+	<GroundVehicle Name="Octuptarra_Magna">
+	<!--Art & Text-->
+		<Land_Model_Name>SeV_Octuptarra_Rocket.ALO</Land_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.25</Scale_Factor><!--confirm right scale-->
+
+		<Icon_Name>I_BUTTON_OCTUPTARRA_MAGNA.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_OCTUPTARRA_MAGNA</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class><!--(overhaul) if we dont already, we need text strings for Light/Medium/Heavy vehicle classes-->
+		<Encyclopedia_Text>TEXT_TOOLTIP_OCTUPTARRA_MAGNA</Encyclopedia_Text>
+
+	<!--GUI-->
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>	
+		<Select_Box_Scale>400</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+    <!--Collision-->
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Custom_Hard_XExtent>20</Custom_Hard_XExtent><!--smaller: 16-->
+		<Custom_Hard_YExtent>10</Custom_Hard_YExtent><!--smaller: 8-->
+		<Overall_Length>32</Overall_Length><!--vanilla: 45-->
+		<Overall_Width>16</Overall_Width><!--vanilla: 20-->
+
+    <!--Behaviour-->	
+		<CategoryMask>Vehicle | AntiVehicle</CategoryMask>
+		<Targeting_Priority_Set>Rocket_Vehicle_Attack_Priority</Targeting_Priority_Set>
+		<AI_Combat_Power>250</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>WEAPON, WALK_LOCOMOTOR, ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, ION_STUN_EFFECT, DAMAGE_TRACKING, EARTHQUAKE_TARGET</LandBehavior>
+		<Create_Team>No</Create_Team>		
+		<CategoryMask>Vehicle</CategoryMask>	
+		<UnitCollisionClass>Vehicle</UnitCollisionClass>
+
+
+		<Space_Layer>Land</Space_Layer>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<MinimumPushReturnDistance>50</MinimumPushReturnDistance><!--was 40-->				
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
+
+	<!--Movement-->
+		<MovementClass>Walker</MovementClass>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Has_Pre_Turn_Anim>yes</Has_Pre_Turn_Anim>
+		<Weather_Category>Walker</Weather_Category>			
+
+		<Max_Speed>0.45</Max_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>1.5</Stopped_Rate_Of_Turn>
+
+		<Movement_Animation_Speed>4</Movement_Animation_Speed>
+		<Rotation_Animation_Speed>3</Rotation_Animation_Speed>
+
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.01</OverrideDeceleration>
+
+		<Min_Speed_Fraction_For_Turn>0.1</Min_Speed_Fraction_For_Turn>
+		<Close_Enough_Angle_For_Move_Start>45</Close_Enough_Angle_For_Move_Start>		
+		<MovementPredictionInterval>8.0</MovementPredictionInterval>
+		<MovementBoxExpansionFactor>8.0</MovementBoxExpansionFactor>
+
+	<!--Formation-->
+		<FormationRaggedness>2.5</FormationRaggedness>
+		<MaxJiggleDistance>0</MaxJiggleDistance>
+		<FormationSpacing>2</FormationSpacing> <!--cannot be more than 2, otherwise vanilla formations fall apart-->
+		<FormationOrder>4</FormationOrder> <!--should maybe "4", not sure what this does in tactical-->
+		<FormationGrouping>Standard</FormationGrouping>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Formation_Formup_Wait_Style>WaitNone</Formation_Formup_Wait_Style>
+
+		<Close_Enough_Angle_For_Move_Start> 60 </Close_Enough_Angle_For_Move_Start>		
+		<MovementPredictionInterval>9.0</MovementPredictionInterval>	<!--vanilla: 4-->
+		<OverrideAcceleration> 0.15 </OverrideAcceleration>
+		<OverrideDeceleration> 0.10 </OverrideDeceleration>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+	<!--Hp & Armor-->
+		<Tactical_Health>400</Tactical_Health>
+		<Target_Bones>HEAD</Target_Bones>
+
+		<Energy_Capacity>100</Energy_Capacity>
+		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
+		<Ranking_In_Category>1</Ranking_In_Category>
+
+	<!-- Sensory -->
+		<Land_FOW_Reveal_Range>350</Land_FOW_Reveal_Range>
+        <Sensor_Range>100</Sensor_Range>
+
+		<Idle_Chase_Range>5</Idle_Chase_Range>
+		<Guard_Chase_Range>200</Guard_Chase_Range>
+		<Attack_Move_Response_Range>25</Attack_Move_Response_Range>
+		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
+		<Targeting_Stickiness_Time_Threshold>0.0</Targeting_Stickiness_Time_Threshold>
+		<Autonomous_Move_Extension_Vs_Attacker>150</Autonomous_Move_Extension_Vs_Attacker>
+
+	<!--Combat Data-->	
+		<Damage>5</Damage>
+		<Autoresolve_Health>10</Autoresolve_Health>		
+		
+		<Projectile_Types>Proj_Ground_Laser_Cannon_AAT, Proj_MAL_Concussion_Missile</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>2</Projectile_Fire_Pulse_Delay_Seconds>
+
+        <Fire_Range_Distance>100.0</Fire_Range_Distance>
+        <Fire_SFXEvent></Fire_SFXEvent><!--adjust-->
+
+		
+		<!--<Hardpoints>
+		HP_Octuptarra_LML_00,
+		</Hardpoints>-->
+
+		<Fire_Inaccuracy_Distance> Infantry, 6 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> LandHero, 12 </Fire_Inaccuracy_Distance>		
+		<Fire_Inaccuracy_Distance> LightVehicle, 12 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 12 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> HeavyVehicle, 12 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Air, 51 </Fire_Inaccuracy_Distance>
+		
+        <Targeting_Fire_Inaccuracy> All, 12 </Targeting_Fire_Inaccuracy>
+        <Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
+        <Targeting_Max_Attack_Distance>1200</Targeting_Max_Attack_Distance><!--new standard range vehicle +300-->
+
+    <!--Misc-->	
+		<Size_Value>75</Size_Value>
+		<Mass>1.0</Mass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>		
+
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Location_Flyout_Distances>50</Spawned_Squadron_Location_Flyout_Distances>
+
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>75.0, 75.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>		
+
+	<!--SFX Data-->
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		
+		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Select>Unit_Select_Snailtank</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Snailtank</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Snailtank</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Snailtank</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Snailtank</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Scout_Trooper_Fire</SFXEvent_Fire>
+
+		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Battle_Droid</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Battle_Droid</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>UHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
+
+    <!--Dmg & Destruction-->		
+		<Death_Clone>Damage_Normal, DC_Octuptarra_Magna_00</Death_Clone>
+		<Death_Clone>Damage_Normal, DC_Octuptarra_Magna_01</Death_Clone>	
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>	
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>	
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Remove_Upon_Death>false</Remove_Upon_Death>
+		<Death_Persistence_Duration>20.0</Death_Persistence_Duration>
+		<Death_Explosions>EXP_SP_PEN</Death_Explosions>		
+		<Death_Explosions_End>EXP_SP_GENERIC_SMALL</Death_Explosions_End>	
+	
+	<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_OCTUPTARRA_SWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_OCTUPTARRA_SWAP_DESCRIPTION</Alternate_Description_Text>
+                <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name> 
+				<Targeting_Max_Attack_Distance>200</Targeting_Max_Attack_Distance>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability> 	
+		</Unit_Abilities_Data>			
+	</GroundVehicle>
+
+	<GroundVehicle Name="DC_Octuptarra_Magna_00">
+		<Variant_Of_Existing_Type>Octuptarra_Magna</Variant_Of_Existing_Type>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+
+		<Custom_Hard_XExtent_Offset>-15</Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent>15</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>6</Custom_Hard_YExtent>
+
+		<Death_Persistence_Duration>60</Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+	</GroundVehicle>
+	<GroundVehicle Name="DC_Octuptarra_Magna_01">
+		<Variant_Of_Existing_Type>DC_Octuptarra_Magna_00</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+	</GroundVehicle>
+
+
+<!--Octuptarra Company-->
+	<GroundCompany Name="Octuptarra_Company">
+
+		<Icon_Name>I_BUTTON_OCTUPTARRA_MAGNA.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_OCTUPTARRA_MAGNA</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class><!--if we dont already, we need text strings for Light/Medium/Heavy vehicle classes-->
+		<Encyclopedia_Text>TEXT_TOOLTIP_OCTUPTARRA_MAGNA</Encyclopedia_Text>
+
+		<Encyclopedia_Good_Against>AT_AP AT_RT_Walker UT_AT</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>A6_Juggernaut LAAT AT-TE_Walker</Encyclopedia_Vulnerable_To>
+
+		<CategoryMask>Vehicle | AntiVehicle</CategoryMask>
+
+		<GUI_Row>0</GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>1200</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Company_Transport_Unit>Cis_Hardcell_Transport</Company_Transport_Unit>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Population_Value>1</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Company_Units>Octuptarra_Magna, Octuptarra_Magna</Company_Units>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_OCTUPTARRA_SWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_OCTUPTARRA_SWAP_DESCRIPTION</Alternate_Description_Text>
+                <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name> 
+				<Targeting_Max_Attack_Distance>200</Targeting_Max_Attack_Distance>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability> 	
+		</Unit_Abilities_Data>			
+	</GroundCompany>
+	
+	<GroundCompany Name="Octuptarra_Company_MP">
+		<Variant_Of_Existing_Type>Octuptarra_Company</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>	
+		<Affiliation>Rebel</Affiliation>
+		<!--<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>-->
+	</GroundCompany>
+
+</Vehicle_Octuptarra>

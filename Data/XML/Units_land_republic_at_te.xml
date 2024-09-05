@@ -252,6 +252,6 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_AT-TE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 	</GroundCompany>
 </AT_TE_Data>

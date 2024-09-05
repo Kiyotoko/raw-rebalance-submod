@@ -307,7 +307,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>NTB630 V19_Fighter Arc_170</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Republic_light_frigate Republic_Vwing_Fighter Republic_light_assault_cruiser</Encyclopedia_Vulnerable_To>
-		<Icon_Name>I_BUTTON_MAGNAGAURD.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_MAGNAGAURD_P38_SQUADRON.TGA</Icon_Name>
 
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>

@@ -177,13 +177,7 @@
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-	
-	<GroundInfantry Name="Arc_Trooper_Force_Lightning_Death_Clone">
-		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
-		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
-	</GroundInfantry>
-	
+		
 	<GroundInfantry Name="Arc_Trooper_Lt">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARCTROOPER</Text_ID>
@@ -243,13 +237,7 @@
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-	
-	<GroundInfantry Name="Arc_Trooper_Captain_Force_Lightning_Death_Clone">
-		<Variant_Of_Existing_Type>Arc_Trooper_Captain</Variant_Of_Existing_Type>
-		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
-	</GroundInfantry>
-	
+		
 	<GroundInfantry Name="Arc_Trooper_Z6">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARCTROOPER</Text_ID>
@@ -287,13 +275,7 @@
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-	
-	<GroundInfantry Name="Arc_Trooper_Z6_Force_Lightning_Death_Clone">
-		<Variant_Of_Existing_Type>Arc_Trooper_Z6</Variant_Of_Existing_Type>
-		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
-	</GroundInfantry>
-	
+		
 	<GroundCompany Name="Republic_Arc_Trooper_Squad">
 		<Text_ID>TEXT_UNIT_ARCTROOPER_SQUAD</Text_ID>
 		<Encyclopedia_Good_Against>Battledroids Stap Super_Battledroid</Encyclopedia_Good_Against>

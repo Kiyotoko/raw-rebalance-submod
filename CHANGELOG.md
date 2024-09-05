@@ -1,3 +1,8 @@
+## v1.0.1
+
+- Support for RaW v1.4.5
+- Change Pelta Build Time (Skirmish) from 18 to 19 Seconds and Build Cost (Global) from 1800 to 1900 and Build Time (Global) from 20 to 19 Seconds
+
 ## v1.0.0
 
 - Support for RaW v1.4.1
@@ -7,7 +12,7 @@
 - Replaced Buildable Object A6 Squadron with V19 Squadro in Republic Starbase for Level 1 and 2
 - Removed Buildable Object Luminara Team Space MP in Republic Starbase for Level 2 to 5
 - Removed Buildable Object Plokoon Team Space MP in Republic Starbase for Level 5
-- Removed Buildable Object Rothana_Destroyer in Republic Starbase for Level 5
+- Removed Buildable Object Rothana_Destroyer in Republic Starbase for Level 5##
 - Added Buildable Object Republic Victory Destroyer in Republic Starbase for Level 4 and 5
 - Added Buildable Object Invisible Hand in CIS Starbase Level 5
 - Removed Ability "Fire All Batteries" from Acclamator

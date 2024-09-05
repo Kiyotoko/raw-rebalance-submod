@@ -218,7 +218,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>650</Score_Cost_Credits>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>2</Population_Value><!-- From 4 -->
+		<Population_Value>1</Population_Value><!-- From 4 -->
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer><!-- From 1600 -->
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
