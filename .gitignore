@@ -1,6 +1,10 @@
 # Executable files
 *.exe
 
+# Docs builds
+site/
+venv/
+
 ## This files can only be found in a release. Check out the latest release on GitHub!
 # Unchanged copy paths
 Data/Art/

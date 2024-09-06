@@ -18,6 +18,16 @@ You can install it from the Steam Worshop or from the last GitHub Release.
 
 There will be also a release on ModDB soon.
 
+## Documentation
+
+This mod provides its own documentation. You can build and host the documentation with the following commands:
+
+```shell
+python -m venv venv
+./venv/bin/pip install mkdocs
+./venv/bin/mkdocs serve
+```
+
 ## Notes
 
 All ground skirmish buildables are defined in `GroundBuildables{Rebel|Empire}.xml`.
