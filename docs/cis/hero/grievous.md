@@ -1,5 +1,7 @@
 # Grievous
 
+This former Kaleesh warlord has been given a new droid body courtesy of Count Dooku. Un-merciful in combat, he has also been taught the art of Light Saber combat by Count Dooku
+
 ## Stats Land
 
 <table>

@@ -1,5 +1,7 @@
 # Vulture Droid
 
+Deadly droid fighters, armed with twin laser cannons as well as being able to launch buzz droids. Use these in overwhelming numbers. (7 fighters per squadron)
+
 ## Stats
 
 <table>

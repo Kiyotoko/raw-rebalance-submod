@@ -1,5 +1,7 @@
 # Hammer Picket
 
+The Hammer-class Picket is a dedicated system patrol craft manufactured by the Techno Union to fill an anti-fighter role. It can engage light corevetts and also serves as a recon vessel.
+
 ## Stats
 
 <table>

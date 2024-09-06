@@ -1,5 +1,7 @@
 # Yoda
 
+Yoda is one of the most renowned and powerful Jedi Masters in galactic history, who is known for his legendary wisdom, mastery of the Force and skills in lightsaber combat. Yoda served as a member of the Jedi High Council and reigns as Grand Master of the Jedi Order.
+
 ## Stats
 
 <table>

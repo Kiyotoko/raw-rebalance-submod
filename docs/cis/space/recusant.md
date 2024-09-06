@@ -1,5 +1,7 @@
 # Recusant
 
+A well rounded ship but still noticeably weaker than the Providence-class, the Recusant-class is a relatively narrow ship presenting a narrow profile great for use in head-on engagements.
+
 ## Stats
 
 <table>

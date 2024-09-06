@@ -1,5 +1,7 @@
 # Obiwan
 
+A Jedi Knight powerful in the light side of the Force. Able to heal and protect allies.
+
 ## Stats Land
 
 <table>

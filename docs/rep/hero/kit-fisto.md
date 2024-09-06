@@ -1,5 +1,7 @@
 # Kit Fisto
 
+A renowned male Nautolan Jedi Master and Jedi General in the Grand Army of the Republic, as well as a member of the Jedi High Council. With a well-developed sense of humility to go with his sense of humor, Kit Fisto mostly keeps a low profile.
+
 ## Stats
 
 <table>

@@ -1,4 +1,6 @@
-# Cat Bane
+# Cad Bane
+
+A nasty bounty hunter who can travel around the galaxy undetected by enemy fleets. Can deploy at a system to eliminate enemy heroes. Armed with a quickdraw blasters, Cad Bane is quite deadly.
 
 ## Stats
 

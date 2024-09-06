@@ -1,5 +1,7 @@
 # Bulwark
 
+A large battlecruiser with heavy firepower. Having a low fighter compliment it must rely on other ships for fighter protection
+
 ## Stats
 
 <table>

@@ -1,5 +1,7 @@
 ### CIS Bomber
 
+Automated droid bomber, equipped with blasters and proton torpedoes. (4 bombers per squadron)
+
 ## Stats
 
 <table>

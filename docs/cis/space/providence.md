@@ -1,5 +1,7 @@
 # Providence
 
+The Providence-class is a heavily armed carrier/destroyer. It carries many squadrons of Vulture Droids, Tri-Droid Fighters, and Droid Bombers and is capable of destroying all but the heaviest Republic ships.
+
 ## Stats
 
 <table>

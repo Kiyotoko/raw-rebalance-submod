@@ -1,5 +1,7 @@
 # Acclamator
 
+The Acclamator-class is a medium frigate armed with 2 quad turbolaser batteries, 2 point defense laser cannon batteries, a proton torpedo launcher, and a concussion missile launcher. It also carries a number of V-19 fighter squadrons, allowing it to fill many roles, which is both its strength and weakness.
+
 ## Stats
 
 <table>

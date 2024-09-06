@@ -1,5 +1,7 @@
 # Light Frigate
 
+Light assault cruiser armed with 5 laser cannons. Designed to destroy fighters and bombers.
+
 ## Stats
 
 <table>

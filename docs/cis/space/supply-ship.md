@@ -1,5 +1,7 @@
 ## Supply Ship
 
+The Supply Ship is a massive transport starship built to compensate for the inadequate cargo capacities of other craft in the Confederate Navy. Each ship can store over five million metric tons of cargo, allowing it to accommodate multiple C-9979 landing craft.
+
 ## Stats
 
 <table>

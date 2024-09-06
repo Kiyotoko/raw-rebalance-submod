@@ -1,5 +1,7 @@
 # Aayla Secura
 
+A Rutian Twi'lek Jedi Knight. Trained as a Jedi Guardian, she is an impressively skilled fighter, and a empathic and highly intelligent Jedi.
+
 ## Stats
 
 <table>

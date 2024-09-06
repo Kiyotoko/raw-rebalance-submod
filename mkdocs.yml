@@ -1,4 +1,4 @@
-site_name: Raw Rebalance Docs
+site_name: Raw Rebalance Wiki
 nav:
   - Home: index.md
   - CIS:
@@ -6,14 +6,15 @@ nav:
       - Asaj Ventress: cis/hero/asaj-ventress.md
       - Aurra Sing: cis/hero/aurra-sing.md
       - Bossk: cis/hero/bossk.md
-      - Cat Bane: cis/hero/cat-bane.md
+      - Cad Bane: cis/hero/cad-bane.md
       - Count Docu: cis/hero/count-docu.md
+      - Durge: cis/hero/durge.md
       - Grievous: cis/hero/grievous.md
       - Jango: cis/hero/jango.md
       - Trench: cis/hero/trench.md
     - Land:
       - IG86: cis/land/ig86.md
-      - Magmaguard: cis/land/magmaguard.md
+      - Magnaguard: cis/land/magnaguard.md
       - Repair Droid: cis/land/repair-droid.md
     - Space:
       - Bomber: cis/space/bomber.md
@@ -24,6 +25,7 @@ nav:
       - Lucrehalk: cis/space/lucrehalk.md
       - Malevolence: cis/space/malevolence.md
       - Munificent: cis/space/munificent.md
+      - Patrol Frigate: cis/space/patrol-frigate.md
       - Providence: cis/space/providence.md
       - Recusant: cis/space/recusant.md
       - Supply Ship: cis/space/supply-ship.md
@@ -41,6 +43,7 @@ nav:
       - Luminara: rep/hero/luminara.md
       - Mace Windu: rep/hero/mace-windu.md
       - Obiwan: rep/hero/obiwan.md
+      - Shaak Ti: rep/hero/shaak-ti.md
       - Yoda: rep/hero/yoda.md
       - Yularen: rep/hero/yularen.md
     - Space:

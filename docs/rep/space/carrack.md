@@ -1,5 +1,7 @@
 # Carrack
 
+Light to medium cruiser, with heavy armament. Good in a support role or frontline combat duty. 
+
 ## Stats
 
 <table>

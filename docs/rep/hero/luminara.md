@@ -1,5 +1,7 @@
 # Luminara
 
+Jedi Master Luminara Unduli is Senior Jedi General of the Clone Army. She is often in combat with her apprentice Barris Offee. Both Luminara and Barris are Mirialans, females, and excellent lightsaber combatants with unparalleled agility and skill.
+
 ## Stats
 
 <table>

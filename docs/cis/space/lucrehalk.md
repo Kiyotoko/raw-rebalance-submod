@@ -1,5 +1,7 @@
 # Lucrehalk
 
+A large ball-shaped coreship surrounded by a ring, the Lucrehulk was originally a transport until militarized by the Trade Federation and given to the Confederacy. One such ship could carry enough battledroids to subjugate an entire planet.
+
 ## Stats
 
 <table>

@@ -1,5 +1,7 @@
 # Munificent
 
+Medium Frigate. Heavily armed and shielded. Best used in large numbers. 
+
 ## Stats
 
 <table>

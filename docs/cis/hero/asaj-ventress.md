@@ -1,5 +1,7 @@
 # Asai Ventress
 
+One of the most feared beings in the galaxy. Asajj Ventress is a Dathomirian Dark Jedi and a valuable Dark Acolyte to Count Dooku. In space Asajj pilots a rare Ginivex-class starfighter. 
+
 ## Stats
 
 <table>

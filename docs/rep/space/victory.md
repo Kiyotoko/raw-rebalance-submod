@@ -1,5 +1,7 @@
 # Victory
 
+Heavy warship designed for planetary defense, planetary assault, and ship-to-ship combat. Armed with multiple missile launchers the Victory-class can bombard targets from distance or engage at close range. 
+
 ## Stats
 
 <table>

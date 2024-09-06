@@ -1,5 +1,7 @@
 # Technounion Frigate
 
+A medium sized Frigate given by the Techno Union, fishlike in design it is relatively fast and can put some heavy fire on an opponent and fall back before the enemy can respond.
+
 ## Stats
 
 <table>

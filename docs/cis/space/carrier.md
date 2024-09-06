@@ -1,5 +1,7 @@
 ## Carrier
 
+Medium sized Droid Fighter Carrier. Cheaper than the larger carriers such as the Lucrehulk. Capable of launching Droid Bombers or Fighters. 
+
 ## Stats
 
 <table>

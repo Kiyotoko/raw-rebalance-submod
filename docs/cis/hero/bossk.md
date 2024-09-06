@@ -1,5 +1,7 @@
 # Bossk
 
+A Trandoshan bounty hunter with a reputation for ruthlessness; hates Wookiees and Chewbacca in particular. Can deploy at a system to eliminate enemy heroes.
+
 ## Stats
 
 <table>
