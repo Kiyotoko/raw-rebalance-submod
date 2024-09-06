@@ -56,9 +56,9 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<!-- <Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>
 		<Required_Planets>Mechis</Required_Planets>-->
-		<Build_Cost_Credits>2600</Build_Cost_Credits><!-- Rebalance Note: Changed from 3000 -->
+		<Build_Cost_Credits>2700</Build_Cost_Credits><!-- Rebalance Note: Changed from 3000 -->
 		<AI_Combat_Power>2000</AI_Combat_Power>
-		<Build_Time_Seconds>26</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
+		<Build_Time_Seconds>27</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
 		<Cheap_Bribe_Cost>220</Cheap_Bribe_Cost>
@@ -166,8 +166,8 @@
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3000 -->
-		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
+		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3000 -->
+		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->
@@ -177,21 +177,31 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-
-			<Unit_Ability>
+			<!-- Rebalance Note: Replaced Ability with below -->
+			<!--Unit_Ability>
 				<Type>LASER_DEFENSE</Type>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Munificent_Laser_Defense</GUI_Activated_Ability_Name>
 				<Effective_Radius>500.0</Effective_Radius>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Laser_Defense_On_Munificient</SFXEvent_GUI_Unit_Ability_Activated><!--(by pressing the activate button)-->
-				<!--<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Munificient </SFXEvent_GUI_Unit_Ability_Deactivated>--><!-- Dont use this !! --><!--(by pressing deactivate)-->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Laser_Defense_On_Munificient</SFXEvent_GUI_Unit_Ability_Activated>
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
+			</Unit_Ability-->
 
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
+		<!--Abilities SubObjectList="Yes">
 			<Laser_Defense_Ability Name="Munificent_Laser_Defense">
 				<Activation_Style>User_Input</Activation_Style>
 				<Defense_Duration_In_Secs>30.0</Defense_Duration_In_Secs>
@@ -208,7 +218,7 @@
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
 			</Laser_Defense_Ability>
-		</Abilities>
+		</Abilities-->
 
 
 		<Score_Cost_Credits>3200</Score_Cost_Credits>

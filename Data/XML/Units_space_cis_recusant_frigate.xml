@@ -32,8 +32,8 @@
 		<OverrideAcceleration>.05</OverrideAcceleration>
 		<OverrideDeceleration>.05</OverrideDeceleration>
 
-		<Armor_Type>Armor_Vengeance</Armor_Type>
-		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Armor_Type>Armor_Victory_Class</Armor_Type><!-- Rebalance Note: Changed from Armor_Vengeance to Armor_Victory_Class -->
+		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type><!-- Rebalance Note: Changed from Shield_Frigate to Shield_Capital -->
 		<Max_Thrust>1.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Select_Box_Scale>150</Select_Box_Scale>
@@ -51,8 +51,8 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>4000</AI_Combat_Power>
-		<Build_Cost_Credits>3200</Build_Cost_Credits><!-- From 2900 -->
-		<Build_Time_Seconds>32</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
+		<Build_Cost_Credits>3800</Build_Cost_Credits><!-- Rebalance Note: Changed from 3200 to 3800 -->
+		<Build_Time_Seconds>38</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 to 38-->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -160,8 +160,8 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
+		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3200 to 3800 -->
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 to 38 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->
@@ -228,11 +228,8 @@
 			</Laser_Defense_Ability>
 		</Abilities>
 
-
-
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
 		<Population_Value>3</Population_Value><!-- Rebalance Note: Changed from 2 -->
-
 	</SpaceUnit>
 
 	<SpaceUnit Name="Recusant_Death_Clone">
@@ -251,9 +248,5 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
-
-
-
 </Recusant_Data>

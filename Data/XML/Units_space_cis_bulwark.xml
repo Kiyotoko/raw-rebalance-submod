@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<CIS_Bulwark_Data>
+<CIS_Bulwark_Data
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
+	xsi:schemaLocation="https://kiyotoko.github.io/eaw-xml-schema/schemas/space https://kiyotoko.github.io/eaw-xml-schema/schemas/space.xsd">
 
 	<SpaceUnit Name="CIS_Bulwark">
 		<No_Colorization_Color>251, 251, 251, 255</No_Colorization_Color>
