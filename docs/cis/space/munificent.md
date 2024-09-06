@@ -1,22 +1,22 @@
-# NTB-630
+# Munificent
 
 ## Stats
 
 <table>
     <tr>
         <td>Price</td>
-        <td>500</td>
+        <td>2800</td>
     </tr>
     <tr>
         <td>Time</td>
-        <td>10</td>
+        <td>28</td>
     </tr>
     <tr>
         <td>Population</td>
-        <td>1</td>
+        <td>2</td>
     </tr>
     <tr>
         <td>Techlevel</td>
-        <td></td>
+        <td>3</td>
     </tr>
 </table>
