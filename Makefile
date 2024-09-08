@@ -25,6 +25,7 @@ var:
 clean:
 	# Remove outdated files
 	@rm -f $(RM)/Units*.xml $(RM)/Units*.XML $(RM)/Hardpoints*.xml $(RM)/Specialstructures*.xml $(RM)/Starbases*.xml $(RM)/GroundBuildables*.xml $(RM)/Gameobjectfiles.xml $(RM)/DataMiner.exe
+	@rm -r -f $(RM)/Cis/ $(RM)/Misc/ $(RM)/Rep/
 
 update:
 	# Update this project from git
@@ -34,3 +35,4 @@ install:
 	# Installing modified xml files
 	@cp --recursive $(SOURCE)/Data $(DEST)
 
+reinstall: clean install

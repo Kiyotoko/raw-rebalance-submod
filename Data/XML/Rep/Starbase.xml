@@ -1386,8 +1386,8 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Luminara_Team_Space_MP,
-				Plokoon_Team_Space_MP,
+				<!--Rebalance Note: Removed Luminara_Team_Space_MP,
+				Plokoon_Team_Space_MP,-->
 				Mace_Windu_Team_Space_MP,
 				Anakin_Skywalker_Team_Space_MP,
 				Obiwan_Team_Space_MP,
