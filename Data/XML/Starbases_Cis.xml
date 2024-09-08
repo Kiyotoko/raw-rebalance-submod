@@ -1319,11 +1319,11 @@
 				Hammer_Class_Picket, 
 				Cis_Patrol_Frigate,
 				Munificent_Frigate,
-				Recusant_Frigate,
-				<!-- Wavecrest_Frigate, Rebalance Note: Removed -->
-				CIS_Carrier,
-				Supply_Ship,
 				Technounion_Frigate,
+				CIS_Carrier,
+				Recusant_Frigate,
+				Supply_Ship,
+				<!-- Wavecrest_Frigate, Rebalance Note: Removed -->
 				Lucrehulk_Battleship,
 				CS_Enhanced_Engines_L1_Upgrade,
 				CS_Enhanced_Engines_L2_Upgrade,
@@ -1446,11 +1446,11 @@
 				Munificent_Frigate,
 				Technounion_Frigate,
 				CIS_Carrier,
-				Supply_Ship,
 				Recusant_Frigate,
+				Supply_Ship,
 				Providence_Class_Carrier,
+				CIS_Bulwark_Skirmish, <!-- Rebalance Note: Added for Starbase Level 5 -->
 				Lucrehulk_Battleship,
-				CIS_Bulwark, <!-- Rebalance Note: Added for Starbase Level 5 -->
 				Malevolence_Skirmish,
 				CS_Enhanced_Engines_L1_Upgrade,
 				CS_Enhanced_Engines_L2_Upgrade,

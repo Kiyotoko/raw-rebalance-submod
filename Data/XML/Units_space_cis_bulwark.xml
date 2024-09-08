@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
 	xsi:schemaLocation="https://kiyotoko.github.io/eaw-xml-schema/schemas/space https://kiyotoko.github.io/eaw-xml-schema/schemas/space.xsd">
 
-	<SpaceUnit Name="CIS_Bulwark">
+	<SpaceUnit Name="CIS_Bulwark_Skirmish">
 		<No_Colorization_Color>251, 251, 251, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_CIS_BULWARK</Text_ID>
 		<Encyclopedia_Good_Against>Dreadnaught_Cruiser Rep_Acclamator_Assault_Ship Rep_Centax_Heavy_Frigate</Encyclopedia_Good_Against>
@@ -53,7 +53,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Sullust, Utapau, Pammant, Ringo_Vinda</Required_Planets>
+		<!--Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Sullust, Utapau, Pammant, Ringo_Vinda</Required_Planets-->
 		<Damage>70</Damage>
 		<Autoresolve_Health>9000</Autoresolve_Health>
 		<Shield_Points>2500</Shield_Points>
@@ -91,9 +91,9 @@
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_4>
 
-
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
-		<SpaceBehavior>SELF_DESTRUCT, ABILITY_COUNTDOWN, LURE, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<!-- Rebalance Note: Removed SELF_DESTRUCT -->
+		<SpaceBehavior>ABILITY_COUNTDOWN, LURE, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -179,7 +179,8 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
+			<!-- Rebalance Note: Replaced with ability below -->
+			<!--Unit_Ability>
 				<Type>SELF_DESTRUCT</Type>
 				<Alternate_Description_Text>TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION</Alternate_Description_Text>
 				<Expiration_Seconds>3.5</Expiration_Seconds>
@@ -187,12 +188,21 @@
 				<Spawned_Object_Type>Vengeance_Self_Destruct_Blast</Spawned_Object_Type>
 				<GUI_Activated_Ability_Name>Vengeance_Self_Destruct</GUI_Activated_Ability_Name>
 				<Stop_When_Activated>No</Stop_When_Activated>
-
-				<!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>-->
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-
-			</Unit_Ability>
+			</Unit_Ability-->
 			
+			<!-- Rebalance Note: Added ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.5</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
 			<Unit_Ability>
 				<Type>LURE</Type>
 				<Effective_Radius>1</Effective_Radius>
@@ -218,12 +228,24 @@
 		<Score_Cost_Credits>5300</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer><!-- From 6000 -->
-		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds><!-- From 65 -->
+		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>68</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+	<!-- Code written for RaW Rebalance by Darth Bane/Kiyotoko -->
+	<SpaceUnit Name="CIS_Bulwark">
+		<Variant_Of_Existing_Type>CIS_Bulwark_Skirmish</Variant_Of_Existing_Type>
+		
+		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Sullust, Utapau, Pammant, Ringo_Vinda</Required_Planets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>68</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>CIS_Advanced_Units_Three</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
@@ -244,5 +266,4 @@
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
 </CIS_Bulwark_Data>

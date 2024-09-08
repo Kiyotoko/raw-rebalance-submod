@@ -4,9 +4,12 @@
 - Change Pelta Build Time (Skirmish) from 18 to 19 seconds and Build Cost (Global) from 1800 to 1900 and Build Time (Global) from 20 to 19 seconds
 - Removed Buildable Object Waecrest in CIS Starbase for Level 4
 - Removed Buildable Object Captain Mar Tuuk in CIS Starbase for Level 4 and 5
-- Changed CIS Recusant Build Cost from 3200 to 3800 and Build Time from 32 to 38 seconds and Armor Type from "Armor Vengeance" to "Armor Victory Class" and Shield Armor Type from "Shield Frigate" to "Shield Capital"
+- Changed CIS Recusant Build Cost from 3200 to 3800 and Build Time from 32 to 38 seconds and Armor Type from "Armor Vengeance" to "Armor Victory Class" and Shield Armor Type from "Shield Frigate" to "Shield Capital" and Targeting Max Attack Distance from 1000 to 2200
 - Replaced Ability "Laser Defense" in Munificent with "Power to Weapons"
 - Changed Munificent Build Cost from 2600 to 2700 and Build Time from 26 too 27 seconds
+- Created Space Units CIS_Bulwark_Skirmish and Rep_Victory_Skirmish
+- Added back Tactical Build Prerequisites to Victory Destroyer
+- Changed Invisible Hand Build Cost from 7200 to 6600 and Build Time from 18 to 60 seconds
 
 ## v1.0.0
 

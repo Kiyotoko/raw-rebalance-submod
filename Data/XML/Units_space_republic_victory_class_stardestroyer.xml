@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
-<Victory_Class_Destroyer_Data>
-	<SpaceUnit Name="Republic_Victory_Destroyer">
+<Victory_Class_Destroyer_Data
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
+	xsi:schemaLocation="https://kiyotoko.github.io/eaw-xml-schema/schemas/space https://kiyotoko.github.io/eaw-xml-schema/schemas/space.xsd">
+	<SpaceUnit Name="Rep_Victory_Skirmish">
 		<No_Colorization_Color>255, 160, 156, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
 		<Encyclopedia_Good_Against>Cis_Patrol_Frigate Munificent_Frigate Technounion_Frigate</Encyclopedia_Good_Against>
@@ -45,7 +47,6 @@
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bestine, Corellia, Coruscant, Duro Foerost, Fondor, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Ringo_Vinda, Rothana, Sluis_Van, Utapau, Sullust, Geonosis, Pammant</Required_Planets>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Ship_Class>Capital</Ship_Class>
@@ -213,9 +214,22 @@
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--Tactical_Build_Prerequisites>RS_Prototype_Level_Two_Upgrade</Tactical_Build_Prerequisites--><!-- From RS_Prototype_Level_One_Upgrade --><!-- Rebalance Note: Comment out Build Prerequisites-->
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+	<!-- Code written for RaW Rebalance by Darth Bane/Kiyotoko -->
+	<SpaceUnit Name="Republic_Victory_Destroyer">
+		<Variant_Of_Existing_Type>Rep_Victory_Skirmish</Variant_Of_Existing_Type>
+		
+		<Required_Planets>Bestine, Corellia, Coruscant, Duro Foerost, Fondor, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Ringo_Vinda, Rothana, Sluis_Van, Utapau, Sullust, Geonosis, Pammant</Required_Planets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer><!-- From 3400 -->
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
+		<Tactical_Build_Prerequisites>RS_Prototype_Level_Two_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 

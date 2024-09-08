@@ -1272,7 +1272,7 @@
 				Rep_Centax_Heavy_Frigate,
 				Rep_Acclamator_Assault_Ship,
 				Dreadnaught_Cruiser,
-				Republic_Victory_Destroyer,<!-- Rebalance Note: Added Republic Victory Destroyer -->
+				Rep_Victory_Skirmish,<!-- Rebalance Note: Added Republic Victory Destroyer -->
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Enhanced_Shielding_L2_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -1403,7 +1403,7 @@
 				Republic_Light_Cruiser,
 				Rep_Centax_Heavy_Frigate,
 				Dreadnaught_Cruiser,
-				Republic_Victory_Destroyer,<!-- Rebalance Note: Added Republic Victory Destroyer -->
+				Rep_Victory_Skirmish,<!-- Rebalance Note: Added Republic Victory Destroyer -->
 				Venator,
 				Mandator_Super_Star_Destroyer,
 				RS_Enhanced_Shielding_L1_Upgrade,
