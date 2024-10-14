@@ -6,7 +6,11 @@ This is a unofficial submod of RaW! All credits go to the original creators! You
 
 [h3]Changes[/h3]
 
-This mod rebalances many space units from RaW for space multiplayer. I am currently working on rebalancing the ground battles and galactic conquest. However, this will take some time. Please note that this mod only focuses on multiplayer battles with other players. Therefore campaigns that can only be played in singleplayer will receive no rebalancing in the near future. Release v1.0 will therefore only cover the space skirmishes. You can find the full changelog [url=https://steamcommunity.com/workshop/filedetails/discussion/3131109252/7340374196891815628/]here[/url] and [url=https://github.com/Kiyotoko/republic-at-war-rebalance-submod/blob/master/CHANGELOG.md]here[/url].
+This mod rebalances many space units from RaW for space multiplayer. It primarly changes build cost and build time, add replaces some abilities. I am currently working on rebalancing the ground battles and galactic conquest. However, this will take some time. Please note that this mod only focuses on multiplayer battles with other players. Therefore campaigns that can only be played in singleplayer will receive no rebalancing in the near future. Release v0.1 will therefore only cover the space skirmishes. You can find the full changelog [url=https://steamcommunity.com/workshop/filedetails/discussion/3131109252/7340374196891815628/]here[/url] and [url=https://github.com/Kiyotoko/republic-at-war-rebalance-submod/blob/master/CHANGELOG.md]here[/url].
+
+[h3]Installation[/h3]
+
+This mod can be installed by subscribing to the Steam Workshop item, via ModDB or GitHub. Unfortunately, Republic At War does not allow submods. Any attempt to create one will fail when loading the mod. Therefore, this mod is a standalone mod, which, unlike submods, does not have to be started via Steam Launch Options, but can be loaded regularly via the in-game menu. For those interested, the ModID can still be found below in the description.
 
 [h3]Requesting features and reporting bugs[/h3]
 
