@@ -9,7 +9,7 @@ Also we advise you to read the manual located in your install directory in order
 ## Thanks and special mentions
 
 - We'd like to thank everyone who contributed to this release! A huge thanks goes to all of our testers. We take quality control seriously and field-testing changes before they go live is a key part of that process.
-- We would like to thank **The One Bullet** and the entire AoTR team for their encouragement, and generous assistance.
+- We would like to thank **The One Bullet** and the entire AotR team for their encouragement, and generous assistance.
 - Also thank **Farseer** for his help and generous contributions
 - Also thanks to **SmallPox** (EaWX) **Kad_Venku** (former YVaW) for the development of many tools which will make it possible to have shorter release cycles of Republic at War.
 
@@ -38,23 +38,56 @@ If you wish to use any asset from from version 1.3.x or below in your mod the co
 Below are examples of our credit and a acceptable credit line for someone who has changed a item.
 
 ```
-ModelFile: Mesh- z3r0x | Animation- z3r0x | Skin- z3r0x | Rigging- z3r0x
+ModelFile: Mesh- z3r0x | Animation- z3r0x | Texture- z3r0x | Rigging- z3r0x
 
-Another ModelFile: Mesh-z3r0x | Animation- z3r0x | Skin- z3r0x | Rigging- z3r0x | Low poly mesh edits- THIS IS YOU
+Another ModelFile: Mesh-z3r0x | Animation- z3r0x | Texture- z3r0x | Rigging- z3r0x | Low poly mesh edits- THIS IS YOU
 ```
 
-## Asset Credits: 1.4 (restricted usage)
+WE RESERVE THE RIGHT TO DENY ACCESS TO ANY OF OUR ASSETS TO ANY PERSON/MOD FOR ANY REASON.
+
+
+## Asset Credits: 1.4 and above (restricted usage)
+
+Nightsister Warrior
+Mesh-Lucasarts/z3r0x  | Texture-z3r0x | Rigging-Lucasarts/z3r0x | Animations-Lucasarts/z3r0x | Coding-z3r0x
+
+Nightsister Hunter (AotR)
+Mesh-Lucasarts/Kubli   | Texture-Lucasarts/Kubli | Rigging-Lucasarts/Kubli | Animations-Lucasarts/Kubli | Coding-JPJones
+
+Nightsister Wraith
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-JPJones
+
+Undead Nightsister
+Mesh-Lucasarts/z3r0x  | Texture-z3r0x | Rigging-z3r0x | Animations-z3r0x | Coding-z3r0x
+
+Umbaran Infantry
+Mesh-Lucasarts/z3r0x  | Texture-z3r0x | Rigging-z3r0x | Animations-z3r0x | Coding-AshUzumaki
+
+Umbaran Tank
+Mesh-Lucasarts/z3r0x  | Texture-z3r0x | Rigging-z3r0x | Animations-z3r0x | Coding-JPJones
+
+Umbaran Fighter
+Mesh-Lucasart/z3r0xz3r0x  | Texture-z3r0x | Rigging-z3r0x | Coding-JPJones
+
+Umbara Props
+Mesh-z3r0x  | Texture-z3r0x | Rigging-z3r0x | Coding-z3r0x
+
+Dathaomir Props
+Mesh-Warb/z3r0x  | Texture-Warb/z3r0x | Rigging-z3r0x | Coding-z3r0x
+
+Clone Z-95
+Mesh-Grimley | Texture-Kalani6342 | Rigging-Kalani6342 | Coding-???
 
 Recalcitrant-class Light Cruiser (Remake: Clone Wars Holdouts)
 Mesh-Kharak | Texture-Kharak | Rigging-Emperor Niko | Coding-Dambo/JPJones
 
-CSA Station/CKS Yard (AoTr)
+CSA Station/CKS Yard (AotR)
 Mesh-EvilleJedi/Steiner0815/z3r0x | Textures-EvilleJedi/Steiner0815 | Rigging-EvilleJedi/Steiner0815 | Coding-JPJones
 
-Golan 1 (AoTr)
+Golan 1 (AotR)
 Mesh-EvilleJedi/Steiner0815/z3r0x | Textures-EvilleJedi/Steiner0815 | Rigging-EvilleJedi/Steiner0815 | Coding-JPJones
 
-Gladiator-class Star destroyer (AoTr)
+Gladiator-class Star destroyer (AotR)
 Mesh-(Gowron/Maxloef)/Steiner0815/z3r0x | Textures-(Gowron/Maxloef)/Steiner0815/z3r0x | Rigging-(Gowron/Maxloef)/Steiner0815/z3r0x | Coding-R3D2/JPJones
 
 Octuptarra Magna Tri-droid `Commissioned`
@@ -63,35 +96,35 @@ Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer/z3r0x | Animations
 RX-200 EMP Tank
 Mesh-Warb Null | Textures-Warb Null/z3r0x | Rigging-Warb Null | animations-z3r0x | Coding-AshUzumaki/JPJones
 
-RhinoDon Carrier (AoTr)
+RhinoDon Carrier (AotR)
 Mesh-Sly442 | Textures-Sly442 | Rigging-Sly442 | Coding-JPJones
 
-ESPO Walker (AoTr)
+ESPO Walker (AotR)
 Mesh-EvilBobtheBobMesh | Texture-EvilBobtheBobMesh | Rigging-EvilBobtheBobMesh | Coding-JPJones
 
 Crabdroid
 Mesh-Lucasarts | Texture-Lucasarts | Rigging-z3r0x | Animation-Petroglyph/z3r0x
 
 Onderon Props
-Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
+Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x | Coding-z3r0x/RadicalEdward2
 
-Space Build Pads and turrets `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer
+Space Build Pads and turrets (Rise of Mandalorians)
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Coding-z3r0x
 
-Space mining Facilities `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer
+Space mining Facilities (Rise of the Mandalorians)
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Coding-z3r0x
 
 AT-TE `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-z3r0x
 
 Clone Personal Walker `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-Bucman55
 
 AAT Tank `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer/z3r0x
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer/z3r0x | Coding-Bucman55
 
 AAT Wreck `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer 
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Coding-Bucman55
 
 Waterfall `Commissioned`
 Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer 
@@ -102,14 +135,14 @@ Mesh-Farseer | Textures-Farseer/z3r0x | Rigging-z3r0x
 Space Debri and Derlicts `Commissioned`
 Mesh-Kharak | Texture-Kharak | Rigging-z3r0x
 
-Luckerhulk Control Ship (Mar Tuuk's Flagship)
-Mesh-Jeroen | Texture-Jeroen | Rigging-z3r0x
+Luckerhulk Control Ship-Mar Tuuk's Flagship (Remake)
+Mesh-Jeroen | Texture-Jeroen | Rigging-z3r0x | z3r0x
 
 Munificent (Remake)
 Mesh-Jeroen/z3r0x | Texture-Jeroen | Rigging-z3r0x
 
 Invincible-Class Heavy cruiser
-Mesh-Kharak | Texture-Kharak | Rigging-z3r0x
+Mesh-Kharak | Texture-Kharak | Rigging-z3r0x | Coding-z3r0x
 
 Chandrila Props (W_chandrila_building_1 - 9 and other items tagged as Chandrila)
 Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x 
@@ -129,32 +162,32 @@ Mesh-Lucasarts/z3r0x | Texture-Lucasart/z3r0x | Rigging-z3r0x | Animaton - DICE/
 Speeder Truck (Animated and Parked)
 Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x | Animaton -z3r0x
 
-Espo Infantry (AoTr)
+Espo Infantry (AotR)
 Mesh-Vade Parvis/Sly442 |Texture-Vade Parvis | Rigging-Sly442 | Animation- Petroglyph
 
-Warpod (AoTr)
+Warpod (AotR)
 Mesh-Sly442 | Texture-Sly442 | Rigging-Sly442 
 
 Mimbanese Soldiers
 Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animation - Petroglyph/z3r0x
 
 Etti Light Cruiser
-Mesh-Doci | Textures-Doci | Rigging-z3r0x 
+Mesh-Doci | Textures-Doci | Rigging-z3r0x | Coding-z3r0x
 
 Lance Walker
-Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null | Animations- Petroglyph/Warb Null
+Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null | Animations- Petroglyph/Warb Null | Coding-z3r0x
 
-Mankvim Fighter (AoTr)
-Mesh-EvilleJedi | Textures-EvilleJedi/Maxim | Rigging-Maxim
+Mankvim Fighter (AotR)
+Mesh-EvilleJedi | Textures-EvilleJedi/Maxim | Rigging-Maxim | Coding-z3r0x
 
 Republic BuidPad Land Turrets 
-Mesh-Warb Null | Textures-Warb Null/z3r0x | Rigging-z3r0x
+Mesh-Warb Null | Textures-Warb Null/z3r0x | Rigging-z3r0x | Coding-z3r0x
 
 Forward Command Post 
 Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null
 
 Republic Militia
-Mesh-EA/z3r0x | Textures-EA/z3r0x | Rigging-z3r0x | Animations- Petroglyph/z3r0x
+Mesh-EA/z3r0x | Textures-EA/z3r0x | Rigging-z3r0x | Animations- Petroglyph/z3r0x | Coding-Bucman55
 
 ARC-170
 Mesh-Thomas3190/z3r0x | Textures-Thomas3190/z3r0x | Rigging-z3r0x | Animations- z3r0x
@@ -169,7 +202,7 @@ Droid Factory
 Mesh-Warb Null | Textures-Warb Null | Rigging-Warb Null | Animations-Warb Null
 
 CIS Militia
-Mesh-EA/z3r0x | Textures-EA/z3r0x | Rigging-z3r0x | Animations- Petroglyph/z3r0x
+Mesh-EA/z3r0x | Textures-EA/z3r0x | Rigging-z3r0x | Animations- Petroglyph/z3r0x | Coding-Bucman55
 
 Droideka
 Mesh-DICE/z3r0x | Textures-DICE/z3r0x | Rigging-z3r0x | Animations- DICE/z3r0x
@@ -178,7 +211,7 @@ Providence Cruiser/Carrier
 Mesh-Warb Null/Arvis Taljik | Textures-Warb Null/Arvis Taljik | Rigging-z3r0x
 
 Heavy STAP
-Mesh-Kubli/z3r0x | Texture-Kubli/z3r0x | Rigging-z3r0x | Animation-z3r0x
+Mesh-Kubli/z3r0x | Texture-Kubli/z3r0x | Rigging-z3r0x | Animation-z3r0x | Coding-Bucman55
 
 Binary Loadlifters
 Mesh-Sony/z3r0x | Textures-Sony/z3r0x | Rigging-z3r0x
@@ -897,7 +930,7 @@ Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
 Stealthship
 Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
 
-Hyena Bomer
+Hyena Bomber
 Mesh-Evillejedi/Warbnull | Texture-Evillejedi/Warbnull | Rigging-Evillejedi/Warbnull
 
 CIS Gunplatform
@@ -942,10 +975,11 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 - Credit goes to **CCArggee** for the following maps:
 	Endor (Multiplayer)
 - Credit goes to **RadicalEdward2** for the following maps:
-	Bespin, Corellia, Honoghr, Mustafar, Rhen Var, Tatooine, Tibrin, Yag'Dhul, Ringo Vinda, Mimban, Lehon, Vulpter, Onderon, Christophis
+	Bespin, Corellia, Honoghr, Mustafar, Rhen Var, Tatooine, Tibrin, Yag'Dhul, Ringo Vinda, Mimban, Lehon, Vulpter, Onderon, Christophsis, Dathaomir, Umbara
 - Credits goes to **AshUzumaki** for the following maps:
 	Bothawui, Kuat, Eriadu
-- Credit goes to the AoTR modding team for the following maps: Etti IV, Nar Shaddaa, Kashyyyk
+- Credit goes to the (AotR) modding team for the following maps:
+	Etti IV, Nar Shaddaa, Kashyyyk
 
 
 

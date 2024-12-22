@@ -5,6 +5,11 @@
 - Support for RaW v1.4.7
 - Add sync target to make syncronizing this submods dev files with the files from RaW easier.
 - Added wiki (Still WIP)
+- Changed difficult adjustments to AIs with less cheating and lower sleep durations
+
+### CIS
+
+- Changed Ability "Power to Weapons" in Munificent Weapon Delay Multiplier from 0.3 to 0.9 and Cause Damage Multiplier from 2.0 to 1.2 and removed Speed Multiplier
 
 ## v1.0.1
 

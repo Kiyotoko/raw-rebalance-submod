@@ -2,6 +2,39 @@
 
 #Republic At War: *A Call To Arms*
 
+**Version 1.4.7**
+
+## New Features
+- Umbara added as new Planet
+  - Umbaran Militia added as indigenous unit 
+  - Vixus added as hostile fauna
+- New CIS Unit: Umbaran Fighter
+- New CIS Unit: Umbaran Hovertank
+- Nightsisters added as a neutral faction occupying Dathomir
+  - Nightsister Wraith unit added
+  - Nightsister Hunter unit added
+  - Nightsister warrier added as indigenous unit
+  - Undead Nightsister added as indigenous unit
+
+## Updates
+- New land and space map for Dathomir
+- Republic and CIS Space unit scales adjusted to be more accurate to their depicted length.
+- New planet model for Onderon
+
+## Fixes
+- Fixed Icon bug with Chandrila
+- Fixed Thyferra Space map bug where the attackers and defenders phasing away from each other.
+- Fixed Outer Rim Sieges and Mid Rim Assault GCs so that the galaxy map are fully connected.
+- Added missing planets to MP GC: The Clone Wars
+
+## Balance Changes
+- Added Rothana to Ground-to-Space weapons
+- Update starting forces for single player GCs on Yavin, Manaan, Bothawui, NalHutta, Onderon, Antar, Rodia, Saleucami, Nar_Shaddaa, Jabiim, Sullust, The Maw, Tirbin, Trandosha, Eriadu, Kashyyyk, Malastare, Naboo, RocheAsteroids
+- Update starting forces for multi player GCs on Yavin, Dathomir, Honoghr, Alderaan, Anaxes, Bespin, Carida, Coruscant, Eriadu, Kamino, Kuat, MonCalimari, Rothana, Taris, Wayland, Bakura, Bestine, Cato_Neimoidia, Felucia, Fondor, Geonosis, Hypori, Mechis, Muunilinst, Mustafar, Mygeeto, Onderon, Pammant, Raxus Prime, Saleucami, Sluis Van, Sullust, Utapau, Vulpter, Bonadan, Etti IV
+
+
+
+
 **Version 1.4.5**
 
 ## New Features
