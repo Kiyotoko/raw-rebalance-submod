@@ -8,6 +8,8 @@ SOURCE=$(shell pwd)
 # Destination folder to install to
 DEST=~/".steam/steam/steamapps/workshop/content/32470/3131109252/"
 
+ORIG=~/".steam/steam/steamapps/workshop/content/32470/1129810972/"
+
 # Shortcut for the Data/XML folder to clean
 RM=$(DEST)Data/XML
 
@@ -30,6 +32,10 @@ clean:
 update:
 	# Update this project from git
 	@git pull -ff
+
+sync:
+	# Syncronize this project with raw
+	@rsync --recursive --exclude-from=".rsyncignore" $(ORIG)/Data/XML $(SOURCE)/Data
 
 install:
 	# Installing modified xml files
