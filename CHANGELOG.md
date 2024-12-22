@@ -1,3 +1,11 @@
+## v1.0.2
+
+### Internal
+
+- Support for RaW v1.4.7
+- Add sync target to make syncronizing this submods dev files with the files from RaW easier.
+- Added wiki (Still WIP)
+
 ## v1.0.1
 
 ### Internal

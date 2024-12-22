@@ -13,7 +13,7 @@
 		<No_Colorization_Color>159, 167, 250, 255</No_Colorization_Color>
 		<GUI_Row>1</GUI_Row>
 		<Mass>0.999</Mass>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>2.22</Scale_Factor>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>
 		<Shield_Points>1500</Shield_Points><!-- Rebalance Note: Changed from 1200 -->

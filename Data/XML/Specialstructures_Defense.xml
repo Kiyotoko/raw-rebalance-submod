@@ -279,7 +279,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kamino, Kuat, Mechis, Minntooine, MonCalimari, Rendili, Sluis_Van</Required_Planets>
+		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kamino, Kuat, Mechis, Minntooine, MonCalimari, Rendili, Sluis_Van, Rothana</Required_Planets>
 		<!--<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> TEXT_HYPER_COUNTDOWN_TIMER </Build_Countdown_Text_ID>
 		<Build_Countdown_Text_RGBA> 64, 128, 255, 255 </Build_Countdown_Text_RGBA>-->
@@ -402,7 +402,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kamino, Kuat, Mechis, Minntooine, MonCalimari, Rendili, Sluis_Van</Required_Planets>
+		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kamino, Kuat, Mechis, Minntooine, MonCalimari, Rendili, Sluis_Van, Rothana</Required_Planets>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>3</Tech_Level><!-- From 1 -->
 		<Required_Timeline>0</Required_Timeline>

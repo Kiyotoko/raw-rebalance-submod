@@ -325,7 +325,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>e_ground_barracks</Required_Special_Structures>
-		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Christophsis, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth, Shola</Required_Planets>
+		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Christophsis, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth, Shola, Umbara</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
@@ -455,7 +455,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>r_ground_barracks</Required_Special_Structures>
-		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Christophsis, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth, Shola</Required_Planets>
+		<Required_Planets>Abregado_Rae, AetenII, AlzocIII, Atzerri, Christophsis, Geonosis, Ilum, Mustafar, Mygeeto, Rattatak, Rothana, Ryloth, Shola, Umbara</Required_Planets>
 		<Tactical_Health>1400</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>

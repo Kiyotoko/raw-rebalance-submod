@@ -1,6 +1,65 @@
 <?xml version="1.0"?>
 <HardPoints_Cis_Starbase>
 
+
+	<!--Umbaran Hover Tank-->
+	
+	<HardPoint Name="HP_Umbaran_Hovertank_00">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ground_Umbaran_hovertank_pulse</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.7</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>1.15</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>350.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+
+		<Fire_When_Deployed>Yes</Fire_When_Deployed>
+		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+		<Targeting_Fire_Inaccuracy>Infantry, 60.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 40.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 40.0</Targeting_Fire_Inaccuracy>
+
+		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_Umbaran_Hovertank_01">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ground_Umbaran_hovertank_pulse</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.7</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>1.15</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>350.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+
+		<Fire_When_Deployed>Yes</Fire_When_Deployed>
+		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+		<Targeting_Fire_Inaccuracy>Infantry, 60.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 40.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
+
+		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
+
+	</HardPoint>
+
 	<!--CIS Octuptarra-->
    	<HardPoint Name="HP_Octuptarra_LLC_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>

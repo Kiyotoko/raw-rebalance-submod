@@ -3712,9 +3712,9 @@
 
 
 	<!-- Demo_Attract_Maps>Demo_Attract_Kamino.ted, Demo_Attract_Korriban.ted</Demo_Attract_Maps -->
-	<Demo_Attract_Maps>Demo_Attract_Kamino.ted, Demo_attract_antar.ted, Demo_attract_Bonadan.ted</Demo_Attract_Maps>
+	<Demo_Attract_Maps>Demo_Attract_Kamino.ted, Demo_attract_antar.ted</Demo_Attract_Maps>
 	<Demo_Attract_Start_Timeout_Seconds>300</Demo_Attract_Start_Timeout_Seconds>
-	<Demo_Attract_Map_Cycle_Delay_Seconds>400, 220, 330</Demo_Attract_Map_Cycle_Delay_Seconds>
+	<Demo_Attract_Map_Cycle_Delay_Seconds>400, 220</Demo_Attract_Map_Cycle_Delay_Seconds>
 	<Demo_Attract_Map_Cycle_Delay_Seconds>300</Demo_Attract_Map_Cycle_Delay_Seconds>
 
 

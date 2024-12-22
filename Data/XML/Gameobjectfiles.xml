@@ -58,8 +58,9 @@
 	<File>Props_Snow.xml</File>
 	<File>Props_Desert.xml</File>
 	<File>Props_Urban.xml</File>
-	<File>Props_Urban_RaW2.xml</File>
+	<File>Props_Urban_raw2.xml</File>
 	<File>Props_Industrial.xml</File>
+	<File>Props_Onderon.xml</File>
 	<File>Props_Ordmantell.xml</File>
 	<File>Props_Generic.xml</File>
 	<File>Props_Story.xml</File>
@@ -72,6 +73,7 @@
 	<File>Props_Vehicles.xml</File>
 	<File>Props_Aquatic.xml</File>
 	<File>Props_Coruscant.xml</File>
+	<File>Props_Farm.xml</File>
 	<File>Props_Flora.xml</File>
 	<File>Props_Mygeeto.xml</File>
 	<File>Props_Naboo.xml</File>
@@ -82,7 +84,6 @@
 	<File>Props_SpaceBreakoff.xml</File>
 	<File>Props_Christophsis.xml</File>
 	<File>Props_Super.xml</File>
-	<File>Props_Onderon.xml</File>
 
 
 	<!-- Skydomes -->
