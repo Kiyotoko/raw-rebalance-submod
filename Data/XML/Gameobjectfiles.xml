@@ -136,6 +136,7 @@
 	<File>Cis\Land\Hmp.xml</File>
 	<File>Cis\Land\Conqueror.xml</File>
 	<File>Cis\Land\OctuptarraMagna.xml</File>
+	<File>Cis\Land\UmbaranHovertank.xml</File>
 	<File>Cis\Space\Bomber.xml</File>
 	<File>Cis\Space\Bulwark.xml</File>
 	<File>Cis\Space\BuzzDroids.xml</File>
@@ -159,6 +160,7 @@
 	<File>Cis\Space\SupplyShip.xml</File>
 	<File>Cis\Space\TechnounionFrigate.xml</File>
 	<File>Cis\Space\TriDroid.xml</File>
+	<File>Cis\Space\UmbaranFighter.xml</File>
 	<File>Cis\Space\VultureDroid.xml</File>
 	<File>Cis\Space\WavecrestFrigate.xml</File>
 	<File>Cis\Starbase.xml</File>
@@ -168,6 +170,7 @@
 	<File>Misc\Hero\DarthVader.xml</File>
 	<File>Misc\Land\CorpSector.xml</File>
 	<File>Misc\Land\Hutts.xml</File>
+	<File>Misc\Land\Nightsisters.xml</File>
 	<File>Misc\Land\Pirates.xml</File>
 	<File>Misc\Space\CorpSector.xml</File>
 	<File>Misc\Space\Empire.xml</File>
