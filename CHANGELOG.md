@@ -1,3 +1,10 @@
+## v1.0.3
+
+### CIS
+
+- Changed Invisible Hand Death Clone Scale Factor from 0.4 to 0.39
+- Changed Providence Scale Factor from 0.28 to 0.39 and Death Clone Scale Factor from 0.4 to 0.39
+
 ## v1.0.2
 
 ### Internal
