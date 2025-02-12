@@ -20,7 +20,7 @@ RaW Rebalance Submod currently modivies Republic at War v1.4.1. Please note that
 
 ## Installation
 
-You can install it from the Steam Worshop or from ModDB.
+You can install it from the Steam Workshop or from ModDB.
 
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3131109252">
     <img alt="Mod on Steam" width="200px" src="https://img.shields.io/badge/Subscribe-On_Steam-blue?style=social&logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3131109252">
@@ -32,12 +32,10 @@ You can install it from the Steam Worshop or from ModDB.
 
 ## Documentation
 
-This mod provides its own documentation. You can build and host the documentation with the following commands:
+This mod provides its own documentation. You can build and host the documentation with the following command:
 
 ```shell
-python -m venv venv
-./venv/bin/pip install mkdocs
-./venv/bin/mkdocs serve
+sh docs.sh
 ```
 
 ## Notes
