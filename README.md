@@ -14,9 +14,7 @@
 
 > This mod modifies only the `XML` folder. Therefore, and because it largely relyes on RaW, all other folders like `Art`, `Audio`, etc. are ignored. This submod will not work with the git files alone. Check out RaW for the full source code.
 
-This mod has rebalanced space units for multiplayer. No other changes were made. Check out the changelog [here](CHANGELOG.md) for all changes that were made.
-
-RaW Rebalance Submod currently modivies Republic at War v1.4.1. Please note that other versions may not work.
+Why does this submod exist? In RaW, many units are simply overpowered. If you have ever experienced a good Acclamator Spammer, or the endless bombing runs of ARC-170's to the Providence powerhouse, then you know what I mean. At the same time, it is unlikely that you have ever played against a Wavecrest, simply because this ship is so weak that no one uses it. The goal of this submod is to change that balance: every buildable unit should have a purpose and a role in your fleet. No unit should be so powerful that it is the only unit you build for the rest of the battle, or so powerless that you never build it at all.
 
 ## Installation
 
@@ -29,6 +27,15 @@ You can install it from the Steam Workshop or from ModDB.
 <a href="https://www.moddb.com/mods/raw-rebalance-submod" title="View RaW Rebalance Submod on ModDB" target="_blank">
     <img alt="Mod on ModDB" width="200px" src="https://button.moddb.com/rating/medium/mods/64012.png" />
 </a>
+
+## Supported Versions
+
+| Submod Version | RaW Version | Supported? |
+| -------------- | ----------- | ---------- |
+| 1.0.3          | 1.4.7       | ✅         |
+| 1.0.2          | 1.4.7       | ✅         |
+| 1.0.1          | 1.4.5       | ❌         |
+| 1.0.0          | 1.4.1       | ❌         |
 
 ## Documentation
 
