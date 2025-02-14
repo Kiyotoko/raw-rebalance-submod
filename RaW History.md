@@ -1,6 +1,106 @@
-*Date of last change: May 10th, 2024*
+*Date of last change: December, 2024*
 
 #Republic At War: *A Call To Arms*
+
+**Version 1.4.8**
+
+## New Features
+- New Galactic Conquest: Surrounded
+- New Republic Hero: Padmé Amidala
+- Polis Massa now has a land map
+- New CIS Unit: Lupus-Class Missile Frigate
+- New CIS Unit: Diamond-Class Cruiser
+- New CIS Unit: B2-HA Super Battle Droid
+- New CIS Battledroid variants for artic planets and volcanic/desert planets.
+- New CIS Transport: VAC Tranport
+- New Republic Unit: 74z Speeder Bike
+- New Republic Unit: BTLB Y-Wing
+  - 501st Y-wing visual varient added as Yularen's garrison
+  
+## Updates
+- New Land Map for Bestine
+- Varius updates to the following space maps
+  - Muunilinst
+  - Nal Hutta
+  - Coruscant
+  - Lehon
+  - Polis Massa
+  - Tatooine
+- Lucrehulk Battleship model and texture replaced
+- V-19 fighter model and texture replaced
+- Asajj Ventress's Fanblade model and texture replaced.
+- B2 Super Battle Droid model and texture replaced.
+- Hailfire Droid model and texture replaced.
+- NTB-630 texture replaced
+- Scale of all fighters adjusted to properly be in scale with each other.
+- New Icons for the following units:
+  - Shadow Squadron
+  - Razor Squadron
+  - Red Squadron
+    - New specific icon for Red Leader: Tsui Choi
+  - B1 Battledroid
+  - B2 Super Battle Droid
+  - BX Commando Droid
+  - OOM Command Droid
+  - 21B Medical Droid
+  - CIS repair droid
+
+## Balance Changes
+- ARC-170 removed from hanger garrisons and is now a buildable unit.
+- ARC-170 Buffed.
+  - Health increased.
+  - Speed increased.
+  - Shield refresh rate increasd
+  - Laser fire rate increased from 6 to 10.
+  - Proton Torpedo fire rate decreased from 2 to 1.
+  - Land Bombing run ability removed.
+- Republic Hanger garrisons updated
+  - Y-wings replace ARCs as the late tech bomber.
+  - Shadow Squadron added to Yularen's garrison.
+- Barc Speeders moved from barracks to light factory.
+- Hailfire Droid buffed.
+  - Anti-Infantry turret added.
+  - Missiles updated to do more damage to vehicles.
+- Updated Republic barrack and Light factory garrisons.
+  - Replaced the Barcs with the 74zs for the barracks.
+  - Added Barcs to the light factory's garrison.
+- Hammer Picket changed
+  - Updated to be buildable only on Pammant and Minntooine.
+  - Self Destruct ability added.
+- Bulwark changed.
+  - Self Destruct ability removed.
+- Lucrehulk Battleship buffed.
+  - Hanger and shield hardpoint health increased.
+- Republic Acclamator buffed.
+  - Total health doubled.
+  - Total shield points increased.
+  - Cocussion Missile launcher replaced with a Quad Turbolaser.
+  - Price increased from 1900 to 3200.
+- Arquitens changed
+  - Total shield points increased.
+  - Price decreased from 3200 to 1900.
+- Updated the Republic and CIS additional space garrison variables.
+- AAT moved from tech 3 to tech 2.
+  
+## Fixes
+- Fixed health of CIS droid Factory.
+- Fixed CSA's Espo Walker missing it's weapons, and fixed it's walking animation speed.
+- Fixed CSA's Espo Squad's walking animation speed.
+- Corrected Sluis Van's population lore inaccuary.
+- Fixed Recalcitrant's build complete SFX.
+- Removed bird noises from Mintoonie's space map.
+- Fixed Lance Walker's SFX.
+- Lowered Hoth planet model in Hoth's space map as to prevent visual disruption of ships hyperspacing into the planet.
+- Corrected Carnage starting space station levels for Tatooine and Ilum so that they are not above their maximum level.
+- Increased DHC audio Volume.
+- Decreased V-19 weapon Volume.
+- fixed Minor Bothawui passibility bug infront of Abandoned turbolaser.
+- Fixed defending ships spawning the wrong direction on the Chandrila Space map.
+- Fixed defending ships spawning the wrong direction on the Kessel Space map.
+- Removed A-Wing gun sounds for the CIS Droid Bomber during a Bombing Run.
+- Fixed issue with acclmator wreckage staying on the map.
+- Corrected icon for Republic Space Turbolaser icon.
+- Other small code fixes to allow for more stability.
 
 **Version 1.4.7**
 

@@ -84,6 +84,7 @@
 	<File>Props_SpaceBreakoff.xml</File>
 	<File>Props_Christophsis.xml</File>
 	<File>Props_Super.xml</File>
+	<File>Props_Community.xml</File>
 
 
 	<!-- Skydomes -->
@@ -112,38 +113,41 @@
 	<File>Cis\Hero\Bossk.xml</File>
 	<File>Cis\Hero\Tuuk.xml</File>
 	<File>Cis\Hero\Jango.xml</File>
-	<File>Cis\Land\DarksideAdepts.xml</File>
-	<File>Cis\Land\Militia.xml</File>
-	<File>Cis\Land\Repairdroid.xml</File>
-	<File>Cis\Land\Battledroid.xml</File>
-	<File>Cis\Land\SuperBattledroid.xml</File>
-	<File>Cis\Land\DestroyerDroids.xml</File>
-	<File>Cis\Land\BattledroidEngineer.xml</File>
-	<File>Cis\Land\FieldCommander.xml</File>
-	<File>Cis\Land\BxCommando.xml</File>
-	<File>Cis\Land\Magnaguards.xml</File>
-	<File>Cis\Land\Stap.xml</File>
-	<File>Cis\Land\HeavyStap.xml</File>
-	<File>Cis\Land\Crabdroid.xml</File>
-	<File>Cis\Land\DwarfSpiderWalker.xml</File>
-	<File>Cis\Land\Hag.xml</File>
 	<File>Cis\Land\AatTank.xml</File>
-	<File>Cis\Land\EnforcerTank.xml</File>
-	<File>Cis\Land\HailfireTank.xml</File>
-	<File>Cis\Land\HomingSpiderWalker.xml</File>
-	<File>Cis\Land\Supertank.xml</File>
-	<File>Cis\Land\Mtt.xml</File>
-	<File>Cis\Land\Hmp.xml</File>
+	<File>Cis\Land\Battledroid.xml</File>
+	<File>Cis\Land\BattledroidEngineer.xml</File>
+	<File>Cis\Land\BxCommando.xml</File>
 	<File>Cis\Land\Conqueror.xml</File>
+	<File>Cis\Land\Crabdroid.xml</File>
+	<File>Cis\Land\DarksideAdepts.xml</File>
+	<File>Cis\Land\DestroyerDroids.xml</File>
+	<File>Cis\Land\DwarfSpiderWalker.xml</File>
+	<File>Cis\Land\EnforcerTank.xml</File>
+	<File>Cis\Land\FieldCommander.xml</File>
+	<File>Cis\Land\Hag.xml</File>
+	<File>Cis\Land\HailfireTank.xml</File>
+	<File>Cis\Land\HeavyStap.xml</File>
+	<File>Cis\Land\Hmp.xml</File>
+	<File>Cis\Land\HomingSpiderWalker.xml</File>
+	<File>Cis\Land\Magnaguards.xml</File>
+	<File>Cis\Land\Militia.xml</File>
+	<File>Cis\Land\Mtt.xml</File>
 	<File>Cis\Land\OctuptarraMagna.xml</File>
+	<File>Cis\Land\Repairdroid.xml</File>
+	<File>Cis\Land\SiegeMortar.xml</File>
+	<File>Cis\Land\Stap.xml</File>
+	<File>Cis\Land\SuperBattledroid.xml</File>
+	<File>Cis\Land\Supertank.xml</File>
 	<File>Cis\Land\UmbaranHovertank.xml</File>
 	<File>Cis\Space\Bomber.xml</File>
 	<File>Cis\Space\Bulwark.xml</File>
 	<File>Cis\Space\BuzzDroids.xml</File>
 	<File>Cis\Space\Carrier.xml</File>
+	<File>Cis\Space\Diamond.xml</File>
 	<File>Cis\Space\HammerPicket.xml</File>
 	<File>Cis\Space\Hyena.xml</File>
 	<File>Cis\Space\Lucrehulk.xml</File>
+	<File>Cis\Space\Lupus.xml</File>
 	<File>Cis\Space\Malevolence.xml</File>
 	<File>Cis\Space\Mankvim.xml</File>
 	<File>Cis\Space\MunificentFrigate.xml</File>
@@ -190,6 +194,7 @@
 	<File>Rep\Hero\Luminara.xml</File>
 	<File>Rep\Hero\MaceWindu.xml</File>
 	<File>Rep\Hero\Obiwan.xml</File>
+	<File>Rep\Hero\PadmeAdmidala.xml</File>
 	<File>Rep\Hero\Plokoon.xml</File>
 	<File>Rep\Hero\ShaakTi.xml</File>
 	<File>Rep\Hero\Tarkin.xml</File>
@@ -197,6 +202,7 @@
 	<File>Rep\Hero\Yularen.xml</File>
 	<File>Rep\Land\7thSkyCorp.xml</File>
 	<File>Rep\Land\41st.xml</File>
+	<File>Rep\Land\74Z-Speeder.xml</File>
 	<File>Rep\Land\187th.xml</File>
 	<File>Rep\Land\212th.xml</File>
 	<File>Rep\Land\327thStarCorp.xml</File>
@@ -259,6 +265,7 @@
 	<File>Rep\Space\V19-TorrentFighter.xml</File>
 	<File>Rep\Space\Venator.xml</File>
 	<File>Rep\Space\Victory.xml</File>
+	<File>Rep\Space\Y-Wing-Fighter.xml</File>
 	<File>Rep\Space\Z95-Clone.xml</File>
 	<File>Rep\Space\Z95-Headhunter.xml</File>
 	<File>Rep\Starbase.xml</File>

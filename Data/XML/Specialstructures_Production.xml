@@ -435,11 +435,11 @@
 		<Starting_Spawned_Units_Tech_5>Republic_Clonetrooper_P2_Company, 4</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Republic_Clonetrooper_P2_Company, -1</Reserve_Spawned_Units_Tech_5>
 
-		<Starting_Spawned_Units_Tech_0>Barc_Speeder, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Barc_Speeder, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>74Z_Speeder, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>74Z_Speeder, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_5>Barc_Speeder, 6</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>Barc_Speeder, -1</Reserve_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>74Z_Speeder, 6</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>74Z_Speeder, -1</Reserve_Spawned_Units_Tech_5>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -552,7 +552,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures/>
 		<Required_Planets/>
-		<Tactical_Health>100</Tactical_Health>
+		<Tactical_Health>800</Tactical_Health>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -790,6 +790,8 @@
 
 
 		<AI_Combat_Power>500</AI_Combat_Power>
+		<Starting_Spawned_Units_Tech_0>Barc_Speeder, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Barc_Speeder, -1</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>AT_RT_Walker, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>AT_RT_Walker, -1</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>AT_PT, 2</Starting_Spawned_Units_Tech_0>

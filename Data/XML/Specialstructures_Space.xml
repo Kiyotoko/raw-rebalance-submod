@@ -444,7 +444,7 @@
 		<Tactical_Health>100</Tactical_Health><!-- jdg was 500 -->
 		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL</SpaceBehavior>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>5000.0</Space_FOW_Reveal_Range>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Victory_Relevant>No</Victory_Relevant>
@@ -1195,7 +1195,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Utapau, Sullust</Required_Planets>
+		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, Muunilinst, MonCalimari, Rendili, Rothana, Sluis_Van, Utapau, Sullust</Required_Planets>
 		<Icon_Name>I_BUTTON_CIS_GUN_PLATFORM.tga</Icon_Name>
 		<Sabotage_Cost_Credits>9000</Sabotage_Cost_Credits>
 		<CategoryMask>Structure</CategoryMask>

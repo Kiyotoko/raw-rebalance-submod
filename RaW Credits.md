@@ -1,6 +1,6 @@
 # Republic at War
 
-Thank You for installing Republic at War. Please take a moment to read through this file to appreciate the massive amount of that that was put into the mod. 
+Thank You for installing Republic at War. Please take a moment to read through this file to appreciate the massive amount of work that was put into the mod. 
 
 If you have any question or you find your own work uncredited, please get in contact with us.
 
@@ -18,11 +18,11 @@ Also we advise you to read the manual located in your install directory in order
 
 ### Version 1.4 Asset Usage and Permissions 
 
-Usage of Republic at War Assets from version 1.4 and up is ***explicitly prohibited*** witout *written* permission from **z3r0x** and the 2nd listed asset creator. 
+Usage of Republic at War Assets from version 1.4 and up requires *written* permission from **z3r0x** and all of the listed asset creators. If you would like to use one of the following assets, The Republic at War mod team would be happy to work with you and your team to
+reach an agreement that is benefitional to both projects. Please DM **JPJones** or **z3r0x** if you have any inquiries or questions.
 
-- Assets tagged with `Commissioned` are commissioned or contain commissioned work. The RaW Team has written and exclusive permission to distribute their work for Republic at War solely.
-- Assets tagged with `Replaced` got updated from version 1.3.x.
-- Assets with a different mod listed such as `AotR` or `Remake: Clone Wars Holdouts` we ask you reach out to them regarding use of their asset.
+- Assets tagged with `Commissioned` are commissioned or contain commissioned work. The RaW Team has written and exclusive permission to distribute their work for Republic at War and cannot distribute these assets without permission from the original commissioner and creator.
+- Assets with a different mod listed, such as (AotR) or (Remake: Clone Wars Holdouts), we ask you reach out to those mods directly regarding the use of their asset, as we were granted permission to use their asset and cannot give out permission to them ourselves.
 
 *Assets used from versions 1.0 to 1.3.x remain free to use as long as the below guidelines are met.*
 
@@ -33,20 +33,63 @@ Republic at War Modding Team
 
 ### Version 1.0 - 1.3 Asset Usage and Permissions 
 
-If you wish to use any asset from from version 1.3.x or below in your mod the corresponding item must be credited properly. In that case you do not need further permission. This also includes modifications to those assets.
+Many of our assets from from version 1.3.x or below may be used in your mod IF the asset is credited properly. The Asset must indicate that it was obtained from Republic At War as well as all other credits must be included. You do not need permission to uses these assets
+if all the credits are properly given. This also includes modifications to those assets. If it is deemed that an asset is improperly credited or has failed to indicate Republic At War as the source, we will request you fix the credits or remove the item from your mod.
 
 Below are examples of our credit and a acceptable credit line for someone who has changed a item.
 
 ```
-ModelFile: Mesh- z3r0x | Animation- z3r0x | Texture- z3r0x | Rigging- z3r0x
+ModelFile (RaW): Mesh- z3r0x | Animation- z3r0x | Texture- z3r0x | Rigging- z3r0x
 
-Another ModelFile: Mesh-z3r0x | Animation- z3r0x | Texture- z3r0x | Rigging- z3r0x | Low poly mesh edits- THIS IS YOU
+Another ModelFile (RaW): Mesh-z3r0x | Animation- z3r0x | Texture- z3r0x | Rigging- z3r0x | Low poly mesh edits- THIS IS YOU
 ```
 
 WE RESERVE THE RIGHT TO DENY ACCESS TO ANY OF OUR ASSETS TO ANY PERSON/MOD FOR ANY REASON.
 
 
 ## Asset Credits: 1.4 and above (restricted usage)
+
+Hailfire Droid `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer/z3r0x | Animations-The Farseer | Coding-z3r0x | Commissioner-z3r0x
+
+Padmé's H-Type Nubian Yatch
+Mesh-Forestcat/z3r0x | Textures-Forestcat | Rigging-z3r0x | Coding-z3r0x
+
+Padmé Amidala (land model)
+Mesh-Lucasarts/z3r0x  | Texture-Lucasarts/z3r0x | Rigging-Lucasarts/z3r0x | Animations-Lucasarts/z3r0x | Coding-z3r0x
+
+Asajj Ventress's Fanblade `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Coding-z3r0x | Commissioner-z3r0x
+
+74z Speeder Bike `Commissioned`
+Mesh-The Farseer/z3r0x | Textures-The Farseer | Rigging-z3r0x | Animations-z3r0x | Coding-z3r0x | Commissioner-z3r0x
+
+B2 Super Battledroid `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-z3r0x | Commissioner-z3r0x
+
+B2-HA Super Battledroid `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-z3r0x | Commissioner-z3r0x
+
+Luckerhulk Battleship (Remake)
+Mesh-Jeroen/z3r0x | Texture-Jeroen/z3r0x | Rigging-z3r0x | Coding-z3r0x
+
+VAC Transport `Commissioned`
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer| Animations-The Farseer | Coding-JPJones | Commissioner-JPJones
+
+V-19 torrent
+Mesh-Grimley | Texture-Kalani6342 | Rigging-Kalani6342 | Coding-AshUzumaki 
+
+BTL-B Y-Wing (Normal & 501st varients)
+Mesh-Warbnull | Texture-Kalani6342 | Rigging-Kalani6342 | Coding-AshUzumaki
+
+NTB-630
+Original Mesh-Howard Day | Low Poly Mesh Re-build- Major Payne | Texture- Kalani6342 | Rigging-Kalani6342 | Coding-AshUzumaki
+
+Lupus-Class Missile Frigate
+Mesh-1138 | Texture-1138 | Rigging-1138/JPJones | Coding-JPJones 
+
+Diamond-Class Cruiser
+Mesh-Kalani6342 | Texture-Kalani6342 | Rigging-Kalani6342 | Coding-JPJones
 
 Nightsister Warrior
 Mesh-Lucasarts/z3r0x  | Texture-z3r0x | Rigging-Lucasarts/z3r0x | Animations-Lucasarts/z3r0x | Coding-z3r0x
@@ -76,10 +119,10 @@ Dathaomir Props
 Mesh-Warb/z3r0x  | Texture-Warb/z3r0x | Rigging-z3r0x | Coding-z3r0x
 
 Clone Z-95
-Mesh-Grimley | Texture-Kalani6342 | Rigging-Kalani6342 | Coding-???
+Mesh-Grimley | Texture-Kalani6342 | Rigging-Kalani6342 | Coding-AshUzumaki
 
-Recalcitrant-class Light Cruiser (Remake: Clone Wars Holdouts)
-Mesh-Kharak | Texture-Kharak | Rigging-Emperor Niko | Coding-Dambo/JPJones
+Recalcitrant-class Light Cruiser `Commissioned` (Remake: Clone Wars Holdouts) 
+Mesh-Kharak | Texture-Kharak | Rigging-Emperor Niko | Coding-Dambo/JPJones | Commissioner-Arvis Taljik
 
 CSA Station/CKS Yard (AotR)
 Mesh-EvilleJedi/Steiner0815/z3r0x | Textures-EvilleJedi/Steiner0815 | Rigging-EvilleJedi/Steiner0815 | Coding-JPJones
@@ -91,7 +134,7 @@ Gladiator-class Star destroyer (AotR)
 Mesh-(Gowron/Maxloef)/Steiner0815/z3r0x | Textures-(Gowron/Maxloef)/Steiner0815/z3r0x | Rigging-(Gowron/Maxloef)/Steiner0815/z3r0x | Coding-R3D2/JPJones
 
 Octuptarra Magna Tri-droid `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer/z3r0x | Animations-The Farseer | Coding-kasderan/JPJones
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer/z3r0x | Animations-The Farseer | Coding-kasderan/JPJones | Commissioner-z3r0x
 
 RX-200 EMP Tank
 Mesh-Warb Null | Textures-Warb Null/z3r0x | Rigging-Warb Null | animations-z3r0x | Coding-AshUzumaki/JPJones
@@ -115,28 +158,28 @@ Space mining Facilities (Rise of the Mandalorians)
 Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Coding-z3r0x
 
 AT-TE `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-z3r0x
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-z3r0x | Commissioner-z3r0x
 
 Clone Personal Walker `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-Bucman55
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer | Coding-Bucman55 | Commissioner-z3r0x
 
 AAT Tank `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer/z3r0x | Coding-Bucman55
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Animations-The Farseer/z3r0x | Coding-Bucman55 | Commissioner-z3r0x
 
 AAT Wreck `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Coding-Bucman55
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer | Coding-Bucman55 | Commissioner-z3r0x
 
-Waterfall `Commissioned`
-Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer 
+Waterfall (Rise of the Mandalorians)
+Mesh-The Farseer | Textures-The Farseer | Rigging-The Farseer
 
-Dreadnaught Cruiser `Commissioned`
-Mesh-Farseer | Textures-Farseer/z3r0x | Rigging-z3r0x
+Dreadnaught Cruiser (Rise of the Mandalorians)
+Mesh-Farseer | Textures-Farseer/z3r0x | Rigging-z3r0x 
 
 Space Debri and Derlicts `Commissioned`
-Mesh-Kharak | Texture-Kharak | Rigging-z3r0x
+Mesh-Kharak | Texture-Kharak | Rigging-z3r0x | Commissioner-Arvis Taljik
 
 Luckerhulk Control Ship-Mar Tuuk's Flagship (Remake)
-Mesh-Jeroen | Texture-Jeroen | Rigging-z3r0x | z3r0x
+Mesh-Jeroen | Texture-Jeroen | Rigging-z3r0x | Coding-z3r0x
 
 Munificent (Remake)
 Mesh-Jeroen/z3r0x | Texture-Jeroen | Rigging-z3r0x
@@ -163,7 +206,7 @@ Speeder Truck (Animated and Parked)
 Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x | Animaton -z3r0x
 
 Espo Infantry (AotR)
-Mesh-Vade Parvis/Sly442 |Texture-Vade Parvis | Rigging-Sly442 | Animation- Petroglyph
+Mesh-Vade Parvis/Sly442 |Texture-Vade Parvis/Sly442 | Rigging-Sly442 | Animation- Petroglyph
 
 Warpod (AotR)
 Mesh-Sly442 | Texture-Sly442 | Rigging-Sly442 
@@ -243,46 +286,75 @@ Mesh-Bioware/z3r0x | Texture-Bioware  | Rigging-z3r0x
 Hutt Tower
 Mesh-z3r0x | Textures-z3r0x | Rigging-z3r0x
 
-Snail Tank
-Mesh-DICE/Maxim/z3r0x | Textures-DICE/Maxim/z3r0x | Rigging-z3r0x | Animation-z3r0x
+Snail Tank (AotR)
+Mesh-DICE/TheOneBullet/z3r0x | Textures-DICE/TheOneBullet/z3r0x | Rigging-z3r0x | Animation-z3r0x
 
+
+## Asset Credits from 1.0 - 1.3 that need ***WRITTEN PERMISSION*** to be used.
+- Follow the above rules regarding assets in 1.4 or later with the following assets.
+- If you are currently using one of these assets in your mod, please reach out to **JPJones** or **z3r0x**
+  as soon as possible to inquire about gaining access to keep these following assets in your mod.
+
+Scarab
+Mesh-Grimley | Texture-Kalani6342  | Rigging-Kalani6342 
+
+Gen. Grievous:
+Mesh-Tijil | Animations-Tijil | Texture-Master Windu | Rigging-z3r0x\AnakinRaW
+
+Malevolence:
+Mesh-Evillejedi | Texture-Arvis Taljik | Rigging-Warbnull
+
+Boss:
+Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
+
+Sev:
+Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
+
+Scorch:
+Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
+
+Fixer:
+Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
+
+B1 Battledroids and variants:
+Mesh-z3r0x\Lucasarts | Animations-z3r0x\Keeper of Faith | Texture-z3r0x\Lucasarts  | Rigging-z3r0x
+
+CIS Command Center:
+Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
+
+CIS Droid Center:
+Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
+
+CIS Flak Gun:
+Mesh-z3r0x | Animations-Warbull | Texture-z3r0x\Warbnull | Rigging-Warbnull\z3r0x
+
+CIS Heavy Factory:
+Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
+
+CIS Light Factory:
+Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
+
+CIS Power Generator:
+Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
+
+CIS Research Center:
+Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
+
+CIS Outpost:
+Mesh-z3r0x | Texture-Warbnull | Rigging-z3r0x
+
+Magnaguard:
+Mesh-Tijil | Animations-Tijil | Texture-z3r0x | Robe Texture-Master Windu | Rigging-z3r0x
+
+Tibrin Buildings
+Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
+
+Old ATTE: `Replaced`
+Original Mesh:Psyk0Sith | Mesh Re-build-z3r0x\Tijil | Animations-Tijil | Texture- Mars Marshall(NeoMarz)\Qui-Rom\z3r0x | Rigging-z3r0x
 
 ## Asset Credits: 1.0 - 1.3
 
 ### Models and Textures
-
-ARC170: `Replaced`
-Mesh-Evillejedi | Texture-Evillejedi/z3r0x | Rigging-z3r0x
-
-ATRT: `Replaced`
-Mesh:z3r0x\Wildcat | Animations-Wildcat | Texture-z3r0x | Rigging-z3r0x
-
-ATTE: `Replaced`
-Original Mesh:Psyk0Sith | Mesh Re-build-z3r0x\Tijil | Animations-Tijil | Texture- Mars Marshall(NeoMarz)\Qui-Rom\z3r0x | Rigging-z3r0x
-
-BARC: `Replaced`
-Mesh-Edan\z3r0x | Animations-Lucasarts\z3r0x | Texture-Lynx\z3r0x | Rigging-z3r0x\Warbnull
-
-Dreadnaught Cruiser `Replaced`
-Mesh-EvilleJedi/z3r0x | Textures-EvilleJedi/z3r0x | Rigging-z3r0x
-
-LAAT/c: `Replaced`
-Mesh:Pysch0fred/z3r0x/Warbnull | Textures-pysch0fred/Warbnull | Animations-Warbnull | Rigging-Warbnull (Also we would like to thank Nomada Firefox for obtaining this mesh and permission to use it)
-
-AAT: `Replaced`
-Mesh-Keeper of Faith\z3r0x | Animations-z3r0x | Texture-z3r0x\Keeper of Faith\Lucasarts | Rigging-z3r0x
-
-Droideka: `Replaced`
-Mesh-Darkrider | Texture-Lucasarts\Darkrider | Rigging-z3r0x
-
-Snailtank: `Replaced`
-Mesh-Codeuser\z3r0x | Texture-z3r0x | Rigging-z3r0x
-
-Centerpoint Station: `Replaced`
-Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
-
-Munificent: `Replaced`
-Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 
 Bull Rancor: 
 Mesh-z3r0x/Lucasarts | Animations-Lucasarts | Texture- z3r0x\Lucasarts Rigging-z3r0x
@@ -440,18 +512,6 @@ Mesh- Mars Marshall(NeoMarz) | Animations-Lucasarts | Texture- Mars Marshall(Neo
 Bly:
 Original Mesh-Mars Marshall(NeoMarz) | Low Poly Mesh Re-build- Codeuser/z3r0x | Texture- Mars Marshall(NeoMarz) | Animations-Lucasarts | Rigging-z3r0x
 
-Boss:
-Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
-
-Sev:
-Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
-
-Scorch:
-Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
-
-Fixer:
-Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
-
 Clone Sniper:
 Mesh-Tijil | Animations-Petroglyph | Texture-z3r0x/Master Windu | Rigging-z3r0x
 
@@ -530,9 +590,6 @@ Mesh-Evillejedi | Texture:z3r0x | Rigging-Warbnull
 N1 Fighter:
 Mesh-Bryant | Texture-Bryant | Rigging-z3r0x
 
-NTB630:
-Original Mesh-Howard Day | Low Poly Mesh Re-build- Major Payne | Texture- Howard Day\Major Payne\Bryant | Rigging-z3r0x
-
 Nu Shuttle:
 Mesh-Warbnull | Animations-Warbnull | Texture-Warbnull | Rigging-Warbnull
 
@@ -566,9 +623,6 @@ Mesh-Kalo | Animations-z3r0x\Warbnull | Texture-Kalo | Rigging-z3r0x\Warbnull| A
 Theta Shuttle:
 Mesh-Bryant | Animations-Bryant\Jeroen | Texture-Bryant | Rigging-Bryant
 
-V-19:
-Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
-
 Venator:
 Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 
@@ -577,30 +631,6 @@ Mesh-Evillejedi | Texture-Evillejedi\Warbnull | Rigging-Warbnull
 
 Delta7:
 Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
-
-CIS Command Center:
-Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
-
-CIS Droid Center:
-Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
-
-CIS Flak Gun:
-Mesh-z3r0x | Animations-Warbull | Texture-z3r0x\Warbnull | Rigging-Warbnull\z3r0x
-
-CIS Heavy Factory:
-Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
-
-CIS Light Factory:
-Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
-
-CIS Power Generator:
-Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
-
-CIS Research Center:
-Mesh-z3r0x | Texture-z3r0x/Lucasarts | Rigging-z3r0x
-
-CIS Outpost:
-Mesh-z3r0x | Texture-Warbnull | Rigging-z3r0x
 
 Siege Mortar:
 Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
@@ -627,9 +657,6 @@ Mesh- Mars Marshall(NeoMarz) | Animations-Lucasarts | Texture- Mars Marshall(Neo
 Aurra Sing:
 Mesh- Mars Marshall(NeoMarz) | Animations-Lucasarts | Texture- Mars Marshall(NeoMarz) | Rigging-z3r0x
 
-B1 Battledroids and variants:
-Mesh-z3r0x\Lucasarts | Animations-z3r0x\Keeper of Faith | Texture-z3r0x\Lucasarts  | Rigging-z3r0x
-
 BX Commando
 Mesh-z3r0x | Animations-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 
@@ -642,20 +669,11 @@ Mesh-z3r0x | Animations-Lucasarts | Texture-HapSlash\z3r0x | Rigging- z3r0x
 Durge:
 Mesh-Darkrider\z3r0x | Animations-Lucasarts | Texture-Darkrider | Rigging- z3r0x
 
-Gen. Grievous:
-Mesh-Tijil | Animations-Tijil | Texture-Master Windu | Rigging-z3r0x\AnakinRaW
-
 Jango Fett:
 Mesh-Lucasarts\z3r0x | Animations-Lucasarts\z3r0x | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 
-Magnaguard:
-Mesh-Tijil | Animations-Tijil | Texture-z3r0x | Robe Texture-Master Windu | Rigging-z3r0x
-
 Repair Droid:
 Mesh-z3r0x/Lucasarts | Animations-Lucasarts | Texture- z3r0x\Lucasarts | Rigging-z3r0x
-
-B2 Battledroid:
-Mesh:Keeper of Faith | Animations-Codeuser | Texture-Keeper of Faith | Rigging-Codeuser
 
 Aurra Sings Fighter:
 Mesh-Warbnull | Texture-Warbnull | Rigging-Warbnull
@@ -669,9 +687,6 @@ Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
 CIS Carrier:
 Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x\Warbnull
 
-Crabdroid:
-Mesh-z3r0x | Animations-z3r0x\Petroglyph | Texture-z3r0x | Rigging-z3r0x
-
 Droid Bomber:
 Mesh-z3r0x | Texture-z3r0x | Rigging-z3r0x
 
@@ -680,9 +695,6 @@ Mesh-Evillejedi | Animations-z3r0x | Texture-Evillejedi | Rigging-z3r0x
 
 HAG:
 Mesh-Psych0fred\z3r0x | Texture-z3r0x\Pysch0fred | Animations-Bryant | Rigging-Warbnull
-
-Hailfire:
-Mesh-Burning Terror | Animations-z3r0x | Texture-Lynx | Rigging-z3r0x
 
 Hardcell:
 Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
@@ -725,9 +737,6 @@ Mesh-Warbnull | Animations-Warbnull\Jeroen | Texture-Warbnull | Rigging-Warbnull
 
 STAP:
 Mesh-z3r0x | Animations-z3r0x | Texture- z3r0x\Lucasarts | Rigging-z3r0x
-
-Malevolence:
-Mesh-Evillejedi | Texture-Arvis Taljik | Rigging-Warbnull
 
 Technounion Frigate:
 Mesh-Evillejedi | Texture-z3r0x | Rigging-z3r0x
@@ -942,9 +951,6 @@ Mesh-Pandemic Studios | Texture-Pandemic Studios | Rigging-Pandemic Studios
 Christophsis Props
 Mesh-Lord_Poncho57 | Texture-Lord_Poncho57 | Rigging-Lord_Poncho57
 
-Scarab
-Mesh-Grimley | Texture-Kalani6342  | Rigging-Kalani6342 
-
 Conqueror
 Mesh-Warbnull | Texture-Warbnull  | Rigging-Warbnull 
 
@@ -960,6 +966,62 @@ Mesh-Warbnull | Texture-Warbnull  | Rigging-z3r0x
 Other props models not in this list:
 Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 
+
+### Replaced assets from previous versions that are no longer in RaW, but we still wanted to have their credits be given.
+- Assets tagged with `Replaced` have been updated since 1.2.5.
+- Assets tagged with `Removed` have been removed from the mod entirely for one reason or another.
+
+ARC170: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi/z3r0x | Rigging-z3r0x
+
+ATRT: `Replaced`
+Mesh:z3r0x\Wildcat | Animations-Wildcat | Texture-z3r0x | Rigging-z3r0x
+
+ATTE: `Replaced`
+Original Mesh:Psyk0Sith | Mesh Re-build-z3r0x\Tijil | Animations-Tijil | Texture- Mars Marshall(NeoMarz)\Qui-Rom\z3r0x | Rigging-z3r0x
+
+BARC: `Replaced`
+Mesh-Edan\z3r0x | Animations-Lucasarts\z3r0x | Texture-Lynx\z3r0x | Rigging-z3r0x\Warbnull
+
+Dreadnaught Cruiser `Replaced`
+Mesh-EvilleJedi/z3r0x | Textures-EvilleJedi/z3r0x | Rigging-z3r0x
+
+LAAT/c: `Replaced`
+Mesh:Pysch0fred/z3r0x/Warbnull | Textures-pysch0fred/Warbnull | Animations-Warbnull | Rigging-Warbnull (Also we would like to thank Nomada Firefox for obtaining this mesh and permission to use it)
+
+AAT: `Replaced`
+Mesh-Keeper of Faith\z3r0x | Animations-z3r0x | Texture-z3r0x\Keeper of Faith\Lucasarts | Rigging-z3r0x
+
+Droideka: `Replaced`
+Mesh-Darkrider | Texture-Lucasarts\Darkrider | Rigging-z3r0x
+
+Snailtank: `Replaced`
+Mesh-Codeuser\z3r0x | Texture-z3r0x | Rigging-z3r0x
+
+Centerpoint Station: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
+
+Munificent: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
+
+Crabdroid: `Replaced`
+Mesh-z3r0x | Animations-z3r0x\Petroglyph | Texture-z3r0x | Rigging-z3r0x
+
+V-19: `Replaced`
+Mesh-Evillejedi | Texture-Evillejedi | Rigging-z3r0x
+
+NTB630: `Replaced`
+Original Mesh-Howard Day | Low Poly Mesh Re-build- Major Payne | Texture- Howard Day\Major Payne\Bryant | Rigging-z3r0x
+
+B2 Battledroid: `Replaced`
+Mesh:Keeper of Faith | Animations-Codeuser | Texture-Keeper of Faith | Rigging-Codeuser
+
+ATTE: `Replaced`
+Original Mesh:Psyk0Sith | Mesh Re-build-z3r0x\Tijil | Animations-Tijil | Texture- Mars Marshall(NeoMarz)\Qui-Rom\z3r0x | Rigging-z3r0x
+
+Hailfire: `Replaced`
+Mesh-Burning Terror | Animations-z3r0x | Texture-Lynx | Rigging-z3r0x
+
 ### Additional 3D-Art
 
 - All Planets by **z3r0x**, unless noted differently
@@ -969,6 +1031,8 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 
 ### Maps
 
+***Rules for map usage is the same as asset usage (1.3 and before are allowed, 1.4 and later are restricted). Please reach out to the RaW staff if there are any questions on what maps are available to use.***
+
 - ALL Maps by **z3r0x**, unless noted differently 
 - Credit goes to **Psychoduck** for the following maps:
 	Duros, Rothana (Additional texturing, props by **z3r0x**), Sluis Van, Ithor, Rendili. 
@@ -977,18 +1041,18 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 - Credit goes to **RadicalEdward2** for the following maps:
 	Bespin, Corellia, Honoghr, Mustafar, Rhen Var, Tatooine, Tibrin, Yag'Dhul, Ringo Vinda, Mimban, Lehon, Vulpter, Onderon, Christophsis, Dathaomir, Umbara
 - Credits goes to **AshUzumaki** for the following maps:
-	Bothawui, Kuat, Eriadu
+	Bothawui, Kuat, Eriadu, Bestine
 - Credit goes to the (AotR) modding team for the following maps:
-	Etti IV, Nar Shaddaa, Kashyyyk
+	Etti IV, Nar Shaddaa, Kashyyyk, Polis Massa
 
 
 
 ### Code and Scripts
-
 - ALL Code/scripts, etc by **Republic at War Modding Team**, unless noted differently inside the files.
 - Additional script work by **SmallPox**, **Kad_Venku**, **MaxiM** and **Jesus7Freak**
 
 ### SFX, VFX and Music
+***EXPLICITLY PROHIBITED - Follow the above rules regarding items in 1.4 or later with the following items.***
 *VFX credits only for english localization. See below for other languages if available.*
 
 - SFX, VFX and Music are copyright of Disney/Lucasfilm LTD/LucasArts, unless noted differently.
@@ -997,8 +1061,8 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 - Vulture droid sounds etc were composed by **Marios Aristopoulos**
 - Vulture droid Engines composed by **z3r0x**
 - Addutitional Droid, Hyena Bomber and Trench, Mar Tuuk VFX by **RadicalEdward2**
-- The following characters contain additional AI generated VFX: Count Dooku, B1   
 - Explosion SFX by **Marios Aristopoulos**
+- The following characters contain additional AI generated VFX: Count Dooku, B1, Gladiator-class, Dreadnaught-class, Padmé by **z3r0x**
 
 ### 2D-Art
 
@@ -1010,8 +1074,8 @@ Mesh-z3r0x\Lucasarts | Texture-z3r0x\Lucasarts | Rigging-z3r0x
 
 - All text and descriptions written by **z3r0x**, **KillerHurdz** and **AnakinRaW** with additional work by **JPJones**, **Devangelion**, **Daniel Cook**, **Unit757**, **Starwarsman222** and **RadicalEdward2**
 
-### Videos
-
+### Videos 
+***EXPLICITLY PROHIBITED - Follow the above rules regarding items in 1.4 or later with the following items.***
 - All videos are copyright of Lucasfilm LTD. Videos prepared by **AnakinRaW**
 - Into Videos and Holograms by **AnakinRaW**
 

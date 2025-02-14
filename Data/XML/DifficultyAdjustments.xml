@@ -2,13 +2,13 @@
 <Difficulty_Adjustments>
 
 	<Difficulty_Adjustment Name="Easy_Default">
-		<Credit_Multiplier>2.0</Credit_Multiplier>
-		<Galactic_AI_Contrast_Multiplier>1.15</Galactic_AI_Contrast_Multiplier>
-		<Space_AI_Contrast_Multiplier>1.15</Space_AI_Contrast_Multiplier>
-		<Land_AI_Contrast_Multiplier>1.15</Land_AI_Contrast_Multiplier>
-		<Galactic_Build_Time_Multiplier>0.6</Galactic_Build_Time_Multiplier>
-		<Space_Build_Time_Multiplier>0.8</Space_Build_Time_Multiplier>
-		<Land_Build_Time_Multiplier>0.8</Land_Build_Time_Multiplier>
+		<Credit_Multiplier>1.0</Credit_Multiplier>
+		<Galactic_AI_Contrast_Multiplier>1.0</Galactic_AI_Contrast_Multiplier>
+		<Space_AI_Contrast_Multiplier>1.0</Space_AI_Contrast_Multiplier>
+		<Land_AI_Contrast_Multiplier>1.0</Land_AI_Contrast_Multiplier>
+		<Galactic_Build_Time_Multiplier>1.0</Galactic_Build_Time_Multiplier>
+		<Space_Build_Time_Multiplier>1.0</Space_Build_Time_Multiplier>
+		<Land_Build_Time_Multiplier>1.0</Land_Build_Time_Multiplier>
 		<Damage_Multiplier>1.0</Damage_Multiplier>
 		<Health_Multiplier>1.0</Health_Multiplier>
 		<Shield_Multiplier>1.0</Shield_Multiplier>

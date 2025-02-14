@@ -356,7 +356,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>V19_Fighter NTB630 Arc_170</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Republic_Light_Cruiser Republic_light_frigate</Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>SeV_fanblade_fighter</Space_Model_Name>
+		<Space_Model_Name>SeV_Ginivex.alo</Space_Model_Name>
 		<Icon_Name>I_BUTTON_ASAJJ_VENTRESS.tga</Icon_Name>
 		<Scale_Factor>0.075</Scale_Factor><!-- From 0.15 -->
 		<Select_Box_Scale>300</Select_Box_Scale>

@@ -1,3 +1,12 @@
+## v1.0.4
+
+### Internal
+
+- Support for RaW v1.4.8
+- Add nix shell
+- Add table of supported versions
+- Add script for building and hosting the documentation
+
 ## v1.0.3
 
 ### CIS

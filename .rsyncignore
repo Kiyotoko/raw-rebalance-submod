@@ -44,12 +44,13 @@ Spacebuildables*
 SpacePrimarySkydomes.xml
 Spacesecondaryskydomes.xml
 SpaceStructures.xml
-Spaceunittargetpriorities.xml
+Spaceunittargetingpriorities.xml
 SpecialEffects.XML
 Starwars3dtextcrawl.xml
 Story*
 Speechevents.xml
 Upgrade*
+Unit*
 Waypoints.xml
 WeatherAudio.xml
 Weatherscenarios.xml

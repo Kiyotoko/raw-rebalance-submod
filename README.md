@@ -32,6 +32,7 @@ You can install it from the Steam Workshop or from ModDB.
 
 | Submod Version | RaW Version | Supported? |
 | -------------- | ----------- | ---------- |
+| 1.0.4          | 1.4.8       | ✅         |
 | 1.0.3          | 1.4.7       | ✅         |
 | 1.0.2          | 1.4.7       | ✅         |
 | 1.0.1          | 1.4.5       | ❌         |
