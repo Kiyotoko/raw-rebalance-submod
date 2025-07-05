@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Containers>
+	<Container Name="Galactic_Fleet">
+		<Text_ID>TEXT_OBJECT_GALACTIC_FLEET</Text_ID>
+		<Galactic_Model_Name>w_planet_fleet.alo</Galactic_Model_Name>
+		<Pre_Lit>Yes</Pre_Lit>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.3</Scale_Factor>
+		<Show_Name>No</Show_Name>
+		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, FLEET, FLEET_LOCOMOTOR</Behavior>
+		<!--<Political_Control>1</Political_Control>-->
+		<Political_Faction>Empire</Political_Faction>
+		<Pre_Lit>yes</Pre_Lit>
+		<Layer_Z_Adjust>0.5</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<!-- "Scale" for containers' icons is the worls-space ACTUAL SIZE of these icons. -->
+		<!--  This is done because containers don't have constant size/radius and -->
+		<!-- change constantly, whereas supposed to be shown on Radar as one constant-sized blip -->
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	</Container>
+	<Container Name="Galactic_Squadron">
+		<Text_ID>TEXT_OBJECT_GALACTIC_SQUADRON</Text_ID>
+		<Pre_Lit>Yes</Pre_Lit>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Show_Name>No</Show_Name>
+		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+		<Behavior>FLEET</Behavior>
+	</Container>
+	<Container Name="Team">
+		<Text_ID>TEXT_OBJECT_TEAM</Text_ID>
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI,TEAM_LOCOMOTOR</Behavior>
+		<LandBehavior>REVEAL</LandBehavior>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	</Container>
+</Containers>
