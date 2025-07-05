@@ -10,8 +10,10 @@
 ![Release Date](https://img.shields.io/steam/release-date/3131109252?style=for-the-badge&color=ffb300)
 ![Update Date](https://img.shields.io/steam/update-date/3131109252?style=for-the-badge&color=515de9)
 
+> [!note]
 > This is a copy of RaW! All credits goes to the original creators! You can check it out [here](https://www.moddb.com/mods/republic-at-war).
 
+> [!warning]
 > This mod modifies only the `XML` folder. Therefore, and because it largely relyes on RaW, all other folders like `Art`, `Audio`, etc. are ignored. This submod will not work with the git files alone. Check out RaW for the full source code.
 
 Why does this submod exist? In RaW, many units are simply overpowered. If you have ever experienced a good Acclamator Spammer, or the endless bombing runs of ARC-170's to the Providence powerhouse, then you know what I mean. At the same time, it is unlikely that you have ever played against a Wavecrest, simply because this ship is so weak that no one uses it. The goal of this submod is to change that balance: every buildable unit should have a purpose and a role in your fleet. No unit should be so powerful that it is the only unit you build for the rest of the battle, or so powerless that you never build it at all.
