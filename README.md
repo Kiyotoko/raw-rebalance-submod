@@ -32,22 +32,9 @@ You can install it from the Steam Workshop or from ModDB.
 
 | Submod Version | RaW Version | Supported? |
 | -------------- | ----------- | ---------- |
+| 1.0.5          | 1.4.8       | ✅         |
 | 1.0.4          | 1.4.8       | ✅         |
-| 1.0.3          | 1.4.7       | ✅         |
-| 1.0.2          | 1.4.7       | ✅         |
+| 1.0.3          | 1.4.7       | ❌         |
+| 1.0.2          | 1.4.7       | ❌         |
 | 1.0.1          | 1.4.5       | ❌         |
 | 1.0.0          | 1.4.1       | ❌         |
-
-## Documentation
-
-This mod provides its own documentation. You can build and host the documentation with the following command:
-
-```shell
-sh docs.sh
-```
-
-## Notes
-
-All ground skirmish buildables are defined in `GroundBuildables{Rebel|Empire}.xml`.
-
-All space skirmish buildables are defined in `Specialstructures_Production.xml`.
