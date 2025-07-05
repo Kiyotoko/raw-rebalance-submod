@@ -1,0 +1,604 @@
+<?xml version="1.0"?>
+<SFXEvents>
+	<SFXEvent Name="Unit_Attack_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0101_ENG.wav  U000_VSD0104_ENG.wav U000_VSD0105_ENG.wav  U000_VSD0107_ENG.wav U000_VSD0108_ENG.wav U000_VSD0109_ENG.wav U000_VSD0110_ENG.wav U000_VSD0111_ENG.wav U000_VSD0112_ENG.wav U000_VSD0113_ENG.wav U000_VSD0114_ENG.wav U000_VSD0115_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_ATTACK_1, TEXT_SFX_VSD_ATTACK_4, TEXT_SFX_VSD_ATTACK_5,  TEXT_SFX_VSD_ATTACK_7, TEXT_SFX_VSD_ATTACK_8, TEXT_SFX_VSD_ATTACK_9, TEXT_SFX_VSD_ATTACK_10, TEXT_SFX_VSD_ATTACK_11, TEXT_SFX_VSD_ATTACK_12, TEXT_SFX_VSD_ATTACK_13, TEXT_SFX_VSD_ATTACK_14, TEXT_SFX_VSD_ATTACK_15</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0201_ENG.wav U000_VSD0202_ENG.wav U000_VSD0203_ENG.wav U000_VSD0204_ENG.wav U000_VSD0205_ENG.wav U000_VSD0206_ENG.wav U000_VSD0207_ENG.wav U000_VSD0208_ENG.wav U000_VSD0209_ENG.wav U000_VSD0210_ENG.wav U000_VSD0211_ENG.wav U000_VSD0212_ENG.wav U000_VSD0213_ENG.wav U000_VSD0214_ENG.wav U000_VSD0215_ENG.wav U000_VSD0216_ENG.wav U000_VSD0217_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_MOVE_1, TEXT_SFX_VSD_MOVE_2, TEXT_SFX_VSD_MOVE_3, TEXT_SFX_VSD_MOVE_4, TEXT_SFX_VSD_MOVE_5, TEXT_SFX_VSD_MOVE_6, TEXT_SFX_VSD_MOVE_7, TEXT_SFX_VSD_MOVE_8, TEXT_SFX_VSD_MOVE_9, TEXT_SFX_VSD_MOVE_10, TEXT_SFX_VSD_MOVE_11, TEXT_SFX_VSD_MOVE_12, TEXT_SFX_VSD_MOVE_13, TEXT_SFX_VSD_MOVE_14, TEXT_SFX_VSD_MOVE_15, TEXT_SFX_VSD_MOVE_16, TEXT_SFX_VSD_MOVE_17</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0201_ENG.wav U000_VSD0202_ENG.wav U000_VSD0203_ENG.wav U000_VSD0204_ENG.wav U000_VSD0205_ENG.wav  U000_VSD0207_ENG.wav U000_VSD0208_ENG.wav U000_VSD0209_ENG.wav U000_VSD0210_ENG.wav U000_VSD0211_ENG.wav U000_VSD0212_ENG.wav U000_VSD0213_ENG.wav U000_VSD0214_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_MOVE_1, TEXT_SFX_VSD_MOVE_2, TEXT_SFX_VSD_MOVE_3, TEXT_SFX_VSD_MOVE_4, TEXT_SFX_VSD_MOVE_5, TEXT_SFX_VSD_MOVE_7, TEXT_SFX_VSD_MOVE_8, TEXT_SFX_VSD_MOVE_9, TEXT_SFX_VSD_MOVE_10, TEXT_SFX_VSD_MOVE_11, TEXT_SFX_VSD_MOVE_12, TEXT_SFX_VSD_MOVE_13, TEXT_SFX_VSD_MOVE_14</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0301_ENG.wav U000_VSD0302_ENG.wav U000_VSD0303_ENG.wav U000_VSD0304_ENG.wav U000_VSD0305_ENG.wav U000_VSD0306_ENG.wav U000_VSD0307_ENG.wav U000_VSD0308_ENG.wav U000_VSD0309_ENG.wav U000_VSD0310_ENG.wav U000_VSD0311_ENG.wav U000_VSD0312_ENG.wav U000_VSD0313_ENG.wav U000_VSD0314_ENG.wav U000_VSD0315_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_SELECT_1, TEXT_SFX_VSD_SELECT_2, TEXT_SFX_VSD_SELECT_3, TEXT_SFX_VSD_SELECT_4, TEXT_SFX_VSD_SELECT_5, TEXT_SFX_VSD_SELECT_6, TEXT_SFX_VSD_SELECT_7, TEXT_SFX_VSD_SELECT_8, TEXT_SFX_VSD_SELECT_9, TEXT_SFX_VSD_SELECT_10, TEXT_SFX_VSD_SELECT_11, TEXT_SFX_VSD_SELECT_12, TEXT_SFX_VSD_SELECT_13, TEXT_SFX_VSD_SELECT_14, TEXT_SFX_VSD_SELECT_15</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Complete_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0302_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_SELECT_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Opposite_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0401_ENG.wav U000_VSD0402_ENG.wav U000_VSD0403_ENG.wav U000_VSD0404_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_MOVEOPPOSITEDIR_1, TEXT_SFX_VSD_MOVEOPPOSITEDIR_2, TEXT_SFX_VSD_MOVEOPPOSITEDIR_3, TEXT_SFX_VSD_MOVEOPPOSITEDIR_4</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0501_ENG.wav U000_VSD0502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_GUARD_1, TEXT_SFX_VSD_GUARD_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Stop_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0601_ENG.wav U000_VSD0602_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_STOP_1, TEXT_SFX_VSD_STOP_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Barrage_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD0701_ENG.wav U000_VSD0702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_BARRAGE_1, TEXT_SFX_VSD_BARRAGE_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Asteroids_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD1301_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_ASTEROIDS_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Nebula_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD1401_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_NEBULA_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Laser_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD1501_ENG.wav U000_VSD1502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_LASER_1, TEXT_SFX_VSD_HP_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Missile_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD1601_ENG.wav U000_VSD1602_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_MISSILE_1, TEXT_SFX_VSD_HP_MISSILE_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Torp_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD1701_ENG.wav U000_VSD1702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_TORP_1, TEXT_SFX_VSD_HP_TORP_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Ion_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD1801_ENG.wav U000_VSD1802_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ION_1, TEXT_SFX_VSD_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Engines_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD1901_ENG.wav U000_VSD1902_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ENGINES_1, TEXT_SFX_VSD_HP_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Shields_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2001_ENG.wav U000_VSD2002_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_SHIELDS_1, TEXT_SFX_VSD_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Grav_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2101_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Bay_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2201_ENG.wav U000_VSD2202_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_BAY_1, TEXT_SFX_VSD_HP_BAY_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Laser_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2301_ENG.wav U000_VSD2302_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_LASER_1, TEXT_SFX_VSD_LOST_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Ion_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2401_ENG.wav U000_VSD2402_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_ION_1, TEXT_SFX_VSD_LOST_ION_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Shields_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2501_ENG.wav U000_VSD2502_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_SHIELDS_1, TEXT_SFX_VSD_LOST_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Engines_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2601_ENG.wav U000_VSD2602_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_ENGINES_1, TEXT_SFX_VSD_LOST_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Bay_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_VSD2701_ENG.wav U000_VSD2702_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_BAY_1, TEXT_SFX_VSD_LOST_BAY_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Tractor_Beam_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_STD3001_ENG.wav U000_STD3002_ENG.wav U000_STD3003_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_STD_TRACTOR_ON_1, TEXT_SFX_STD_TRACTOR_ON_2, TEXT_SFX_STD_TRACTOR_ON_3</Text_ID>
+		<Overlap_Test>Unit_Victory_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Rebel_Space_Station">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_SSR0101_ENG.wav U000_SSR0102_ENG.wav U000_SSR0103_ENG.wav U000_SSR0104_ENG.wav U000_SSR0105_ENG.wav U000_SSR0106_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6</Text_ID>
+		<Overlap_Test>Unit_Rebel_Space_Station</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Rebel_Space_Station">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_SSR0201_ENG.wav U000_SSR0202_ENG.wav U000_SSR0203_ENG.wav U000_SSR0204_ENG.wav U000_SSR0205_ENG.wav U000_SSR0206_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_ATTACK_1,  TEXT_SFX_SSR_ATTACK_2, TEXT_SFX_SSR_ATTACK_3, TEXT_SFX_SSR_ATTACK_4,  TEXT_SFX_SSR_ATTACK_5, TEXT_SFX_SSR_ATTACK_6</Text_ID>
+		<Overlap_Test>Unit_Rebel_Space_Station</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Barrage_Rebel_Space_Station">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_SSR0301_ENG.wav U000_SSR0302_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_BARRAGE_1, TEXT_SFX_SSR_BARRAGE_2</Text_ID>
+		<Overlap_Test>Unit_Rebel_Space_Station</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Complete_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Complete_00_eng.wav DHC_Complete_01_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_BARRAGE_1, TEXT_SFX_SSR_BARRAGE_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Fleet_Move_00_eng.wav DHC_Fleet_Move_01_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_BARRAGE_1, TEXT_SFX_SSR_BARRAGE_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Select_00_eng.wav DHC_Select_01_eng.wav DHC_Select_02_eng.wav DHC_Select_03_eng.wav DHC_Select_04_eng.wav DHC_Select_05_eng.wav DHC_Select_06_eng.wav DHC_Select_07_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Move_00_eng.wav DHC_Move_01_eng.wav DHC_Move_02_eng.wav DHC_Move_03_eng.wav DHC_Move_04_eng.wav DHC_Move_05_eng.wav DHC_Move_06_eng.wav DHC_Move_07_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Attack_00_eng.wav DHC_Attack_01_eng.wav DHC_Attack_02_eng.wav DHC_Attack_03_eng.wav DHC_Attack_04_eng.wav DHC_Attack_05_eng.wav DHC_Attack_06_eng.wav DHC_Attack_07_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Escort_00_eng.wav DHC_Escort_01_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_GUARD_1, TEXT_SFX_VSD_GUARD_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Stop_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Stop_00_eng.wav DHC_Stop_01_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_STOP_1, TEXT_SFX_VSD_STOP_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Asteroids_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Asteroids_00_eng.wav DHC_Asteroids_01_eng.wav DHC_Asteroids_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_ASTEROIDS_1, TEXT_SFX_VSD_ASTEROIDS_1, TEXT_SFX_VSD_ASTEROIDS_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Nebula_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Nebula_00_eng.wav DHC_Nebula_01_eng.wav DHC_Nebula_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_NEBULA_1, TEXT_SFX_VSD_NEBULA_1, TEXT_SFX_VSD_NEBULA_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Laser_Defense_Active_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Laser_Defense_Activate_00_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_BARRAGE_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Laser_Defense_Deactivate_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Laser_Defense_Deactivate_00_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_BARRAGE_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Missile_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Missile_00_eng.wav DHC_A_HP_Missile_01_eng.wav DHC_A_HP_Missile_02_eng.wav DHC_A_HP_Missile_03_eng.wav DHC_A_HP_Missile_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_MISSILE_1, TEXT_SFX_VSD_HP_MISSILE_2, TEXT_SFX_VSD_HP_MISSILE_2, TEXT_SFX_VSD_HP_MISSILE_2, TEXT_SFX_VSD_HP_MISSILE_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Laser_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Laser_00_eng.wav DHC_A_HP_Laser_01_eng.wav DHC_A_HP_Laser_02_eng.wav DHC_A_HP_Laser_03_eng.wav DHC_A_HP_Laser_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_LASER_1, TEXT_SFX_VSD_HP_LASER_2, TEXT_SFX_VSD_HP_LASER_2, TEXT_SFX_VSD_HP_LASER_2, TEXT_SFX_VSD_HP_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Torp_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Torp_00_eng.wav DHC_A_HP_Torp_01_eng.wav DHC_A_HP_Torp_02_eng.wav DHC_A_HP_Torp_03_eng.wav DHC_A_HP_Torp_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_TORP_1, TEXT_SFX_VSD_HP_TORP_2, TEXT_SFX_VSD_HP_TORP_2, TEXT_SFX_VSD_HP_TORP_2, TEXT_SFX_VSD_HP_TORP_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Tractor_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Torp_00_eng.wav DHC_A_HP_Torp_01_eng.wav DHC_A_HP_Torp_02_eng.wav DHC_A_HP_Torp_03_eng.wav DHC_A_HP_Torp_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ION_1, TEXT_SFX_VSD_HP_ION_2, TEXT_SFX_VSD_HP_ION_2, TEXT_SFX_VSD_HP_ION_2, TEXT_SFX_VSD_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Ion_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Ion_00_eng.wav DHC_A_HP_Ion_01_eng.wav DHC_A_HP_Ion_02_eng.wav DHC_A_HP_Ion_03_eng.wav DHC_A_HP_Ion_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ION_1, TEXT_SFX_VSD_HP_ION_2, TEXT_SFX_VSD_HP_ION_2, TEXT_SFX_VSD_HP_ION_2, TEXT_SFX_VSD_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Engines_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Engines_00_eng.wav DHC_A_HP_Engines_01_eng.wav DHC_A_HP_Engines_02_eng.wav DHC_A_HP_Engines_03_eng.wav DHC_A_HP_Engines_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ENGINES_1, TEXT_SFX_VSD_HP_ENGINES_2, TEXT_SFX_VSD_HP_ENGINES_2, TEXT_SFX_VSD_HP_ENGINES_2, TEXT_SFX_VSD_HP_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Shields_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Shields_00_eng.wav DHC_A_HP_Shields_01_eng.wav DHC_A_HP_Shields_02_eng.wav DHC_A_HP_Shields_03_eng.wav DHC_A_HP_Shields_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_SHIELDS_1, TEXT_SFX_VSD_HP_SHIELDS_2, TEXT_SFX_VSD_HP_SHIELDS_2, TEXT_SFX_VSD_HP_SHIELDS_2, TEXT_SFX_VSD_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Grav_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Grav_00_eng.wav DHC_A_HP_Grav_01_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_GRAV_1, TEXT_SFX_VSD_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Mass_Driver_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Mass_00_eng.wav DHC_A_HP_Mass_01_eng.wav DHC_A_HP_Mass_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_GRAV_1, TEXT_SFX_VSD_HP_GRAV_1, TEXT_SFX_VSD_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Bay_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_A_HP_Bay_00_eng.wav DHC_A_HP_Bay_01_eng.wav DHC_A_HP_Bay_02_eng.wav DHC_A_HP_Bay_03_eng.wav DHC_A_HP_Bay_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_BAY_1, TEXT_SFX_VSD_HP_BAY_2, TEXT_SFX_VSD_HP_BAY_2, TEXT_SFX_VSD_HP_BAY_2, TEXT_SFX_VSD_HP_BAY_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Laser_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_L_HP_Laser_00_eng.wav DHC_L_HP_Laser_01_eng.wav DHC_L_HP_Laser_02_eng.wav DHC_L_HP_Laser_03_eng.wav DHC_L_HP_Laser_04_eng.wav DHC_L_HP_Laser_05_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_LASER_1, TEXT_SFX_VSD_LOST_LASER_2, TEXT_SFX_VSD_LOST_LASER_2, TEXT_SFX_VSD_LOST_LASER_2, TEXT_SFX_VSD_LOST_LASER_2, TEXT_SFX_VSD_LOST_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Engines_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_L_HP_Engine_00_eng.wav DHC_L_HP_Engine_01_eng.wav DHC_L_HP_Engine_02_eng.wav DHC_L_HP_Engine_03_eng.wav DHC_L_HP_Engine_04_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_ENGINES_1, TEXT_SFX_VSD_LOST_ENGINES_2, TEXT_SFX_VSD_LOST_ENGINES_2, TEXT_SFX_VSD_LOST_ENGINES_2, TEXT_SFX_VSD_LOST_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Critical_Dreadnaught_Heavy_Cruiser">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>DHC_Critical_00_eng.wav DHC_Critical_01_eng.wav DHC_Critical_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_ENGINES_1, TEXT_SFX_VSD_LOST_ENGINES_2, TEXT_SFX_VSD_LOST_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<!-- Gladiator Star Destroyer -->
+	<SFXEvent Name="Unit_Complete_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Complete_00_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_BARRAGE_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Fleet_Move_00_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_BARRAGE_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Select_00_eng.wav GSD_Select_01_eng.wav GSD_Select_02_eng.wav GSD_Select_03_eng.wav GSD_Select_04_eng.wav GSD_Select_05_eng.wav GSD_Select_06_eng.wav GSD_Select_07_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Move_00_eng.wav GSD_Move_01_eng.wav GSD_Move_02_eng.wav GSD_Move_03_eng.wav GSD_Move_04_eng.wav GSD_Move_05_eng.wav GSD_Move_06_eng.wav GSD_Move_07_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Attack_00_eng.wav GSD_Attack_01_eng.wav GSD_Attack_02_eng.wav GSD_Attack_03_eng.wav GSD_Attack_04_eng.wav GSD_Attack_05_eng.wav GSD_Attack_06_eng.wav GSD_Attack_07_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6,  TEXT_SFX_SSR_SELECT_6</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Stop_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Stop_00_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_STOP_1, TEXT_SFX_VSD_STOP_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Asteroids_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Asteroids_00_eng.wav GSD_Asteroids_01_eng.wav GSD_Asteroids_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_ASTEROIDS_1, TEXT_SFX_VSD_ASTEROIDS_1, TEXT_SFX_VSD_ASTEROIDS_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Nebula_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Nebula_00_eng.wav GSD_Nebula_01_eng.wav GSD_Nebula_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_NEBULA_1, TEXT_SFX_VSD_NEBULA_1, TEXT_SFX_VSD_NEBULA_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Missile_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Missile_00_eng.wav GSD_A_HP_Missile_01_eng.wav GSD_A_HP_Missile_02_eng.wav </Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_MISSILE_1, TEXT_SFX_VSD_HP_MISSILE_2, TEXT_SFX_VSD_HP_MISSILE_2 </Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Laser_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Laser_00_eng.wav GSD_A_HP_Laser_01_eng.wav GSD_A_HP_Laser_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_LASER_1, TEXT_SFX_VSD_HP_LASER_2, TEXT_SFX_VSD_HP_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Torp_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Torp_00_eng.wav GSD_A_HP_Torp_01_eng.wav GSD_A_HP_Torp_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_TORP_1, TEXT_SFX_VSD_HP_TORP_2, TEXT_SFX_VSD_HP_TORP_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Tractor_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Tract_00_eng.wav GSD_A_HP_Tract_01_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ION_1, TEXT_SFX_VSD_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Ion_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Ion_00_eng.wav GSD_A_HP_Ion_01_eng.wav GSD_A_HP_Ion_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ION_1, TEXT_SFX_VSD_HP_ION_2, TEXT_SFX_VSD_HP_ION_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Engines_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Engines_00_eng.wav GSD_A_HP_Engines_01_eng.wav GSD_A_HP_Engines_02_eng.wav </Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_ENGINES_1, TEXT_SFX_VSD_HP_ENGINES_2, TEXT_SFX_VSD_HP_ENGINES_2 </Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Shields_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Shield_00_eng.wav GSD_A_HP_Shield_01_eng.wav GSD_A_HP_Shield_02_eng.wav </Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_SHIELDS_1, TEXT_SFX_VSD_HP_SHIELDS_2, TEXT_SFX_VSD_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Grav_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Grav_00_eng.wav GSD_A_HP_Grav_01_eng.wav GSD_A_HP_Grav_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_GRAV_1, TEXT_SFX_VSD_HP_GRAV_1, TEXT_SFX_VSD_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Mass_Driver_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Mass_00_eng.wav GSD_A_HP_Mass_01_eng.wav GSD_A_HP_Mass_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_GRAV_1, TEXT_SFX_VSD_HP_GRAV_1, TEXT_SFX_VSD_HP_GRAV_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_HP_Bay_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_A_HP_Hangar_00_eng.wav GSD_A_HP_Hangar_01_eng.wav GSD_A_HP_Hangar_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_HP_BAY_1, TEXT_SFX_VSD_HP_BAY_2, TEXT_SFX_VSD_HP_BAY_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Laser_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_L_HP_Laser_00_eng.wav GSD_L_HP_Laser_01_eng.wav GSD_L_HP_Laser_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_LASER_1, TEXT_SFX_VSD_LOST_LASER_2, TEXT_SFX_VSD_LOST_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Missile_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_L_HP_Missile_00_eng.wav GSD_L_HP_Missile_01_eng.wav GSD_L_HP_Missile_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_LASER_1, TEXT_SFX_VSD_LOST_LASER_2, TEXT_SFX_VSD_LOST_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Torpedo_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_L_HP_Torp_00_eng.wav GSD_L_HP_Torp_01_eng.wav GSD_L_HP_Torp_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_LASER_1, TEXT_SFX_VSD_LOST_LASER_2, TEXT_SFX_VSD_LOST_LASER_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Lost_Engines_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_L_HP_Engine_00_eng.wav GSD_L_HP_Engine_01_eng.wav GSD_L_HP_Engine_02_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_ENGINES_1, TEXT_SFX_VSD_LOST_ENGINES_2, TEXT_SFX_VSD_LOST_ENGINES_2</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Critical_Gladiator_Star_Destroyer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>GSD_Health_Critical_00_eng.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_VSD_LOST_ENGINES_1</Text_ID>
+		<Overlap_Test>Unit_Star_Destroyer</Overlap_Test>
+	</SFXEvent>
+</SFXEvents>
