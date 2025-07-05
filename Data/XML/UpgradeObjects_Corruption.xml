@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<UpgradeObjects_Underworld>
+	<!-- ================== UNDERWORLD GENERAL UPGRADE OBJECTS =================== -->
+	<!-- Underworld Planetary Corruption -->
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Intimidation_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_INTIMIDATION  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_INTIMIDATION</Text_ID>
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Piracy_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_PIRACY</Text_ID>
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Kidnapping_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_KIDNAPPING</Text_ID>
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Racketeering_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_RACKETEERING</Text_ID>
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	<!-- The Underworld-specific version of the Racketeering corruption upgrade. -->
+	<!-- This one gives the "Salvage" effect to the Underworld, granting them credits -->
+	<!-- for destroying enemy units. -->
+	<UpgradeObject Name="Empire_Racketeering_Corruption_Upgrade">
+		<Variant_Of_Existing_Type>Generic_Racketeering_Corruption_Upgrade</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Abilities SubObjectList="Yes">
+			<Bounty_On_Faction_Ability Name="Underworld_Racketeering_Salvage_Effect">
+				<Bounty_Percentage_Amount> 1.0 </Bounty_Percentage_Amount>
+				<Stacking_Category> 1 </Stacking_Category>
+				<!-- The Underworld player will gain credits for destroying objects owned by these factions: -->
+				<Target_Faction_Names>Rebel, Hutts, Pirates </Target_Faction_Names>
+				<Apply_To_All_Allies> No </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</UpgradeObject>
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Corrupt_Militia_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation> Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_CORRUPT_MILITIA  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_CORRUPT_MILITIA</Text_ID>
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Bribery_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BRIBERY  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BRIBERY</Text_ID>
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Black_Market_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BLACK_MARKET  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BLACK_MARKET</Text_ID>
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	<!-- This upgrade simply provides an icon to show that the planet is corrupted. -->
+	<!-- It may belong to any faction so that all can see the icon -->
+	<UpgradeObject Name="Generic_Bonded_Citizens_Corruption_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation> Rebel, Empire</Affiliation>
+		<Previous_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BONDED_CITIZENS  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BONDED_CITIZENS</Text_ID>
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+</UpgradeObjects_Underworld>

@@ -1,6 +1,5 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <Difficulty_Adjustments>
-
 	<Difficulty_Adjustment Name="Easy_Default">
 		<Credit_Multiplier>1.0</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.0</Galactic_AI_Contrast_Multiplier>
@@ -17,7 +16,6 @@
 		<Land_AI_Goal_Cycle_Sleep_Duration>0.0</Land_AI_Goal_Cycle_Sleep_Duration>
 		<Bribe_Cost_Multiplier>0.25</Bribe_Cost_Multiplier>
 	</Difficulty_Adjustment>
-	
 	<Difficulty_Adjustment Name="Normal_Default">
 		<Credit_Multiplier>2.0</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.15</Galactic_AI_Contrast_Multiplier>
@@ -34,7 +32,6 @@
 		<Land_AI_Goal_Cycle_Sleep_Duration>0.0</Land_AI_Goal_Cycle_Sleep_Duration>
 		<Bribe_Cost_Multiplier>0.25</Bribe_Cost_Multiplier>
 	</Difficulty_Adjustment>
-	
 	<Difficulty_Adjustment Name="Hard_Default">
 		<Credit_Multiplier>2.0</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.15</Galactic_AI_Contrast_Multiplier>
@@ -51,5 +48,4 @@
 		<Land_AI_Goal_Cycle_Sleep_Duration>0.0</Land_AI_Goal_Cycle_Sleep_Duration>
 		<Bribe_Cost_Multiplier>0.25</Bribe_Cost_Multiplier>
 	</Difficulty_Adjustment>
-
 </Difficulty_Adjustments>

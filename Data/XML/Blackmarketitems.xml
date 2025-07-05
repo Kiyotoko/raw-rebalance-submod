@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<BlackMarketItems>
+	<Item Name="DUMMY_Tech">
+		<Uncommon_Price_Multiplier>5.5</Uncommon_Price_Multiplier>
+		<Faction>Empire</Faction>
+		<Tech_Level>1</Tech_Level>
+		<Ability_Names/>
+		<Base_Cost_Credits>1000</Base_Cost_Credits>
+		<Icon_Name>i_sa_bl_buzz_droids.tga</Icon_Name>
+		<Localized_Name>TEXT_NONE</Localized_Name>
+		<Localized_Description>TEXT_NONE</Localized_Description>
+		<Used_By_Units/>
+		<Tutorial_Tech_Level>0</Tutorial_Tech_Level>
+		<Tutorial_Base_Cost_Credits>1000</Tutorial_Base_Cost_Credits>
+	</Item>
+</BlackMarketItems>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Factions>
 	<Faction Name="Rebel">
 		<Is_Debug_Switchable_To>Yes</Is_Debug_Switchable_To>
@@ -588,7 +588,8 @@
 		<!-- Death Star present, Luke not present -->
 		<!-- A or B present and C not present -->
 		<!-- A or B present and C not present -->
-		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> 	Nute_Gunray, 	  			None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Just Nute Gunray present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> 	Nute_Gunray, 	  			None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>
+		<!-- Just Nute Gunray present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Chancellor_Palpatine, 		None, 				None, 				CIS_INTRO_SPACE_ATTACK_C_04</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>
 		<!-- Just Empoeror Palpatine present -->
 		<!-- A or B present and C not present -->
@@ -1472,7 +1473,6 @@
 		<Allies>Neutral, Civilian</Allies>
 		<Enemies>Empire, Rebel, Pirates, Hostile, Underworld, Hutts, Underworld_ORG</Enemies>
 	</Faction>
-	
 	<Faction Name="Corp_Sector_Authority">
 		<Is_Debug_Switchable_To>No</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>Yes</Create_Player_In_Multiplayer_Games>
@@ -1510,7 +1510,6 @@
 		<Easily_Bribed>Yes</Easily_Bribed>
 		<Can_Control_Planets>true</Can_Control_Planets>
 	</Faction>
-	
 	<Faction Name="Hostile_Control">
 		<Is_Debug_Switchable_To>No</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>Yes</Create_Player_In_Multiplayer_Games>
@@ -1546,5 +1545,4 @@
 		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld, Underworld_ORG, Hutts</Enemies>
 		<Can_Control_Planets>true</Can_Control_Planets>
 	</Faction>
-	
 </Factions>

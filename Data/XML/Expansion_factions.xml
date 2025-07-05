@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Factions>
-
 	<Faction Name="Underworld_ORG">
 		<Is_Debug_Switchable_To>Yes</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>No</Create_Player_In_Multiplayer_Games>
@@ -98,7 +97,6 @@
 		<Reinforcements_Shadow_Blob_Material_Name>Reinforcement_Overlay_Underworld</Reinforcements_Shadow_Blob_Material_Name>
 		<Bombing_Run_Shadow_Blob_Material_Name>Bombing_Run_Rebel</Bombing_Run_Shadow_Blob_Material_Name>
 		<Bombing_Run_Blob_Size>100.0</Bombing_Run_Blob_Size>
-
 		<!-- color, intensity, and time for the lighting effects.  -->
 		<!-- Each of these is a list that should have the same number of entries as the Bombard_Projectile list -->
 		<Bombardment_Lighting_Color_List>0.0,0.0,0.0,1.0,0.2,0.2</Bombardment_Lighting_Color_List>
@@ -118,13 +116,11 @@
 			1,10,
 			8,5,
 		</Land_Skirmish_Unit_Cap_By_Player_Count>
-
 		<Superweapon_Win_Movie/>
 		<Generic_Win_Movie/>
 		<Finale_Movie/>
 		<Finale_Movie_2/>
 		<Post_Credits_Movie/>
-
 		<Victory_Text/>
 		<Defeat_Text/>
 		<Space_Win_Image>i_us_win.tga</Space_Win_Image>
@@ -147,12 +143,11 @@
 		<Standalone_Space_Maps_Special_Weapon_A/>
 		<!-- Underworld special weapon is an inherent property of their level 3+ starbase -->
 		<Standalone_Space_Maps_Special_Weapon_B/>
-
 		<!-- SFXEvents -->
 		<SFXEvent_GUI_Start_Campaign>GUI_Select_Underworld_SFX</SFXEvent_GUI_Start_Campaign>
 		<SFXEvent_Max_Credits_Limit_Reached>UHD_Credit_Capacity</SFXEvent_Max_Credits_Limit_Reached>
 		<SFXEvent_Land_Invasion_Commencing>UHD_Invasion_Commencing</SFXEvent_Land_Invasion_Commencing>
-		<SFXEvent_Tactical_Corruption_Mission_Commencing></SFXEvent_Tactical_Corruption_Mission_Commencing>
+		<SFXEvent_Tactical_Corruption_Mission_Commencing/>
 		<SFXEvent_Build_Impossible_Location_Blockaded>UHD_System_Blockaded</SFXEvent_Build_Impossible_Location_Blockaded>
 		<!-- In this case, enemy ships in orbit so can't build space station -->
 		<SFXEvent_New_Construction_Options_Available>UHD_New_Construction</SFXEvent_New_Construction_Options_Available>
@@ -179,32 +174,25 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event/>
 		<Music_Event_Battle_Load_Screen>Tactical_Battle_Loading_Loop_Event</Music_Event_Battle_Load_Screen>
-
 		<!-- ============================================= -->
 		<!-- UNDERWORLD WIN/LOSE MUSIC EVENTS              -->
 		<!-- ============================================= -->
-
 		<!-- Specific vs. Factions -->
 		<Music_Event_Tactical_Win_Vs_Faction>Rebel,  	Underworld_Win_Tactical_Event</Music_Event_Tactical_Win_Vs_Faction>
 		<Music_Event_Tactical_Win_Vs_Faction>Empire, 	Underworld_Win_Tactical_Event</Music_Event_Tactical_Win_Vs_Faction>
 		<Music_Event_Tactical_Win_Vs_Faction>Pirates,	Underworld_Win_Tactical_Event</Music_Event_Tactical_Win_Vs_Faction>
-
 		<Music_Event_Tactical_Lose_Vs_Faction>Rebel,  	Lose_To_Rebel_Event</Music_Event_Tactical_Lose_Vs_Faction>
 		<Music_Event_Tactical_Lose_Vs_Faction>Empire, 	Lose_To_Empire_Event</Music_Event_Tactical_Lose_Vs_Faction>
-
 		<Music_Event_Strategic_Win_Vs_Faction>Rebel,  	Underworld_Win_Strategic_Event</Music_Event_Strategic_Win_Vs_Faction>
 		<Music_Event_Strategic_Win_Vs_Faction>Empire, 	Underworld_Win_Strategic_Event</Music_Event_Strategic_Win_Vs_Faction>
 		<Music_Event_Strategic_Win_Vs_Faction>Pirates, Underworld_Win_Strategic_Event</Music_Event_Strategic_Win_Vs_Faction>
-
 		<Music_Event_Strategic_Lose_Vs_Faction>Rebel,  	 Lose_To_Rebel_Event</Music_Event_Strategic_Lose_Vs_Faction>
 		<Music_Event_Strategic_Lose_Vs_Faction>Empire, 	 Lose_To_Empire_Event</Music_Event_Strategic_Lose_Vs_Faction>
-
 		<!-- Generic -->
 		<Music_Event_Tactical_Win>Underworld_Win_Tactical_Event</Music_Event_Tactical_Win>
 		<Music_Event_Tactical_Lose>Rebel_Lose_Tactical_Event</Music_Event_Tactical_Lose>
 		<Music_Event_Strategic_Win>Underworld_Win_Strategic_Event</Music_Event_Strategic_Win>
 		<Music_Event_Strategic_Lose>Rebel_Lose_Strategic_Event</Music_Event_Strategic_Lose>
-
 		<!-- ====================================================================== -->
 		<!-- UNDERWORLD SUPERWEAPON PRESENT MUSIC EVENTS - Overrides to map events below -->
 		<!-- ====================================================================== -->
@@ -212,7 +200,6 @@
 		<Music_Event_Space_Battle_Super_Weapon>Space_Map_Rebel_Battle_Death_Star_Music_Event</Music_Event_Space_Battle_Super_Weapon>
 		<Music_Event_Land_Ambient_Super_Weapon/>
 		<Music_Event_Land_Battle_Super_Weapon/>
-
 		<!-- ====================================================================== -->
 		<!-- UNDERWORLD TACTICAL BATTLE PENDING AUDIO EVENTS                             -->
 		<!-- ====================================================================== -->
@@ -220,7 +207,6 @@
 		<SFX_Event_Tactical_Space_Battle_Pending>UHD_Battle_Pending</SFX_Event_Tactical_Space_Battle_Pending>
 		<Music_Event_Tactical_Land_Battle_Pending>Tactical_Battle_Loading_Loop_Event</Music_Event_Tactical_Land_Battle_Pending>
 		<Music_Event_Tactical_Space_Battle_Pending>Tactical_Battle_Loading_Loop_Event</Music_Event_Tactical_Space_Battle_Pending>
-
 		<!-- ============================================== -->
 		<!-- UNDERWORLD MAPS MUSIC EVENTS - AMBIENT (NON-BATTLE) -->
 		<!-- ============================================== -->
@@ -240,7 +226,6 @@
 		<Music_Event_List_Ambient>Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event</Music_Event_List_Ambient>
 		<!-- Rebel: Urban land maps: Music events for ambient (non-battle) -->
 		<Music_Event_List_Ambient>Urban, Urban_Land_Rebel_Ambient_Music_Event</Music_Event_List_Ambient>
-
 		<!-- ================================ -->
 		<!-- UNDERWORLD MAPS MUSIC EVENTS - BATTLE -->
 		<!-- ================================ -->
@@ -260,7 +245,6 @@
 		<Music_Event_List_Battle>Volcanic, Volcanic_Land_Rebel_Battle_Music_Event</Music_Event_List_Battle>
 		<!-- Rebel: Urban land maps: Music events for battle -->
 		<Music_Event_List_Battle>Urban, Urban_Land_Rebel_Battle_Music_Event</Music_Event_List_Battle>
-
 		<!-- ============================================== -->
 		<!-- OBJECT SPOTTED ANNOUNCEMENTS	                -->
 		<!-- ============================================== -->
@@ -268,11 +252,8 @@
 		<SFXEvent_Unit_Type_Spotted>Emperor_Palpatine,					Unit_Announce_Emperor_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Rebel,	    Unit_Announce_Enemy_Field_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Darth_Vader,						Unit_Announce_Vader_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
-
 		<SFXEvent_Unit_Type_Spotted>Yoda,		                        Unit_Announce_Yoda_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
-
 		<SFXEvent_Enemy_Spotted>Unit_See_Enemy_Underworld_Soldier</SFXEvent_Enemy_Spotted>
-
 		<!-- ============================================== -->
 		<!-- UNDERWORLD SUPERWEAPON ANNOUNCEMENTS                -->
 		<!-- ============================================== -->
@@ -348,8 +329,6 @@
 		<!-- BLAST -->
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>BLAST, GUI_Weapon_Boost_SFX</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off/>
-
-
 		<!-- Events to play when enemy is toggling non-hero ability states from the GUI / Command Bar -->
 		<!-- Power to shields -->
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>DEFEND,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
@@ -375,8 +354,6 @@
 		<!-- STIM_PACK -->
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>STIM_PACK,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>STIM_PACK,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-
-
 		<!-- Rebel HUD Tactical Battle Audio -->
 		<SFXEvent_HUD_Landing_Zone_Captured>UHD_Landing_Zone_Captured</SFXEvent_HUD_Landing_Zone_Captured>
 		<!-- We captured a landing soze -->
@@ -408,7 +385,7 @@
 		<!-- We won the space battle -->
 		<SFXEvent_HUD_Lost_Space_Battle>UHD_Defeated</SFXEvent_HUD_Lost_Space_Battle>
 		<!-- We lost the space battle -->
-		<SFXEvent_HUD_Won_Tactical_Corruption_Mission></SFXEvent_HUD_Won_Tactical_Corruption_Mission>
+		<SFXEvent_HUD_Won_Tactical_Corruption_Mission/>
 		<!-- We won the corruption mission -->
 		<SFXEvent_HUD_Lost_Tactical_Corruption_Mission>UHD_Defeated</SFXEvent_HUD_Lost_Tactical_Corruption_Mission>
 		<!-- We lost the corruption mission -->
@@ -494,7 +471,6 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control>Secondary_Abandoned_Turbolaser_Tower, UHD_Capture_Turbo</SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Secondary_Mercenary_Outfitter, UHD_Lost_Mercenaries</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Secondary_Mercenary_Outfitter, UHD_Capture_Mercenaries</SFXEvent_Tactical_Gain_Friendly_Control>
-
 		<!--
 		<SFXEvent_Tactical_Lose_Friendly_Control>Garrison_Bunker_Capturable, UHD_Lost_Bunker </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Garrison_Bunker_Capturable, UHD_Capture_Bunker </SFXEvent_Tactical_Gain_Friendly_Control>
@@ -521,10 +497,6 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control>Reinforcement_Point_Plus5_Cap, UHD_Landing_Zone_Captured</SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Reinforcement_Point_Plus10_Cap, UHD_Landing_Zone_Lost</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Reinforcement_Point_Plus10_Cap, UHD_Landing_Zone_Captured</SFXEvent_Tactical_Gain_Friendly_Control>
-
-
-
-
 		<!-- Faction-based tactical constuction world 3D SFX - these are not HUD responses, but physical sound effects -->
 		<SFXEvent_Tactical_Object_Building_Started>Structure_Buildable_Start</SFXEvent_Tactical_Object_Building_Started>
 		<!-- An object is just starting construction in the world -->
@@ -534,7 +506,6 @@
 		<!-- An object has just completed construction in the world -->
 		<SFXEvent_Tactical_Object_Sold>Structure_Buildable_Sold</SFXEvent_Tactical_Object_Sold>
 		<!-- An object is sold in the world -->
-
 		<!-- Weather begin/end audio cues: Rain, Snow, Sandstorm, Ash -->
 		<SFXEvent_Weather_Begin>RAIN,       	Unit_Rain_Underworld_Soldier</SFXEvent_Weather_Begin>
 		<SFXEvent_Weather_Begin>SNOW,			Unit_Snowstorm_Underworld_Soldier</SFXEvent_Weather_Begin>
@@ -544,33 +515,27 @@
 		<SFXEvent_Weather_End>SNOW,</SFXEvent_Weather_End>
 		<SFXEvent_Weather_End>SANDSTORM,</SFXEvent_Weather_End>
 		<SFXEvent_Weather_End>ASH,</SFXEvent_Weather_End>
-
 		<!-- Bombing runs becoming available cues -->
 		<SFXEvent_Bombing_Run_Available>UHD_Bombing_Run_Available</SFXEvent_Bombing_Run_Available>
 		<SFXEvent_Bombing_Run_Ally_Available>UHD_Bombing_Run_Available</SFXEvent_Bombing_Run_Ally_Available>
 		<SFXEvent_Bombing_Run_Enemy_Available/>
 		<SFXEvent_Bombing_Run_Cancelled>UHD_Bombing_Run_Canceled</SFXEvent_Bombing_Run_Cancelled>
-		<SFXEvent_Bombing_Run_Begin_Crosstalk></SFXEvent_Bombing_Run_Begin_Crosstalk>
-
+		<SFXEvent_Bombing_Run_Begin_Crosstalk/>
 		<!-- Bombiard becoming available cues -->
 		<SFXEvent_Bombard_Available>UHD_Bombard_Available</SFXEvent_Bombard_Available>
 		<SFXEvent_Bombard_Ally_Available>UHD_Bombard_Ally_Available</SFXEvent_Bombard_Ally_Available>
 		<SFXEvent_Bombard_Enemy_Available>UHD_Bombard_Enemy_Available</SFXEvent_Bombard_Enemy_Available>
 		<SFXEvent_Bombard_Cancelled>UHD_Bombard_Canceled</SFXEvent_Bombard_Cancelled>
-
 		<!-- Starbase upgrading cues -->
 		<SFXEvent_Starbase_Upgraded>UHD_Space_Station_Upgraded</SFXEvent_Starbase_Upgraded>
 		<SFXEvent_Starbase_Enemy_Upgraded>UHD_Enemy_Space_Station_Upgraded</SFXEvent_Starbase_Enemy_Upgraded>
 		<SFXEvent_Starbase_Ally_Upgraded>UHD_Space_Station_Upgraded</SFXEvent_Starbase_Ally_Upgraded>
-
 		<!-- Player taunt SFXEvents variable sized list for taunt hot keys -->
 		<SFXEvent_Player_Taunt>Unit_Taunt_IG88</SFXEvent_Player_Taunt>
 		<SFXEvent_Player_Taunt>Unit_Taunt_IG88</SFXEvent_Player_Taunt>
 		<SFXEvent_Player_Taunt>Unit_Taunt_IG88</SFXEvent_Player_Taunt>
-
 		<!-- Sandbox tactical battle introduction Command Bar movie -->
 		<Tactical_Intro_Command_Bar_Movie_Name/>
-
 		<!-- Sandbox tactical battle introduction SpeechEvents -->
 		<SpeechEvent_Tactical_Intro_Land_Attacker>GUS_INTRO_LAND_ATTACK_U_00</SpeechEvent_Tactical_Intro_Land_Attacker>
 		<!-- Default case for land battle as attacker -->
@@ -585,8 +550,6 @@
 		<SpeechEvent_Tactical_Intro_Land_Raid_Defender>GUS_INTRO_LAND_DEFEND_U_02</SpeechEvent_Tactical_Intro_Land_Raid_Defender>
 		<SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>GUS_INTRO_SPACE_ATTACK_U_05</SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>
 		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>GUS_INTRO_LAND_DEFEND_U_05</SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
-
-
 		<!--  Note that conditionals will be evaluated in the order below, so order/priority is important!	-->
 		<!--																								-->
 		<!-- Luke object types (4) :		Luke_Skywalker, Luke_Team, Luke_XWing, Red_Squadron				-->
@@ -609,8 +572,6 @@
 		<!-- A or B present and C not present 
 		<SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_LAND_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or>  Just Tyber Zann present -->
 		<!-- End Sandbox tactical battle introduction SpeechEvents -->
-
-
 		<!-- ============================================== -->
 		<!-- REBEL DROID ADVISOR TEXT		                -->
 		<!-- ============================================== -->
@@ -632,15 +593,10 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 		<Multiplayer_Campaign_Heroes/>
 		<Bribed_Color>155, 153, 119, 255</Bribed_Color>
-
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_UNDERWORLD.TGA</Multiplayer_Map_Preview_Icon>
-
 		<Tech_Level_Icon_Name>i_button_r_tech_upgrade_</Tech_Level_Icon_Name>
-
 		<Alternate_Icon_Prefix>u_</Alternate_Icon_Prefix>
-
 	</Faction>
-
 	<Faction Name="Underworld">
 		<Is_Debug_Switchable_To>No</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>No</Create_Player_In_Multiplayer_Games>
@@ -675,13 +631,9 @@
 		<Allies>Neutral, Civilian</Allies>
 		<Enemies>Empire, Rebel, Pirates, Sarlacc, Hostile, Underworld, Hutts</Enemies>
 	</Faction>
-	
-
 	<Faction Name="Hutts">
-
 		<Is_Debug_Switchable_To>No</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>Yes</Create_Player_In_Multiplayer_Games>
-
 		<Text_ID>TEXT_FACTION_HUTTS_02</Text_ID>
 		<Icon_Name>i_button_command_bar_jabba_symbol.tga</Icon_Name>
 		<Alternate_Icon_Name>i_button_command_bar_jabba_symbol.tga</Alternate_Icon_Name>
@@ -691,12 +643,10 @@
 		<Fleet_Icon_Name>i_icon_fleet.tga</Fleet_Icon_Name>
 		<Ship_Icon_Name>g_fleet.tga</Ship_Icon_Name>
 		<Squadron_Icon_Name>g_squad.tga</Squadron_Icon_Name>
-
 		<Color>255, 128, 0, 255</Color>
 		<No_Colorization_Color>231, 221, 67, 255</No_Colorization_Color>
 		<Display_Font_Color>255, 128, 0, 255</Display_Font_Color>
 		<Big_Fleet_Color>255, 128, 0, 150</Big_Fleet_Color>
-
 		<Credits_Accumulation_Factor>1.0</Credits_Accumulation_Factor>
 		<Planet_Icon_Scale>10.0</Planet_Icon_Scale>
 		<Planet_Icon_Offset>10.0, 10.0, -1.1</Planet_Icon_Offset>
@@ -705,34 +655,25 @@
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>No</Is_Neutral>
 		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event></Strategic_Map_Music_Event>
+		<Strategic_Map_Music_Event/>
 		<Space_Tactical_Unit_Cap>60</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
 		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
 		<Selection_Blob_RGBA>255, 128, 0, 255</Selection_Blob_RGBA>
-
 		<Debug_Ground_Structures>Hutt_Command_Center_Palace</Debug_Ground_Structures>
 		<Scatters_From_Crushers>true</Scatters_From_Crushers>
-
 		<Allies>Neutral, Civilian</Allies>
 		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Pirates, Underworld_ORG</Enemies>
 		<Easily_Bribed>Yes</Easily_Bribed>
-
 		<Can_Control_Planets>true</Can_Control_Planets>
-
 	</Faction>
-
-
-
 	<Faction Name="Civilian">
-
 		<Is_Debug_Switchable_To>No</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>Yes</Create_Player_In_Multiplayer_Games>
-
 		<Text_ID>TEXT_FACTION_CIVILIAN</Text_ID>
-		<Icon_Name></Icon_Name>
-		<Alternate_Icon_Name></Alternate_Icon_Name>
+		<Icon_Name/>
+		<Alternate_Icon_Name/>
 		<Ground_Base_Icon_Name>groundbase_icon.tga</Ground_Base_Icon_Name>
 		<Star_Base_Icon_Name>spacestation_icon.tga</Star_Base_Icon_Name>
 		<Ground_Transport_Icon_Name>trooper_icon.tga</Ground_Transport_Icon_Name>
@@ -747,21 +688,18 @@
 		<Planet_Icon_Scale>10.0</Planet_Icon_Scale>
 		<Planet_Icon_Offset>13.0, 10.0, -1.1</Planet_Icon_Offset>
 		<Is_Playable>false</Is_Playable>
-		<Primary_Enemy></Primary_Enemy>
+		<Primary_Enemy/>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>No</Is_Neutral>
 		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event></Strategic_Map_Music_Event>
+		<Strategic_Map_Music_Event/>
 		<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
 		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
-
 		<Scatters_From_Crushers>true</Scatters_From_Crushers>
 		<Allies>Empire, Rebel, Underworld, Underworld_ORG, Hutts, Pirates, Sarlacc, Hostile</Allies>
 		<Enemies/>
-
 	</Faction>
-
 </Factions>

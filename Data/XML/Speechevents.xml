@@ -1,0 +1,1409 @@
+<?xml version="1.0"?>
+<SpeechEvents>
+	<!-- Start Republic at War -->
+	<SpeechEvent Name="REP_INTRO_LAND_DEFEND_R_00">
+		<Files>
+			Rep_defend_land_00_eng.mp3 
+			Rep_defend_land_01_eng.mp3 
+			Rep_defend_land_02_eng.mp3 
+			Rep_defend_land_03_eng.mp3 
+			Rep_defend_land_04_eng.mp3 
+			Rep_defend_land_05_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_REP_INTRO_LAND_DEFEND_R_01, TEXT_SPEECH_REP_INTRO_LAND_DEFEND_R_02, TEXT_SPEECH_REP_INTRO_LAND_DEFEND_R_03, TEXT_SPEECH_REP_INTRO_LAND_DEFEND_R_04, TEXT_SPEECH_REP_INTRO_LAND_DEFEND_R_05, TEXT_SPEECH_REP_INTRO_LAND_DEFEND_R_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="REP_INTRO_LAND_ATTACK_R_00">
+		<Files>
+			Rep_attack_land_00_eng.mp3 
+			Rep_attack_land_01_eng.mp3 
+			Rep_attack_land_02_eng.mp3 
+			Rep_attack_land_03_eng.mp3 
+			Rep_attack_land_04_eng.mp3
+			Rep_attack_land_05_eng.mp3
+			Rep_attack_land_06_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_01, TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_02, TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_03, TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_04, TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_05, TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_05, TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="REP_INTRO_LAND_ATTACK_R_01">
+		<Files>
+			Rep_attack_land_07_eng.mp3 
+		</Files>
+		<Text_ID>TEXT_SPEECH_REP_INTRO_LAND_ATTACK_R_08</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="REP_INTRO_SPACE_ATTACK_R_00">
+		<Files>
+			Rep_attack_space_00_eng.mp3 
+			Rep_attack_space_01_eng.mp3 
+			Rep_attack_space_02_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_REP_INTRO_SPACE_ATTACK_R_01, TEXT_SPEECH_REP_INTRO_SPACE_ATTACK_R_02, TEXT_SPEECH_REP_INTRO_SPACE_ATTACK_R_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="REP_INTRO_SPACE_DEFEND_R_00">
+		<Files>
+			Rep_defend_space_00_eng.mp3 
+			Rep_defend_space_01_eng.mp3 
+			Rep_defend_space_02_eng.mp3 
+			Rep_defend_space_03_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_REP_INTRO_SPACE_DEFEND_R_01, TEXT_SPEECH_REP_INTRO_SPACE_DEFEND_R_02, TEXT_SPEECH_REP_INTRO_SPACE_DEFEND_R_03, TEXT_SPEECH_REP_INTRO_SPACE_DEFEND_R_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="REPUBLIC_ORDER66">
+		<Files>order66_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_REPUBLIC_ORDER66</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="REPUBLIC_NEWORDER">
+		<Files>NewOrder_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_REPUBLIC_NEWORDER</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_LAND_DEFEND_C_00">
+		<Files>
+			Cis_defend_land_00_eng.mp3 
+			Cis_defend_land_01_eng.mp3 
+			Cis_defend_land_02_eng.mp3
+			Cis_defend_land_03_eng.mp3
+			Cis_defend_land_04_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_LAND_DEFEND_C_01, TEXT_SPEECH_CIS_INTRO_LAND_DEFEND_C_02, TEXT_SPEECH_CIS_INTRO_LAND_DEFEND_C_03, TEXT_SPEECH_CIS_INTRO_LAND_DEFEND_C_04, TEXT_SPEECH_CIS_INTRO_LAND_DEFEND_C_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_LAND_ATTACK_C_00">
+		<Files>
+			Cis_attack_land_00_eng.mp3 
+			Cis_attack_land_06_eng.mp3
+			Cis_attack_land_02_eng.mp3 
+			Cis_attack_land_03_eng.mp3
+			Cis_attack_land_04_eng.mp3
+			Cis_attack_land_05_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_LAND_ATTACK_C_01, TEXT_SPEECH_CIS_INTRO_LAND_ATTACK_C_07, TEXT_SPEECH_CIS_INTRO_LAND_ATTACK_C_03, TEXT_SPEECH_CIS_INTRO_LAND_ATTACK_C_04, TEXT_SPEECH_CIS_INTRO_LAND_ATTACK_C_05, TEXT_SPEECH_CIS_INTRO_LAND_ATTACK_C_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_LAND_ATTACK_C_01">
+		<Files>
+			Cis_attack_land_01_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_LAND_ATTACK_C_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_SPACE_ATTACK_C_00">
+		<Files>
+			Cis_attack_space_00_eng.mp3 
+			Cis_attack_space_01_eng.mp3 
+			Cis_attack_space_02_eng.mp3 
+			Cis_attack_space_03_eng.mp3 
+			Cis_attack_space_04_eng.mp3
+			Cis_attack_space_05_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_01, TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_02, TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_03, TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_04, TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_05, TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_SPACE_DEFEND_C_00">
+		<Files>
+			Cis_defend_space_00_eng.mp3 
+			Cis_defend_space_01_eng.mp3 
+			Cis_defend_space_02_eng.mp3
+			Cis_defend_space_03_eng.mp3
+			Cis_defend_space_04_eng.mp3
+		</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_DEFEND_C_01, TEXT_SPEECH_CIS_INTRO_SPACE_DEFEND_C_02, TEXT_SPEECH_CIS_INTRO_SPACE_DEFEND_C_03, TEXT_SPEECH_CIS_INTRO_SPACE_DEFEND_C_04, TEXT_SPEECH_CIS_INTRO_SPACE_DEFEND_C_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_SPACE_ATTACK_C_01">
+		<Files>CIS_attack_space_level_5_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_SPACE_ATTACK_C_02">
+		<Files>CIS_attack_space_CSA_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_07</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_SPACE_ATTACK_C_03">
+		<Files>CIS_attack_space_HUTT_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_08</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_SPACE_ATTACK_C_04">
+		<Files>CIS_attack_space_Palpatine_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_09</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CIS_INTRO_SPACE_ATTACK_C_05">
+		<Files>CIS_defend_space_Gunray_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_10</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Clone">
+		<Files>KAMINO_Rep_Clone_Kamino_Speech_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Grievous">
+		<Files>KAMINO_Rep_Grievous_Kamino_Speech_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_REX">
+		<Files>KAMINO_Rep_Rex_Kamino_Speech_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Cody">
+		<Files>KAMINO_Rep_Cody_Kamino_Speech_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_CIS_INTRO_SPACE_ATTACK_C_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_OBIWAN_1">
+		<Files>ORDER66_UTAPAU_OBIWAN_00_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_OBIWAN_2">
+		<Files>ORDER66_UTAPAU_OBIWAN_01_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_OBIWAN_3">
+		<Files>ORDER66_UTAPAU_OBIWAN_02_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_ANAKIN_1">
+		<Files>ORDER66_UTAPAU_ANAKIN_00_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_ANAKIN_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_ANAKIN_2">
+		<Files>ORDER66_UTAPAU_ANAKIN_01_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_ANAKIN_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_YODA_1">
+		<Files>ORDER66_UTAPAU_YODA_00_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_YODA_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_OBIWAN_BOUNCED">
+		<Files>ORDER66_UTAPAU_OBIWAN_BOUNCED_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_BOUNCED</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_CODY_1">
+		<Files>ORDER66_UTAPAU_CODY_00_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_CODY_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_UTAPAU_OBIWAN_FAIL">
+		<Files>ORDER66_UTAPAU_OBIWAN_FAIL_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_FAIL</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_AFTER_UTAPAU_MACE">
+		<Files>ORDER66_AFTER_UTAPAU_MACE_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_AFTER_UTAPAU_MACE</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_AFTER_UTAPAU_ANAKIN">
+		<Files>ORDER66_AFTER_UTAPAU_ANAKIN_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_AFTER_UTAPAU_ANAKIN</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_BEFORE_ORDER66_MACE">
+		<Files>ORDER66_BEFORE_ORDER66_MACE_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_BEFORE_ORDER66_MACE</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_BEFORE_ORDER66_YODA">
+		<Files>ORDER66_BEFORE_ORDER66_YODA_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_BEFORE_ORDER66_YODA</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_PALPATINE_1">
+		<Files>ORDER66_CORUSCANT_PALPATINE_00_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_PALPATINE_2">
+		<Files>ORDER66_CORUSCANT_PALPATINE_01_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_PALPATINE_3">
+		<Files>ORDER66_CORUSCANT_PALPATINE_02_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_PALPATINE_4">
+		<Files>ORDER66_CORUSCANT_PALPATINE_03_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_PALPATINE_5">
+		<Files>ORDER66_CORUSCANT_PALPATINE_04_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_ANAKIN_1">
+		<Files>ORDER66_CORUSCANT_ANAKIN_00_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_ANAKIN_2">
+		<Files>ORDER66_CORUSCANT_ANAKIN_01_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_ANAKIN_3">
+		<Files>ORDER66_CORUSCANT_ANAKIN_02_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_ANAKIN_4">
+		<Files>ORDER66_CORUSCANT_ANAKIN_03_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_ANAKIN_5">
+		<Files>ORDER66_CORUSCANT_ANAKIN_04_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="ORDER66_CORUSCANT_ANAKIN_6">
+		<Files>ORDER66_CORUSCANT_ANAKIN_05_eng.mp3</Files>
+		<Text_ID>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!-- END Republic at War -->
+	<!-- Empire Space Win Cinematic Speech lines -->
+	<SpeechEvent Name="Empire_Space_Win_Line_1">
+		<Files>C000_EMP0101_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_EMPIRE_SPACE_WIN_01</Text_ID>
+		<Volume_Percent>90</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="Empire_Space_Win_Line_2">
+		<Files>C000_VAD0102_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_EMPIRE_SPACE_WIN_02</Text_ID>
+		<Volume_Percent>90</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="Empire_Space_Win_Line_3">
+		<Files>C000_EMP0103_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_EMPIRE_SPACE_WIN_03</Text_ID>
+		<Volume_Percent>90</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="Empire_Space_Win_Line_4">
+		<Files>C000_EMP0104_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_EMPIRE_SPACE_WIN_04</Text_ID>
+		<Volume_Percent>90</Volume_Percent>
+	</SpeechEvent>
+	<!-- Death Star Construction Lines -->
+	<SpeechEvent Name="Speech_Death_Star_Build_Underway">
+		<Files>I000_EHD3804_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_DEATH_STAR_BUILD_UNDERWAY</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="Speech_Death_Star_Build_Complete">
+		<Files>I000_EHD3805_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_DEATH_STAR_BUILD_COMPLETE</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="Speech_Death_Star_Build_Stopped">
+		<Files>I000_EHD3838_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_DEATH_STAR_BUILD_STOPPED</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<!-- Start Rebel Death Star In Range Lines -->
+	<SpeechEvent Name="RHD_Death_Star_1_Minute">
+		<Files>I000_RHD3834_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_1</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="RHD_Death_Star_30_Seconds">
+		<Files>I000_RHD3835_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_30_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="RHD_Death_Star_15_Seconds">
+		<Files>I000_RHD3836_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_15_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="RHD_Death_Star_5_Seconds">
+		<Files>I000_RHD3837_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_5_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="RHD_Death_Star_Cleared">
+		<Files>I000_RHD3840_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_CLEARED</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="RHD_Death_Star_Begin_Approach">
+		<Files>I000_RHD1707_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_BEGIN_APPROACH</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!-- End Rebel Death Star In Range Lines -->
+	<!-- Start Empire Death Star In Range Lines -->
+	<SpeechEvent Name="EHD_Death_Star_1_Minute">
+		<Files>I000_EHD4811_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_EHD_DEATH_STAR_1</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="EHD_Death_Star_30_Seconds">
+		<Files>I000_EHD4812_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_EHD_DEATH_STAR_30_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="EHD_Death_Star_15_Seconds">
+		<Files>I000_EHD4813_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_EHD_DEATH_STAR_15_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="EHD_Death_Star_5_Seconds">
+		<Files>I000_EHD4814_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_EHD_DEATH_STAR_5_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="EHD_Death_Star_Cleared">
+		<Files>I000_EHD4815_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_EHD_DEATH_STAR_CLEARED</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="EHD_Death_Star_Begin_Approach">
+		<Files>I000_EHD4816_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_EHD_DEATH_STAR_BEGIN_APPROACH</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!-- End Empire Death Star In Range Lines -->
+	<!-- Start Underworld Death Star In Range Lines -->
+	<SpeechEvent Name="UHD_Death_Star_1_Minute">
+		<Files>I000_UHD3834_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_1</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="UHD_Death_Star_30_Seconds">
+		<Files>I000_UHD3835_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_30_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="UHD_Death_Star_15_Seconds">
+		<Files>I000_UHD3836_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_15_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="UHD_Death_Star_5_Seconds">
+		<Files>I000_UHD3837_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_5_SECONDS</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="UHD_Death_Star_Cleared">
+		<Files>I000_UHD3840_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_CLEARED</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="UHD_Death_Star_Begin_Approach">
+		<Files>I000_UHD1707_ENG.wav</Files>
+		<Text_ID>TEXT_SPEECH_RHD_DEATH_STAR_BEGIN_APPROACH</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!-- End Underworld Death Star In Range Lines -->
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_01">
+		<Files>MPTUT_NAR0601_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_01</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_02">
+		<Files>MPTUT_NAR0602_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_02</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_03">
+		<Files>MPTUT_NAR0603_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_03</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_04">
+		<Files>MPTUT_NAR0604_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_04</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_05">
+		<Files>MPTUT_NAR0605_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_05</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_06">
+		<Files>MPTUT_NAR0606_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_06</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_08">
+		<Files>MPTUT_NAR0608_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_08</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_09">
+		<Files>MPTUT_NAR0609_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_09</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_10">
+		<Files>MPTUT_NAR0610_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_10</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_11">
+		<Files>MPTUT_NAR0611_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_11</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_13">
+		<Files>MPTUT_NAR0613_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_13</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_14">
+		<Files>MPTUT_NAR0614_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_14</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_15">
+		<Files>MPTUT_NAR0615_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_15</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_16">
+		<Files>MPTUT_NAR0616_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_16</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_17">
+		<Files>MPTUT_NAR0117_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_17</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_18">
+		<Files>MPTUT_NAR0118_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_18</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_19">
+		<Files>MPTUT_NAR0119_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_19</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT06_20">
+		<Files>MPTUT_NAR0120_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT06_20</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_01">
+		<Files>MPTUT_NAR0701_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_01</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_02">
+		<Files>MPTUT_NAR0702_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_02</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_03">
+		<Files>MPTUT_NAR0703_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_03</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_04">
+		<Files>MPTUT_NAR0704_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_04</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_05">
+		<Files>MPTUT_NAR0705_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_05</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_07">
+		<Files>MPTUT_NAR0707_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_07</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_08">
+		<Files>MPTUT_NAR0708_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_08</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_09">
+		<Files>MPTUT_NAR0709_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_09</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_10">
+		<Files>MPTUT_NAR0710_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_10</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_12">
+		<Files>MPTUT_NAR0712_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_12</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_13">
+		<Files>MPTUT_NAR0713_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_13</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_14">
+		<Files>MPTUT_NAR0714_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_14</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_15">
+		<Files>MPTUT_NAR0715_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_15</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_16">
+		<Files>MPTUT_NAR0716_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_16</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TUTORIAL_MP_ACT07_17">
+		<Files>MPTUT_NAR0717_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TUTORIAL_MP_ACT07_17</Text_ID>
+		<Volume_Percent>80</Volume_Percent>
+	</SpeechEvent>
+	<!-- START RANDOM CAMPAIGNS   -->
+	<SpeechEvent Name="MON_EVENT_CREDITS_00">
+		<Files>RRND_MON0000_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CREDITS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CREDITS_01">
+		<Files>RRND_MON0001_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CREDITS_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_STRUCTURE_00">
+		<Files>RRND_MON0002_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_STRUCTURE_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_STRUCTURE_01">
+		<Files>RRND_MON0003_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_STRUCTURE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_UNITS_00">
+		<Files>RRND_MON0004_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_UNITS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_UNITS_01">
+		<Files>RRND_MON0005_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_UNITS_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONQUER_00">
+		<Files>RRND_MON0006_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONQUER_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONQUER_01">
+		<Files>RRND_MON0007_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONQUER_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CREDIT_WINDFALL_00">
+		<Files>RRND_MON0008_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CREDIT_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_HUNT_CAPITAL_SHIPS_00">
+		<Files>RRND_MON0010_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_HUNT_CAPITAL_SHIPS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_INDIGENOUS_REVOLT_00">
+		<Files>RRND_MON0011_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_INDIGENOUS_REVOLT_01">
+		<Files>RRND_MON0012_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_INDIGENOUS_REVOLT_02">
+		<Files>RRND_MON0013_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_INDIGENOUS_REVOLT_03">
+		<Files>RRND_MON0014_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_PLANET_WINDFALL_00">
+		<Files>RRND_MON0015_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_PLANET_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_SCOUT_00">
+		<Files>RRND_MON0016_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_SCOUT_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_SCOUT_01">
+		<Files>RRND_MON0017_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_SCOUT_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_SCOUT_02">
+		<Files>RRND_MON0018_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_SCOUT_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_TECH_WINDFALL_00">
+		<Files>RRND_MON0019_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_TECH_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_UNIT_WINDFALL_00">
+		<Files>RRND_MON0020_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_UNIT_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_UPGRADE_STATION_00">
+		<Files>RRND_MON0021_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_UPGRADE_STATION_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_UPGRADE_STATION_01">
+		<Files>RRND_MON0022_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_UPGRADE_STATION_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONTRIVED_ATTACK_00">
+		<Files>RRND_MON0023_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONTRIVED_ATTACK_01">
+		<Files>RRND_MON0024_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONTRIVED_ATTACK_02">
+		<Files>RRND_MON0025_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONTRIVED_ATTACK_03">
+		<Files>RRND_MON0026_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_FLEET_RAMPAGE_00">
+		<Files>ERND_TAR0027_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_FLEET_RAMPAGE_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_FLEET_RAMPAGE_01">
+		<Files>ERND_TAR0028_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_FLEET_RAMPAGE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_FLEET_RAMPAGE_02">
+		<Files>ERND_TAR0029_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_FLEET_RAMPAGE_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_FLEET_RAMPAGE_03">
+		<Files>RRND_MON0030_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_FLEET_RAMPAGE_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_HERO_GATHERING_00">
+		<Files>RRND_MON0031_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_HERO_GATHERING_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_HERO_GATHERING_01">
+		<Files>RRND_MON0032_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_HERO_GATHERING_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_HERO_GATHERING_02">
+		<Files>RRND_MON0033_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_HERO_GATHERING_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_PLANET_OWNERSHIP_FLIP_00">
+		<Files>RRND_MON0034_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_PLANET_OWNERSHIP_FLIP_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_TRAP_00">
+		<Files>RRND_MON0035_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_TRAP_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_TRAP_01">
+		<Files>RRND_MON0036_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_TRAP_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_TRAP_02">
+		<Files>RRND_MON0037_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_TRAP_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_REFUGEE_01">
+		<Files>RRND_MON0038_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_REFUGEE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_REFUGEE_02">
+		<Files>RRND_MON0039_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_REFUGEE_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_REFUGEE_03">
+		<Files>RRND_MON0040_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_REFUGEE_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONFRONT_01">
+		<Files>RRND_MON0041_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONFRONT_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_CONFRONT_02">
+		<Files>RRND_MON0042_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_CONFRONT_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_RESCUE_01">
+		<Files>RRND_MON0043_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_RESCUE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_RESCUE_02">
+		<Files>RRND_MON0044_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_RESCUE_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_ENLIGHTENMENT_01">
+		<Files>RRND_MON0045_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_ENLIGHTENMENT_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_ENLIGHTENMENT_02">
+		<Files>RRND_MON0046_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_ENLIGHTENMENT_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_ENLIGHTENMENT_03">
+		<Files>RRND_MON0047_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_ENLIGHTENMENT_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_ENLIGHTENMENT_04">
+		<Files>RRND_MON0048_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_ENLIGHTENMENT_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_ENLIGHTENMENT_05">
+		<Files>RRND_MON0049_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_ENLIGHTENMENT_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_ENLIGHTENMENT_06">
+		<Files>RRND_MON0050_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_ENLIGHTENMENT_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_STRENGTH_01">
+		<Files>RRND_MON0051_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_STRENGTH_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_STRENGTH_02">
+		<Files>RRND_MON0052_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_STRENGTH_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_FLEET_01">
+		<Files>RRND_MON0053_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_FLEET_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_FLEET_02">
+		<Files>RRND_MON0054_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_FLEET_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_OPPRESSION_01">
+		<Files>RRND_MON0055_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_OPPRESSION_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_OPPRESSION_02">
+		<Files>RRND_MON0056_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_OPPRESSION_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CREDITS_00">
+		<Files>ERND_TAR0100_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CREDITS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CREDITS_01">
+		<Files>ERND_TAR0101_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CREDITS_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_STRUCTURE_00">
+		<Files>ERND_TAR0102_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_STRUCTURE_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_STRUCTURE_01">
+		<Files>ERND_TAR0103_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_STRUCTURE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_UNITS_00">
+		<Files>ERND_TAR0104_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_UNITS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_UNITS_01">
+		<Files>ERND_TAR0105_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_UNITS_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CONQUER_00">
+		<Files>ERND_TAR0106_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CONQUER_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CONQUER_01">
+		<Files>ERND_TAR0107_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CONQUER_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CREDIT_WINDFALL_00">
+		<Files>ERND_TAR0108_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CREDIT_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_HUNT_CAPITAL_SHIPS_00">
+		<Files>ERND_TAR0110_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_HUNT_CAPITAL_SHIPS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_PLANET_WINDFALL_00">
+		<Files>ERND_TAR0111_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_PLANET_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_SCOUT_00">
+		<Files>ERND_TAR0112_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_SCOUT_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_SCOUT_01">
+		<Files>ERND_TAR0113_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_SCOUT_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_SCOUT_02">
+		<Files>ERND_TAR0114_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_SCOUT_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_TECH_WINDFALL_00">
+		<Files>ERND_TAR0115_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_TECH_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_UNIT_WINDFALL_00">
+		<Files>ERND_TAR0116_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_UNIT_WINDFALL_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_UPGRADE_STATION_00">
+		<Files>ERND_TAR0117_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_UPGRADE_STATION_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_UPGRADE_STATION_01">
+		<Files>ERND_TAR0118_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_UPGRADE_STATION_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CONTRIVED_ATTACK_00">
+		<Files>ERND_TAR0119_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CONTRIVED_ATTACK_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CONTRIVED_ATTACK_01">
+		<Files>ERND_TAR0120_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CONTRIVED_ATTACK_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CONTRIVED_ATTACK_02">
+		<Files>ERND_TAR0121_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CONTRIVED_ATTACK_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_CONTRIVED_ATTACK_03">
+		<Files>ERND_TAR0122_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_CONTRIVED_ATTACK_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_FLEET_RAMPAGE_00">
+		<Files>RRND_MON0123_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_FLEET_RAMPAGE_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_FLEET_RAMPAGE_01">
+		<Files>RRND_MON0124_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_FLEET_RAMPAGE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="MON_EVENT_FLEET_RAMPAGE_02">
+		<Files>RRND_MON0125_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_FLEET_RAMPAGE_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_FLEET_RAMPAGE_03">
+		<Files>ERND_TAR0126_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_FLEET_RAMPAGE_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_HERO_GATHERING_00">
+		<Files>ERND_TAR0127_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_HERO_GATHERING_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_HERO_GATHERING_01">
+		<Files>ERND_TAR0128_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_HERO_GATHERING_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_HERO_GATHERING_02">
+		<Files>ERND_TAR0129_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_HERO_GATHERING_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_PLANET_OWNERSHIP_FLIP_00">
+		<Files>ERND_TAR0130_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_PLANET_OWNERSHIP_FLIP_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_TRAP_00">
+		<Files>ERND_TAR0131_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_TRAP_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_TRAP_01">
+		<Files>ERND_TAR0132_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_TRAP_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_TRAP_02">
+		<Files>ERND_TAR0133_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_TRAP_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_SMUGGLER_01">
+		<Files>ERND_TAR0134_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_SMUGGLER_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_SMUGGLER_02">
+		<Files>ERND_TAR0135_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_SMUGGLER_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_AMBUSH_01">
+		<Files>ERND_TAR0136_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_AMBUSH_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_AMBUSH_02">
+		<Files>ERND_TAR0137_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_AMBUSH_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_AMBUSH_03">
+		<Files>ERND_TAR0138_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_AMBUSH_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_FAVOR_01">
+		<Files>ERND_TAR0139_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_FAVOR_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="VAD_EVENT_FAVOR_02">
+		<Files>ERND_VAD0140_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_VAD_EVENT_FAVOR_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="VAD_EVENT_FAVOR_03">
+		<Files>ERND_VAD0141_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_VAD_EVENT_FAVOR_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_TRAITOR_01">
+		<Files>ERND_TAR0142_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_TRAITOR_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_TRAITOR_02">
+		<Files>ERND_TAR0143_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_TRAITOR_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_SABOTAGE_01">
+		<Files>ERND_TAR0144_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_SABOTAGE_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_SABOTAGE_02">
+		<Files>ERND_TAR0145_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_SABOTAGE_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_REVOLT_01">
+		<Files>ERND_TAR0146_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_REVOLT_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_REVOLT_02">
+		<Files>ERND_TAR0147_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_REVOLT_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_DEFECTION_01">
+		<Files>ERND_TAR0148_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_DEFECTION_01</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="TAR_EVENT_DEFECTION_02">
+		<Files>ERND_TAR0149_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_DEFECTION_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!-- END RANDOM CAMPAIGNS -->
+	<!-- START CUSTOM CAMPAIGNS -->
+	<SpeechEvent Name="CAMPAIGN_SINGLE_10A_INTRO_R">
+		<Files>RSBX_MON1000_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_10A_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_10A_INTRO_E">
+		<Files>ESBX_TAR1001_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_10A_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_10B_INTRO_R">
+		<Files>RSBX_MON1002_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_10B_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_10B_INTRO_E">
+		<Files>ESBX_TAR1003_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_10B_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_15_INTRO_R">
+		<Files>RSBX_MON1500_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_15_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_15_INTRO_E">
+		<Files>ESBX_TAR1501_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_15_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_20_INTRO_R">
+		<Files>RSBX_MON2000_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_20_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_20_INTRO_E">
+		<Files>ESBX_TAR2001_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_20_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_25_INTRO_R">
+		<Files>RSBX_MON2500_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_25_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_25_INTRO_E">
+		<Files>ESBX_TAR2501_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_25_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_30_INTRO_R">
+		<Files>RSBX_MON3000_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_30_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_30_INTRO_E">
+		<Files>ESBX_TAR3001_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_30_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_35_INTRO_R">
+		<Files>RSBX_MON3500_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_35_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_35_INTRO_E">
+		<Files>ESBX_TAR3501_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_35_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_44_INTRO_R">
+		<Files>RSBX_MON4400_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_44_INTRO_R</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="CAMPAIGN_SINGLE_44_INTRO_E">
+		<Files>ESBX_TAR4401_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_CAMPAIGN_SINGLE_44_INTRO_E</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_DEFEND_R_00">
+		<Files>RSBX_GRS0000_ENG.MP3 RSBX_GRS0001_ENG.MP3 RSBX_GRS0002_ENG.MP3 RSBX_GRS0003_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_00, TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_01, TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_02, TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_DEFEND_R_04">
+		<Files>RSBX_GRS0004_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_DEFEND_R_05">
+		<Files>RSBX_GRS0005_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_DEFEND_R_06">
+		<Files>RSBX_GRS0006_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_ATTACK_R_00">
+		<Files>RSBX_GRS0100_ENG.MP3 RSBX_GRS0101_ENG.MP3 RSBX_GRS0102_ENG.MP3 RSBX_GRS0103_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_00, TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_01, TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_02, TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_ATTACK_R_04">
+		<Files>RSBX_GRS0104_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_ATTACK_R_05">
+		<Files>RSBX_GRS0105_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_ATTACK_R_06">
+		<Files>RSBX_GRS0106_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_SPACE_ATTACK_R_07">
+		<Files>RSBX_GRS0107_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_07</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_LAND_DEFEND_R_00">
+		<Files>RSBX_GRS0200_ENG.MP3 RSBX_GRS0201_ENG.MP3 RSBX_GRS0202_ENG.MP3 RSBX_GRS0203_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_00, TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_01, TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_02, TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_LAND_DEFEND_R_04">
+		<Files>RSBX_GRS0204_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_LAND_DEFEND_R_05">
+		<Files>RSBX_GRS0205_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_LAND_ATTACK_R_00">
+		<Files>RSBX_GRS0300_ENG.MP3 RSBX_GRS0301_ENG.MP3 RSBX_GRS0302_ENG.MP3 RSBX_GRS0303_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_00, TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_01,TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_02, TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GRS_INTRO_LAND_ATTACK_R_04">
+		<Files>RSBX_GRS0304_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_SPACE_DEFEND_E_00">
+		<Files>ESBX_GES0000_ENG.MP3 ESBX_GES0001_ENG.MP3 ESBX_GES0002_ENG.MP3 ESBX_GES0003_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_00, TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_01, TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_02, TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_SPACE_DEFEND_E_04">
+		<Files>ESBX_GES0004_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_SPACE_DEFEND_E_05">
+		<Files>ESBX_GES0005_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_SPACE_ATTACK_E_00">
+		<Files>ESBX_GES0100_ENG.MP3 ESBX_GES0101_ENG.MP3 ESBX_GES0102_ENG.MP3 ESBX_GES0103_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_00, TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_01,TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_02,TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_SPACE_ATTACK_E_04">
+		<Files>ESBX_GES0104_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_LAND_DEFEND_E_00">
+		<Files>ESBX_GES0200_ENG.MP3 ESBX_GES0201_ENG.MP3 ESBX_GES0202_ENG.MP3 ESBX_GES0203_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_00, TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_01, TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_02, TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_LAND_DEFEND_E_04">
+		<Files>ESBX_GES0204_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_LAND_DEFEND_E_05">
+		<Files>ESBX_GES0205_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_LAND_ATTACK_E_00">
+		<Files>ESBX_GES0300_ENG.MP3 ESBX_GES0301_ENG.MP3 ESBX_GES0302_ENG.MP3 ESBX_GES0303_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_LAND_ATTACK_E_00, TEXT_SPEECH_GES_INTRO_LAND_ATTACK_E_01, TEXT_SPEECH_GES_INTRO_LAND_ATTACK_E_02, TEXT_SPEECH_GES_INTRO_LAND_ATTACK_E_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_LAND_ATTACK_E_04">
+		<Files>ESBX_GES0304_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_LAND_ATTACK_E_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GES_INTRO_LAND_ATTACK_E_05">
+		<Files>ESBX_GES0305_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GES_INTRO_LAND_ATTACK_E_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!--**********START UNDERWORLD TACTICAL INTRO LINES **********-->
+	<SpeechEvent Name="GUS_INTRO_SPACE_DEFEND_U_00">
+		<Files>USBX_GUS0000_ENG.MP3 USBX_GUS0001_ENG.MP3 USBX_GUS0002_ENG.MP3 USBX_GUS0003_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_00, TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_01, TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_02, TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_DEFEND_U_04">
+		<Files>USBX_GUS0004_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_DEFEND_U_05">
+		<Files>USBX_GUS0005_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_DEFEND_U_06">
+		<Files>USBX_GUS0006_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_ATTACK_U_00">
+		<Files>USBX_GUS0100_ENG.MP3 USBX_GUS0101_ENG.MP3 USBX_GUS0102_ENG.MP3 USBX_GUS0103_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_00, TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_01, TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_02, TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_ATTACK_U_04">
+		<Files>USBX_GUS0104_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_ATTACK_U_05">
+		<Files>USBX_GUS0105_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_ATTACK_U_06">
+		<Files>USBX_GUS0106_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_06</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_SPACE_ATTACK_U_07">
+		<Files>USBX_GUS0107_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_07</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_LAND_DEFEND_U_00">
+		<Files>USBX_GUS0200_ENG.MP3 USBX_GUS0201_ENG.MP3 USBX_GUS0202_ENG.MP3 USBX_GUS0203_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_00, TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_01, TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_02, TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_LAND_DEFEND_U_02">
+		<Files>USBX_GUS0202_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_02</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_LAND_DEFEND_U_04">
+		<Files>USBX_GUS0204_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_LAND_DEFEND_U_05">
+		<Files>USBX_GUS0205_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_LAND_ATTACK_U_00">
+		<Files>USBX_GUS0300_ENG.MP3 USBX_GUS0301_ENG.MP3 USBX_GUS0302_ENG.MP3 USBX_GUS0303_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_00, TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_01,TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_02, TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_03</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_LAND_ATTACK_U_04">
+		<Files>USBX_GUS0304_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_04</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="GUS_INTRO_LAND_INDIGENOUS_U_00">
+		<Files>USBX_GUS0400_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_GUS_INTRO_LAND_INDIGENOUS_U_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!--**********END UNDERWORLD TACTICAL INTRO LINES **********-->
+	<!-- Vader & Obiwan Hero Clash Lines -->
+	<SpeechEvent Name="Hero_Clash_Obiwan_Vader__Vader_Win">
+		<Files>HC000_VAD0105_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_VAD_HC_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<SpeechEvent Name="Hero_Clash_Obiwan_Vader__Obiwan_Win">
+		<Files>HC000_OBI0105_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_OBI_HC_05</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+	<!--  End Vader & Obiwan Hero Clash Lines -->
+</SpeechEvents>
