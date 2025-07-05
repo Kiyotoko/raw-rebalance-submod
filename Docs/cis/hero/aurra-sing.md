@@ -1,6 +1,6 @@
 # Aurra Sing
 
-Former Jedi Padawan who left the Jedi Order to become a vicious bounty hunter specializing in Jedi assassinations. 
+Former Jedi Padawan who left the Jedi Order to become a vicious bounty hunter specializing in Jedi assassinations.
 
 ## Stats
 

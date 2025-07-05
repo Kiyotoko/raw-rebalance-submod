@@ -1,6 +1,6 @@
 # Count Doku
 
-One of the leaders of the Confederacy and a former Jedi who fell to the Darkside . Hailed as one of the finest duelists in the galaxy. Count Dooku is a powerful adversary, capable of destroying his enemies with ease. 
+One of the leaders of the Confederacy and a former Jedi who fell to the Darkside . Hailed as one of the finest duelists in the galaxy. Count Dooku is a powerful adversary, capable of destroying his enemies with ease.
 
 ## Stats
 

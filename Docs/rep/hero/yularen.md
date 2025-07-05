@@ -1,6 +1,6 @@
 # Yularen
 
-Wulf Yularen distinguished himself as a captain in the Kwymar Sector Fleet, fighting against slavers and pirates. Yularen was persuaded by Chancellor Palpatine to join the Republic Navy as an admiral—becoming one of the youngest naval officers to hold the rank—and the naval commander of Jedi General Anakin Skywalker's fleet. The reluctant admiral views Anakin Skywalker as a reckless starfighter pilot rather than a respectable general. Nevertheless Admiral Yularen has come to respect the Jedi General and his abilities. 
+Wulf Yularen distinguished himself as a captain in the Kwymar Sector Fleet, fighting against slavers and pirates. Yularen was persuaded by Chancellor Palpatine to join the Republic Navy as an admiral—becoming one of the youngest naval officers to hold the rank—and the naval commander of Jedi General Anakin Skywalker's fleet. The reluctant admiral views Anakin Skywalker as a reckless starfighter pilot rather than a respectable general. Nevertheless Admiral Yularen has come to respect the Jedi General and his abilities.
 
 ## Stats
 

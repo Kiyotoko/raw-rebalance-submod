@@ -10,7 +10,6 @@ Scorch:
 
 Boss: Elite Commando who can move quickly and call in air-support when needed.
 
-
 ## Stats
 
 <table>

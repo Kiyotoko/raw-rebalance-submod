@@ -1,6 +1,6 @@
 # Centax
 
-A fast heavy frigate with capital ship weaponry. Excels at frontline combat or system patrol. A big punch in small package. 
+A fast heavy frigate with capital ship weaponry. Excels at frontline combat or system patrol. A big punch in small package.
 
 ## Stats
 
