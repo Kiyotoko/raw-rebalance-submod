@@ -1,10 +1,9 @@
 ---
 name: Balancing request
 about: Suggest a rebalancing for a unit
-title: ''
+title: ""
 labels: balancing
 assignees: Kiyotoko
-
 ---
 
 **The name and problem of the unit**
