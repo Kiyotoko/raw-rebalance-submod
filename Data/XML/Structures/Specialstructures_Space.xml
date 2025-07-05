@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <SpecialStructures_Space>
-
 	<SpecialStructure Name="E_Gravity_Well_Station">
 		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
 		<Space_Model_Name>NB_CommJamStation.alo</Space_Model_Name>
@@ -34,13 +33,10 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-
 		<Sabotage_Cost_Credits>3000</Sabotage_Cost_Credits>
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -48,20 +44,15 @@
 		<SFXEvent_Unit_Under_Attack>RHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>RHD_Gravity_Control_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Power_Gen_Select_SFX</SFXEvent_Select>
-
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type>Armor_Satellite</Armor_Type>
-
 		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
-
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-
 		<Death_Clone>Damage_Normal, E_Gravity_Well_Station_Death_Clone</Death_Clone>
-
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
@@ -69,22 +60,17 @@
 		<Custom_Soft_Footprint_Radius>500</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>INTERDICT</Type>
 				<Disable_Movement>Yes</Disable_Movement>
 				<Active_By_Default>Yes</Active_By_Default>
-
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="E_Gravity_Well_Station_Death_Clone">
 		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
 		<Space_Model_Name>NB_CommJamStation_D.alo</Space_Model_Name>
@@ -94,8 +80,6 @@
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpecialStructure>
-
-
 	<SpecialStructure Name="E_Orbital_Jamming_Station">
 		<Text_ID>TEXT_ORBITAL_JAMMING_STATION</Text_ID>
 		<Space_Model_Name>NB_CommJamStation.alo</Space_Model_Name>
@@ -128,9 +112,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<Sabotage_Cost_Credits>3000</Sabotage_Cost_Credits>
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -138,22 +120,17 @@
 		<SFXEvent_Unit_Under_Attack>RHD_Jamming_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>RHD_Jamming_Station_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Jamming_Station_Select_SFX</SFXEvent_Select>
-
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type>Armor_Satellite</Armor_Type>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-
 		<Modifies_Reveal_Range>yes</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
-
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_JAMMING_STATION_00</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
@@ -161,11 +138,8 @@
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<Death_Clone>Damage_Normal, E_Gravity_Well_Station_Death_Clone</Death_Clone>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="R_Orbital_Jamming_Station">
 		<Text_ID>TEXT_ORBITAL_JAMMING_STATION</Text_ID>
 		<Space_Model_Name>NB_CommJamStation.alo</Space_Model_Name>
@@ -201,9 +175,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<Sabotage_Cost_Credits>3000</Sabotage_Cost_Credits>
-
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -211,21 +183,17 @@
 		<SFXEvent_Unit_Under_Attack>UHD_Jamming_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>UHD_Jamming_Station_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Jamming_Station_Select_SFX</SFXEvent_Select>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-
 		<Modifies_Reveal_Range>yes</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type>Armor_Satellite</Armor_Type>
-
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_JAMMING_STATION_00</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
@@ -233,12 +201,8 @@
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<Death_Clone>Damage_Normal, E_Gravity_Well_Station_Death_Clone</Death_Clone>
-
 	</SpecialStructure>
-
-
 	<SpecialStructure Name="Empire_Orbital_Long_Range_Scanner">
 		<Text_ID>TEXT_ORBITAL_LONG_RANGE_SCANNER</Text_ID>
 		<GUI_Row>0</GUI_Row>
@@ -276,7 +240,6 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -284,9 +247,7 @@
 		<SFXEvent_Unit_Under_Attack>RHD_Scanner_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>RHD_Scanner_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Scanner_Select_SFX</SFXEvent_Select>
-
 		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
-
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -325,10 +286,7 @@
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
-
 	<SpecialStructure Name="Space_Casino">
 		<Text_ID>TEXT_ORBITAL_SPACE_CASINO</Text_ID>
 		<GUI_Row>0</GUI_Row>
@@ -375,21 +333,17 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Select>Structure_Space_Casino_Select_SFX</SFXEvent_Select>
-
 		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
-
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.2  0.2</Radar_Icon_Size>
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Gambling_Ability Name="Space_Casino_Gambling_Income">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GAMBLING</Specific_Mod_Source_Text>
@@ -405,9 +359,11 @@
 			<Force_Healing_Ability Name="Space_Casino_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.003</Heal_Percent><!-- Change from .025 to .003 for MP-->
+				<Heal_Percent>0.003</Heal_Percent>
+				<!-- Change from .025 to .003 for MP-->
 				<Heal_Amount>0.0</Heal_Amount>
-				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs><!-- change from 5.0 to 2.0 for MP-->
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+				<!-- change from 5.0 to 2.0 for MP-->
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types/>
@@ -428,10 +384,7 @@
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_00">
 		<Text_ID>TEXT_ORBITAL_SENSOR</Text_ID>
 		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00</Encyclopedia_Text>
@@ -441,7 +394,8 @@
 		<Space_Model_Name>NB_SpaceSensorNode.ALO</Space_Model_Name>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Tactical_Health>100</Tactical_Health><!-- jdg was 500 -->
+		<Tactical_Health>100</Tactical_Health>
+		<!-- jdg was 500 -->
 		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL</SpaceBehavior>
 		<Space_FOW_Reveal_Range>5000.0</Space_FOW_Reveal_Range>
@@ -451,9 +405,7 @@
 		<Icon_Name>i_button_space_sensornode.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -465,32 +417,25 @@
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_Small">
 		<Variant_Of_Existing_Type>Orbital_Sensor_Pod_00</Variant_Of_Existing_Type>
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, DAMAGE_TRACKING</SpaceBehavior>
 		<Scale_Factor>0.5</Scale_Factor>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_01">
 		<Variant_Of_Existing_Type>Orbital_Sensor_Pod_00</Variant_Of_Existing_Type>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_02">
 		<Variant_Of_Existing_Type>Orbital_Sensor_Pod_00</Variant_Of_Existing_Type>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_03">
 		<Variant_Of_Existing_Type>Orbital_Sensor_Pod_00</Variant_Of_Existing_Type>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_04">
 		<Variant_Of_Existing_Type>Orbital_Sensor_Pod_00</Variant_Of_Existing_Type>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Orbital_Sensor_Pod_Pirate">
 		<Variant_Of_Existing_Type>Orbital_Sensor_Pod_00</Variant_Of_Existing_Type>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
@@ -503,8 +448,6 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Affiliation>Pirates</Affiliation>
 	</SpecialStructure>
-
-
 	<SpecialStructure Name="Rebel_Orbital_Long_Range_Scanner">
 		<Text_ID>TEXT_ORBITAL_LONG_RANGE_SCANNER</Text_ID>
 		<GUI_Row>0</GUI_Row>
@@ -545,9 +488,7 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
-
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -555,8 +496,6 @@
 		<SFXEvent_Unit_Under_Attack>UHD_Scanner_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>UHD_Scanner_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Scanner_Select_SFX</SFXEvent_Select>
-
-
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -588,7 +527,6 @@
 				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
 			</System_Spy_Ability>
 		</Abilities>
-
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_LRS_00</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>21000</Score_Cost_Credits>
@@ -596,10 +534,7 @@
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
-
 	<SpecialStructure Name="Defense_Satellite">
 		<Text_ID>TEXT_STRUCTURE_UPLINK_STATION</Text_ID>
 		<GUI_Row>0</GUI_Row>
@@ -610,7 +545,6 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Neutral</Affiliation>
 		<Size_Value>30</Size_Value>
-
 		<Shield_Points>500</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
@@ -619,20 +553,16 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING</SpaceBehavior>
-
 		<Damage>12</Damage>
 		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-
 		<Fire_Inaccuracy_Distance>Fighter, 3.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 3.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 3.0</Fire_Inaccuracy_Distance>
@@ -640,12 +570,9 @@
 		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
-
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
 		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
@@ -663,18 +590,14 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
 		<!--<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_DEFENSE_SAT</Encyclopedia_Text>-->
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="Defense_Satellite_Missile">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -690,30 +613,25 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
 		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
-
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Affiliation>Rebel, Empire</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
-
 		<Projectile_Types>Proj_Ship_Concussion_Missile_Satellite</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>4.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_Satellite</Armor_Type>
-
 		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 1.0</Fire_Inaccuracy_Distance>
@@ -721,7 +639,6 @@
 		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
-
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>60</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
@@ -729,16 +646,13 @@
 		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Victory_Relevant>no</Victory_Relevant>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
@@ -748,18 +662,14 @@
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<AI_Combat_Power>300</AI_Combat_Power>
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 		<Property_Flags>Turret | TacticalStructure</Property_Flags>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="Defense_Satellite_Laser">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -770,36 +680,30 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Behavior>SELECTABLE, TACTICAL_SELL</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, TURRET, TARGETING, WEAPON, UNIT_AI, SHIELDED, POWERED, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Fine_Tune_Occupied_Passability>No</Fine_Tune_Occupied_Passability>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
 		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
-
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Affiliation>Rebel, Empire</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
-
 		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_Structure</Armor_Type>
-
 		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 1.0</Fire_Inaccuracy_Distance>
@@ -807,7 +711,6 @@
 		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
-
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>360</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
@@ -815,16 +718,13 @@
 		<Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name>
 		<!--<Apply_Z_Turret_Rotate_To_Axis>1</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>2</Apply_Y_Turret_Rotate_To_Axis>-->
-
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Victory_Relevant>no</Victory_Relevant>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
@@ -834,17 +734,14 @@
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<AI_Combat_Power>300</AI_Combat_Power>
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 		<Property_Flags>Turret | TacticalStructure</Property_Flags>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Defense_Satellite_Laser_Small">
 		<Variant_Of_Existing_Type>Defense_Satellite_Laser</Variant_Of_Existing_Type>
 		<Scale_Factor>0.45</Scale_Factor>
@@ -853,7 +750,6 @@
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Pirate_Defense_Satellite_Laser">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -864,7 +760,6 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Behavior>SELECTABLE, TACTICAL_SELL</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, TURRET, TARGETING, WEAPON, UNIT_AI, SHIELDED, POWERED, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Fine_Tune_Occupied_Passability>No</Fine_Tune_Occupied_Passability>
 		<Mass>1.0</Mass>
@@ -872,30 +767,25 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>50</Tactical_Health>
 		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
-
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Affiliation>Pirates</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
-
 		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.8</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
-
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_Structure</Armor_Type>
-
 		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 1.0</Fire_Inaccuracy_Distance>
@@ -903,7 +793,6 @@
 		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
-
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
@@ -911,16 +800,13 @@
 		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Victory_Relevant>no</Victory_Relevant>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
@@ -930,18 +816,14 @@
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
-
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<AI_Combat_Power>300</AI_Combat_Power>
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 		<Property_Flags>Turret | TacticalStructure</Property_Flags>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="Defense_Space_Turbolaser_Tower">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -952,36 +834,30 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Behavior>SELECTABLE, TACTICAL_SELL</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, TURRET, TARGETING, WEAPON, UNIT_AI, SHIELDED, POWERED, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Fine_Tune_Occupied_Passability>No</Fine_Tune_Occupied_Passability>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
 		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
-
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
-
 		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_Structure</Armor_Type>
-
 		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 1.0</Fire_Inaccuracy_Distance>
@@ -989,7 +865,6 @@
 		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
-
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>4.0</Turret_Rotate_Speed>
@@ -997,16 +872,13 @@
 		<Barrel_Bone_Name>B_Barrel_00</Barrel_Bone_Name>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Victory_Relevant>no</Victory_Relevant>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
@@ -1016,18 +888,14 @@
 		<CategoryMask>Structure | AutoRevealIgnore</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<AI_Combat_Power>300</AI_Combat_Power>
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 		<Property_Flags>Turret | TacticalStructure</Property_Flags>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpecialStructure>
-
-
 	<SpecialStructure Name="Template_Cis_Gun_Platform">
 		<Text_ID>TEXT_ORBITAL_GUN_PLATFORM</Text_ID>
 		<GUI_Row>0</GUI_Row>
@@ -1061,7 +929,6 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI, POWERED, SHIELDED, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Reinforcement_Prevention_Radius>800</Reinforcement_Prevention_Radius>
-
 		<HardPoints>
 			HP_CIS_Gun_Platform_HP01,
 			HP_CIS_Gun_Platform_HP02,
@@ -1083,12 +950,11 @@
 			HP_Gun_Platform_Shield_Generator,
 			HP_Gun_Platform_Fighter_Bay_01
 		</HardPoints>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Nantex_Squadron, 2</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Nantex_Squadron, -1</Reserve_Spawned_Units_Tech_0><!-- -1 == no limit -->
-
-
+		<Starting_Spawned_Units_Tech_0>Nantex_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Nantex_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<!-- -1 == no limit -->
 		<Space_FOW_Reveal_Range>2000</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1101,7 +967,6 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -1111,36 +976,28 @@
 		<SFXEvent_Barrage>Unit_Barrage_Rebel_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Cis_Hangar</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Health_Critical_Warning>Unit_Ship_Alarm</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Hardpoint_All_Weapons_Destroyed>Unit_Ship_Alarm</SFXEvent_Hardpoint_All_Weapons_Destroyed>
-
 		<CategoryMask>Structure</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GUN_PLATFORM</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>21000</Score_Cost_Credits>
-
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Rebel</Retreat_Self_Destruct_Explosion>
 		<Death_Clone>Damage_Normal, CIS_Gun_Platform_Death_Clone</Death_Clone>
-
 		<Custom_Soft_Footprint_Radius>200</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="CIS_Gun_Platform_Death_Clone">
 		<Text_ID>TEXT_ORBITAL_GUN_PLATFORM</Text_ID>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1151,10 +1008,8 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</SpecialStructure>
-
 	<SpecialStructure Name="Cis_Gun_Platform">
 		<Variant_Of_Existing_Type>Template_Cis_Gun_Platform</Variant_Of_Existing_Type>
-
 		<Obstacle_Proxy_Type>R_Space_Gun_Platform_Build_Pad</Obstacle_Proxy_Type>
 		<Affiliation>Rebel</Affiliation>
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
@@ -1163,9 +1018,7 @@
 		<SFXEvent_Unit_Under_Attack/>
 		<SFXEvent_Unit_Lost>UHD_Structure_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Unit_Select_Rebel_Space_Station</SFXEvent_Select>
-
 	</SpecialStructure>
-
 	<SpecialStructure Name="Template_Galactic_Gun_Platform_Defenses">
 		<Text_ID>TEXT_GUN_PLATFORM_DEFENSE_UPGRADE</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GUN_PLATFORM</Encyclopedia_Text>
@@ -1180,7 +1033,6 @@
 		<AI_Combat_Power>2000</AI_Combat_Power>
 		<!-- All derived types need to specify a value for this entry that corresponds to the correct tactical Turbolaser Tower type for that faction. -->
 		<!--<Place_Other_Type_At_Every_Specific_Marker_Position>Template_Ground_Turbolaser_Tower</Place_Other_Type_At_Every_Specific_Marker_Position>-->
-
 		<Damage>100</Damage>
 		<Mass>1.0</Mass>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -1202,7 +1054,6 @@
 		<Base_Position>Orbital</Base_Position>
 		<Score_Cost_Credits>20000</Score_Cost_Credits>
 	</SpecialStructure>
-
 	<SpecialStructure Name="R_Galactic_Gun_Platform_Defenses">
 		<Variant_Of_Existing_Type>Template_Galactic_Gun_Platform_Defenses</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
@@ -1218,5 +1069,4 @@
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpecialStructure>
-
 </SpecialStructures_Space>

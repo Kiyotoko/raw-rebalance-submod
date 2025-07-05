@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SpecialStructures_Battlefield>
-
 	<SpecialStructure Name="Ground_Republic_Field_Hospital">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_FIELD_HOSPITAL</Text_ID>
@@ -101,10 +100,8 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-
 		</Abilities>
 	</SpecialStructure>
-	
 	<SpecialStructure Name="Ground_Republic_Engineering_Platform">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_ENGINEERING_PLATFORM</Text_ID>
@@ -207,7 +204,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-	
 	<SpecialStructure Name="Ground_Republic_Forward_Commandpost">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_FORWARD_COMMANDPOST</Text_ID>
@@ -285,7 +281,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-	
 	<SpecialStructure Name="Ground_Republic_Merc_Hq">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_MERC_HQ</Text_ID>
@@ -363,8 +358,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-	
-	
 	<SpecialStructure Name="Ground_Cis_Droid_Center">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_DROID_CENTER</Text_ID>
@@ -482,7 +475,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-	
 	<SpecialStructure Name="Ground_Cis_Engineering_Platform">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_ENGINEERING_PLATFORM</Text_ID>
@@ -585,7 +577,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-	
 	<SpecialStructure Name="Ground_Cis_Forward_Commandpost">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_FORWARD_COMMANDPOST</Text_ID>
@@ -663,7 +654,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-	
 	<SpecialStructure Name="Ground_Cis_Merc_Hq">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_MERC_HQ</Text_ID>
@@ -741,7 +731,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-	
 	<SpecialStructure Name="Siege_Mortar">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_SIEGE_MORTAR</Text_ID>
@@ -785,7 +774,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
-		<Build_Time_Seconds>130</Build_Time_Seconds><!-- from 60 -->
+		<Build_Time_Seconds>130</Build_Time_Seconds>
+		<!-- from 60 -->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
@@ -877,5 +867,4 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-
 </SpecialStructures_Battlefield>

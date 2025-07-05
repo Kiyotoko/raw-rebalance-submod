@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <Cis_StarBases>
-
 	<StarBase Name="Rebel_Star_Base_1">
 		<No_Colorization_Color>7, 134, 252, 255</No_Colorization_Color>
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION1 TEXT_TOOLTIP_GARRISON_RS_01</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-
 		<GUI_Row>0</GUI_Row>
 		<Space_Model_Name>SeB_Station_level_01.ALO</Space_Model_Name>
 		<Galactic_Model_Name>I_SeB_Station_level_01.ALO</Galactic_Model_Name>
@@ -32,26 +30,20 @@
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 6</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
-
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
 				CS_Enhanced_Engines_L1_Upgrade,
@@ -63,7 +55,6 @@
 				CS_More_Garrisons_L2_Upgrade,
 				CS_More_Garrisons_L3_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Damage>35</Damage>
 		<Shield_Points>1500</Shield_Points>
@@ -73,11 +64,9 @@
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
 			HP_CIS_Starbase_One_01,
@@ -96,9 +85,7 @@
 			HP_CIS_Starbase_One_Comm_Array_Dummy,
 			HP_CIS_Starbase_One_Supply_Dock_Dummy 
 		</HardPoints>
-
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
-
 		<GUI_Model_Name>SeB_Station_level_01.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
@@ -106,7 +93,6 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<GUI_X_Rot>0</GUI_X_Rot>
 		<Victory_Relevant>yes</Victory_Relevant>
-
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -116,24 +102,27 @@
 		<SFXEvent_Attack>Unit_Attack_CIS_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_CIS_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Health_Critical_Warning>Unit_Ship_Alarm</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Hardpoint_All_Weapons_Destroyed>Unit_Ship_Alarm</SFXEvent_Hardpoint_All_Weapons_Destroyed>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,   Unit_Lost_Cis_Missle_Launcher</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Cis_Torpedo_Launcher</SFXEvent_Hardpoint_Destroyed>
@@ -145,9 +134,7 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>300</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
@@ -155,16 +142,12 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_STATION1_Sep.TGA</Radar_Icon_Name>
-
 		<Icon_Name>i_button_CIS_station.tga</Icon_Name>
 		<Score_Cost_Credits>1500</Score_Cost_Credits>
-
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Rebel</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_1_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>10</Additional_Population_Capacity>
 	</StarBase>
-	
 	<StarBase Name="Rebel_Star_Base_1_Death_Clone">
 		<Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
 		<Space_Model_Name>SeB_Station_level_01_D.alo</Space_Model_Name>
@@ -174,15 +157,12 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-	
 	<StarBase Name="Rebel_Star_Base_2">
 		<No_Colorization_Color>7, 134, 252, 255</No_Colorization_Color>
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_2</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2 TEXT_TOOLTIP_GARRISON_RS_02</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>SeB_Station_level_02.ALO</Space_Model_Name>
@@ -216,26 +196,21 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 8</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 8</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 8</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
 				CS_Enhanced_Engines_L1_Upgrade,
@@ -247,11 +222,9 @@
 				CS_More_Garrisons_L2_Upgrade,
 				CS_More_Garrisons_L3_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
 			HP_CIS_Starbase_One_01,
@@ -274,9 +247,7 @@
 			HP_CIS_Starbase_Two_02,
 			HP_CIS_Starbase_Two_03
 		</HardPoints>
-
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
-
 		<GUI_Model_Name>SeB_Station_level_02.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
@@ -293,24 +264,27 @@
 		<SFXEvent_Attack>Unit_Attack_CIS_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_CIS_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Health_Critical_Warning>Unit_Ship_Alarm</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Hardpoint_All_Weapons_Destroyed>Unit_Ship_Alarm</SFXEvent_Hardpoint_All_Weapons_Destroyed>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,   Unit_Lost_Cis_Missle_Launcher</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Cis_Torpedo_Launcher</SFXEvent_Hardpoint_Destroyed>
@@ -322,11 +296,8 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>450</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
@@ -334,18 +305,13 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station2_sep.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
-
 		<Slice_Cost_Credits>600</Slice_Cost_Credits>
-
 		<Icon_Name>i_button_CIS_station.tga</Icon_Name>
 		<Score_Cost_Credits>3000</Score_Cost_Credits>
-
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Rebel</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_2_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>13</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Rebel_Star_Base_2_Death_Clone">
 		<Text_ID>TEXT_REBEL_STAR_BASE_2</Text_ID>
 		<Space_Model_Name>SeB_Station_level_02_D.alo</Space_Model_Name>
@@ -355,15 +321,12 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Rebel_Star_Base_3">
 		<No_Colorization_Color>7, 134, 252, 255</No_Colorization_Color>
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_3</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_RS_03</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>SeB_Station_level_03.ALO</Space_Model_Name>
@@ -399,26 +362,21 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 12</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 12</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 12</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 6</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 6</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
 				CS_Enhanced_Engines_L1_Upgrade,
@@ -435,11 +393,9 @@
 				CS_Improved_Bombs_L2_Upgrade,
 				CS_Enhanced_Engines_L2_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
 			HP_CIS_Starbase_One_01,
@@ -468,9 +424,7 @@
 			HP_CIS_Starbase_Three_04,
 			HP_CIS_Starbase_Three_05
 		</HardPoints>
-
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
-
 		<GUI_Model_Name>SeB_Station_level_03.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
@@ -487,24 +441,27 @@
 		<SFXEvent_Attack>Unit_Attack_CIS_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_CIS_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Health_Critical_Warning>Unit_Ship_Alarm</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Hardpoint_All_Weapons_Destroyed>Unit_Ship_Alarm</SFXEvent_Hardpoint_All_Weapons_Destroyed>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,   Unit_Lost_Cis_Missle_Launcher</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Cis_Torpedo_Launcher</SFXEvent_Hardpoint_Destroyed>
@@ -517,9 +474,7 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>450</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
@@ -527,18 +482,13 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station3_sep.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
-
 		<Icon_Name>i_button_CIS_station.tga</Icon_Name>
 		<Score_Cost_Credits>6000</Score_Cost_Credits>
-
 		<Slice_Cost_Credits>1200</Slice_Cost_Credits>
-
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Rebel</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_3_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>15</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Rebel_Star_Base_3_Death_Clone">
 		<Text_ID>TEXT_REBEL_STAR_BASE_3</Text_ID>
 		<Space_Model_Name>SeB_Station_level_03_D.alo</Space_Model_Name>
@@ -548,15 +498,12 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Rebel_Star_Base_4">
 		<No_Colorization_Color>7, 134, 252, 255</No_Colorization_Color>
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_4</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION4 TEXT_TOOLTIP_GARRISON_RS_04</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>SeB_Station_level_04.ALO</Space_Model_Name>
@@ -592,30 +539,23 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 14</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 14</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 14</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 7</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 7</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 7</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 3</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Recusant_Frigate, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Recusant_Frigate, 1</Reserve_Spawned_Units_Tech_0>
-
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
 				CS_Enhanced_Engines_L1_Upgrade,
@@ -632,11 +572,9 @@
 				CS_Improved_Bombs_L2_Upgrade,
 				CS_Enhanced_Engines_L2_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
 			HP_CIS_Starbase_One_01,
@@ -670,10 +608,7 @@
 			HP_CIS_Starbase_Four_03,
 			HP_CIS_Starbase_Four_04
 		</HardPoints>
-
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
-
-
 		<GUI_Model_Name>SeB_Station_level_04.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
@@ -690,24 +625,27 @@
 		<SFXEvent_Attack>Unit_Attack_CIS_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_CIS_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Health_Critical_Warning>Unit_Ship_Alarm</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Hardpoint_All_Weapons_Destroyed>Unit_Ship_Alarm</SFXEvent_Hardpoint_All_Weapons_Destroyed>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,   Unit_Lost_Cis_Missle_Launcher</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Cis_Torpedo_Launcher</SFXEvent_Hardpoint_Destroyed>
@@ -720,30 +658,21 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>550</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station4_sep.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
-
 		<Space_Layer>StaticObject</Space_Layer>
-
 		<Icon_Name>i_button_CIS_station.tga</Icon_Name>
 		<Score_Cost_Credits>12000</Score_Cost_Credits>
-
 		<Slice_Cost_Credits>2400</Slice_Cost_Credits>
-
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Rebel</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Rebel_Star_Base_4_Death_Clone">
 		<Text_ID>TEXT_REBEL_STAR_BASE_4</Text_ID>
 		<Space_Model_Name>SeB_Station_level_04_D.alo</Space_Model_Name>
@@ -753,15 +682,12 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Rebel_Star_Base_5">
 		<No_Colorization_Color>7, 134, 252, 255</No_Colorization_Color>
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_RS_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>SeB_Station_level_05.ALO</Space_Model_Name>
@@ -797,32 +723,25 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Tri_Droid_Squadron, 16</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Tri_Droid_Squadron, 16</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Tri_Droid_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 8</Starting_Spawned_Units_Tech_0><!-- 2 Droid squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 8</Starting_Spawned_Units_Tech_0>
+		<!-- 2 Droid squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 8</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cis_Patrol_Frigate, 3</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 3</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Recusant_Frigate, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Recusant_Frigate, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Providence_Class_Carrier, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Providence_Class_Carrier, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
 				CS_Enhanced_Engines_L1_Upgrade,
@@ -843,11 +762,9 @@
 				CS_Improved_Defenses_L3_Upgrade
 
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
 			HP_CIS_Starbase_One_01,
@@ -883,10 +800,7 @@
 			HP_CIS_Starbase_Five_00,
 			HP_CIS_Starbase_Five_01
 		</HardPoints>
-
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
-
-
 		<GUI_Model_Name>SeB_Station_level_05.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
@@ -903,24 +817,27 @@
 		<SFXEvent_Attack>Unit_Attack_CIS_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_CIS_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_CIS_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Recusant</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Droid SFX. Can be changed -->
-
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Droid SFX. Can be changed -->
 		<SFXEvent_Health_Critical_Warning>Unit_Ship_Alarm</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Hardpoint_All_Weapons_Destroyed>Unit_Ship_Alarm</SFXEvent_Hardpoint_All_Weapons_Destroyed>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,   Unit_Lost_Cis_Missle_Launcher</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Cis_Torpedo_Launcher</SFXEvent_Hardpoint_Destroyed>
@@ -933,9 +850,7 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>550</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
@@ -943,17 +858,13 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station5_sep.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
-
 		<Icon_Name>i_button_CIS_station.tga</Icon_Name>
 		<Score_Cost_Credits>24000</Score_Cost_Credits>
 		<Slice_Cost_Credits>4800</Slice_Cost_Credits>
-
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Rebel</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Rebel_Star_Base_5_Death_Clone">
 		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
 		<Space_Model_Name>SeB_Station_level_05_D.alo</Space_Model_Name>
@@ -963,12 +874,9 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Skirmish_Rebel_Star_Base_1">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
@@ -988,13 +896,10 @@
 			HP_CIS_Starbase_One_Comm_Array,
 			HP_CIS_Starbase_One_Supply_Dock
 		</HardPoints>
-
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
-
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
 				Vulture_Droid_Squadron, <!-- Rebalance Note: Replaced Scarab_Squadron with Vulture_Droid_Squadron -->
@@ -1005,23 +910,18 @@
         CS_Reinforced_Structure_L1_Upgrade,
         CS_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
-
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base/>
 		<Next_Level_Base>Skirmish_Rebel_Star_Base_2</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
@@ -1035,7 +935,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>20</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1046,20 +947,18 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Rebel_Star_Base_2">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
@@ -1083,12 +982,9 @@
 			HP_CIS_Starbase_Two_02,
 			HP_CIS_Starbase_Two_03	
 		</HardPoints>
-
-
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1105,20 +1001,16 @@
 				CS_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Rebel_Star_Base_3</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
@@ -1132,7 +1024,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>25.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1143,20 +1036,18 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Rebel_Star_Base_3">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
@@ -1186,11 +1077,9 @@
 			HP_CIS_Starbase_Three_04,
 			HP_CIS_Starbase_Three_05		
 		</HardPoints>
-
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1214,20 +1103,16 @@
 				CS_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-	
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Rebel_Star_Base_4</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
@@ -1241,7 +1126,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>30</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1252,20 +1138,18 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Rebel_Star_Base_4">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
@@ -1300,11 +1184,9 @@
 			HP_CIS_Starbase_Four_03,
 			HP_CIS_Starbase_Four_04			
 		</HardPoints>
-
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1336,20 +1218,16 @@
 				CS_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Rebel_Star_Base_5</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
@@ -1363,7 +1241,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>35</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1374,20 +1253,18 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Rebel_Star_Base_5">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_CIS_Starbase_One_00,
@@ -1424,11 +1301,9 @@
 			HP_CIS_Starbase_Five_00,
 			HP_CIS_Starbase_Five_01		
 		</HardPoints>
-
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1467,20 +1342,16 @@
 				CS_Ion_Cannon_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base/>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
@@ -1494,7 +1365,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1505,14 +1377,13 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 </Cis_StarBases>

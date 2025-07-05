@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<SpaceStructures>
+	<SpaceStructure Name="Orbital_Construction_Pod">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Select_Box_Scale>600</Select_Box_Scale>
+		<Text_ID>TEXT_STRUCTURE_ORBITAL_CONSTRUCTION_POD</Text_ID>
+		<Space_Model_Name>EB_construction_pod.alo</Space_Model_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI</Behavior>
+		<!-- pod should be seen thru FoW -->
+		<SpaceBehavior>IDLE, SPACE_OBSTACLE</SpaceBehavior>
+		<Space_FOW_Reveal_Range>100.0</Space_FOW_Reveal_Range>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>700</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type>Armor_Satellite</Armor_Type>
+		<Reveal_During_Setup_Phase>false</Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Select>Structure_Light_Factory_Select_SFX</SFXEvent_Select>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Proj_Construction_Pod_Detonation</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+	</SpaceStructure>
+</SpaceStructures>

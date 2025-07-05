@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Republic_StarBases>
-
 	<StarBase Name="Empire_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_1</Text_ID>
@@ -41,22 +40,16 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>V19_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>NTB_630_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_light_frigate, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_light_frigate, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
 				RS_More_Garrisons_L1_Upgrade,
@@ -68,11 +61,9 @@
 				RS_Improved_Bombs_L1_Upgrade,
 				RS_Enhanced_Shielding_L1_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
 			HP_Republic_Shipyard_One_01,
@@ -84,9 +75,7 @@
 			HP_Republic_Shipyard_One_Comm_Array_Dummy,
 			HP_Republic_Shipyard_One_Supply_Dock_Dummy
 		</HardPoints>
-
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -96,28 +85,45 @@
 		<SFXEvent_Attack>Unit_Attack_Republic_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Republic_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
 		<!--
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
@@ -125,9 +131,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 		-->
 		<SFXEvent_Unit_Under_Attack>RHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>250</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
@@ -136,15 +140,12 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>I_RADAR_STATION1_REP.TGA</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
-
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
 		<Score_Cost_Credits>1500</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Empire</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Empire_Star_Base_1_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>10</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Empire_Star_Base_1_Death_Clone">
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_2</Text_ID>
 		<Space_Model_Name>ReB_Shipyard_Level_01_D.ALO</Space_Model_Name>
@@ -155,8 +156,6 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Empire_Star_Base_2">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_2</Text_ID>
@@ -197,25 +196,18 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius>3000</Reinforcement_Prevention_Radius>
-
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>V19_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 6</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>NTB_630_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_light_frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_light_frigate, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
 				RS_More_Garrisons_L1_Upgrade,
@@ -228,11 +220,9 @@
 				RS_Enhanced_Shielding_L1_Upgrade
 
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
 			HP_Republic_Shipyard_One_01,
@@ -248,9 +238,7 @@
 			HP_Republic_Shipyard_Two_02,
 			HP_Republic_Shipyard_Two_03
 		</HardPoints>
-
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -260,28 +248,43 @@
 		<SFXEvent_Attack>Unit_Attack_Republic_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Republic_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-
-
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<!--
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
@@ -290,9 +293,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 		-->
 		<SFXEvent_Unit_Under_Attack>RHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>250</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
@@ -302,16 +303,12 @@
 		<Radar_Icon_Name>I_RADAR_STATION2_REP.TGA</Radar_Icon_Name>
 		<Radar_Icon_Size>0.16  0.16</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
-
-
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
 		<Score_Cost_Credits>3000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Empire</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Empire_Star_Base_2_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>13</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Empire_Star_Base_2_Death_Clone">
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_2</Text_ID>
 		<Space_Model_Name>ReB_Shipyard_Level_02_D.alo</Space_Model_Name>
@@ -322,8 +319,6 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Empire_Star_Base_3">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_3</Text_ID>
@@ -364,30 +359,20 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Reinforcement_Prevention_Radius>3500</Reinforcement_Prevention_Radius>
-
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>V19_Squadron, 8</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 8</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>NTB_630_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_light_frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_light_frigate, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_Light_Cruiser, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_Light_Cruiser, 1</Reserve_Spawned_Units_Tech_0>
-
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
 				RS_More_Garrisons_L1_Upgrade,
@@ -404,11 +389,9 @@
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
 			HP_Republic_Shipyard_One_01,
@@ -440,9 +423,7 @@
 			HP_Republic_Shipyard_Three_14,
 			HP_Republic_Shipyard_Three_15
 		</HardPoints>
-
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -452,28 +433,43 @@
 		<SFXEvent_Attack>Unit_Attack_Republic_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Republic_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-
-
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<!--
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
@@ -482,28 +478,22 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 		-->
 		<SFXEvent_Unit_Under_Attack>RHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>250</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-200</Layer_Z_Adjust>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>I_RADAR_STATION3_REP.TGA</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
-
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
 		<Score_Cost_Credits>6000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Empire</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Empire_Star_Base_3_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>15</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Empire_Star_Base_3_Death_Clone">
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_3</Text_ID>
 		<Space_Model_Name>ReB_Shipyard_Level_03_D.alo</Space_Model_Name>
@@ -514,8 +504,6 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Empire_Star_Base_4">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_4</Text_ID>
@@ -556,31 +544,22 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius>4000</Reinforcement_Prevention_Radius>
-
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>V19_Squadron, 10</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron, 5</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, 5</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_light_frigate, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_light_frigate, 3</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_Light_Cruiser, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_Light_Cruiser, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Dreadnaught_Cruiser, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Dreadnaught_Cruiser, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
 				RS_More_Garrisons_L1_Upgrade,
@@ -597,11 +576,9 @@
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
 			HP_Republic_Shipyard_One_01,
@@ -637,9 +614,7 @@
 			HP_Republic_Shipyard_Four_02,
 			HP_Republic_Shipyard_Four_03
 		</HardPoints>
-
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -649,28 +624,43 @@
 		<SFXEvent_Attack>Unit_Attack_Republic_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Republic_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-
-
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<!--
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
@@ -679,29 +669,22 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 		-->
 		<SFXEvent_Unit_Under_Attack>RHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>250</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>I_RADAR_STATION4_REP.TGA</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
-
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
 		<Score_Cost_Credits>12000</Score_Cost_Credits>
-
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Empire</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Empire_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Empire_Star_Base_4_Death_Clone">
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_4</Text_ID>
 		<Space_Model_Name>ReB_Shipyard_Level_04_D.alo</Space_Model_Name>
@@ -712,8 +695,6 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Empire_Star_Base_5">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
@@ -754,34 +735,24 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius>4500</Reinforcement_Prevention_Radius>
-
 		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 10</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, 6</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_light_frigate, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_light_frigate, 4</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rep_Acclamator_Assault_Ship, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Republic_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Republic_Light_Cruiser, 2</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Dreadnaught_Cruiser, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Dreadnaught_Cruiser, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>Venator, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Venator, 1</Reserve_Spawned_Units_Tech_0>
-
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
 				RS_More_Garrisons_L1_Upgrade,
@@ -802,11 +773,9 @@
 				RS_Improved_Weapons_L3_Upgrade,
 				RS_Improved_Defenses_L3_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
 			HP_Republic_Shipyard_One_01,
@@ -846,9 +815,7 @@
 			HP_Republic_Shipyard_Five_02,
 			HP_Republic_Shipyard_Five_03
 		</HardPoints>
-
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -858,28 +825,43 @@
 		<SFXEvent_Attack>Unit_Attack_Republic_Space_Station</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Republic_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint><!-- All same SFX because there are no specific Clone SFX. Can be changed -->
-
-
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
-		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed><!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_TRACTOR_BEAM, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MASS_DRIVER, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_HP_LASER_Republic_Space_Station</SFXEvent_Attack_Hardpoint>
+		<!-- All same SFX because there are no specific Clone SFX. Can be changed -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
+		<!-- As we dont have any SFX for this i take the arlam sound -->
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_DUMMY_ART, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<!--
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
@@ -887,16 +869,12 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 		-->
-
 		<SFXEvent_Unit_Under_Attack>RHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
-
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Custom_Soft_Footprint_Radius>250</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>I_RADAR_STATION5_REP.TGA</Radar_Icon_Name>
@@ -904,15 +882,12 @@
 		<Radar_Icon_Scale_Space>1.3</Radar_Icon_Scale_Space>
 		<Radar_Icon_Size>0.16  0.16</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
-
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
 		<Score_Cost_Credits>24000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Empire</Retreat_Self_Destruct_Explosion>
-
 		<Death_Clone>Damage_Normal, Empire_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
 	</StarBase>
-
 	<StarBase Name="Empire_Star_Base_5_Death_Clone">
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
 		<Space_Model_Name>ReB_Shipyard_Level_05_D.alo</Space_Model_Name>
@@ -923,14 +898,10 @@
 		<Death_Persistence_Duration>34</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>true</Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 	<StarBase Name="Skirmish_Empire_Star_Base_1">
 		<Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
@@ -945,7 +916,6 @@
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -959,7 +929,6 @@
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
@@ -967,11 +936,9 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base/>
 		<Next_Level_Base>Skirmish_Empire_Star_Base_2</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
@@ -985,7 +952,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>20</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -996,22 +964,19 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Empire_Star_Base_2">
 		<Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
@@ -1031,7 +996,6 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1048,18 +1012,15 @@
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_1</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Empire_Star_Base_3</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
@@ -1073,7 +1034,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>25</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1084,22 +1046,19 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Empire_Star_Base_3">
 		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
@@ -1135,7 +1094,6 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1161,18 +1119,15 @@
 				ES_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_2</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Empire_Star_Base_4</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
@@ -1186,7 +1141,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>30</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1197,22 +1153,19 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Empire_Star_Base_4">
 		<Variant_Of_Existing_Type>Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
@@ -1252,7 +1205,6 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1285,18 +1237,15 @@
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_3</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Empire_Star_Base_5</Next_Level_Base>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
@@ -1310,7 +1259,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>35</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1321,22 +1271,19 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 	<StarBase Name="Skirmish_Empire_Star_Base_5">
 		<Variant_Of_Existing_Type>Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
-
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
 			HP_Republic_Shipyard_One_00,
@@ -1377,11 +1324,9 @@
 			HP_Republic_Shipyard_Five_02,
 			HP_Republic_Shipyard_Five_03
 		</HardPoints>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
-
 		<!-- Tactical Production Options -->
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
@@ -1421,18 +1366,15 @@
 				ES_Hypervelocity_Gun_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base/>
-
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
@@ -1446,7 +1388,8 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>45</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -1457,14 +1400,13 @@
 			</Income_Stream_Mod_Ability>
 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
 				<Affects_All_Allies>True</Affects_All_Allies>
 			</Enable_Radar_Ability>
 		</Abilities>
-
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 </Republic_StarBases>
