@@ -1,0 +1,954 @@
+<?xml version="1.0"?>
+<SpaceProps>
+	<SpaceProp Name="Moon_Huge">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>600.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_Large">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>450.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_Medium">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>300.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_Small">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>150.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_Mini">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>90.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Destroyed_Planet_Remains_Part_1">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid_mass_huge.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+		<Is_Discardable>No</Is_Discardable>
+		<Scale>2.0</Scale>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>8.0</Idle_Anim_00_Rate_Mod>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<Radar_Icon_Name/>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
+	</SpaceProp>
+	<SpaceProp Name="Destroyed_Planet_Remains_Part_2">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid_mass_huge_particle.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+		<Is_Discardable>No</Is_Discardable>
+		<Scale>1.0</Scale>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>8.0</Idle_Anim_00_Rate_Mod>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>No</In_Background>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<Radar_Icon_Name/>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Small">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>30</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<CategoryMask>Structure</CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Medium">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-60.0</Layer_Z_Adjust>
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>60</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<CategoryMask>Structure</CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Large">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-135.0</Layer_Z_Adjust>
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>90</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<CategoryMask>Structure</CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Huge">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid03.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>280</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<CategoryMask>Structure</CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Small00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Small01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Small02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>0.5</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Medium00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Medium01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Medium02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>3.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Large00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Large01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>3.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Large02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>4.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="PropOnly_Asteroid_Huge00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid03.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpaceProp>
+	<SpaceProp Name="Collide_Asteroid_Huge00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_asteroid03.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<SpaceBehavior>SPACE_OBSTACLE</SpaceBehavior>
+		<Custom_Soft_Footprint_Radius>300</Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Field Large">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid_mass.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
+		<Space_Obstacle_Radius>700</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Field Small">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid_mass_small.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
+		<Space_Obstacle_Radius>300</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Field Medium">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid_mass_med.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
+		<Space_Obstacle_Radius>500</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Fake Asteroid Field Large_NonPassable">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid_mass_blank.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Impassable_Asteroid>Yes</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>700</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Is_Decoration>No</Is_Decoration>
+	</SpaceProp>
+	<SpaceProp Name="Fake Asteroid Field Medium_NonPassable">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid_mass_med_blank.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<!--<Is_Asteroid_Field> Yes </Is_Asteroid_Field>-->
+		<Is_Impassable_Asteroid>Yes</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>500</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Is_Decoration>No</Is_Decoration>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Small">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula03.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>135</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Medium">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula00.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>570</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Large">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula01.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>630</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Huge">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula02.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>800</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Friggin Huge">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula04.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>2800</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Small Ion">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula03_ion.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>135</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Medium Ion">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula00_ion.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>570</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Large Ion">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula01_ion.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>630</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Huge Ion">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula02_ion.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>800</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Nebula Friggin Huge Ion">
+		<Text_ID/>
+		<Space_Model_Name>w_nebula04_ion.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula>Yes</Is_Nebula>
+		<Space_Obstacle_Radius>2800</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Black_hole">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_black_hole.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2000</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<In_Background>Yes</In_Background>
+	</SpaceProp>
+	<SpaceProp Name="Black_hole_Gravity">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_black_hole.alo</Space_Model_Name>
+		<Is_Decoration>no</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2000</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Lua_Script>gravity</Lua_Script>
+		<In_Background>no</In_Background>
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<Is_Interdictor>Yes</Is_Interdictor>
+		<Damage>20</Damage>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>INTERDICT</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceProp>
+	<SpaceProp Name="Death_Star_Chunks">
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+		<Space_Model_Name>w_planet_DeathStar02_II_chunks.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>1600</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>100 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Space Lightning">
+		<Text_ID/>
+		<Space_Model_Name>w_lightning.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+	</SpaceProp>
+	<SpaceProp Name="Space_Junk_Large">
+		<Text_ID/>
+		<Space_Model_Name>W_SpaceJunk.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
+		<Space_Obstacle_Radius>600</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Space_Junk_Large_NO_Collision">
+		<Variant_Of_Existing_Type>Space_Junk_Large</Variant_Of_Existing_Type>
+		<Behavior>IDLE</Behavior>
+		<Space_Obstacle_Radius>0</Space_Obstacle_Radius>
+		<Is_Asteroid_Field>No</Is_Asteroid_Field>
+		<Space_Layer/>
+	</SpaceProp>
+	<SpaceProp Name="Space_Junk_Medium">
+		<Text_ID/>
+		<Space_Model_Name>W_SpaceJunk_Med.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
+		<Space_Obstacle_Radius>450</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Space_Junk_Small">
+		<Text_ID/>
+		<Space_Model_Name>W_SpaceJunk_Sml.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
+		<Space_Obstacle_Radius>250</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Huge_Maw">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid03.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<!--<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>-->
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>280</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<CategoryMask>Structure</CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
+	<SpaceProp Name="Asteroid Huge_Polis_Massa">
+		<Text_ID/>
+		<Space_Model_Name>w_asteroid03.alo</Space_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<!--<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>-->
+		<Scale_Factor>10.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+		<Is_Impassable_Asteroid>true</Is_Impassable_Asteroid>
+		<Space_Obstacle_Radius>280</Space_Obstacle_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
+		<CategoryMask>Structure</CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</SpaceProp>
+	<!-- New Moon -->
+	<SpaceProp Name="Moon_02_Huge">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon02_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>600.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_02_Large">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon02_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>450.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_02_Medium">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon02_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>300.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_02_Small">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon02_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>150.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_02_Mini">
+		<Text_ID/>
+		<Space_Model_Name>w_planet_moon02_high.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>90.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_03_Huge">
+		<Text_ID/>
+		<Space_Model_Name>W_moon_orange.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>600.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_03_Large">
+		<Text_ID/>
+		<Space_Model_Name>W_moon_orange.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>450.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_03_Medium">
+		<Text_ID/>
+		<Space_Model_Name>W_moon_orange.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>300.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_03_Small">
+		<Text_ID/>
+		<Space_Model_Name>W_moon_orange.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>150.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+	<SpaceProp Name="Moon_03_Mini">
+		<Text_ID/>
+		<Space_Model_Name>W_moon_orange.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>90.0</Scale_Factor>
+		<Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background>Yes</In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+	</SpaceProp>
+</SpaceProps>

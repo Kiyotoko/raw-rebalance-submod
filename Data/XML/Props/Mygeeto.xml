@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_A">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.55</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_B">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_B.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_C">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_C.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.55</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_D">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_D.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.7</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_DD">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_D.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.7</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_DDD">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_D.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.7</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_E">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_E.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	<Props_Mygeeto Name="Prop_Mygeeto_Structure_EE">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Mygeeto_Building_E.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+</Props_Mygeeto>

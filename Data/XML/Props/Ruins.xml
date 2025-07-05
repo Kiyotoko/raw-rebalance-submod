@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<Props_Ruins>
+	<Props_Ruins Name="Prop_Massassi_Temple_A_1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Massassi_Temple_A_2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Massassi_ObservationTower">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Pillar_1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_rakata_pillar.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Pillar_2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_rakata_pillar.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Pillar_3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_rakata_pillar.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Pillar_4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_rakata_pillar.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Pillar_5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_rakata_pillar.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Pillar_6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_rakata_pillar.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Temple_A_1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Rakata_Temple.alo</Land_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Rakata_Temple_A_2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Rakata_Temple.alo</Land_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>12.0</Scale_Factor>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Mausoleum_A1">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>Mausoleum.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.10</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Mausoleum_Ruin_A1">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Boz_Pity_Mausoleum.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Mausoleum_Ruin_A2">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Boz_Pity_Mausoleum.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Mausoleum_Ruin_A3">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Boz_Pity_Mausoleum.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Mausoleum_Ruin_A4">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_Boz_Pity_Mausoleum.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Amp_A1">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_bozpity_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Amp_A2">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_bozpity_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Amp_A3">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_bozpity_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Temple_A1">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>w_bozpity_temple.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Temple_A2">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>w_bozpity_temple.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Temple_A3">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>w_bozpity_temple.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Statue_A1">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>w_bozpity_statue.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Statue_A2">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>w_bozpity_statue.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_BP_Statue_A3">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>w_bozpity_statue.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Jedi_Statue_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_statue_jedi_broken.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Jedi_Statue_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_statue_jedi_broken_desert.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_holcron.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_holcron.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_holcron.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_B4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_holcron.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_C1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_staff.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_C2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_staff.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_C3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_staff.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Statue_C4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_staff.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Dog_1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_dog.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Dog_2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_dog.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Dog_3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_statue_dog.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Monument_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_monument.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Monument_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_monument.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Monument_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_monument.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Ruins_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Ruins_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Obelisk_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_etching_ruin_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Obelisk_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_etching_ruin_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Obelisk_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_etching_ruin_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Obelisk_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_rune_tower.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Obelisk_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_rune_tower.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Obelisk_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_rune_tower.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Rubble_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_rubble_pile.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Rubble_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_rubble_pile.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Rubble_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_rubble_pile.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_short.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_short.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_short.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_short.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_tall.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_tall.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_tall.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Column_B4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_column_tall.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Tower_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_tower_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Tower_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_tower_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Tower_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_tower_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Archway_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_wall_ruins_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Archway_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_wall_ruins_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Archway_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_wall_ruins_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>20.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Archway_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_wall_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Archway_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_wall_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Archway_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_wall_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>20.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Tombs_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_tombs.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Tombs_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_tombs.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Temple_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_temple.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Sith_Temple_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_sith_temple.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Short_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_short.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Short_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_short.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Short_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_short.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Long_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_long.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Long_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_long.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Long_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_long.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Post_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_end.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Post_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_end.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Stonewall_Post_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_low_stone_wall_end.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Arch_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_arch.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Arch_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_arch.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Arch_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_arch.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Arch_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_arch.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Pillar_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_r_pillar.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Pillar_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_r_pillar.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Pillar_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_r_pillar.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Pillar_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_r_pillar.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Pillar_A5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins_r_pillar.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Ruin_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Ruin_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+	<Props_Ruins Name="Prop_Ond_Ruin_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_ruins.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Ruins>
+</Props_Ruins>

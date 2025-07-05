@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<Props_Onderon>
+	<!-- Onderon_Props-->
+	<!-- Special Onderon props -->
+	<Props_Onderon Name="Prop_Antenna_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_antenna.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Prop_Antenna_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_antenna.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Prop_Antenna_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_antenna.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Obelisk_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_oblesik.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Obelisk_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_oblesik.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Obelisk_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_oblesik.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Statue_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Statue_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Statue_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Statue_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Statue_A5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_statue.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>14.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Banner_A8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_banner.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>16.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_1.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_1.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_1.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_1.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_2.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_2.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_2.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Street_Lamp_B4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_street_lamp_2.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Stall_A">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_market_stall_01.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.89</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Stall_B">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_market_stall_02.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.89</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Stall_C">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_market_stall_03.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.85</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Stall_D">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_market_stall_04.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>0.89</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_A">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_B">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_B.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_H">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_h.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_I">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_I.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_J">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_J.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_K">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_k.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_L">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_L.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_M">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_M.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_N1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_N.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_O1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_O.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_O2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_O.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Building_P1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_building_P.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Tower_A0">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_tower.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Tower_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_tower.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Wall_Post_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_wall_end.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Wall_Post_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_wall_end.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Wall_Section_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_wall_section.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Wall_Section_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_wall_section.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Wall_Section_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_wall_section.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Wall_Section_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_wall_section.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Gate_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_gate_A.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Gate_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_gate_A.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Gate_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_lrg_gate.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Gate_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_lrg_gate.ALO</Land_Model_Name>
+		<Scale_Factor>11.55</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Bridge_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_bridge.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>7.1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Onderon_Bridge_Post_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_wall_end.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Onderon>
+	<Props_Onderon Name="Prop_Ond_Palace_1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_onderon_palace.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>14.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Onderon>
+	<!-- End -->
+</Props_Onderon>

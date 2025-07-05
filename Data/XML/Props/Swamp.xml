@@ -1,0 +1,1659 @@
+<?xml version="1.0"?>
+<Props_Swamp>
+	<Props_Swamp Name="Prop_SwampGasEmitter">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SwampGasEmit.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Bush00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Bush_Swmp00.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Vine00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SwampVine00.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Vine01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SwampVine01.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Lightbeams">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_lightbeams.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Fern01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Fern03.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Fern01a">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Fern03.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Fern01b">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Fern03.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Grass00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SwampGrass00.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Fern00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Fern02.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Fern00a">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Fern02.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Fern00b">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Fern02.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Tree01a">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Swmp_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Gnarl_Tree01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Gnarl_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Gnarl_Tree01a">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Gnarl_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Gnarl_Tree01_Obstacle">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Gnarl_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>High Obstacle</UnitCollisionClass>
+		<Custom_Hard_XExtent>10.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>10.0</Custom_Hard_YExtent>
+		<Custom_Hard_XExtent_Offset>0.0</Custom_Hard_XExtent_Offset>
+		<Custom_Hard_YExtent_Offset>0.0</Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Tree01_Cluster">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Swmp_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Tree01_Cluster_NoShadow">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Swmp_NS_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Tree02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Swmp_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Bamboo">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Bamboo_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Bamboo_Cluster">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Bamboo_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_Bamboo_Cluster_NoShadow">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Bamboo_NS_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow_Light</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Swamp_TreeCard00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreeSwampCard00.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>45.0, 45.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Dianoga">
+		<Text_ID>TEXT_INDIG_DIANOGA</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
+		<Land_Model_Name>AI_Dianoga.ALO</Land_Model_Name>
+		<LandBehavior>IDLE</LandBehavior>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>0</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>1.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>1.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>1.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_A91">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_01.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_B8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_02.ALO</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_C8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_D1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_04.ALO</Land_Model_Name>
+		<Scale_Factor>0.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_D2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_04.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_D3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_04.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_D4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_04.ALO</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_E1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_05.ALO</Land_Model_Name>
+		<Scale_Factor>0.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_E2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_05.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_E3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_05.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_E4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_05.ALO</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>0.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>0.7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>0.9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_F8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_06.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_G1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_07.ALO</Land_Model_Name>
+		<Scale_Factor>0.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_G2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_07.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_G3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_07.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_G4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_07.ALO</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_G5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_07.ALO</Land_Model_Name>
+		<Scale_Factor>0.7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_G6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_07.ALO</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Tree_G7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Tree_07.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Temple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Dathomir_Statue.ALO</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Arch_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_nightsister_arch.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Arch_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_nightsister_arch.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Arch_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_nightsister_arch.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Arch_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_nightsister_arch.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Dathomir_Arch_A5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_nightsister_arch.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_Cliff_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_cliff.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_01.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_01.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_01.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_02.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_02.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_02.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_C1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_04.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_C2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_04.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_C3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_04.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_GroundCover_C4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_grass_04.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_plant_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_04.ALO</Land_Model_Name>
+		<Scale_Factor>0.15</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_plant_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_04.ALO</Land_Model_Name>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_plant_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_04.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_plant_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_05.ALO</Land_Model_Name>
+		<Scale_Factor>0.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_plant_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_05.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_plant_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_05.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01.ALO</Land_Model_Name>
+		<Scale_Factor>14.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_A5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01.ALO</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_B4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02.ALO</Land_Model_Name>
+		<Scale_Factor>14.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_B5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02.ALO</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_C1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_03.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_C2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_03.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_C3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_03.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_C4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_03.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_C5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_03.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_AA1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01A.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_AA2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01A.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_AA3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01A.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_AA4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01A.ALO</Land_Model_Name>
+		<Scale_Factor>14.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_AA5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_01A.ALO</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_BB1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02A.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_BB2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02A.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_BB3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02A.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_BB4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02A.ALO</Land_Model_Name>
+		<Scale_Factor>14.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_spine_BB5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_plant_02A.ALO</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_A1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_1.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_A2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_1.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_A3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_1.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_A4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_1.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_B1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_2.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_B2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_2.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_B3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_2.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_B4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_2.ALO</Land_Model_Name>
+		<Scale_Factor>16.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_B5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_2.ALO</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_B6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_2.ALO</Land_Model_Name>
+		<Scale_Factor>24.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_D1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_4.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_D2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_4.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_D3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_4.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_D4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacles_4.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_E1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_05.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_E2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_05.ALO</Land_Model_Name>
+		<Scale_Factor>16.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_E3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_05.ALO</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_E4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_05.ALO</Land_Model_Name>
+		<Scale_Factor>24.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_dembrace_E5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_umbara_tentacle_05.ALO</Land_Model_Name>
+		<Scale_Factor>28.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Props_Swamp>
+	<Props_Swamp Name="Prop_Umb_Road_Lamp">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_umbara_light_post.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Swamp>
+</Props_Swamp>

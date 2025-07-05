@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<UniqueUnits>
+	<UniqueUnit Name="IPV_Ground_Prop">
+		<Text_ID>TEXT_UNIT_IPV1_SYSTEM</Text_ID>
+		<Land_Model_Name>NV_IPV1.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Affiliation>Pirates</Affiliation>
+		<Scale_Factor>0.9</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</UniqueUnit>
+</UniqueUnits>
