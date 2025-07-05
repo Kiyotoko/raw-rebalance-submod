@@ -1,0 +1,49 @@
+excludes = [
+    "*.ALA",
+    "*.ala",
+    "*.ALO",
+    "*.alo",
+    "*.DDS",
+    "*.dds",
+    "*.TGA",
+    "*.tga",
+    "*.MTD",
+    "*.DAT",
+    "*.png",
+    "*.jpg",
+    "*.ico",
+    "*.py",
+    "*.sh",
+    "*.LUA",
+    "*.lua",
+    "*.TXT",
+    "*.txt",
+    "*.vdf",
+    "treefmt.toml",
+    ".steam/*",
+    ".github/*",
+    ".gitattributes",
+    ".gitignore",
+    "README",
+    "LICENSE",
+    "Makefile"
+]
+
+on-unmatched = "warn"
+
+verbose = 1
+
+walk = "auto"
+
+[formatter.prettier]
+command = "prettier"
+options = ["--write"]
+includes = ["*.md"]
+
+[formatter.nixpkgs-fmt]
+command = "nixpkgs-fmt"
+includes = ["*.nix"]
+
+[formatter.xmllint]
+command = "./xml-fmt.sh"
+includes = ["*.xml"]
