@@ -5,7 +5,24 @@
 - Support for RaW v1.4.8
 - Add nix shell
 - Add table of supported versions
-- Add script for building and hosting the documentation
+- Add treefmt
+- Formated xml files
+- Moved all xml files to new folders
+
+### CIS
+
+- Changed Bulwark Build Cost from 6000 to 6200 and Built Time from 68 to 62
+- Changed Munificent Shield Points from 1500 to 1700 and Build Cost from 2700 to 2800 and Build Time from 27 to 28
+- Changed Starbase Upgrade Production Queue from Tactical Units to Tactical Upgrades
+- Changed Munificent Space Model
+
+### Republic
+
+- Changed Venator Shield Points from 3000 to 3400
+- Changed Light Cruiser Weapon Delay Multiplier from 1.0 to 1.1 and Weapon Regen Multiplier from 1.0 to 1.1 and Shield Regen Interval Multiplier from 0.1 to 0.18 and Energy Regen Interval Multiplier from 0.1 to 0.18
+- Changed Starbase Upgrade Production Queue from Tactical Units to Tactical Upgrades
+- Changed V19 Space Model
+- Changed NTB-630 Space Model
 
 ## v1.0.3
 
@@ -95,7 +112,7 @@
 - Added Buildable Object Republic Victory Destroyer in Republic Starbase for Level 4 and 5
 - Added Buildable Object Invisible Hand in CIS Starbase Level 5
 - Removed Ability "Fire All Batteries" from Acclamator
-- Replaced Ability "Power to Weapons" in Pelta  with "Repair Facility Healing"
+- Replaced Ability "Power to Weapons" in Pelta with "Repair Facility Healing"
 - Added Ability "Defend" to Dreadnaught
 - Changed Acclamator Shield Points from 1800 to 1400, Shield Refresh Rate from 62 to 55, Build Cost (Global) from 1900 to 2250, Build Cost (Skirmish) from 2350 to 2600 and Build Time (Skirmish) from 20 to 26
 - Changed Venator Build Cost from 5500 to 5400 and Build Time from 50 to 54 and Population Value from 3 to 4
