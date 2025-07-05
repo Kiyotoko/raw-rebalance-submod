@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <HardPoints_Cis_Starbase>
-
 	<!-- Hard points for the CIS Starbase Level 1 -->
-
 	<HardPoint Name="HP_CIS_Starbase_One_00">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -31,7 +29,6 @@
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_01">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -60,7 +57,6 @@
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -97,7 +93,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -134,7 +129,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_04">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -171,7 +165,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_05">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -208,7 +201,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_06">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -245,7 +237,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_07">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -282,7 +273,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_08">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -319,7 +309,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_09">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -355,7 +344,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_10">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -391,7 +379,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_Shield">
 		<Type>HARD_POINT_SHIELD_GENERATOR</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -409,7 +396,6 @@
 		<Damage_Decal/>
 		<Damage_Particles>HP01_SHG_EMITDAMAGE</Damage_Particles>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_Fighter_Bay_01">
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -421,13 +407,13 @@
 		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles><!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent><!-- STUBBED PLACEHOLDER -->
-
+		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
+		<!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+		<!-- STUBBED PLACEHOLDER -->
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_Fighter_Bay_02">
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -439,13 +425,13 @@
 		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles><!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent><!-- STUBBED PLACEHOLDER -->
-
+		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
+		<!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+		<!-- STUBBED PLACEHOLDER -->
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_Supply_Dock">
 		<Type>HARD_POINT_ENABLE_SPECIAL_ABILITY</Type>
 		<Special_Ability_Name>R_Supply_Dock_Income_Bonus</Special_Ability_Name>
@@ -462,7 +448,6 @@
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_Supply_Dock_Dummy">
 		<Type>HARD_POINT_DUMMY_ART</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -472,7 +457,6 @@
 		<Damage_Decal/>
 		<Damage_Particles>HP01_Supd_emitdamage</Damage_Particles>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_One_Comm_Array">
 		<Type>HARD_POINT_ENABLE_SPECIAL_ABILITY</Type>
 		<Special_Ability_Name>R_Comm_Array_Enable_Radar</Special_Ability_Name>
@@ -481,7 +465,6 @@
 		<Tooltip_Text>TEXT_COMM_ARRAY_HARDPOINT</Tooltip_Text>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<!-- The Hyper Velocity Cannon will be disabled for all Empire players if this hardpoint is destroyed. -->
 		<Allows_Special_Weapon_Use>True</Allows_Special_Weapon_Use>
 		<Death_Breakoff_Prop/>
@@ -494,7 +477,6 @@
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_One_Comm_Array_Dummy">
 		<Type>HARD_POINT_DUMMY_ART</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -505,10 +487,7 @@
 		<Damage_Decal/>
 		<Damage_Particles>HP01_CA_EMITDAMAGE</Damage_Particles>
 	</HardPoint>
-
-	
 	<!-- CIS Level 2 Hardpoints - use all level 1 hardpoints plus these -->
-
 	<HardPoint Name="HP_CIS_Starbase_Two_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -545,7 +524,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Two_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -582,7 +560,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Two_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -619,7 +596,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Two_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -656,10 +632,7 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
-	
 	<!-- CIS Shipyard Level 3 Hardpoints - use all level 1-2 hardpoints plus these -->
-
 	<HardPoint Name="HP_CIS_Starbase_Three_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -696,7 +669,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_Three_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -733,7 +705,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Three_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -770,7 +741,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Three_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -807,7 +777,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Three_04">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -836,7 +805,6 @@
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_Three_05">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -865,10 +833,7 @@
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	</HardPoint>
-
-	
 	<!-- CIS Shipyard Level 4 Hardpoints - use all level 1-3 hardpoints plus these -->
-
 	<HardPoint Name="HP_CIS_Starbase_Four_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -905,7 +870,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_Four_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -942,7 +906,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Four_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -979,7 +942,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_Four_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1016,7 +978,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
 	<HardPoint Name="HP_CIS_Starbase_Four_04">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1053,10 +1014,7 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-
-	
 	<!-- CIS Shipyard Level 5 Hardpoints - use all level 1-4 hardpoints plus these -->
-
 	<HardPoint Name="HP_CIS_Starbase_Five_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1093,7 +1051,6 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
 	<HardPoint Name="HP_CIS_Starbase_Five_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1130,5 +1087,4 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
- 
 </HardPoints_Cis_Starbase>

@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <HardPoints_Republic_Starbase>
-
 	<!-- Hard points for the Republic Shipyard Level 1 -->
-
 	<HardPoint Name="HP_Republic_Shipyard_One_00">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -11,18 +9,14 @@
 		<Health>750.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP01_MIS_BONE</Attachment_Bone>
 		<Collision_Mesh>HP01_MIS_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP01_MIS_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP01_MIS_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP01_MIS_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -34,9 +28,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -45,18 +37,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP01_LC_BONE</Attachment_Bone>
 		<Collision_Mesh>HP01_LC_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP01_LC_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Laser</Damage_Type>
 		<Fire_Bone_A>HP01_LC_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP01_LC_BONE</Fire_Bone_B>
@@ -69,7 +57,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
@@ -77,9 +64,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -88,18 +73,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP01_TL_BONE</Attachment_Bone>
 		<Collision_Mesh>HP01_TL_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP01_TL_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>HP01_TL_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP01_TL_BONE</Fire_Bone_B>
@@ -112,8 +93,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -121,9 +100,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_03">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -132,18 +109,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP01_IC_BONE</Attachment_Bone>
 		<Collision_Mesh>HP01_IC_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP01_IC_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP01_IC_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP01_IC_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -155,8 +128,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 20.0</Fire_Inaccuracy_Distance>
@@ -164,9 +135,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_Shield">
 		<Type>HARD_POINT_SHIELD_GENERATOR</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -175,19 +144,15 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Model_To_Attach/>
 		<Attachment_Bone>HP_SHIELD</Attachment_Bone>
 		<Collision_Mesh>HP_SHIELD</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP_SHIELD_EMITDAMAGE</Damage_Particles>
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_Fighter_Bay_01">
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -198,14 +163,13 @@
 		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles><!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent><!-- STUBBED PLACEHOLDER -->
-
+		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
+		<!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+		<!-- STUBBED PLACEHOLDER -->
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_Fighter_Bay_02">
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -216,14 +180,13 @@
 		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles><!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent><!-- STUBBED PLACEHOLDER -->
-
+		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
+		<!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+		<!-- STUBBED PLACEHOLDER -->
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_Supply_Dock">
 		<Type>HARD_POINT_ENABLE_SPECIAL_ABILITY</Type>
 		<Special_Ability_Name>E_Supply_Dock_Income_Bonus</Special_Ability_Name>
@@ -232,17 +195,14 @@
 		<Tooltip_Text>TEXT_SUPPLY_DOCK_HARDPOINT</Tooltip_Text>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Attachment_Bone>HP_Supp</Attachment_Bone>
 		<Collision_Mesh>HP_Supp</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP_SUPP_EMITDAMAGE</Damage_Particles>
-
 		<Health>750.0</Health>
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_Supply_Dock_Dummy">
 		<Type>HARD_POINT_DUMMY_ART</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -252,7 +212,6 @@
 		<Damage_Decal/>
 		<Damage_Particles>HP_SUPP_EMITDAMAGE</Damage_Particles>
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_Comm_Array">
 		<Type>HARD_POINT_ENABLE_SPECIAL_ABILITY</Type>
 		<Special_Ability_Name>E_Comm_Array_Enable_Radar</Special_Ability_Name>
@@ -261,22 +220,18 @@
 		<!--<Tooltip_Text>TEXT_COMM_ARRAY_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>-->
-
 		<!-- The Hyper Velocity Cannon will be disabled for all Empire players if this hardpoint is destroyed. -->
 		<Allows_Special_Weapon_Use>True</Allows_Special_Weapon_Use>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
+		<Death_Breakoff_Prop/>
 		<Model_To_Attach/>
 		<Attachment_Bone>HP_Comm</Attachment_Bone>
 		<Collision_Mesh>HP_Comm</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP_COMM_EMITDAMAGE</Damage_Particles>
-
 		<!--<Health>750.0</Health>
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>-->
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_One_Comm_Array_Dummy">
 		<Type>HARD_POINT_DUMMY_ART</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -287,10 +242,7 @@
 		<Damage_Decal/>
 		<Damage_Particles>HP_COMM_EMITDAMAGE</Damage_Particles>
 	</HardPoint>
-
-	
 	<!-- Republic Shipyard Level 2 Hardpoints - use all level 1 hardpoints plus these -->
-
 	<HardPoint Name="HP_Republic_Shipyard_Two_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -299,18 +251,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP02_LC_BONE</Attachment_Bone>
 		<Collision_Mesh>HP02_LC_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP02_LC_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Laser</Damage_Type>
 		<Fire_Bone_A>HP02_LC_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP02_LC_BONE</Fire_Bone_B>
@@ -323,8 +271,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
@@ -332,9 +278,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Two_01">
 		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -343,18 +287,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP02_TRP_BONE</Attachment_Bone>
 		<Collision_Mesh>HP02_TRP_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP02_TRP_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP02_TRP_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP02_TRP_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -366,12 +306,8 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Two_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -380,18 +316,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP02_TL_BONE</Attachment_Bone>
 		<Collision_Mesh>HP02_TL_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP02_TL_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>HP02_TL_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP02_TL_BONE</Fire_Bone_B>
@@ -404,8 +336,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -413,9 +343,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Two_03">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -424,18 +352,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP02_IC_BONE</Attachment_Bone>
 		<Collision_Mesh>HP02_IC_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP02_IC_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP02_IC_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP02_IC_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -447,8 +371,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 20.0</Fire_Inaccuracy_Distance>
@@ -456,12 +378,8 @@
 		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
-
 	<!-- Republic Shipyard Level 3 Hardpoints - use all level 1-2 hardpoints plus these -->
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -470,18 +388,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL01_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL01_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL01_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL01_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL01_02</Fire_Bone_B>
@@ -494,8 +408,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -503,9 +415,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -514,18 +424,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL02_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL02_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL02__EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL02_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL02_02</Fire_Bone_B>
@@ -538,8 +444,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -547,9 +451,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -558,18 +460,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL03_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL03_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL03_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL03_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL03_02</Fire_Bone_B>
@@ -582,8 +480,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -591,9 +487,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -602,18 +496,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL04_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL04_02</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL04_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL04_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL04_02</Fire_Bone_B>
@@ -626,8 +516,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -635,9 +523,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_04">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -646,18 +532,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL05_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL05_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL05_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL05_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL05_02</Fire_Bone_B>
@@ -670,8 +552,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -679,9 +559,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_05">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -690,18 +568,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL06_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL06_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL06_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL06_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL06_02</Fire_Bone_B>
@@ -714,8 +588,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -723,9 +595,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_06">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -734,18 +604,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL07_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL07_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL07_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL07_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL07_02</Fire_Bone_B>
@@ -758,8 +624,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -767,9 +631,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_07">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -778,18 +640,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_TL08_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_TL08_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_TL08_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>FP03_TL08_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_TL08_02</Fire_Bone_B>
@@ -802,8 +660,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -811,9 +667,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_08">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -822,18 +676,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_IC01_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_IC01_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_IC01_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>FP03_IC01_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC01_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -845,8 +695,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 20.0</Fire_Inaccuracy_Distance>
@@ -854,9 +702,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_09">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -865,18 +711,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_IC02_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_IC02_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_IC02_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>FP03_IC02_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC02_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -888,8 +730,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 20.0</Fire_Inaccuracy_Distance>
@@ -897,9 +737,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_10">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -908,18 +746,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_IC03_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_IC03_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_IC03_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>FP03_IC03_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC03_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -931,8 +765,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 20.0</Fire_Inaccuracy_Distance>
@@ -940,9 +772,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_11">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -951,18 +781,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_IC04_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_IC04_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_IC04_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>FP03_IC04_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC04_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -974,8 +800,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 20.0</Fire_Inaccuracy_Distance>
@@ -983,9 +807,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_12">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -994,18 +816,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_LC01_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_LC01_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_LC01_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Laser</Damage_Type>
 		<Fire_Bone_A>HP03_LC01_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP03_LC01_BONE</Fire_Bone_B>
@@ -1018,8 +836,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
@@ -1027,9 +843,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_13">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1038,18 +852,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_LC02_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_LC02_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_LC02_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Laser</Damage_Type>
 		<Fire_Bone_A>HP03_LC02_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP03_LC02_BONE</Fire_Bone_B>
@@ -1062,8 +872,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
@@ -1071,9 +879,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Three_14">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1082,18 +888,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_LC03_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_LC03_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_LC03_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Laser</Damage_Type>
 		<Fire_Bone_A>HP03_LC03_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP03_LC03_BONE</Fire_Bone_B>
@@ -1106,8 +908,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
@@ -1115,9 +915,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-	
 	<HardPoint Name="HP_Republic_Shipyard_Three_15">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1126,18 +924,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP03_LC04_BONE</Attachment_Bone>
 		<Collision_Mesh>HP03_LC04_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP03_LC04_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Laser</Damage_Type>
 		<Fire_Bone_A>HP03_LC04_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP03_LC04_BONE</Fire_Bone_B>
@@ -1150,8 +944,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
@@ -1159,12 +951,8 @@
 		<Fire_Inaccuracy_Distance>Frigate, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
-	
 	<!-- Republic Shipyard Level 4 Hardpoints - use all level 1-3 hardpoints plus these -->
-
 	<HardPoint Name="HP_Republic_Shipyard_Four_00">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1173,18 +961,14 @@
 		<Health>750.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP04_MIS01_BONE</Attachment_Bone>
 		<Collision_Mesh>HP04_MIS01_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP04_MIS01_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP04_MIS01_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP04_MIS01_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1196,9 +980,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Four_01">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1207,18 +989,14 @@
 		<Health>750.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP04_MIS02_BONE</Attachment_Bone>
 		<Collision_Mesh>HP04_MIS02_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP04_MIS02_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP04_MIS02_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP04_MIS02_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1230,9 +1008,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Four_02">
 		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1241,18 +1017,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP04_TRP01_BONE</Attachment_Bone>
 		<Collision_Mesh>HP04_TRP01_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP04_TRP01_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP04_TRP01_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP04_TRP01_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1264,12 +1036,8 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Four_03">
 		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1278,18 +1046,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP04_TRP02_BONE</Attachment_Bone>
 		<Collision_Mesh>HP04_TRP02_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP04_TRP02_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Fire_Bone_A>HP04_TRP02_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP04_TRP02_BONE</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1301,15 +1065,9 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
 	</HardPoint>
-
-	
 	<!-- Republic Shipyard Level 5 Hardpoints - use all level 1-4 hardpoints plus these -->
-
 	<HardPoint Name="HP_Republic_Shipyard_Five_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1318,18 +1076,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP05_LC01_BONE</Attachment_Bone>
 		<Collision_Mesh>HP05_LC01_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP05_LC01_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Laser</Damage_Type>
 		<Fire_Bone_A>HP05_LC01_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP05_LC01_BONE</Fire_Bone_B>
@@ -1342,8 +1096,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
@@ -1351,9 +1103,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 40.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Five_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1362,18 +1112,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP05_TL01_BONE</Attachment_Bone>
 		<Collision_Mesh>HP05_TL01_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP05_TL01_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>HP05_TL01_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP05_TL01_BONE</Fire_Bone_B>
@@ -1386,8 +1132,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -1395,9 +1139,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Five_02">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1406,18 +1148,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP05_TL02_BONE</Attachment_Bone>
 		<Collision_Mesh>HP05_TL02_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP05_TL02_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>HP05_TL02_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP05_TL02_BONE</Fire_Bone_B>
@@ -1430,8 +1168,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -1439,9 +1175,7 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-
 	<HardPoint Name="HP_Republic_Shipyard_Five_03">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -1450,18 +1184,14 @@
 		<Health>650.0</Health>
 		<Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
 		<Model_To_Attach/>
 		<Attachment_Bone>HP05_LC02_BONE</Attachment_Bone>
 		<Collision_Mesh>HP05_LC02_BONE</Collision_Mesh>
 		<Damage_Decal/>
 		<Damage_Particles>HP05_LC02_EMITDAMAGE</Damage_Particles>
-
-		<Death_Breakoff_Prop></Death_Breakoff_Prop>
-
+		<Death_Breakoff_Prop/>
 		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 		<Fire_Bone_A>HP05_LC02_BONE</Fire_Bone_A>
 		<Fire_Bone_B>HP05_LC02_BONE</Fire_Bone_B>
@@ -1474,8 +1204,6 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
 		<Fire_Inaccuracy_Distance>Fighter, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 70.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
@@ -1483,7 +1211,5 @@
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
-
 	</HardPoint>
-	
 </HardPoints_Republic_Starbase>

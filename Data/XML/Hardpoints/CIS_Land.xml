@@ -1,14 +1,10 @@
 <?xml version="1.0"?>
 <HardPoints_Cis_Starbase>
-
-
 	<!--Umbaran Hover Tank-->
-	
 	<HardPoint Name="HP_Umbaran_Hovertank_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-
 		<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 		<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -20,23 +16,18 @@
 		<Fire_Pulse_Delay_Seconds>1.15</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>350.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_When_Deployed>Yes</Fire_When_Deployed>
 		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Targeting_Fire_Inaccuracy>Infantry, 60.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 40.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 40.0</Targeting_Fire_Inaccuracy>
-
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
-
 	</HardPoint>
-	
 	<HardPoint Name="HP_Umbaran_Hovertank_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-
 		<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 		<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -48,44 +39,38 @@
 		<Fire_Pulse_Delay_Seconds>1.15</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>350.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_When_Deployed>Yes</Fire_When_Deployed>
 		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Targeting_Fire_Inaccuracy>Infantry, 60.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 40.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
-
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
-
 	</HardPoint>
-
 	<!--CIS Octuptarra-->
-   	<HardPoint Name="HP_Octuptarra_LLC_00">
+	<HardPoint Name="HP_Octuptarra_LLC_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-        <Tooltip_Text>TEXT_WEAPON_MAIN_GUN</Tooltip_Text>	
-		<Health>1</Health>		
+		<Tooltip_Text>TEXT_WEAPON_MAIN_GUN</Tooltip_Text>
+		<Health>1</Health>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-        <Attachment_Bone></Attachment_Bone>
-        <Collision_Mesh></Collision_Mesh>		
+		<Attachment_Bone/>
+		<Collision_Mesh/>
 		<Death_Explosion_Particles>Ground_Explosion_Hardpoint_Weapon_Red</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>	
-
-        <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-        <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>     
-        <Fire_Cone_Width>15.0</Fire_Cone_Width>
-        <Fire_Cone_Height>45.0</Fire_Cone_Height>
-
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+		<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Projectile_Types>Proj_Swamp_Speeder_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-
-        <Fire_Range_Distance>600.0</Fire_Range_Distance>
-        <Fire_SFXEvent></Fire_SFXEvent><!--adjust-->
+		<Fire_Range_Distance>600.0</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		<!--adjust-->
 		<Fire_Inaccuracy_Distance> Infantry, 6 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 12 </Fire_Inaccuracy_Distance>		
+		<Fire_Inaccuracy_Distance> LandHero, 12 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> LightVehicle, 12 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 12 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> HeavyVehicle, 12 </Fire_Inaccuracy_Distance>
@@ -95,33 +80,30 @@
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
-		<Fire_Category_Restrictions/>	
-    </HardPoint>  
-   	<HardPoint Name="HP_Octuptarra_LML_00">
+		<Fire_Category_Restrictions/>
+	</HardPoint>
+	<HardPoint Name="HP_Octuptarra_LML_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-        <Tooltip_Text>TEXT_WEAPON_MAIN_GUN</Tooltip_Text>	
-		<Health>1</Health>		
+		<Tooltip_Text>TEXT_WEAPON_MAIN_GUN</Tooltip_Text>
+		<Health>1</Health>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-        <Attachment_Bone></Attachment_Bone>
-        <Collision_Mesh></Collision_Mesh>		
+		<Attachment_Bone/>
+		<Collision_Mesh/>
 		<Death_Explosion_Particles>Ground_Explosion_Hardpoint_Weapon_Red</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>	
-
-        <Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
-        <Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>   
-        <Fire_Cone_Width>15.0</Fire_Cone_Width>
-        <Fire_Cone_Height>45.0</Fire_Cone_Height>
-
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+		<Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Projectile_Types>Proj_MAL_Concussion_Missile</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>3</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
-
-        <Fire_Range_Distance>600.0</Fire_Range_Distance>
-        <Fire_SFXEvent>WPN_Vehicle_Laser_Medium_CIS</Fire_SFXEvent>
+		<Fire_Range_Distance>600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>WPN_Vehicle_Laser_Medium_CIS</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Infantry, 15 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 15 </Fire_Inaccuracy_Distance>		
+		<Fire_Inaccuracy_Distance> LandHero, 15 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> LightVehicle, 15 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 15 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> HeavyVehicle, 15 </Fire_Inaccuracy_Distance>
@@ -131,10 +113,8 @@
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
-		<Fire_Category_Restrictions/>	
-    </HardPoint>  
-
-
+		<Fire_Category_Restrictions/>
+	</HardPoint>
 	<!--CIS HMP-->
 	<HardPoint Name="HP_HMP_00">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
@@ -274,7 +254,6 @@
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 	</HardPoint>
-
 	<!--HAG-->
 	<HardPoint Name="HP_HAG_00 ">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
@@ -299,9 +278,7 @@
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<!--Hailfire-->
-
 	<HardPoint Name="HP_CIS_Hail_Fire_B00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -320,7 +297,7 @@
 		<Turret_Rotate_Extent_Degrees> 60.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 20.0 </Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name> B_Turret_00 </Turret_Bone_Name>
-		<Barrel_Bone_Name>B_Barrel_00</Barrel_Bone_Name> 
+		<Barrel_Bone_Name>B_Barrel_00</Barrel_Bone_Name>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Fire_Projectile_Type>Proj_Blaster_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.7</Fire_Min_Recharge_Seconds>
@@ -335,7 +312,6 @@
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<!--<HardPoint Name="HP_CIS_Hail_Fire_B01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -357,9 +333,7 @@
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
 	</HardPoint>-->
-
 	<!--AAT-->
-	
 	<HardPoint Name="HP_AAT_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -379,7 +353,6 @@
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_AAT_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -399,9 +372,7 @@
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
 	</HardPoint>
-
 	<!--HOMING SPIDER DROID-->
-
 	<HardPoint Name="HP_Homing_Spider_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -424,14 +395,11 @@
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 5.0</Targeting_Fire_Inaccuracy>
 	</HardPoint>
-	
 	<!-- CIS Supertank -->
-
 	<HardPoint Name="Superkank_Laser_Front">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-
 		<Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -443,22 +411,17 @@
 		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>350.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_When_Deployed>Yes</Fire_When_Deployed>
 		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
-
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
-
 	</HardPoint>
 	<HardPoint Name="Supertank_Laser_Side_R">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-
 		<Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -470,21 +433,17 @@
 		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>300.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_When_Deployed>Yes</Fire_When_Deployed>
 		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
-
 		<Fire_Inaccuracy_Distance>Infantry,30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
-
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="Supertank_Laser_Side_L">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -496,32 +455,24 @@
 		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>300.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_When_Deployed>Yes</Fire_When_Deployed>
 		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
-
 		<Fire_Inaccuracy_Distance>Infantry, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
-
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
-	
 	<!-- CIS Conqueror -->
-	
 	<HardPoint Name="HP_01_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP01</Fire_Bone_A>
 		<Fire_Bone_B>HP01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -529,25 +480,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_02_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP02</Fire_Bone_A>
 		<Fire_Bone_B>HP02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -555,25 +502,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_03_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP03</Fire_Bone_A>
 		<Fire_Bone_B>HP03</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -581,25 +524,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_04_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP04</Fire_Bone_A>
 		<Fire_Bone_B>HP04</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -607,25 +546,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_05_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-			
 		<Fire_Bone_A>HP05</Fire_Bone_A>
 		<Fire_Bone_B>HP05</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -633,25 +568,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_06_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP06</Fire_Bone_A>
 		<Fire_Bone_B>HP06</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -659,19 +590,15 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
-	
 	<HardPoint Name="HP_07_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Damage_Particles>HP07_EMITDAMAGE</Damage_Particles>
 		<Fire_Bone_A>HP07</Fire_Bone_A>
 		<Fire_Bone_B>HP07</Fire_Bone_B>
@@ -679,7 +606,6 @@
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -687,25 +613,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_08_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP08</Fire_Bone_A>
 		<Fire_Bone_B>HP08</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -713,25 +635,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_09_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP09</Fire_Bone_A>
 		<Fire_Bone_B>HP09</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -739,25 +657,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_10_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP10</Fire_Bone_A>
 		<Fire_Bone_B>HP10</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -765,25 +679,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_11_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP11</Fire_Bone_A>
 		<Fire_Bone_B>HP11</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -791,25 +701,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_12_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP12</Fire_Bone_A>
 		<Fire_Bone_B>HP12</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -817,25 +723,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_13_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP13</Fire_Bone_A>
 		<Fire_Bone_B>HP13</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -843,25 +745,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_14_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP14</Fire_Bone_A>
 		<Fire_Bone_B>HP14</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -869,25 +767,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_15_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP15</Fire_Bone_A>
 		<Fire_Bone_B>HP15</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -895,25 +789,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_16_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-			
 		<Fire_Bone_A>HP16</Fire_Bone_A>
 		<Fire_Bone_B>HP16</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -921,25 +811,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_17_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-	
 		<Fire_Bone_A>HP17</Fire_Bone_A>
 		<Fire_Bone_B>HP17</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_ATST_Blaster_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -947,25 +833,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_18_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP18</Fire_Bone_A>
 		<Fire_Bone_B>HP18</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -973,25 +855,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_19_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP19</Fire_Bone_A>
 		<Fire_Bone_B>HP19</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -999,25 +877,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_20_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP20</Fire_Bone_A>
 		<Fire_Bone_B>HP20</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -1025,25 +899,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_21_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP21</Fire_Bone_A>
 		<Fire_Bone_B>HP21</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -1051,25 +921,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_22_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-				
 		<Fire_Bone_A>HP22</Fire_Bone_A>
 		<Fire_Bone_B>HP22</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -1077,13 +943,11 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_23_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -1095,7 +959,6 @@
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -1103,25 +966,21 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-	
 	<HardPoint Name="HP_24_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		
 		<Fire_Bone_A>HP24</Fire_Bone_A>
 		<Fire_Bone_B>HP24</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		
 		<Fire_Projectile_Type>Proj_Conqueror_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
@@ -1129,13 +988,11 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
 		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-
 	<Hardpoint Name="HP_AA_01_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -1144,213 +1001,193 @@
 		<Model_To_Attach>SeV_Conqueror_Turret01.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T01</Attachment_Bone>
 		<Collision_Mesh>HP_T01</Collision_Mesh>
-		    
 		<Fire_Bone_A>T01_FP01</Fire_Bone_A>
 		<Fire_Bone_B/>
-		
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>5.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
 		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-		
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
-		
 		<Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_01</Barrel_Bone_Name>
-
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
-		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
-		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
-
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+		<!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+		<!-- need to be tweaked -->
+		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent>
+		<!-- need to be tweaked -->
 		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
-
-
 	<Hardpoint Name="HP_AA_02_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>150.0</Health>		
+		<Health>150.0</Health>
 		<Model_To_Attach>SeV_Conqueror_Turret02.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T02</Attachment_Bone>
 		<Collision_Mesh>HP_T02</Collision_Mesh>
-		     
 		<Fire_Bone_A>T02_FP01</Fire_Bone_A>
 		<Fire_Bone_B/>
-		
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>5.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
 		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-		
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_02</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_02</Barrel_Bone_Name>
-
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
-		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
-		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
-
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+		<!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+		<!-- need to be tweaked -->
+		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent>
+		<!-- need to be tweaked -->
 		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
-
 	<Hardpoint Name="HP_AA_03_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Health>150.0</Health>
-				
 		<Model_To_Attach>SeV_Conqueror_Turret03.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T03</Attachment_Bone>
 		<Collision_Mesh>HP_T03</Collision_Mesh>
-	    
 		<Fire_Bone_A>T03_FP01</Fire_Bone_A>
 		<Fire_Bone_B/>
-		
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>5.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
 		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-		
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_03</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_03</Barrel_Bone_Name>
-
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
-		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
-		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
-
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+		<!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+		<!-- need to be tweaked -->
+		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent>
+		<!-- need to be tweaked -->
 		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
-
 	<Hardpoint Name="HP_AA_04_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Health>150.0</Health>
-		
 		<Model_To_Attach>SeV_Conqueror_Turret04.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T04</Attachment_Bone>
 		<Collision_Mesh>HP_T04</Collision_Mesh>
-		     
 		<Fire_Bone_A>T04_FP01</Fire_Bone_A>
 		<Fire_Bone_B/>
-		
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>5.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
 		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-		
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_04</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_04</Barrel_Bone_Name>
-
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
-		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
-		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
-
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+		<!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+		<!-- need to be tweaked -->
+		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent>
+		<!-- need to be tweaked -->
 		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 	</Hardpoint>
-
 	<Hardpoint Name="HP_AA_05_Conqueror">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Health>150.0</Health>
-				
 		<Model_To_Attach>SeV_Conqueror_Turret05.ALO</Model_To_Attach>
 		<Attachment_Bone>HP_T05</Attachment_Bone>
 		<Collision_Mesh>HP_T05</Collision_Mesh>
-		
-     
 		<Fire_Bone_A>T05_FP01</Fire_Bone_A>
 		<Fire_Bone_B/>
-		
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>5.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-
 		<Is_Turret>Yes</Is_Turret>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
 		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-		
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		<Turret_Bone_Name>TURRET_05</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARREL_05</Barrel_Bone_Name>
-
 		<Fire_Projectile_Type>Proj_Flak_Pod</Fire_Projectile_Type>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count><!-- need to be tweaked -->
-		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds><!-- need to be tweaked -->
-		<Fire_Range_Distance>1000.0</Fire_Range_Distance><!-- need to be tweaked -->
-		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent><!-- need to be tweaked -->
-
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<!-- need to be tweaked -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+		<!-- need to be tweaked -->
+		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+		<!-- need to be tweaked -->
+		<Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent>
+		<!-- need to be tweaked -->
 		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
@@ -1375,7 +1212,6 @@
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 	</HardPoint>
-	
 	<!--B2-HA-->
 	<HardPoint Name="HP_B2HA_00">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
@@ -1392,8 +1228,8 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>400.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Plex_Soldier_Fire</Fire_SFXEvent>
-
-		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy><!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
+		<!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
@@ -1402,5 +1238,4 @@
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 		<Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
 	</HardPoint>
-
 </HardPoints_Cis_Starbase>
