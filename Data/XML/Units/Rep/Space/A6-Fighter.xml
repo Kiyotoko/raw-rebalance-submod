@@ -9,7 +9,6 @@
 		<Icon_Name>I_BUTTON_REPUBLIC_FIGHTER.tga</Icon_Name>
 		<Space_Model_Name>ReV_Republic_Fighter.ALO</Space_Model_Name>
 		<Scale_Factor>0.1</Scale_Factor>
-		<!-- From 0.1 -->
 		<Select_Box_Scale>175</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
@@ -136,16 +135,6 @@
 		<Damage>35</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<!--<Build_Cost_Credits>225</Build_Cost_Credits>
-    <Build_Time_Seconds>15</Build_Time_Seconds>
-    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-    <Build_Initially_Locked>No</Build_Initially_Locked>
-    <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-    <Slice_Cost_Credits>2000</Slice_Cost_Credits>
-    <Tech_Level>1</Tech_Level>
-    <Required_Timeline>0</Required_Timeline>
-    <Required_Star_Base_Level>1</Required_Star_Base_Level>-->
-		<!--<Required_Planets>Ord_Mantell</Required_Planets>-->
 		<Required_Special_Structures/>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>A6_Fighter, A6_Fighter, A6_Fighter, A6_Fighter, A6_Fighter</Squadron_Units>
@@ -164,9 +153,7 @@
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>2000.0</Guard_Chase_Range>
-		<!-- From 1000 -->
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<!-- From 200 -->
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags>SmallShip</Property_Flags>
@@ -177,8 +164,6 @@
 		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Unit_Abilities_Data SubObjectList="Yes">

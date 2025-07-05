@@ -201,8 +201,8 @@
 		</Unit_Abilities_Data>
 		<Score_Cost_Credits>5300</Score_Cost_Credits>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>68</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>6300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>62</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -212,8 +212,8 @@
 		<Variant_Of_Existing_Type>CIS_Bulwark_Skirmish</Variant_Of_Existing_Type>
 		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Sullust, Utapau, Pammant, Ringo_Vinda</Required_Planets>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>68</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>6300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>62</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>CIS_Advanced_Units_Three</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->

@@ -6,9 +6,8 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Providence_Class_Carrier Lucrehulk_Battleship CIS_Bulwark</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Vulture_Droid_Fighter Tri_Droid_Fighter Cis_Patrol_Frigate</Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>REV_NTB_630.alo</Space_Model_Name>
+		<Space_Model_Name>REV_NTB630.alo</Space_Model_Name>
 		<Scale_Factor>0.35</Scale_Factor>
-		<!-- From 0.7 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
@@ -27,7 +26,6 @@
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
-		<!-- From Yes -->
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Empire</Affiliation>
@@ -136,16 +134,6 @@
 		<Damage>15</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<!--<Build_Cost_Credits>210</Build_Cost_Credits>
-		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>20</Build_Time_Seconds>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
-		<Required_Timeline />
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>-->
 		<Required_Special_Structures/>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>NTB630,NTB630,NTB630,NTB630</Squadron_Units>
@@ -182,8 +170,6 @@
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>700</Score_Cost_Credits>
@@ -231,7 +217,7 @@
 	</Container>
 	<LandBombingUnit Name="NTB_630_Bombing_Run">
 		<Text_ID>TEXT_UNIT_NTB_630</Text_ID>
-		<Land_Model_Name>REV_NTB_630.alo</Land_Model_Name>
+		<Land_Model_Name>REV_NTB630.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_NTB630.tga</Icon_Name>
 		<Mass>0.985</Mass>
 		<Autoresolve_Health>40.0</Autoresolve_Health>

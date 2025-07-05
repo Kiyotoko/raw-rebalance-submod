@@ -33,7 +33,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Damage>60</Damage>
 		<Autoresolve_Health>10000</Autoresolve_Health>
-		<Shield_Points>3000</Shield_Points>
+		<Shield_Points>3400</Shield_Points>
 		<Tactical_Health>5000</Tactical_Health>
 		<!-- was 2600 -->
 		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
@@ -44,7 +44,6 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
 		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Geonosis, Foerost, Fondor, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Ringo_Vinda, Rothana, Sluis_Van, Utapau, Sullust, Pammant</Required_Planets>
 		<Ship_Class>Capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
@@ -56,12 +55,8 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>5400</Build_Cost_Credits>
-		<!-- From 4100 -->
-		<!-- Rebalance Note: Changed from 5500 -->
 		<AI_Combat_Power>7000</AI_Combat_Power>
-		<!--<Build_Time_Seconds>50</Build_Time_Seconds>-->
 		<Build_Time_Seconds>54</Build_Time_Seconds>
-		<!-- Rebalance Note: Changed from 50 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -71,14 +66,6 @@
 		<Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<!--
-		<Starting_Spawned_Units_Tech_5>Republic_VWing_Squadron, 3</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_5>Republic_VWing_Squadron, 5</Reserve_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>Arc_170_Squadron, 3</Reserve_Spawned_Units_Tech_5>
-		-->
-		<!-- Rebalance Note: Removed Arc_170_Squadron -->
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
@@ -181,19 +168,11 @@
 		<Abilities SubObjectList="Yes"/>
 		<Score_Cost_Credits>2250</Score_Cost_Credits>
 		<Population_Value>4</Population_Value>
-		<!-- Rebalance Note: Changed from 3 -->
 		<Custom_Hard_XExtent>550</Custom_Hard_XExtent>
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5400</Tactical_Build_Cost_Multiplayer>
-		<!-- From 4100 -->
-		<!-- Rebalance Note: Changed from 5500 -->
 		<Tactical_Build_Time_Seconds>54</Tactical_Build_Time_Seconds>
-		<!-- Rebalance Note: Changed from 50 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 	<SpaceUnit Name="Venator_Death_Clone">
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
