@@ -3215,7 +3215,7 @@
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_1</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3242,7 +3242,7 @@
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>100</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_2</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3269,7 +3269,7 @@
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_3</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3296,7 +3296,7 @@
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>140</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_4</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3323,7 +3323,7 @@
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_1</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3350,7 +3350,7 @@
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>100</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_2</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3377,7 +3377,7 @@
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_3</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3404,7 +3404,7 @@
 		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>140</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_4</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type/>
@@ -3434,7 +3434,7 @@
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type>RC_Level_Three_Tech_Upgrade</Next_Upgrade_Level_Type>
@@ -3460,7 +3460,7 @@
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>RC_Level_Two_Tech_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>RC_Level_Four_Tech_Upgrade</Next_Upgrade_Level_Type>
@@ -3486,7 +3486,7 @@
 		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>RC_Level_Three_Tech_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type/>
@@ -3512,7 +3512,7 @@
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type/>
 		<Next_Upgrade_Level_Type>EC_Level_Three_Tech_Upgrade</Next_Upgrade_Level_Type>
@@ -3538,7 +3538,7 @@
 		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>EC_Level_Two_Tech_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>EC_Level_Four_Tech_Upgrade</Next_Upgrade_Level_Type>
@@ -3564,7 +3564,7 @@
 		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>EC_Level_Three_Tech_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type/>
