@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<Yoden_Moving_Vehicles>
+	<Yoden_Moving_Vehicle Name="moving_Vehicle_Cloud_City_Flyover">
+		<Variant_Of_Existing_Type>Legacy_Transport</Variant_Of_Existing_Type>
+		<LandBehavior>UNIT_AI,INDIGENOUS_UNIT,HUNT,ABILITY_COUNTDOWN,FLYING_LOCOMOTOR, REVEAL,HIDE_WHEN_FOGGED,WIND_DISTURBANCE, AMBIENT_SFX</LandBehavior>
+		<Affiliation>Neutral</Affiliation>
+		<Land_Model_Name>w_cloud_car.alo</Land_Model_Name>
+		<Layer_Z_Adjust>160.0</Layer_Z_Adjust>
+		<Hover_Offset>160.0</Hover_Offset>
+		<Prepare_Strafe_Height>160.0</Prepare_Strafe_Height>
+		<MovementClass> Flying </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		<Can_Indigenous_Unit_Stop>No</Can_Indigenous_Unit_Stop>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Max_Speed>4</Max_Speed>
+		<Min_Speed>3</Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>3</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>4.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>10</Bank_Turn_Angle>
+		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
+		<CategoryMask> Air </CategoryMask>
+		<MovementClass> Flying </MovementClass>
+		<Weather_Category>Speeder</Weather_Category>
+		<Weather_Category>Flying</Weather_Category>
+		<Space_Layer> Frigate </Space_Layer>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Wind_Disturbance_Radius>100</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
+		<SFXEvent_Ambient_Moving> Unit_Cloud_Car_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 2 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 6 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Cloud_Car_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	</Yoden_Moving_Vehicle>
+	<Yoden_Moving_Vehicle Name="moving_Vehicle_Jawa_Sandcrawler">
+		<Text_ID>TEXT_STRUCTURE_JAWA_SANDCRAWLER</Text_ID>
+		<Friendly_Spawn_Text> TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_JAWA </Friendly_Spawn_Text>
+		<Land_Model_Name>NV_SAND_CRAWLER.ALO</Land_Model_Name>
+		<Icon_Name>i_button_NV_SAND_CRAWLER.tga</Icon_Name>
+		<LandBehavior> WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT, AMBIENT_SFX </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 1.0 </Rotation_Animation_Speed>
+		<Min_Speed> .5 </Min_Speed>
+		<Max_Speed>0.5</Max_Speed>
+		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Hover</Type>
+		<Deploys>No</Deploys>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Tech_Structure/>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>150</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>50</Tactical_Health>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<SFXEvent_Select/>
+		<SFXEvent_Move/>
+		<SFXEvent_Attack/>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Overall_Length>40.0</Overall_Length>
+		<!-- For vehicle pitching up and down on terrain -->
+		<Overall_Width>25.0</Overall_Width>
+		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
+		<SFXEvent_Engine_Idle_Loop> Unit_Skiff_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Skiff_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<!-- need these to be able to move this object -->
+		<MovementClass>Hover</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		<Death_Fade_Time>0.5</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Movie_Object>false</Movie_Object>
+		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+	</Yoden_Moving_Vehicle>
+	<Yoden_Moving_Vehicle Name="moving_Vehicle_Land_Speeder">
+		<Text_ID>TEXT_INDIG_LAND_SPEEDER</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LIGHT_VEHICLE </Encyclopedia_Text>
+		<Land_Model_Name>NV_Sandspeeder.alo</Land_Model_Name>
+		<LandBehavior> WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT, AMBIENT_SFX </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1</Scale_Factor>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 8.0 </Rotation_Animation_Speed>
+		<Min_Speed> .6 </Min_Speed>
+		<Max_Speed>1</Max_Speed>
+		<Max_Rate_Of_Turn>20</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Hover</Type>
+		<Deploys>No</Deploys>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Tech_Structure/>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>150</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>50</Tactical_Health>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<SFXEvent_Select/>
+		<SFXEvent_Move/>
+		<SFXEvent_Attack/>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Overall_Length>40.0</Overall_Length>
+		<!-- For vehicle pitching up and down on terrain -->
+		<Overall_Width>25.0</Overall_Width>
+		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
+		<SFXEvent_Engine_Idle_Loop> Unit_Skiff_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Skiff_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<!-- need these to be able to move this object -->
+		<MovementClass>Hover</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		<Death_Fade_Time>0.5</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Movie_Object>false</Movie_Object>
+		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+	</Yoden_Moving_Vehicle>
+	<Yoden_Moving_Vehicle Name="moving_Vehicle_moving_AT_AT_Walker">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
+		<LandBehavior> WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT, AMBIENT_SFX </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor>
+		<Movement_Animation_Speed> 0.1366 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 0.5 </Rotation_Animation_Speed>
+		<Max_Speed>0.50 </Max_Speed>
+		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
+		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+		<Garrison_Category> Vehicle </Garrison_Category>
+		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Tech_Structure/>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>150</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>50</Tactical_Health>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<SFXEvent_Select/>
+		<SFXEvent_Move/>
+		<SFXEvent_Attack/>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<!-- need these to be able to move this object -->
+		<MovementClass>LargeWalker</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		<Death_Fade_Time>0.8</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Movie_Object>false</Movie_Object>
+		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+	</Yoden_Moving_Vehicle>
+	<Yoden_Moving_Vehicle Name="moving_Vehicle_moving_AT_ST_Walker">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_AT-ST.ALO</Land_Model_Name>
+		<LandBehavior> WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT </LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.6</Scale_Factor>
+		<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Min_Speed_Fraction_For_Turn> .1 </Min_Speed_Fraction_For_Turn>
+		<UnitCollisionClass> Large Vehicle </UnitCollisionClass>
+		<Garrison_Category> Vehicle </Garrison_Category>
+		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Affiliation>Neutral</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Tech_Structure/>
+		<Required_Planets/>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>150</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>50</Tactical_Health>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<SFXEvent_Select/>
+		<SFXEvent_Move/>
+		<SFXEvent_Attack/>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<!-- need these to be able to move this object -->
+		<MovementClass>Walker</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+		<Death_Fade_Time>0.8</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Movie_Object>false</Movie_Object>
+		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+	</Yoden_Moving_Vehicle>
+</Yoden_Moving_Vehicles>
