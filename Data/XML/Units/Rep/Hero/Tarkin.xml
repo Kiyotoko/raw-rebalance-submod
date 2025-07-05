@@ -1,7 +1,5 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Tarkin_Data>
-
 	<HeroUnit Name="Admiral_Tarkin">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>No</Is_Force_Sensitive>
@@ -29,26 +27,23 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<OverrideAcceleration>0.0125</OverrideAcceleration>
 		<OverrideDeceleration>0.0125</OverrideDeceleration>
-
 		<Max_Thrust>0.375</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-
 		<Armor_Type>Armor_Star_Destroyer</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Damage>65</Damage>
 		<Autoresolve_Health>10000</Autoresolve_Health>
 		<Shield_Points>5500</Shield_Points>
 		<Tactical_Health>9000</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate><!-- From 75 -->
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<!-- From 75 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
-
 		<Neutralization_Cost>10000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
 		<Tech_Level>99</Tech_Level>
 		<Ranking_In_Category>3</Ranking_In_Category>
@@ -74,19 +69,17 @@
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0><!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<!-- From 2 -->
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, 10</Reserve_Spawned_Units_Tech_0><!-- From 8 -->
-
+		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, 10</Reserve_Spawned_Units_Tech_0>
+		<!-- From 8 -->
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-
 		<Death_Clone>Damage_Normal, Star_Destroyer_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_NEWISD_Engines
 			HP_NEWISD_Shields
@@ -122,16 +115,13 @@
 			HP_NEWISD_28
 			HP_NEWISD_29
 		</HardPoints>
-
 		<CategoryMask>Capital | SpaceHero | AntiFrigate</CategoryMask>
-
 		<GUI_Model_Name>EV_StarDestroyer_MKI.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Tarkin</SFXEvent_Hero_Respawned>
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Star_Destroyer</SFXEvent_Move>
@@ -146,8 +136,6 @@
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>RHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming>RHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
-
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Star_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Star_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Star_Destroyer</SFXEvent_Attack_Hardpoint>
@@ -161,9 +149,7 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Star_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Star_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Star_Destroyer</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
@@ -173,34 +159,24 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM, Unit_Hardpoint_Special_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Engine_Idle_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Star_Destroyer_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Star_Destroyer_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
-
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
-
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-
 			<Unit_Ability>
 				<Type>TRACTOR_BEAM</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
@@ -210,11 +186,8 @@
 				<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
-
 			<Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
 				<Activation_Style>User_Input</Activation_Style>
 				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
@@ -225,7 +198,6 @@
 				<Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
 				<Stacking_Category>0</Stacking_Category>
 			</Tractor_Beam_Attack_Ability>
-
 			<Combat_Bonus_Ability Name="Admiral_Tarkin_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
@@ -239,12 +211,10 @@
 				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
 			<Retreat_Prevention_Ability Name="Admiral_Tarkin_Retreat_Prevention">
 				<!-- maybe it should be space only? -->
 				<Activation_Style>Combat_Automatic</Activation_Style>
 			</Retreat_Prevention_Ability>
-
 			<Reduce_Production_Price_Ability Name="Admiral_Tarkin_Reduce_Production_Price">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
@@ -252,23 +222,17 @@
 				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
-
-
 		</Abilities>
-
-
 		<Score_Cost_Credits>2250</Score_Cost_Credits>
 		<Population_Value>3</Population_Value>
-		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer><!-- from 6200 -->
+		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
+		<!-- from 6200 -->
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-
 	</HeroUnit>
 </Tarkin_Data>

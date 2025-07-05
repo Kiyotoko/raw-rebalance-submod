@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<74Z_Speeder>
+<?xml version="1.0" encoding="utf-8"?>
+<LandUnits>
 	<!-- Scale factors changed from 1.0; FormationSpacing changed from 0.1 for scale test -->
 	<GroundInfantry Name="74Z_Speeder">
 		<LOD_Bias>5</LOD_Bias>
@@ -70,7 +70,8 @@
 		<Damage>5</Damage>
 		<Sensor_Range>40</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>70</Tactical_Health><!-- From 45 -->
+		<Tactical_Health>70</Tactical_Health>
+		<!-- From 45 -->
 		<!-- hitpoints halved to make the unit more paper-like -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>200</Energy_Capacity>
@@ -146,10 +147,7 @@
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<!--<Conversion_Ability_Changes_To_Enemy> Scout_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>-->
 		<!-- Non-Hero unit abilities description -->
-		
 	</GroundInfantry>
-
-	
 	<GroundCompany Name="74z_Speeder_Squad">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_74Z_SPEEDER</Text_ID>
@@ -191,7 +189,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_BARC</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer><!-- From 150 -->
+		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
+		<!-- From 150 -->
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -199,9 +198,8 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<!-- Non-Hero unit abilities description -->
-	
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>150</Score_Cost_Credits>
 	</GroundCompany>
-</74Z_Speeder>
+</LandUnits>

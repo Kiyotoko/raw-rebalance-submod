@@ -11,7 +11,6 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
 		<Scale_Factor>1.35</Scale_Factor>
-
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.2</Max_Speed>
@@ -23,22 +22,24 @@
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration>.04</OverrideAcceleration>
 		<OverrideDeceleration>.04</OverrideDeceleration>
-
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-
 		<Armor_Type>Armor_Acclamator</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>
-		<Shield_Points>1400</Shield_Points><!-- From 1400 --><!-- changed from 1600 to 1800 via Task 461 - Republic Low Tier Buff --><!-- Rebalance Note: Changed from 1800 -->
+		<Shield_Points>1400</Shield_Points>
+		<!-- From 1400 -->
+		<!-- changed from 1600 to 1800 via Task 461 - Republic Low Tier Buff -->
+		<!-- Rebalance Note: Changed from 1800 -->
 		<Tactical_Health>2300</Tactical_Health>
-		<Shield_Refresh_Rate>55</Shield_Refresh_Rate><!-- was 50 --><!-- Rebalance Note: Changed from 62 -->
+		<Shield_Refresh_Rate>55</Shield_Refresh_Rate>
+		<!-- was 50 -->
+		<!-- Rebalance Note: Changed from 62 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
-
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -54,7 +55,8 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2250</Build_Cost_Credits><!-- Rebalance Note: Changed from 1900 -->
+		<Build_Cost_Credits>2250</Build_Cost_Credits>
+		<!-- Rebalance Note: Changed from 1900 -->
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -62,40 +64,30 @@
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-
 		<Death_Clone>Damage_Normal, Rep_Acclamator_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
-
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_1>V19_Squadron, 2</Starting_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
-
 		<!-- At Tech 2, give the V19 Reserves + two single Bomber squadrons -->
 		<Starting_Spawned_Units_Tech_2>V19_Squadron, 2</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>V19_Squadron, 2</Reserve_Spawned_Units_Tech_2>
 		<Starting_Spawned_Units_Tech_2>NTB_630_Squadron, 1</Starting_Spawned_Units_Tech_2>
-
 		<!-- At Tech 3, double the V19 reserves + two reserve Bomber squadrons -->
 		<Starting_Spawned_Units_Tech_3>V19_Squadron, 2</Starting_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>V19_Squadron, 4</Reserve_Spawned_Units_Tech_3>
 		<Starting_Spawned_Units_Tech_3>NTB_630_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>NTB_630_Squadron, 2</Reserve_Spawned_Units_Tech_3>
-
 		<!-- No changes on Tech 4, but on Tech 5 switch V19 for V-Wing and Bomber for ARC-170 -->
-
 		<Starting_Spawned_Units_Tech_5>Republic_VWing_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Starting_Spawned_Units_Tech_5>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Republic_VWing_Squadron, 4</Reserve_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Arc_170_Squadron, 2</Reserve_Spawned_Units_Tech_5>
-
-
 		<HardPoints>
 			HP_Rep_Acclamator_Weapon_FC,
 			HP_Rep_Acclamator_Weapon_FL,
@@ -107,7 +99,6 @@
 			HP_Rep_Acclamator_Shield,
 			HP_Rep_Acclamator_Hangars,
 		</HardPoints>
-
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>I_BUTTON_ACCLAMATOR_ASSAULTSHIP.TGA</Icon_Name>
 		<GUI_Model_Name>ReV_acclamator_assault_ship.ALO</GUI_Model_Name>
@@ -116,10 +107,8 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Rep_Frigate</SFXEvent_Build_Complete>
@@ -136,8 +125,6 @@
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>RHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming>RHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
-
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
@@ -151,36 +138,27 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Hardpoint_Missile_Death</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER,  Unit_Hardpoint_Laser_Death</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Hardpoint_Torpedo_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Engine_Idle_Loop>Unit_Acclamator_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Acclamator_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
-
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
-		
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -188,17 +166,17 @@
 				<Type>DEFEND</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier><!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier><!-- make it faster to recharge -->
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<!-- make it faster to recharge -->
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				<Recharge_Seconds>40</Recharge_Seconds>
 				<Expiration_Seconds>15</Expiration_Seconds>
-
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Special_Defend_Target_Rep_Ship</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
 			<!-- Added for buffing the Acclamator via Task 461 - Republic Low Tier Buff, is weaker than the Venator version but may help in early game. -->
 			<!--Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -209,19 +187,18 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
-			</Unit_Ability--><!-- Rebalance Note: Comment out Unit Ability -->
-
+			</Unit_Ability-->
+			<!-- Rebalance Note: Comment out Unit Ability -->
 		</Unit_Abilities_Data>
-
 		<Encyclopedia_Text>TEXT_TOOLTIP_ACCLAMATOR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>1800</Score_Cost_Credits>
-		
 		<Custom_Hard_XExtent>200</Custom_Hard_XExtent>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 2350 -->
-		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 20 -->
+		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
+		<!-- Rebalance Note: Changed from 2350 -->
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 20 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -229,7 +206,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
-
 	<SpaceUnit Name="Rep_Acclamator_Death_Clone">
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
 		<Space_Model_Name>ReV_acclamator_assault_ship_d.ALO</Space_Model_Name>

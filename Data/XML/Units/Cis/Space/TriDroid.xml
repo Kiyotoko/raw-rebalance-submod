@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
-
-
 <Tridroid_Fighter_Data>
-
-
-
-
 	<SpaceUnit Name="Tri_Droid_Fighter">
 		<Text_ID>TEXT_UNIT_TRI_DROID</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TRI_DROID</Encyclopedia_Text>
@@ -14,12 +8,11 @@
 		<Encyclopedia_Vulnerable_To>Republic_Vwing_Fighter Republic_light_assault_cruiser Republic_light_frigate</Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>SeV_Tridroid.ALO</Space_Model_Name>
 		<Icon_Name>I_BUTTON_TRI_DROID.TGA</Icon_Name>
-		<Scale_Factor>0.55</Scale_Factor><!-- From 1.1 -->
+		<Scale_Factor>0.55</Scale_Factor>
+		<!-- From 1.1 -->
 		<Select_Box_Scale>60</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
-
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.98</Mass>
 		<Max_Speed>5.7</Max_Speed>
@@ -46,7 +39,6 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Armor_Type>Armor_Fighter</Armor_Type>
 		<!--<Shield_Armor_Type></Shield_Armor_Type>-->
-
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Ship_Class>fighter</Ship_Class>
 		<Formation_Priority>1</Formation_Priority>
@@ -57,9 +49,9 @@
 		<Number_per_Squadron>5</Number_per_Squadron>
 		<Build_Cost_Credits>45</Build_Cost_Credits>
 		<Build_Time_Seconds>2</Build_Time_Seconds>
-		<Size_Value>4</Size_Value><!-- 8 -->
+		<Size_Value>4</Size_Value>
+		<!-- 8 -->
 		<SpaceBehavior>HUNT, ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>8</Damage>
 		<Damage_Type>Damage_AWing</Damage_Type>
@@ -72,7 +64,6 @@
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_A_Wing_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
@@ -81,73 +72,50 @@
 		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
-
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Vulture</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vulture</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleetmove_Vulture</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Vulture</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Vulture</SFXEvent_Guard>
-
 		<SFXEvent_Ambient_Moving>Unit_Tri_Fly_By</SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Tri_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<CategoryMask>Fighter | AntiBomber</CategoryMask>
 		<Property_Flags>SmallShip</Property_Flags>
-
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Custom_Footprint_Radius>7.0</Custom_Footprint_Radius><!-- 15 -->
+		<Custom_Footprint_Radius>7.0</Custom_Footprint_Radius>
+		<!-- 15 -->
 		<MovementClass>Space</MovementClass>
 		<FormationOrder>1</FormationOrder>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance><!-- 50 -->
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<!-- 50 -->
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>80</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
-
 		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
-
-
-
-
-
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
-
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</SpaceUnit>
-
-
-
-
-
-
-
-
-
-
-
 	<Squadron Name="Tri_Droid_Squadron">
 		<Text_ID>TEXT_TRI_DROID_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TRI_DROID</Encyclopedia_Text>
@@ -156,7 +124,6 @@
 		<Encyclopedia_Vulnerable_To>Republic_Vwing_Fighter Republic_light_assault_cruiser Republic_light_frigate</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Vulnerable_To>Republic_light_frigate Republic_Vwing_Fighter Republic_light_assault_cruiser</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_TRI_DROID.TGA</Icon_Name>
-
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -174,13 +141,10 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>-->
 		<!--<Required_Special_Structures>Huppla_Pasa</Required_Special_Structures>
     <Required_Planets>Geonosis</Required_Planets>-->
-
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-
 		<Cheap_Bribe_Cost>20</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>40</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
-
 		<Squadron_Units>Tri_Droid_Fighter, Tri_Droid_Fighter, Tri_Droid_Fighter, Tri_Droid_Fighter, Tri_Droid_Fighter, Tri_Droid_Fighter, Tri_Droid_Fighter</Squadron_Units>
 		<Squadron_Offsets>40.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>6.0,40.0,4.0</Squadron_Offsets>
@@ -189,17 +153,14 @@
 		<Squadron_Offsets>-46.0,-22.0,10.0</Squadron_Offsets>
 		<Squadron_Offsets>-80.0,58.0,-12.0</Squadron_Offsets>
 		<Squadron_Offsets>-75.0,-55.0,-10.0</Squadron_Offsets>
-
 		<GUI_Model_Name>SeV_Tridroid.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Vulture</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleetmove_Vulture</SFXEvent_Fleet_Move>
-
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -207,39 +168,27 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags>SmallShip</Property_Flags>
-
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>900</Score_Cost_Credits>
-
 		<!--<Create_Team_Type> Vulture_Team </Create_Team_Type>-->
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer><!-- From 700 -->
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<!-- From 700 -->
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
 		<!-- Adding purely so the galactic encyclopedia entry will show this ability -->
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</Squadron>
-
-
-
 	<!-- **** Container INFORMATION **** -->
-
-
-
-
 	<Container Name="Tri_Droid_Team">
 		<Text_ID>TEXT_TRI_DROID_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TRI_DROID</Encyclopedia_Text>
@@ -247,7 +196,6 @@
 		<Encyclopedia_Good_Against/>
 		<Encyclopedia_Vulnerable_To/>
 		<Icon_Name>I_BUTTON_TRI_DROID.TGA</Icon_Name>
-
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -266,15 +214,12 @@
 		<MovementClass>Space</MovementClass>
 		<Max_Speed>5.5</Max_Speed>
 		<Min_Speed>4.5</Min_Speed>
-
 		<Cheap_Bribe_Cost>15</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>30</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Vulture</SFXEvent_Build_Complete>
-
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -283,14 +228,11 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags>SmallShip</Property_Flags>
 		<CategoryMask>Fighter | AntiBomber</CategoryMask>
-
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits>900</Score_Cost_Credits>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-
 		<Squadron_Offsets>40.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>6.0,40.0,4.0</Squadron_Offsets>
 		<Squadron_Offsets>-2.0,-42.0,0.0</Squadron_Offsets>
@@ -298,11 +240,6 @@
 		<Squadron_Offsets>-46.0,-22.0,10.0</Squadron_Offsets>
 		<Squadron_Offsets>-80.0,58.0,-12.0</Squadron_Offsets>
 		<Squadron_Offsets>-75.0,-55.0,-10.0</Squadron_Offsets>
-
-
-
-
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
@@ -311,50 +248,11 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Tridroid_Fighter_Data>

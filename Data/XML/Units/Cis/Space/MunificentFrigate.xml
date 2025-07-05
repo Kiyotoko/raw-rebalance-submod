@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Munificent_Data>
-
 	<SpaceUnit Name="Munificent_Frigate">
 		<Text_ID>TEXT_UNIT_MUNIFICENT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_MUNIFICENT</Encyclopedia_Text>
@@ -16,12 +15,12 @@
 		<Scale_Factor>2.22</Scale_Factor>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>
-		<Shield_Points>1500</Shield_Points><!-- Rebalance Note: Changed from 1200 -->
+		<Shield_Points>1500</Shield_Points>
+		<!-- Rebalance Note: Changed from 1200 -->
 		<Tactical_Health>2500</Tactical_Health>
 		<Shield_Refresh_Rate>65</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
-
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>2.1</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
@@ -29,11 +28,9 @@
 		<MovementClass>Space</MovementClass>
 		<Space_Layer>Frigate</Space_Layer>
 		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
-
 		<Bank_Turn_Angle>10</Bank_Turn_Angle>
 		<OverrideAcceleration>.05</OverrideAcceleration>
 		<OverrideDeceleration>.05</OverrideDeceleration>
-
 		<Armor_Type>Armor_Pirate_Frigate</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>1.75</Max_Thrust>
@@ -43,7 +40,6 @@
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
-
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -56,31 +52,26 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<!-- <Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>
 		<Required_Planets>Mechis</Required_Planets>-->
-		<Build_Cost_Credits>2700</Build_Cost_Credits><!-- Rebalance Note: Changed from 3000 -->
+		<Build_Cost_Credits>2700</Build_Cost_Credits>
+		<!-- Rebalance Note: Changed from 3000 -->
 		<AI_Combat_Power>2000</AI_Combat_Power>
-		<Build_Time_Seconds>27</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
+		<Build_Time_Seconds>27</Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 30 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
 		<Cheap_Bribe_Cost>220</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>300</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>1000</Tactical_Bribe_Cost>
-
 		<Size_Value>8</Size_Value>
-
 		<Death_Clone>Damage_Normal, Munificent_Frigate_Death_Clone</Death_Clone>
-
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
-
 		<Space_FOW_Reveal_Range>1400.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-
 		<HardPoints>
 			HP_Munificent_Front, 
 			HP_Munificent_Back, 
@@ -105,13 +96,9 @@
 			HP_Munificent_Shield_Generator,
 			HP_Munificent_Engines
 		</HardPoints>
-
-
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Munificent</SFXEvent_Build_Complete>
-
 		<SFXEvent_Select>Unit_Select_Munificent</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Recusant</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Recusant</SFXEvent_Fleet_Move>
@@ -120,7 +107,6 @@
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Recusant</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Recusant</SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
@@ -134,22 +120,18 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Cis_Engines</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Ambient_Loop>Unit_Cis_Cap_Ship_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Engine_Idle_Loop>Unit_Cis_Cap_Ship_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Cis_Cap_Ship_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Cis_Cap_Ship_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<SFXEvent_Health_Critical_Warning>Unit_Ship_Alarm</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<CategoryMask>Frigate | AntiCorvette | AntiFrigate</CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -157,23 +139,22 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3000 -->
-		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 -->
+		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
+		<!-- Rebalance Note: Changed from 3000 -->
+		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 30 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->
 		<!-- Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies-->
 		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -187,7 +168,6 @@
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability-->
-
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.9</Mod_Multiplier>
@@ -199,7 +179,6 @@
 				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<!--Abilities SubObjectList="Yes">
 			<Laser_Defense_Ability Name="Munificent_Laser_Defense">
 				<Activation_Style>User_Input</Activation_Style>
@@ -218,12 +197,9 @@
 				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
 			</Laser_Defense_Ability>
 		</Abilities-->
-
-
 		<Score_Cost_Credits>3200</Score_Cost_Credits>
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
-
 	<SpaceUnit Name="Munificent_Frigate_Death_Clone">
 		<Text_ID>TEXT_UNIT_MUNIFICENT</Text_ID>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>

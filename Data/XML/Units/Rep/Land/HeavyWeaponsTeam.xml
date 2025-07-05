@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Heavy_Weapons_Team_Data>
-
 	<GroundInfantry Name="Clone_Heavy_Gunner">
 		<Text_ID>TEXT_UNIT_HEAVY_GUNNER</Text_ID>
 		<No_Colorization_Color>237, 78, 78, 255</No_Colorization_Color>
@@ -22,7 +21,6 @@
 		<Movement_Animation_Speed>1.0</Movement_Animation_Speed>
 		<Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
 		<Walk_Animation_Speed>.366</Walk_Animation_Speed>
-
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius>5.0</Custom_Soft_Footprint_Radius>
@@ -61,7 +59,8 @@
 		<Projectile_Types>Proj_Hand_Blaster_Blue_Z6</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>72</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds><!-- From 0.1 -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<!-- From 0.1 -->
 		<Land_FOW_Reveal_Range>170.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
@@ -104,10 +103,8 @@
 		<Death_Clone>Damage_Crush, Clone_Heavy_Gunner_Crush_Death_Clone</Death_Clone>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-
 		<Movie_Object>false</Movie_Object>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Clone_Heavy_Gunner_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Clone_Heavy_Gunner</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
@@ -118,7 +115,6 @@
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Clone_Heavy_Gunner_Z6">
 		<Variant_Of_Existing_Type>Clone_Heavy_Gunner</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HEAVY_GUNNER</Text_ID>
@@ -126,7 +122,6 @@
 		<Is_Squashable>Yes</Is_Squashable>
 		<Space_Layer>None</Space_Layer>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Clone_Heavy_Gunner_Quad">
 		<Variant_Of_Existing_Type>Clone_Heavy_Gunner</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HEAVY_GUNNER_QUAD</Text_ID>
@@ -142,7 +137,6 @@
 		<Death_Clone>Damage_Force_Whirlwind, Clone_Heavy_Gunner_Quad_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Clone_Heavy_Gunner_Quad_Crush_Death_Clone</Death_Clone>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Clone_Heavy_Gunner_Quad_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Clone_Heavy_Gunner_Quad</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
@@ -153,8 +147,6 @@
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-
-
 	<GroundInfantry Name="Clone_Heavy_Missile_Trooper">
 		<Variant_Of_Existing_Type>Clone_Heavy_Gunner</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HEAVY_GUNNER_MISSILE</Text_ID>
@@ -178,7 +170,6 @@
 		<Death_Clone>Damage_Force_Whirlwind, Clone_Heavy_Missile_Trooper_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Clone_Heavy_Missile_Trooper_Crush_Death_Clone</Death_Clone>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Clone_Heavy_Missile_Trooper_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Clone_Heavy_Missile_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
@@ -189,7 +180,6 @@
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-
 	<GroundCompany Name="Republic_Heavy_Weapons_Squad">
 		<Text_ID>TEXT_UNIT_HEAVY_WEAPONS_SQUAD</Text_ID>
 		<Encyclopedia_Good_Against>Battledroids Stap Super_Battledroid</Encyclopedia_Good_Against>
@@ -202,14 +192,16 @@
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>400</Build_Cost_Credits><!-- From 125 -->
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<!-- From 125 -->
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level><!-- From 1 -->
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<!-- From 1 -->
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Arc_Facility</Required_Special_Structures>
 		<!--<Required_Planets>Carida</Required_Planets>-->
@@ -235,7 +227,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer><!-- from 350 -->
+		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
+		<!-- from 350 -->
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -243,12 +236,10 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<!-- Non-Hero unit abilities description -->
-
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
-
 	<Container Name="Heavy_Weapons_Team">
 		<Select_Box_Scale>75</Select_Box_Scale>
 		<Text_ID>TEXT_UNIT_HEAVY_WEAPONS_SQUAD</Text_ID>
@@ -287,8 +278,6 @@
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<!-- Non-Hero unit abilities description -->
-
 		<CategoryMask>Infantry</CategoryMask>
 	</Container>
-
 </Heavy_Weapons_Team_Data>

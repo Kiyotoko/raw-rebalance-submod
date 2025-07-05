@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
-
-
 <Cis_Diamond_Data>
-
 	<SpaceUnit Name="Diamond_Cruiser">
 		<Text_ID>TEXT_UNIT_DIAMOND</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DIAMOND</Encyclopedia_Text>
@@ -17,10 +14,11 @@
 		<Scale_Factor>1.15</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-
 		<Ranking_In_Category>7</Ranking_In_Category>
-		<Max_Speed>2.1</Max_Speed><!-- was 3.0 -->
-		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn><!-- was 1.6 -->
+		<Max_Speed>2.1</Max_Speed>
+		<!-- was 3.0 -->
+		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
+		<!-- was 1.6 -->
 		<MovementClass>Space</MovementClass>
 		<Space_Layer>Frigate</Space_Layer>
 		<Layer_Z_Adjust>-120</Layer_Z_Adjust>
@@ -28,7 +26,6 @@
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<OverrideAcceleration>.05</OverrideAcceleration>
 		<OverrideDeceleration>.05</OverrideDeceleration>
-
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_Tartan</Armor_Type>
 		<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
@@ -36,11 +33,9 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-
 		<Death_Clone>Damage_Normal, Diamond_Cruiser_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
@@ -74,14 +69,12 @@
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR, REVEAL, TARGETING, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<CategoryMask>Corvette | AntiCorvette</CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-
-				<Hardpoints>
+		<Hardpoints>
 			HP_Diamond_Laser_00,
 			HP_Diamond_Laser_01,
 			HP_Diamond_Laser_02,
@@ -93,7 +86,6 @@
 			HP_Diamond_Twin_Turbo_Laser_01,
 			HP_Diamond_Twin_Turbo_Laser_02
 		</Hardpoints>
-
 		<Icon_Name>I_BUTTON_DIAMOND.TGA</Icon_Name>
 		<GUI_Model_Name>CIS_DIAMOND_REFIT.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
@@ -101,7 +93,6 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Cis_Cruiser</SFXEvent_Build_Complete>
@@ -112,7 +103,6 @@
 		<SFXEvent_Attack>Unit_Attack_Recusant</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Recusant</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Recusant</SFXEvent_Move_Into_Nebula>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
@@ -126,18 +116,11 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
-
-
 		<SFXEvent_Engine_Idle_Loop>Unit_Gunboat_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Gunboat_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Gunboat_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
-
-
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<MovementClass>Space</MovementClass>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
@@ -145,32 +128,27 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
-
 		<!-- Non-Hero unit abilities description -->
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier><!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier><!-- make it faster to recharge -->
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<!-- make it faster to recharge -->
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				<Recharge_Seconds>40</Recharge_Seconds>
 				<Expiration_Seconds>15</Expiration_Seconds>
-
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Special_Defend_Target_Rep_Ship</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-		
 		<Score_Cost_Credits>1350</Score_Cost_Credits>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -179,11 +157,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
 		<Population_Value>1</Population_Value>
-	
 	</SpaceUnit>
-
 	<SpaceUnit Name="Diamond_Cruiser_Death_Clone">
 		<Text_ID>TEXT_UNIT_CARRACK</Text_ID>
 		<Space_Model_Name>SeV_diamond_cruiser_d.alo</Space_Model_Name>
@@ -200,5 +175,4 @@
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-	
 </Cis_Diamond_Data>

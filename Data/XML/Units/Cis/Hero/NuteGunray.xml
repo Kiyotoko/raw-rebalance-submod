@@ -1,14 +1,10 @@
 <?xml version="1.0"?>
 <Nute_Gunray_Hero_Files>
-
-
-
 	<HeroUnit Name="Nute_Gunray">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_NUTE_GUNRAY</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_NUTE_GUNRAY_01</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
-
 		<Icon_Name>I_BUTTON_NUTE_GUNRAY.tga</Icon_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -32,13 +28,10 @@
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 		<CategoryMask>NonCombatHero</CategoryMask>
 		<Ranking_In_Category>1</Ranking_In_Category>
-
 		<Neutralization_Cost>1000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
-
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Nute_Gunray_Combat_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
@@ -53,7 +46,6 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
 			<Reduce_Production_Price_Ability Name="Gunray_Reduce_Production_Price">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -61,11 +53,8 @@
 				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
-
 		</Abilities>
-
 	</HeroUnit>
-
 	<HeroCompany Name="Nute_Gunray_Team">
 		<Text_ID>TEXT_HERO_NUTE_GUNRAY_TEAM</Text_ID>
 		<Icon_Name>I_BUTTON_NUTE_GUNRAY.tga</Icon_Name>
@@ -90,12 +79,8 @@
 		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Gunray</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Gunray</SFXEvent_Hero_Respawned>
-
 		<CategoryMask>NonCombatHero</CategoryMask>
 		<Ranking_In_Category>1</Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
-
-
-
 </Nute_Gunray_Hero_Files>

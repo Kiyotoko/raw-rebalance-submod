@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <A6_Juggernaut_Data>
 	<GroundVehicle Name="A6_Juggernaut">
 		<Text_ID>TEXT_UNIT_A6_JUGGERNAUT</Text_ID>
@@ -39,7 +39,8 @@
 		<Size_Value>75</Size_Value>
 		<Damage>100</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2300</Tactical_Health><!-- From 1550 -->
+		<Tactical_Health>2300</Tactical_Health>
+		<!-- From 1550 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>

@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-
-
 <Stealth_Ship_Data>
-
-
 	<SpaceUnit Name="Republic_Stealthship">
 		<Text_ID>TEXT_UNIT_STEALTHSHIP</Text_ID>
 		<Encyclopedia_Good_Against>CiS_Carrier Cis_Patrol_Frigate  Munificent_Frigate</Encyclopedia_Good_Against>
@@ -16,10 +12,11 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<No_Colorization_Color>250, 0, 0, 255</No_Colorization_Color>
-
 		<Ranking_In_Category>7</Ranking_In_Category>
-		<Max_Speed>2.1</Max_Speed><!-- was 3.0 -->
-		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn><!-- was 1.6 -->
+		<Max_Speed>2.1</Max_Speed>
+		<!-- was 3.0 -->
+		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
+		<!-- was 1.6 -->
 		<MovementClass>Space</MovementClass>
 		<Space_Layer>Corvette</Space_Layer>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
@@ -27,7 +24,6 @@
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<OverrideAcceleration>.05</OverrideAcceleration>
 		<OverrideDeceleration>.05</OverrideDeceleration>
-
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_Corellian_Gunboat</Armor_Type>
 		<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
@@ -35,11 +31,9 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-
 		<Death_Clone>Damage_Normal, Republic_Stealthship_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-
 		<Affiliation>Empire</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
@@ -73,20 +67,17 @@
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR, REVEAL, TARGETING, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
 		<Space_FOW_Reveal_Range>1400.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<CategoryMask>Corvette | AntiCorvette</CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-
 		<HardPoints>
 				HP_Stealthship_01, 
 				HP_Stealthship_02, 
 				HP_Stealthship_03,
 				HP_Stealthship_04
 		</HardPoints>
-
 		<Icon_Name>i_button_stealthship.tga</Icon_Name>
 		<GUI_Model_Name>ReV_Stealthship.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
@@ -94,7 +85,6 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Rep_Ship</SFXEvent_Build_Complete>
@@ -104,8 +94,6 @@
 		<SFXEvent_Fleet_Move>Unit_Fleetmove_Rep_Ship</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Rep_Ship</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Special_Full_Salvo_Rep_Ship</SFXEvent_Barrage>
-
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
@@ -119,20 +107,14 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
-		
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Hardpoint_Laser_Death</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Hardpoint_Missile_Death</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Engine_Idle_Loop>Unit_Gunboat_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Gunboat_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Gunboat_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<Tactical_Bribe_Cost>750</Tactical_Bribe_Cost>
-
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<MovementClass>Space</MovementClass>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
@@ -140,9 +122,6 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-
-
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -156,30 +135,23 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Tie_Phantom</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
-
 			<Stealth_Ability Name="Stealth_Stealthship">
 				<Activation_Style>User_Input</Activation_Style>
 				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
 				<Stealth_Transition_Time>0.8</Stealth_Transition_Time>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Stealth_Ability>
-
 			<Galactic_Stealth_Ability Name="Stealthship_Galactic_Stealth">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-
 		</Abilities>
-
-
 		<Encyclopedia_Text>TEXT_TOOLTIP_STEALTHSHIP</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>1350</Score_Cost_Credits>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
@@ -190,7 +162,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
-
 	<SpaceUnit Name="Republic_Stealthship_Death_Clone">
 		<Text_ID>TEXT_UNIT_STEALTHSHIP</Text_ID>
 		<Space_Model_Name>ReV_stealthship.ALO</Space_Model_Name>
@@ -207,12 +178,5 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
-
-
-
-
-
-
 </Stealth_Ship_Data>

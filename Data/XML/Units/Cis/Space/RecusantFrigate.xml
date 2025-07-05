@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Recusant_Data>
-
 	<SpaceUnit Name="Recusant_Frigate">
 		<Text_ID>TEXT_UNIT_RECUSANT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_RECUSANT</Encyclopedia_Text>
@@ -15,12 +14,16 @@
 		<Scale_Factor>5.0</Scale_Factor>
 		<Damage>30</Damage>
 		<Autoresolve_Health>4500</Autoresolve_Health>
-		<Shield_Points>3200</Shield_Points><!-- From 2300 --><!-- Rebalance Note: Changed from 2600 -->
-		<Tactical_Health>4600</Tactical_Health><!-- From 3500 --><!-- Rebalance Note: Changed from 3800 -->
-		<Shield_Refresh_Rate>90</Shield_Refresh_Rate><!-- From 85 -->
+		<Shield_Points>3200</Shield_Points>
+		<!-- From 2300 -->
+		<!-- Rebalance Note: Changed from 2600 -->
+		<Tactical_Health>4600</Tactical_Health>
+		<!-- From 3500 -->
+		<!-- Rebalance Note: Changed from 3800 -->
+		<Shield_Refresh_Rate>90</Shield_Refresh_Rate>
+		<!-- From 85 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
-
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>2.4</Max_Speed>
 		<MovementClass>Space</MovementClass>
@@ -31,9 +34,10 @@
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<OverrideAcceleration>.05</OverrideAcceleration>
 		<OverrideDeceleration>.05</OverrideDeceleration>
-
-		<Armor_Type>Armor_Victory_Class</Armor_Type><!-- Rebalance Note: Changed from Armor_Vengeance to Armor_Victory_Class -->
-		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type><!-- Rebalance Note: Changed from Shield_Frigate to Shield_Capital -->
+		<Armor_Type>Armor_Victory_Class</Armor_Type>
+		<!-- Rebalance Note: Changed from Armor_Vengeance to Armor_Victory_Class -->
+		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<!-- Rebalance Note: Changed from Shield_Frigate to Shield_Capital -->
 		<Max_Thrust>1.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Select_Box_Scale>150</Select_Box_Scale>
@@ -41,7 +45,6 @@
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
-
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -51,33 +54,31 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>4000</AI_Combat_Power>
-		<Build_Cost_Credits>3800</Build_Cost_Credits><!-- Rebalance Note: Changed from 3200 to 3800 -->
-		<Build_Time_Seconds>38</Build_Time_Seconds><!-- Rebalance Note: Changed from 30 to 38-->
+		<Build_Cost_Credits>3800</Build_Cost_Credits>
+		<!-- Rebalance Note: Changed from 3200 to 3800 -->
+		<Build_Time_Seconds>38</Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 30 to 38-->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-
 		<Cheap_Bribe_Cost>150</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>280</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		<Size_Value>8</Size_Value>
-
 		<Death_Clone>Damage_Normal, Recusant_Death_Clone</Death_Clone>
-
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
-
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range><!-- Rebalance Note: Changed from 3000 -->
-		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance><!-- Rebalance Note: Changed from 1000 -->
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<!-- Rebalance Note: Changed from 3000 -->
+		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+		<!-- Rebalance Note: Changed from 1000 -->
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-
 		<HardPoints>
 			HP_Recusant_01, 
 			HP_Recusant_02, 
@@ -102,11 +103,9 @@
 			HP_Recusant_Shield_Generator, 
 			HP_Recusant_Engines
 		</HardPoints>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Recusant</SFXEvent_Build_Complete>
-
 		<SFXEvent_Select>Unit_Select_Recusant</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Recusant</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Recusant</SFXEvent_Fleet_Move>
@@ -115,7 +114,6 @@
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Recusant</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Recusant</SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
@@ -129,22 +127,18 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Cis_Engines</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Engine_Idle_Loop>Unit_Nebulon_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Nebulon_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Health_Critical_Warning>Unit_CIS_Space_Critical_Health</SFXEvent_Health_Critical_Warning>
-
 		<CategoryMask>Frigate | AntiCorvette | AntiFrigate</CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -152,24 +146,22 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 3200 to 3800 -->
-		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 30 to 38 -->
+		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
+		<!-- Rebalance Note: Changed from 3200 to 3800 -->
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 30 to 38 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->
 		<!-- Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies-->
 		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
-		
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -184,8 +176,8 @@
 				<Expiration_Seconds>15</Expiration_Seconds>
 
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Recusant</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability--><!-- Rebalance Note: Replaced Ability with below -->
-
+			</Unit_Ability-->
+			<!-- Rebalance Note: Replaced Ability with below -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
@@ -202,13 +194,14 @@
 				<Recharge_Seconds>50.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Recusant_Laser_Defense</GUI_Activated_Ability_Name>
 				<Effective_Radius>800.0</Effective_Radius>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Special_Point_Defense_Rep_Ship</SFXEvent_GUI_Unit_Ability_Activated><!--(by pressing the activate button)-->
-				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated><!--(by pressing deactivate)-->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Special_Point_Defense_Rep_Ship</SFXEvent_GUI_Unit_Ability_Activated>
+				<!--(by pressing the activate button)-->
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<!--(by pressing deactivate)-->
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
 			<Laser_Defense_Ability Name="Recusant_Laser_Defense">
 				<Activation_Style>User_Input</Activation_Style>
@@ -216,10 +209,12 @@
 				<Laser_Color>34, 34, 235, 255</Laser_Color>
 				<Bone_Names>Hp01, Hp02, Hp03, Hp04, Hp07, Hp08, Hp09, Hp10</Bone_Names>
 				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>800.0</Protection_Radius><!-- Rebalance Note: Changed from 500 -->
+				<Protection_Radius>800.0</Protection_Radius>
+				<!-- Rebalance Note: Changed from 500 -->
 				<Laser_Beam_Frames>4</Laser_Beam_Frames>
 				<Laser_Beam_Width>4</Laser_Beam_Width>
-				<Projectile_Dist_Travelled>800</Projectile_Dist_Travelled><!-- Rebalance Note: Changed from 400 -->
+				<Projectile_Dist_Travelled>800</Projectile_Dist_Travelled>
+				<!-- Rebalance Note: Changed from 400 -->
 				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
 				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
 				<Recharge_Time_In_Secs>.25</Recharge_Time_In_Secs>
@@ -227,11 +222,10 @@
 				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
 			</Laser_Defense_Ability>
 		</Abilities>
-
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
-		<Population_Value>3</Population_Value><!-- Rebalance Note: Changed from 2 -->
+		<Population_Value>3</Population_Value>
+		<!-- Rebalance Note: Changed from 2 -->
 	</SpaceUnit>
-
 	<SpaceUnit Name="Recusant_Death_Clone">
 		<Text_ID>TEXT_UNIT_PIRATE_FRIGATE</Text_ID>
 		<Space_Model_Name>SeV_recusant_D.ALO</Space_Model_Name>

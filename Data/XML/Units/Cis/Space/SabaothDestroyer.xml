@@ -1,13 +1,5 @@
 <?xml version="1.0"?>
-
-
-
-
 <Sabaoth_Destroyer_Data>
-
-
-
-
 	<SpaceUnit Name="Sabaoth_Destroyer">
 		<Text_ID>TEXT_UNIT_SABAOTH_DESTROYER</Text_ID>
 		<Encyclopedia_Good_Against>Carrack Rep_Centax_Heavy_Frigate Dreadnaught_Cruiser</Encyclopedia_Good_Against>
@@ -15,7 +7,6 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_SABAOTH_DESTROYER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_SABAOTH_DESTROYER.tga</Icon_Name>
-
 		<GUI_Row>1</GUI_Row>
 		<Space_Model_Name>NV_Sabaoth_Destroyer.alo</Space_Model_Name>
 		<Select_Box_Scale>550</Select_Box_Scale>
@@ -24,7 +15,6 @@
 		<Scale_Factor>1.6</Scale_Factor>
 		<Size_Value>360</Size_Value>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-
 		<Max_Speed>1.8</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
@@ -39,7 +29,6 @@
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<OverrideAcceleration>.02</OverrideAcceleration>
 		<OverrideDeceleration>.02</OverrideDeceleration>
-
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -51,11 +40,9 @@
 		<Build_Cost_Credits>6000</Build_Cost_Credits>
 		<Build_Time_Seconds>75</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
 		<Cheap_Bribe_Cost>200</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>400</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>3200</Tactical_Bribe_Cost>
-
 		<Armor_Type>Armor_Star_Destroyer</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Autoresolve_Health>7500</Autoresolve_Health>
@@ -68,27 +55,21 @@
 		<AI_Combat_Power>4250</AI_Combat_Power>
 		<Formation_Priority>5</Formation_Priority>
 		<Squadron_Capacity>40</Squadron_Capacity>
-
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Death_Clone>Damage_Normal, Sabaoth_Destroyer_Death_Clone</Death_Clone>
-
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
-
-
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Sabaoth_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Sabaoth_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Sabaoth_Fighter_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Sabaoth_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-
 		<HardPoints>
 			HP_SABAOTH_DESTROYER_01,
 			HP_SABAOTH_DESTROYER_02,
@@ -114,12 +95,10 @@
 			HP_SABAOTH_DESTROYER_ENGINES_01,
 			HP_SABAOTH_DESTROYER_FIGHTER_BAY						
 		</HardPoints>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Select_Sabaoth_Destroyer</SFXEvent_Build_Complete>
 		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-
 		<SFXEvent_Select>Unit_Select_Sabaoth_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Sabaoth_Destroyer</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabaoth_Destroyer</SFXEvent_Fleet_Move>
@@ -127,7 +106,6 @@
 		<SFXEvent_Guard>Unit_Guard_Sabaoth_Destroyer</SFXEvent_Guard>
 		<SFXEvent_Barrage>Unit_Barrage_Sabaoth_Destroyer</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Sabaoth_Destroyer</SFXEvent_Move_Into_Nebula>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Sabaoth_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Sabaoth_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Sabaoth_Destroyer</SFXEvent_Attack_Hardpoint>
@@ -141,20 +119,16 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Sabaoth_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Sabaoth_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Sabaoth_Destroyer</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Sabaoth_Destroyer</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Sabaoth_Destroyer</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Sabaoth_Destroyer</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Engine_Idle_Loop>Unit_Calamari_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Calamari_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<CategoryMask>Capital | AntiFrigate</CategoryMask>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -173,9 +147,7 @@
 		<Population_Value>3</Population_Value>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
@@ -184,10 +156,7 @@
 		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-
 	</SpaceUnit>
-
 	<SpaceUnit Name="Sabaoth_Destroyer_Death_Clone">
 		<Text_ID>TEXT_UNIT_SABAOTH_DESTROYER</Text_ID>
 		<Space_Model_Name>NV_Sabaoth_Destroyer_D.ALO</Space_Model_Name>
@@ -203,5 +172,4 @@
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
 </Sabaoth_Destroyer_Data>

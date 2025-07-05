@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Republic_Militia_Data>
 	<GroundInfantry Name="Republic_Militia">
 		<Text_ID>TEXT_UNIT_REPUBLIC_MILITIA</Text_ID>
@@ -164,14 +164,15 @@
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>100</Build_Cost_Credits><!-- from 75 -->
+		<Build_Cost_Credits>100</Build_Cost_Credits>
+		<!-- from 75 -->
 		<Build_Time_Seconds>2</Build_Time_Seconds>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Special_Structures/>
+		<Required_Planets/>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -180,7 +181,6 @@
 		<Company_Transport_Unit>Legacy_Transport</Company_Transport_Unit>
 		<Create_Team_Type>Republic_Militia_Team</Create_Team_Type>
 		<!-- AI  Changed to 18 troopers in squads of 9 -->
-		
 		<Company_Units> 
 		Squad_Republic_Militia,
 		Squad_Republic_Militia,
@@ -208,7 +208,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Militia</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Militia</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>50</Tactical_Build_Cost_Multiplayer><!-- From 100 -->
+		<Tactical_Build_Cost_Multiplayer>50</Tactical_Build_Cost_Multiplayer>
+		<!-- From 100 -->
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

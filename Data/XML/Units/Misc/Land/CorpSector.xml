@@ -1,14 +1,6 @@
 <?xml version="1.0"?>
 <Corp_Sector_Authority_Land_Units>
-
-	<GroundInfantry Name="Espo_Trooper">
-		<LOD_Bias>5</LOD_Bias>
-		<Text_ID>TEXT_UNIT_ESPO_TROOPER</Text_ID>
-		<Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
-		<Stealth_Capable>No</Stealth_Capable>
-		<Land_Model_Name>CSI_Espo.ALO</Land_Model_Name>
-		<Land_Terrain_Model_Mapping>
+	<GroundInfantry Name="Espo_Trooper"><LOD_Bias>5</LOD_Bias><Text_ID>TEXT_UNIT_ESPO_TROOPER</Text_ID><Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against><Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To><Stealth_Capable>No</Stealth_Capable><Land_Model_Name>CSI_Espo.ALO</Land_Model_Name><Land_Terrain_Model_Mapping>
             		Temperate, 			CSI_Espo.ALO,
             		Urban, 				CSI_Espo.ALO,
 					Arctic, 			CSI_Espo.ALO,
@@ -17,10 +9,7 @@
             		Forest, 			CSI_Espo.ALO,
             		Swamp, 				CSI_Espo.ALO
 
-		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>CSI_Espo.ALO</Land_Model_Anim_Override_Name>
-		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>
+		</Land_Terrain_Model_Mapping><Land_Model_Anim_Override_Name>CSI_Espo.ALO</Land_Model_Anim_Override_Name><Behavior>SELECTABLE</Behavior><LandBehavior>
 		SURFACE_FX,
 		WALK_LOCOMOTOR,
 		IDLE,TARGETING,WEAPON,
@@ -28,212 +17,70 @@
 		REVEAL,
 		HIDE_WHEN_FOGGED,
 		DAMAGE_TRACKING
-		</LandBehavior>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<CanCellStack>yes</CanCellStack>
-		<Mass>1.0</Mass>
-		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-
-		<Movement_Animation_Speed> 0.3 </Movement_Animation_Speed>
-        <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
-        <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.7 </Max_Speed>> <!-- inc from 0.8 -->
-		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
-		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
-		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .75 </FormationSpacing>
-		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
-		<OverrideAcceleration> .07 </OverrideAcceleration>
-		<OverrideDeceleration> .07 </OverrideDeceleration>
-		<FormationOrder> 1 </FormationOrder>
-		<FormationGrouping> Standard </FormationGrouping>
-		
-		<Armor_Type> Armor_Infantry </Armor_Type>
-
-		<Scale_Factor>1.6</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Type>Walk</Type>
-		<Deploys>No</Deploys>
-		<Affiliation>Corp_Sector_Authority</Affiliation>
-		<Political_Control>0</Political_Control>
-		<Size_Value>10</Size_Value>
-		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>48</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
-		<Energy_Capacity>0</Energy_Capacity>
-		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
-		<Projectile_Damage>3.0</Projectile_Damage>
-
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
-
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
-
-		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Rebel_Soldier</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
-		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
-		
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier </SFXEvent_Assist_Attack>
-
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
-		<CategoryMask> Infantry </CategoryMask>
-		<MovementClass>Infantry</MovementClass>
-		<Property_Flags>Fodder</Property_Flags>
-
-		<Icon_Name>I_BUTTON_ESPO_TROOPER.TGA</Icon_Name>
-		<OccupationStyle>1x1</OccupationStyle>
-		<FormationRaggedness> 0.0 </FormationRaggedness>
-		<WaitsForFormationFormup>true</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
-        <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
-		<Create_Team>Yes</Create_Team>
-		<Death_Clone>Damage_Force_Whirlwind, Espo_Trooper_Force_Whirlwind_Death_Clone</Death_Clone>
-		<Death_Clone>Damage_Force_Lightning, Espo_Trooper_Force_Lightning_Death_Clone</Death_Clone>
-		<Death_Clone>Damage_Crush, Espo_Trooper_Crush_Death_Clone</Death_Clone>
-		<AI_Combat_Power>6</AI_Combat_Power>
-
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
-
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
-		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-
-		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
-		<Weather_Category>Infantry</Weather_Category>
-
-  		<Encyclopedia_Text>TEXT_TOOLTIP_ESPO_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-
-		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-
-		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
-		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Remote_Bomb, Espo_Trooper_Remote_Bomb_Death_Clone</Death_Clone>
-
-		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
-		
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Rebel_Soldier</SFXEvent_GUI_Unit_Ability_Activated>			
-				</Unit_Ability>
-		</Unit_Abilities_Data>
-		
-		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
-		<Conversion_Ability_Changes_To_Enemy> Espo_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
-
-	</GroundInfantry>
-	
+		</LandBehavior><Is_Visible_On_Radar>Yes</Is_Visible_On_Radar><Loop_Idle_Anim_00>No</Loop_Idle_Anim_00><Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living><CanCellStack>yes</CanCellStack><Mass>1.0</Mass><SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name><Movement_Animation_Speed> 0.3 </Movement_Animation_Speed><Walk_Animation_Speed> .366 </Walk_Animation_Speed><Crouch_Animation_Speed> .537 </Crouch_Animation_Speed><Max_Speed> 0.7 </Max_Speed>&gt; <!-- inc from 0.8 --><Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn><Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius><Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent><Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent><Space_Layer> Land </Space_Layer><UnitCollisionClass> Infantry </UnitCollisionClass><FormationSpacing> .75 </FormationSpacing><MinimumPushReturnDistance> 10 </MinimumPushReturnDistance><OverrideAcceleration> .07 </OverrideAcceleration><OverrideDeceleration> .07 </OverrideDeceleration><FormationOrder> 1 </FormationOrder><FormationGrouping> Standard </FormationGrouping><Armor_Type> Armor_Infantry </Armor_Type><Scale_Factor>1.6</Scale_Factor><!--<Is_Sprite>No</Is_Sprite>--><Type>Walk</Type><Deploys>No</Deploys><Affiliation>Corp_Sector_Authority</Affiliation><Political_Control>0</Political_Control><Size_Value>10</Size_Value><Damage>1</Damage><Sensor_Range>20</Sensor_Range><Shield_Points>0</Shield_Points><Tactical_Health>48</Tactical_Health><Shield_Refresh_Rate>0</Shield_Refresh_Rate><Energy_Capacity>0</Energy_Capacity><Energy_Refresh_Rate>0</Energy_Refresh_Rate><Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level><Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale><Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name><Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled><Victory_Relevant>yes</Victory_Relevant><Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types><Projectile_Damage>3.0</Projectile_Damage><Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range><Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance><Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust><Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius><Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds><Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy><Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy><Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy><Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy><SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select><SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move><SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move><SFXEvent_Attack>Unit_Attack_Rebel_Soldier</SFXEvent_Attack><SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard><SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire><Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die><SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move><SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier </SFXEvent_Assist_Attack><SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started><SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete><SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled><CategoryMask> Infantry </CategoryMask><MovementClass>Infantry</MovementClass><Property_Flags>Fodder</Property_Flags><Icon_Name>I_BUTTON_ESPO_TROOPER.TGA</Icon_Name><OccupationStyle>1x1</OccupationStyle><FormationRaggedness> 0.0 </FormationRaggedness><WaitsForFormationFormup>true</WaitsForFormationFormup><Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level><Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale><Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name><Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name><No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level><No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level><Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target><Is_Squashable> Yes </Is_Squashable><Create_Team>Yes</Create_Team><Death_Clone>Damage_Force_Whirlwind, Espo_Trooper_Force_Whirlwind_Death_Clone</Death_Clone><Death_Clone>Damage_Force_Lightning, Espo_Trooper_Force_Lightning_Death_Clone</Death_Clone><Death_Clone>Damage_Crush, Espo_Trooper_Crush_Death_Clone</Death_Clone><AI_Combat_Power>6</AI_Combat_Power><Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold><Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set><Idle_Chase_Range>50.0</Idle_Chase_Range><Guard_Chase_Range>200.0</Guard_Chase_Range><Attack_Move_Response_Range>150.0</Attack_Move_Response_Range><!-- disabled, the team has big selection circle --><Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust><Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield><Weather_Category>Infantry</Weather_Category><Encyclopedia_Text>TEXT_TOOLTIP_ESPO_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text><Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class><Death_Fade_Time>0.25</Death_Fade_Time><Death_Persistence_Duration>0.0</Death_Persistence_Duration><Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone><Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone><Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone><Death_Clone>Damage_Remote_Bomb, Espo_Trooper_Remote_Bomb_Death_Clone</Death_Clone><Tactical_Bribe_Cost>25</Tactical_Bribe_Cost><!-- Non-Hero unit abilities description --><Unit_Abilities_Data SubObjectList="Yes"><!-- Primary ability --><Unit_Ability><Type>SPREAD_OUT</Type><Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier><Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier><SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Rebel_Soldier</SFXEvent_GUI_Unit_Ability_Activated></Unit_Ability></Unit_Abilities_Data><!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to --><Conversion_Ability_Changes_To_Enemy> Espo_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy></GroundInfantry>
 	<!-- Version of above Infantry who has been converted to enemy by Force Corruption ability.                                            -->
 	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
 	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Espo_Trooper_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Espo_Trooper </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>						<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      	<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                	<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   	<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>			<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>  	<!-- STUB PLACEHOLDER FOR FRANK -->  
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>
+		<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>
+		<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>
+		<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>
+		<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>
+		<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>
+		<!-- STUB PLACEHOLDER FOR FRANK -->
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
-		</GroundInfantry>
-
+	</GroundInfantry>
 	<GroundInfantry Name="Espo_Trooper_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Espo_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Espo_Trooper_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Espo_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Espo_Trooper_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Espo_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Espo_Trooper_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Espo_Trooper</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
-
-<GroundInfantry Name="Squad_ESPO_Trooper">
+	<GroundInfantry Name="Squad_ESPO_Trooper">
 		<Variant_Of_Existing_Type>ESPO_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ESPO_TROOPER</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>		
+		<Is_Squashable> Yes </Is_Squashable>
 		<Max_Speed> 1 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
 		<FormationRaggedness> 1.6 </FormationRaggedness>
 		<MaxJiggleDistance> 3.5 </MaxJiggleDistance>
-
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Squad_ESPO_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
-
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Squad_ESPO_Trooper_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Squad_ESPO_Trooper </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>             
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                 
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack> 	
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>
 	</GroundInfantry>
-	
-
-<GroundCompany Name="ESPO_Trooper_Squad">
+	<GroundCompany Name="ESPO_Trooper_Squad">
 		<Text_ID>TEXT_ESPO_TROOPER_SQUAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ESPOT_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
@@ -242,7 +89,8 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>15</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect unit health w/ size-->
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<!-- changed to reflect unit health w/ size-->
 		<Affiliation>Corp_Sector_Authority</Affiliation>
 		<Build_Cost_Credits>52</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -255,15 +103,15 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Special_Structures/>
+		<Required_Planets/>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Legacy_Transport</Company_Transport_Unit>
 		<Create_Team_Type> CSA_Trooper_Team </Create_Team_Type>
-        <!-- AI  Changed to 15 soldiers with 5 per troop -->
+		<!-- AI  Changed to 15 soldiers with 5 per troop -->
 		<Company_Units>
 		Squad_ESPO_Trooper,
 		Squad_ESPO_Trooper,
@@ -292,10 +140,7 @@
 		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Soldier</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
-
-
 		<Score_Cost_Credits>45</Score_Cost_Credits>
-					
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -305,15 +150,11 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-		
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
-	
 	<GroundCompany Name="CSA_Survivors_Small">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
-
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>25</Damage>
 		<Autoresolve_Health>150</Autoresolve_Health>
@@ -331,9 +172,7 @@
 		<Score_Cost_Credits>60</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-
-	</GroundCompany>	
-
+	</GroundCompany>
 	<GroundCompany Name="CSA_Survivors_Medium">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -353,9 +192,7 @@
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-
-	</GroundCompany>	
-
+	</GroundCompany>
 	<GroundCompany Name="CSA_Survivors_Large">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -375,9 +212,7 @@
 		<Score_Cost_Credits>180</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-
 	</GroundCompany>
-	
 	<Container Name="CSA_Trooper_Team">
 		<Text_ID>TEXT_ESPO_TROOPER_SQUAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ESPOT_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -392,7 +227,6 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category> Infantry </Garrison_Category>
-
 		<Max_Speed> 1.1 </Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -402,15 +236,13 @@
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .08 </Override_Acceleration>
 		<Override_Deceleration> .08 </Override_Deceleration>
-		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
 		<Icon_Name>I_BUTTON_ESPO_TROOPER.TGA</Icon_Name>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -418,11 +250,9 @@
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
-		
-        <Select_Box_Scale>65</Select_Box_Scale>
-        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-
-        <!-- Non-Hero unit abilities description -->
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -431,42 +261,34 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
-				 
 		<CategoryMask>Infantry</CategoryMask>
 	</Container>
-
 	<GroundVehicle Name="CSA_Strikebreaker">
-		
 		<!--Art & Text-->
 		<Land_Model_Name>CSV_Strikebreaker.ALO</Land_Model_Name>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Mass>1.0</Mass>
 		<Size_Value>150</Size_Value>
 		<Icon_Name>i_button_Strikebreaker.TGA</Icon_Name>
-
 		<Text_ID>TEXT_UNIT_STRIKEBREAKER</Text_ID>
 		<Encyclopedia_Good_Against>Barc_Speeder Stap AT_RT_Walker</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>AT-TE_Walker Hailfire_Tank AV_7_Antivehicle_Cannon</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TEXT_UNIT_STRIKEBREAKER</Encyclopedia_Text>
-
-	<!--GUI-->
+		<!--GUI-->
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Radar_Icon_Name>I_Radar_Strikebreaker.TGA</Radar_Icon_Name>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
-
-    <!--Collision-->
+		<!--Collision-->
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Custom_Hard_XExtent> 75.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
 		<Overall_Length>60.0</Overall_Length>
 		<Overall_Width>0.0</Overall_Width>
-
-    <!--Behaviour-->	
+		<!--Behaviour-->
 		<CategoryMask> BigVehicle | AntiVehicle </CategoryMask>
 		<Targeting_Priority_Set>Ground_AntiVehicle</Targeting_Priority_Set>
 		<AI_Combat_Power>400</AI_Combat_Power>
@@ -490,69 +312,59 @@
 			DAMAGE_TRACKING,
 			GARRISON_VEHICLE,
 		</LandBehavior>
-		<Create_Team>No</Create_Team>		
+		<Create_Team>No</Create_Team>
 		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
-
-
 		<Space_Layer> Land </Space_Layer>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<MinimumPushReturnDistance>100</MinimumPushReturnDistance><!--was 40-->				
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<!--was 40-->
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-
-	<!--Movement-->
+		<!--Movement-->
 		<MovementClass>LargeHover</MovementClass>
 		<Walk_Transition>No</Walk_Transition>
 		<Has_Pre_Turn_Anim>No</Has_Pre_Turn_Anim>
-		<Weather_Category>LargeWalker</Weather_Category>			
-
+		<Weather_Category>LargeWalker</Weather_Category>
 		<Max_Speed>0.9</Max_Speed>
 		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
-
 		<Movement_Animation_Speed>1.5</Movement_Animation_Speed>
-
-	<!--Formation-->
+		<!--Formation-->
 		<FormationRaggedness>0.5</FormationRaggedness>
 		<MaxJiggleDistance>1</MaxJiggleDistance>
-		<FormationSpacing>1</FormationSpacing> <!--cannot be more than 2, otherwise vanilla formations fall apart-->
-		<FormationOrder>4</FormationOrder> <!--should maybe "4", not sure what this does in tactical-->
+		<FormationSpacing>1</FormationSpacing>
+		<!--cannot be more than 2, otherwise vanilla formations fall apart-->
+		<FormationOrder>4</FormationOrder>
+		<!--should maybe "4", not sure what this does in tactical-->
 		<FormationGrouping>Solo</FormationGrouping>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
 		<Formation_Formup_Wait_Style>WaitNone</Formation_Formup_Wait_Style>
-
 		<Land_Damage_Thresholds>1, 0.5, 0.25</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-
-	<!--Hp & Armor-->
+		<!--Hp & Armor-->
 		<Tactical_Health>2500</Tactical_Health>
-
 		<Energy_Capacity>100</Energy_Capacity>
 		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
 		<Ranking_In_Category>3</Ranking_In_Category>
-
-	<!-- Sensory -->
+		<!-- Sensory -->
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-        <Sensor_Range>80</Sensor_Range>
+		<Sensor_Range>80</Sensor_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150</Attack_Move_Response_Range>
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Targeting_Stickiness_Time_Threshold>0.0</Targeting_Stickiness_Time_Threshold>
 		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
-
-	<!--Combat Data-->	
+		<!--Combat Data-->
 		<Damage>400</Damage>
-		<Autoresolve_Health>2000</Autoresolve_Health>		
-		
+		<Autoresolve_Health>2000</Autoresolve_Health>
 		<Projectile_Types>Proj_Dummy</Projectile_Types>
 		<Projectile_Damage>0.0</Projectile_Damage>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		
 		<HardPoints>
 			HP_Strikebreaker_LC_01,
 			HP_Strikebreaker_LC_02,
@@ -564,32 +376,24 @@
 			HP_Strikebreaker_Side_04,
 			HP_Strikebreaker_LC_Back
 		</HardPoints>
-
-
-    <!--Misc-->	
+		<!--Misc-->
 		<OccupationStyle>1x1</OccupationStyle>
 		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>		
-
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Flyout_Distances>50</Spawned_Squadron_Location_Flyout_Distances>
-
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>		
-
-	<!--SFX Data-->
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<!--SFX Data-->
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
-		
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Build_Started>EHD_Build_Unit</SFXEvent_Build_Started>
-        <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-        <SFXEvent_Build_Complete>Dor'bulla_Build_Complete</SFXEvent_Build_Complete>
-
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Dor'bulla_Build_Complete</SFXEvent_Build_Complete>
 		<SFXEvent_Select>Unit_Select_Juggernaut</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Juggernaut</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
@@ -597,61 +401,49 @@
 		<SFXEvent_Guard>Unit_Guard_Juggernaut</SFXEvent_Guard>
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Juggernaut </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Juggernaut</SFXEvent_Assist_Attack>
-		
 		<SFXEvent_Engine_Idle_Loop> Unit_Gargantuan_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Gargantuan_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-
 		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled>UHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
-
-    <!--Dmg & Destruction-->		
+		<!--Dmg & Destruction-->
 		<Death_Clone>Damage_Normal, CSV_Strikebreaker_DIE_00</Death_Clone>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>	
-		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>	
-
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Remove_Upon_Death>false</Remove_Upon_Death>
 		<Death_Persistence_Duration>20.0</Death_Persistence_Duration>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>		
-		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>	
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 	</GroundVehicle>
-	
 	<GroundVehicle Name="CSV_Strikebreaker_DIE_00">
 		<Variant_Of_Existing_Type>CSA_Strikebreaker</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
-
 		<Custom_Hard_XExtent_Offset>-15</Custom_Hard_XExtent_Offset>
 		<Custom_Hard_XExtent>75.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>25.0</Custom_Hard_YExtent>
-
 		<Death_Persistence_Duration>60</Death_Persistence_Duration>
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle>true</IsDeathCloneObstacle>
 	</GroundVehicle>
-	
-<!--StrikeBreaker Company-->
+	<!--StrikeBreaker Company-->
 	<GroundCompany Name="CSA_Strikebreaker_Company">
-
 		<Icon_Name>i_button_Strikebreaker.TGA</Icon_Name>
 		<Text_ID>TEXT_UNIT_STRIKEBREAKER</Text_ID>
 		<Encyclopedia_Good_Against>Barc_Speeder Stap AT_RT_Walker</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>AT-TE_Walker Hailfire_Tank AV_7_Antivehicle_Cannon</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TEXT_UNIT_STRIKEBREAKER</Encyclopedia_Text>
-
 		<CategoryMask>BigVehicle | AntiVehicle</CategoryMask>
-
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>400</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>
-
 		<Affiliation>Corp_Sector_Authority</Affiliation>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
@@ -661,7 +453,6 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -670,15 +461,11 @@
 		<Population_Value>1</Population_Value>
 		<Is_Homogeneous>Yes</Is_Homogeneous>
 		<Company_Units>CSA_Strikebreaker</Company_Units>
-
-        <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-        <SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-        <SFXEvent_Build_Complete>Unit_Complete_Juggernaut</SFXEvent_Build_Complete>
-        <SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
-	
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Juggernaut</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
 	</GroundCompany>
-		
-		
 	<GroundVehicle Name="Espo_Walker">
 		<LOD_Bias>4</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -689,21 +476,16 @@
 		<Encyclopedia_Vulnerable_To>Homing_Spider_Droid AV_7_Antivehicle_Cannon AAT_Tank</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ESPO_WALKER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
-
 		<Land_Model_Name>Espo_Walker.ALO</Land_Model_Name>
-
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING,SURFACE_FX</LandBehavior>
 		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->
-
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-
 		<Property_Flags>GoodInfantryCrusher</Property_Flags>
 		<Ranking_In_Category>7</Ranking_In_Category>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Mass>1.0</Mass>
 		<Scale_Factor>4.0</Scale_Factor>
-
 		<Movement_Animation_Speed>0.3</Movement_Animation_Speed>
 		<No_Colorization_Color>157, 280, 129, 255</No_Colorization_Color>
 		<Rotation_Animation_Speed>0.3</Rotation_Animation_Speed>
@@ -723,11 +505,9 @@
 		<FormationSpacing>1</FormationSpacing>
 		<FormationRaggedness>2.5</FormationRaggedness>
 		<MaxJiggleDistance>5</MaxJiggleDistance>
-
 		<Land_Damage_Thresholds>1, 0.5, 0.25</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-
 		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
 		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -737,7 +517,6 @@
 		<Political_Control>0</Political_Control>
 		<Required_Timeline>0</Required_Timeline>
 		<Size_Value>75</Size_Value>
-
 		<Armor_Type>Armor_ATST</Armor_Type>
 		<Damage_Type>Damage_ATST</Damage_Type>
 		<Projectile_Damage>8.0</Projectile_Damage>
@@ -748,10 +527,8 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-
 		<Damage>400</Damage>
-		<Autoresolve_Health>2000</Autoresolve_Health>		
-		
+		<Autoresolve_Health>2000</Autoresolve_Health>
 		<Projectile_Types>Proj_Dummy</Projectile_Types>
 		<Projectile_Damage>0.0</Projectile_Damage>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
@@ -759,17 +536,15 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
-
 		<Hardpoints>
 			HP_Espo_Walker_01,
 			HP_Espo_Walker_02,
 			HP_Espo_Walker_03
 		</Hardpoints>
-
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>240.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust><!-- 18 -->
-
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<!-- 18 -->
 		<!--<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
@@ -777,21 +552,18 @@
 		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>-->
-
 		<!--<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
 		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>-->
-
 		<Targeting_Fire_Inaccuracy>Infantry, 10.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 2.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Corvette, 45.0</Targeting_Fire_Inaccuracy><!-- LEAVE THIS FOR BARRAGE ABILITY -->
-
+		<Targeting_Fire_Inaccuracy>Corvette, 45.0</Targeting_Fire_Inaccuracy>
+		<!-- LEAVE THIS FOR BARRAGE ABILITY -->
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<!--<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ATRT</SFXEvent_Fleet_Move>
@@ -806,7 +578,6 @@
 		<SFXEvent_Tactical_Build_Started>RHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled> -->
-
 		<CategoryMask>Vehicle | AntiVehicle</CategoryMask>
 		<Icon_Name>I_BUTTON_ESPO_WALKER.TGA</Icon_Name>
 		<MovementClass>Walker</MovementClass>
@@ -814,64 +585,52 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
-
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>20.0</Overall_Length><!-- Hand tweaked for vehicle pitching up and down on terrain -->
-		<Overall_Width>0.0</Overall_Width><!-- 0.0 means don't roll left and right on terrain -->
+		<Overall_Length>20.0</Overall_Length>
+		<!-- Hand tweaked for vehicle pitching up and down on terrain -->
+		<Overall_Width>0.0</Overall_Width>
+		<!-- 0.0 means don't roll left and right on terrain -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>80</AI_Combat_Power>
-
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>150.0</Autonomous_Move_Extension_Vs_Attacker>
-
 		<Select_Box_Scale>30</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
-
 		<Weather_Category>Walker</Weather_Category>
-
-		<!--Dmg & Destruction-->		
+		<!--Dmg & Destruction-->
 		<Death_Clone>Damage_Normal, Espo_Walker_Die_00</Death_Clone>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>	
-		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>	
-
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Remove_Upon_Death>false</Remove_Upon_Death>
 		<Death_Persistence_Duration>10.0</Death_Persistence_Duration>
-		<Death_Explosions>Small_Explosion_Land</Death_Explosions>		
-		<Death_Explosions_End>Small_Explosion_Land</Death_Explosions_End>	
-
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Death_Explosions_End>Small_Explosion_Land</Death_Explosions_End>
 		<Score_Cost_Credits>37.5</Score_Cost_Credits>
 		<Influences_Capture_Point>True</Influences_Capture_Point>
-
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
-
 		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- IMPORTANT! If you modify the ability below, please make same adjustments to unit's "Captured" clone. -->
 			<!-- I know this is awkward, hopefully we'll get a chance to re-write the code to fix it.   -Oksana -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
-
-
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
 			<Redirect_Blaster_Ability Name="RL_Light_Reflective_Armor_L1_Bonus">
-				<Initially_Enabled>No</Initially_Enabled><!-- Must be enabled via the EL_Light_Reflective_Armor_L1_Upgrade -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- Must be enabled via the EL_Light_Reflective_Armor_L1_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
@@ -885,7 +644,8 @@
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 			<Redirect_Blaster_Ability Name="RL_Light_Reflective_Armor_L2_Bonus">
-				<Initially_Enabled>No</Initially_Enabled><!-- Must be enabled via the EL_Light_Reflective_Armor_L2_Upgrade -->
+				<Initially_Enabled>No</Initially_Enabled>
+				<!-- Must be enabled via the EL_Light_Reflective_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
@@ -898,11 +658,9 @@
 				<Applicable_Unit_Types/>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
 		<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
-
 	<GroundCompany Name="CSA_Espo_Walker_Company">
 		<LOD_Bias>4</LOD_Bias>
 		<Text_ID>TEXT_UNIT_ESPO_WALKER</Text_ID>
@@ -944,14 +702,12 @@
 		<SFXEvent_Build_Complete>Unit_Complete_ATRT</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ATRT</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>150</Score_Cost_Credits>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN
 		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -960,14 +716,9 @@
 		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<MULTIPLAYER SKIRMISH VALUES END>-->
-
-
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-
 		<Population_Value>1</Population_Value>
-	</GroundCompany>	
-		
-		
+	</GroundCompany>
 	<SpecialStructure Name="CSA_Command_Center">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_PIRATE_BASE</Text_ID>
@@ -976,7 +727,7 @@
 		<Land_Model_Name>nb_piratebase_01.alo</Land_Model_Name>
 		<Icon_Name>i_button_pirate_base.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<SFXEvent_Ambient_Loop />
+		<SFXEvent_Ambient_Loop/>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
@@ -985,65 +736,53 @@
 		<LandBehavior>LAND_OBSTACLE, SPACE_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
-		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
-		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
-
 		<Mass>1.0</Mass>
 		<Scale_Factor>.66</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
 		<Autoresolve_Health>1000</Autoresolve_Health>
-
 		<Destruction_Survivors>
 			CSA_Survivors_Small, 1.0
 			CSA_Survivors_Medium, 1.0
 			CSA_Survivors_Large, 1.0 
 		</Destruction_Survivors>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-
 		<Sabotage_Cost_Credits>10000</Sabotage_Cost_Credits>
-
 		<Affiliation>Corp_Sector_Authority</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
-
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-
 		<Starting_Spawned_Units_Tech_0>ESPO_Trooper_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>ESPO_Trooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>250.0</Spawned_Squadron_Location_Flyout_Distances>		
+		<Spawned_Squadron_Location_Flyout_Distances>250.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
-
 		<!-- The ground structures have this data which looks like it's space only because the
 		snowspeeders are using space style pathfinding which needs this information so that we won't
 		path speeders through structures -->
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -1053,7 +792,4 @@
 		<Property_Flags>InBase</Property_Flags>
 		<Base_Position>In_Base</Base_Position>
 	</SpecialStructure>
-
-	
-
 </Corp_Sector_Authority_Land_Units>

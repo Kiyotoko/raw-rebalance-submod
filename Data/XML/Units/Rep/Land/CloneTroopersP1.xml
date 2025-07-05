@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Clone_Troopers_P1_Data>
 	<GroundInfantry Name="Clone_Trooper_P1">
 		<Text_ID>TEXT_UNIT_CLONETROOPER_P1</Text_ID>
@@ -398,7 +398,8 @@
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Clone_Engineer_Repair">
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>125.0</Heal_Range><!-- From 50 -->
+				<Heal_Range>125.0</Heal_Range>
+				<!-- From 50 -->
 				<Heal_Amount>0.0</Heal_Amount>
 				<Heal_Percent>0.20</Heal_Percent>
 				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
@@ -522,7 +523,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer><!-- From 500 -->
+		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
+		<!-- From 500 -->
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -647,7 +649,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer><!-- From 500 -->
+		<Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer>
+		<!-- From 500 -->
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -690,7 +693,8 @@
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>50</Build_Cost_Credits><!-- from 75 -->
+		<Build_Cost_Credits>50</Build_Cost_Credits>
+		<!-- from 75 -->
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -725,7 +729,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>50</Tactical_Build_Cost_Multiplayer><!-- From 100 -->
+		<Tactical_Build_Cost_Multiplayer>50</Tactical_Build_Cost_Multiplayer>
+		<!-- From 100 -->
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -757,7 +762,8 @@
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>100</Build_Cost_Credits><!-- From 150 -->
+		<Build_Cost_Credits>100</Build_Cost_Credits>
+		<!-- From 150 -->
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -801,7 +807,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>100</Tactical_Build_Cost_Multiplayer><!-- From 175 -->
+		<Tactical_Build_Cost_Multiplayer>100</Tactical_Build_Cost_Multiplayer>
+		<!-- From 175 -->
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -833,7 +840,8 @@
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>200</Build_Cost_Credits><!-- From 300 -->
+		<Build_Cost_Credits>200</Build_Cost_Credits>
+		<!-- From 300 -->
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
@@ -896,7 +904,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer><!-- From 375 -->
+		<Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer>
+		<!-- From 375 -->
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1009,7 +1018,8 @@
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Medic_Heal">
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>125.0</Heal_Range><!-- From 50 -->
+				<Heal_Range>125.0</Heal_Range>
+				<!-- From 50 -->
 				<Heal_Amount>0.0</Heal_Amount>
 				<Heal_Percent>0.07</Heal_Percent>
 				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
@@ -1086,7 +1096,8 @@
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Clone_Engineer_Repair">
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>125.0</Heal_Range><!-- From 50 -->
+				<Heal_Range>125.0</Heal_Range>
+				<!-- From 50 -->
 				<Heal_Amount>0.0</Heal_Amount>
 				<Heal_Percent>0.20</Heal_Percent>
 				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>

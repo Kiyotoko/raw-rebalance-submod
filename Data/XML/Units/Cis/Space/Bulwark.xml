@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
-<CIS_Bulwark_Data
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
-	xsi:schemaLocation="https://kiyotoko.github.io/eaw-xml-schema/schemas/space https://kiyotoko.github.io/eaw-xml-schema/schemas/space.xsd">
-
+<CIS_Bulwark_Data>
 	<SpaceUnit Name="CIS_Bulwark_Skirmish">
 		<No_Colorization_Color>251, 251, 251, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_CIS_BULWARK</Text_ID>
@@ -11,27 +8,21 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_CIS_BULWARK TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_BULWARKMK1.TGA</Icon_Name>
-
 		<GUI_Row>1</GUI_Row>
 		<Space_Model_Name>SeV_bulwark.ALO</Space_Model_Name>
-
 		<Ranking_In_Category>5</Ranking_In_Category>
-
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-
 		<Scale_Factor>0.52</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-
-		<Visible_On_Radar_When_Fogged>false</Visible_On_Radar_When_Fogged><!-- From true -->
+		<Visible_On_Radar_When_Fogged>false</Visible_On_Radar_When_Fogged>
+		<!-- From true -->
 		<Armor_Type>Armor_Star_Destroyer</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass>Space</MovementClass>
@@ -41,12 +32,10 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<OverrideAcceleration>.02</OverrideAcceleration>
 		<OverrideDeceleration>.02</OverrideDeceleration>
-
 		<Max_Thrust>0.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
-
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -57,7 +46,8 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>9000</Autoresolve_Health>
 		<Shield_Points>2500</Shield_Points>
-		<Tactical_Health>8500</Tactical_Health><!-- was 6000 -->
+		<Tactical_Health>8500</Tactical_Health>
+		<!-- was 6000 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -66,44 +56,44 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>6000</Build_Cost_Credits><!-- From 6000 --><!-- Rebalance Note: Changed from 6500 -->
+		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<!-- From 6000 -->
+		<!-- Rebalance Note: Changed from 6500 -->
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>5100</AI_Combat_Power><!-- From 6000 -->
-		<Build_Time_Seconds>68</Build_Time_Seconds><!-- From 65 --><!-- Rebalance Note: Changed from 85 -->
+		<AI_Combat_Power>5100</AI_Combat_Power>
+		<!-- From 6000 -->
+		<Build_Time_Seconds>68</Build_Time_Seconds>
+		<!-- From 65 -->
+		<!-- Rebalance Note: Changed from 85 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 4 -->
-		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<!-- From 4 -->
+		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<!-- From 2 -->
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
-		<Reserve_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- From 8 -->
-		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0> <!-- From 2 -->
-
+		<Reserve_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<!-- From 8 -->
+		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<!-- From 2 -->
 		<!-- On Tech 4, replace the CIS Bomber with a Hyena -->
-
 		<Starting_Spawned_Units_Tech_4>CIS_Mankvim_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>CIS_Mankvim_Squadron, 2</Reserve_Spawned_Units_Tech_4>
-
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_4>
-
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<!-- Rebalance Note: Removed SELF_DESTRUCT -->
 		<SpaceBehavior>ABILITY_COUNTDOWN, LURE, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-
 		<Death_Clone>Damage_Normal, SeV_bulwark_Death_Clone</Death_Clone>
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-
 		<HardPoints>
 			HP_Bulwark_Weapon_Left_Front, 
 			HP_Bulwark_Weapon_Right_Front, 
@@ -122,7 +112,6 @@
 			HP_Bulwark_Engines, 
 			HP_Bulwark_Fighter_Bay
 		</HardPoints>
-
 		<SFXEvent_Select>Unit_Select_Bd_Space</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Bd_Space</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleetmove_Bd_Space</SFXEvent_Fleet_Move>
@@ -133,9 +122,7 @@
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
-
 		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
-
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>
@@ -146,13 +133,10 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Bd_Space</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
-
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Cis_Cruiser</SFXEvent_Build_Complete>
-
 		<CategoryMask>Frigate | AntiFrigate</CategoryMask>
 		<GUI_Model_Name>SeV_bulwark.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
@@ -162,21 +146,16 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
-		
 		<Lua_Script>ObjectScript_Brace</Lua_Script>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<!-- Rebalance Note: Replaced with ability below -->
@@ -190,7 +169,6 @@
 				<Stop_When_Activated>No</Stop_When_Activated>
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability-->
-			
 			<!-- Rebalance Note: Added ability -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -202,7 +180,6 @@
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
 			</Unit_Ability>
-
 			<Unit_Ability>
 				<Type>LURE</Type>
 				<Effective_Radius>1</Effective_Radius>
@@ -221,12 +198,8 @@
 				<Alternate_Icon_Name>i_sa_brace.tga</Alternate_Icon_Name>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-
-
 		</Unit_Abilities_Data>
-
 		<Score_Cost_Credits>5300</Score_Cost_Credits>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>68</Tactical_Build_Time_Seconds>
@@ -234,13 +207,10 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
-
 	<!-- Code written for RaW Rebalance by Darth Bane/Kiyotoko -->
 	<SpaceUnit Name="CIS_Bulwark">
 		<Variant_Of_Existing_Type>CIS_Bulwark_Skirmish</Variant_Of_Existing_Type>
-		
 		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Sullust, Utapau, Pammant, Ringo_Vinda</Required_Planets>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>68</Tactical_Build_Time_Seconds>
@@ -248,7 +218,6 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
-
 	<SpaceUnit Name="SeV_bulwark_Death_Clone">
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Space_Model_Name>SeV_bulwark_d.ALO</Space_Model_Name>

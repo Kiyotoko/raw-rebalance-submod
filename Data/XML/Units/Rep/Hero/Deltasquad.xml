@@ -1,11 +1,7 @@
-﻿<?xml version="1.0"?>
-
+<?xml version="1.0"?>
 <!-- Code by Anakin -->
-
 <DeltaSquad_Data>
-
 	<HeroUnit Name="Boss">
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_BOSS</Text_ID>
 		<Land_Model_Name>REI_BOSS.ALO</Land_Model_Name>
@@ -13,7 +9,8 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COMMANDER_BOSS TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ELITE_COMMANDO</Encyclopedia_Unit_Class>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.7</Scale_Factor><!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>1.7</Scale_Factor>
+		<!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
@@ -26,7 +23,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
@@ -38,49 +34,43 @@
 		<Custom_Hard_YExtent>3.0</Custom_Hard_YExtent>
 		<Space_Layer>Land</Space_Layer>
 		<UnitCollisionClass>Infantry</UnitCollisionClass>
-		<FormationSpacing>.5</FormationSpacing><!-- Temp scale change for scale test - change back once models resized -->
+		<FormationSpacing>.5</FormationSpacing>
+		<!-- Temp scale change for scale test - change back once models resized -->
 		<MinimumPushReturnDistance>10</MinimumPushReturnDistance>
 		<Min_Speed>.1</Min_Speed>
 		<OverrideAcceleration>.125</OverrideAcceleration>
 		<OverrideDeceleration>.125</OverrideDeceleration>
-
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
-
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Damage>35</Damage>
 		<Autoresolve_Health>650</Autoresolve_Health>
 		<Tactical_Health>550</Tactical_Health>
-
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT</LandBehavior>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-
 		<Projectile_Types>Proj_Hand_Blaster_Blue_X2</Projectile_Types>
-		<Damage_Type>Damage_Wookiee</Damage_Type><!-- is deleted in original code -->
-		<Projectile_Damage>25.0</Projectile_Damage><!-- is deleted in original code -->
+		<Damage_Type>Damage_Wookiee</Damage_Type>
+		<!-- is deleted in original code -->
+		<Projectile_Damage>25.0</Projectile_Damage>
+		<!-- is deleted in original code -->
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-
 		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
-
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category>Infantry</Garrison_Category>
-		
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness>1.0</FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -92,10 +82,8 @@
 		<Is_Squashable>No</Is_Squashable>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Victory_Relevant>yes</Victory_Relevant>
-
 		<Attach_To_Flagship_During_Space_Battle>yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-
 		<SFXEvent_Select>Unit_Select_Boss</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Boss</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Boss</SFXEvent_Fleet_Move>
@@ -105,12 +93,10 @@
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Boss</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Boss</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Boss</Death_SFXEvent_Start_Die>
-
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>250</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
@@ -120,19 +106,14 @@
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<!-- <Lua_Script>HanSolo</Lua_Script> -->
-
 		<Neutralization_Cost>1000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
-
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Target_Stealth_Units>No</Target_Stealth_Units>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -145,7 +126,6 @@
 				<GUI_Activated_Ability_Name/>
 				<!-- GUI Command Bar support -->
 			</Unit_Ability>
-
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>SPRINT</Type>
@@ -155,12 +135,8 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
-
 		<Abilities SubObjectList="Yes">
-
 			<Combat_Bonus_Ability Name="Boss_Land_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Unit_Strength_Category>Vehicle | Infantry | Air</Unit_Strength_Category>
@@ -174,11 +150,9 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
 			<Galactic_Stealth_Ability Name="Boss_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-
 			<System_Spy_Ability Name="Boss_Limited_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -188,14 +162,10 @@
 				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
 				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
 			</System_Spy_Ability>
-
 		</Abilities>
-
 	</HeroUnit>
-
 	<!--FIXER-->
 	<HeroUnit Name="Fixer">
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_FIXER</Text_ID>
 		<Land_Model_Name>REI_FIXER.ALO</Land_Model_Name>
@@ -216,7 +186,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
@@ -228,49 +197,43 @@
 		<Custom_Hard_YExtent>3.0</Custom_Hard_YExtent>
 		<Space_Layer>Land</Space_Layer>
 		<UnitCollisionClass>Infantry</UnitCollisionClass>
-		<FormationSpacing>.5</FormationSpacing><!-- Temp scale change for scale test - change back once models resized -->
+		<FormationSpacing>.5</FormationSpacing>
+		<!-- Temp scale change for scale test - change back once models resized -->
 		<MinimumPushReturnDistance>10</MinimumPushReturnDistance>
 		<Min_Speed>.1</Min_Speed>
 		<OverrideAcceleration>.125</OverrideAcceleration>
 		<OverrideDeceleration>.125</OverrideDeceleration>
-
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
-
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Damage>35</Damage>
 		<Autoresolve_Health>650</Autoresolve_Health>
 		<Tactical_Health>550</Tactical_Health>
-
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT</LandBehavior>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-
 		<Projectile_Types>Proj_Hand_Blaster_Blue_X2</Projectile_Types>
-		<Damage_Type>Damage_Wookiee</Damage_Type><!-- is deleted in original code -->
-		<Projectile_Damage>25.0</Projectile_Damage><!-- is deleted in original code -->
+		<Damage_Type>Damage_Wookiee</Damage_Type>
+		<!-- is deleted in original code -->
+		<Projectile_Damage>25.0</Projectile_Damage>
+		<!-- is deleted in original code -->
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-
 		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
-
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category>Infantry</Garrison_Category>
-
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness>1.0</FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -282,10 +245,8 @@
 		<Is_Squashable>No</Is_Squashable>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Victory_Relevant>yes</Victory_Relevant>
-
 		<Attach_To_Flagship_During_Space_Battle>yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-
 		<SFXEvent_Select>Unit_Select_Fixer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Fixer</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Fixer</SFXEvent_Fleet_Move>
@@ -295,12 +256,10 @@
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Fixer</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Fixer</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Fixer</Death_SFXEvent_Start_Die>
-
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>250</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
@@ -310,23 +269,17 @@
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<!-- <Lua_Script>HanSolo</Lua_Script> -->
-
 		<Neutralization_Cost>1000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
-
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Target_Stealth_Units>No</Target_Stealth_Units>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-
 			<Unit_Ability>
 				<Type>TARGETED_HACK</Type>
 				<Team_Member_With_Ability>Fixer</Team_Member_With_Ability>
@@ -334,11 +287,8 @@
 				<GUI_Activated_Ability_Name>Fixer_Hack_Ability</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability>Unit_Hack_Fixer</SFXEvent_Target_Ability>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
-
 			<Hack_Ability Name="Fixer_Hack_Ability">
 				<Team_Member_With_Ability>Fixer</Team_Member_With_Ability>
 				<Activation_Style>User_Input</Activation_Style>
@@ -377,7 +327,6 @@
 				<Target_Light_Effect_Duration>2.3893</Target_Light_Effect_Duration>
 				<Target_Light_Effect_Pulse_Count>25</Target_Light_Effect_Pulse_Count>
 			</Hack_Ability>
-
 			<Force_Healing_Ability Name="Fixer_Repair">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>75.0</Heal_Range>
@@ -404,11 +353,9 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-
 			<Galactic_Stealth_Ability Name="Fixer_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-
 			<System_Spy_Ability Name="Fixer_Limited_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -418,14 +365,10 @@
 				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
 				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
 			</System_Spy_Ability>
-
 		</Abilities>
-
 	</HeroUnit>
-
 	<!--Sev-->
 	<HeroUnit Name="Sev">
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_SEV</Text_ID>
 		<Land_Model_Name>REI_SEV.ALO</Land_Model_Name>
@@ -446,7 +389,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
@@ -458,54 +400,48 @@
 		<Custom_Hard_YExtent>3.0</Custom_Hard_YExtent>
 		<Space_Layer>Land</Space_Layer>
 		<UnitCollisionClass>Infantry</UnitCollisionClass>
-		<FormationSpacing>.5</FormationSpacing><!-- Temp scale change for scale test - change back once models resized -->
+		<FormationSpacing>.5</FormationSpacing>
+		<!-- Temp scale change for scale test - change back once models resized -->
 		<MinimumPushReturnDistance>10</MinimumPushReturnDistance>
 		<Min_Speed>.1</Min_Speed>
 		<OverrideAcceleration>.125</OverrideAcceleration>
 		<OverrideDeceleration>.125</OverrideDeceleration>
-
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
-
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Damage>35</Damage>
 		<Autoresolve_Health>650</Autoresolve_Health>
 		<Tactical_Health>550</Tactical_Health>
-
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT</LandBehavior>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-
 		<HardPoints>
 			HP_Commando_Snipper_00
 		</HardPoints>
-		<Damage_Type>Damage_Wookiee</Damage_Type><!-- is deleted in original code -->
-		<Projectile_Damage>25.0</Projectile_Damage><!-- is deleted in original code -->
+		<Damage_Type>Damage_Wookiee</Damage_Type>
+		<!-- is deleted in original code -->
+		<Projectile_Damage>25.0</Projectile_Damage>
+		<!-- is deleted in original code -->
 		<Projectile_Types>Proj_Hand_Blaster_Blue_X2</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
-
 		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
-
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category>Infantry</Garrison_Category>
-
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness>1.0</FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -517,10 +453,8 @@
 		<Is_Squashable>No</Is_Squashable>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Victory_Relevant>yes</Victory_Relevant>
-
 		<Attach_To_Flagship_During_Space_Battle>yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-
 		<SFXEvent_Select>Unit_Select_Sev</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Sev</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sev</SFXEvent_Fleet_Move>
@@ -530,12 +464,10 @@
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Sev</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Sev</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Sev</Death_SFXEvent_Start_Die>
-
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>250</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
@@ -545,22 +477,16 @@
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<!-- <Lua_Script>HanSolo</Lua_Script> -->
-
 		<Neutralization_Cost>1000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
-
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Target_Stealth_Units>No</Target_Stealth_Units>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
@@ -570,7 +496,6 @@
 				<Targeting_Max_Attack_Distance>400</Targeting_Max_Attack_Distance>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>STEALTH</Type>
@@ -583,21 +508,16 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Sev</SFXEvent_GUI_Unit_Ability_Deactivated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
-
 			<Stealth_Ability Name="Stealth_Sev">
 				<Activation_Style>User_Input</Activation_Style>
 				<Stealth_Color>255, 64, 64, 120</Stealth_Color>
 				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
 			</Stealth_Ability>
-
 			<Galactic_Stealth_Ability Name="Sev_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-
 			<System_Spy_Ability Name="Sev_Limited_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -607,14 +527,10 @@
 				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
 				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
 			</System_Spy_Ability>
-
 		</Abilities>
-
 	</HeroUnit>
-
 	<!--SCORCH-->
 	<HeroUnit Name="Scorch">
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_SCORCH</Text_ID>
 		<Land_Model_Name>REI_SCORCH.ALO</Land_Model_Name>
@@ -635,7 +551,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
@@ -647,53 +562,47 @@
 		<Custom_Hard_YExtent>3.0</Custom_Hard_YExtent>
 		<Space_Layer>Land</Space_Layer>
 		<UnitCollisionClass>Infantry</UnitCollisionClass>
-		<FormationSpacing>.5</FormationSpacing><!-- Temp scale change for scale test - change back once models resized -->
+		<FormationSpacing>.5</FormationSpacing>
+		<!-- Temp scale change for scale test - change back once models resized -->
 		<MinimumPushReturnDistance>10</MinimumPushReturnDistance>
 		<Min_Speed>.1</Min_Speed>
 		<OverrideAcceleration>.125</OverrideAcceleration>
 		<OverrideDeceleration>.125</OverrideDeceleration>
-
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
-
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Damage>35</Damage>
 		<Autoresolve_Health>650</Autoresolve_Health>
 		<Tactical_Health>550</Tactical_Health>
-
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT</LandBehavior>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-
-		<Damage_Type>Damage_Wookiee</Damage_Type><!-- is deleted in original code -->
-		<Projectile_Damage>25.0</Projectile_Damage><!-- is deleted in original code -->
+		<Damage_Type>Damage_Wookiee</Damage_Type>
+		<!-- is deleted in original code -->
+		<Projectile_Damage>25.0</Projectile_Damage>
+		<!-- is deleted in original code -->
 		<!-- <Projectile_Types>Proj_Hand_Blaster_Blue_X2, Proj_Bossk_Plasma_Grenade</Projectile_Types> -->
 		<Projectile_Types>Proj_Hand_Blaster_Blue_X2</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-		
-		 <HardPoints>
+		<HardPoints>
 			HP_Deltasquad_Scorch_00
 		</HardPoints>
-
 		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
-
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category>Infantry</Garrison_Category>
-
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness>1.0</FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -705,10 +614,8 @@
 		<Is_Squashable>No</Is_Squashable>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Victory_Relevant>yes</Victory_Relevant>
-
 		<Attach_To_Flagship_During_Space_Battle>yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-
 		<SFXEvent_Select>Unit_Select_Scorch</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Scorch</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scorch</SFXEvent_Fleet_Move>
@@ -718,12 +625,10 @@
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Scorch</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Scorch</SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Death_Scorch</Death_SFXEvent_Start_Die>
-
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>250</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
@@ -733,31 +638,24 @@
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<!-- <Lua_Script>HanSolo</Lua_Script> -->
-
 		<Neutralization_Cost>10000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
-
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Target_Stealth_Units>No</Target_Stealth_Units>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
-
-			 <Unit_Ability>
+			<Unit_Ability>
 				<Type>SWAP_WEAPONS</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_SCORCH_LAUNCHER_SWAP</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_SCORCH_LAUNCHER_SWAP_DESCRIPTION</Alternate_Description_Text>
-                <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name>
 				<Targeting_Max_Attack_Distance>200</Targeting_Max_Attack_Distance>
 				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability> 
-
+			</Unit_Ability>
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
@@ -768,11 +666,8 @@
 				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
-
 			<Proximity_Mines_Ability Name="Scorch_Proximity">
 				<Activation_Style>User_Input</Activation_Style>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -784,11 +679,9 @@
 				<Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Proximity_Mines_Ability>
-
 			<Galactic_Stealth_Ability Name="Scorch_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-
 			<System_Spy_Ability Name="Scorch_Limited_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -798,12 +691,8 @@
 				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
 				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
 			</System_Spy_Ability>
-
 		</Abilities>
-
 	</HeroUnit>
-
-
 	<HeroCompany Name="Deltasquad_Team">
 		<Text_ID>TEXT_HERO_DELTASQUAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DELTASQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -841,7 +730,6 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Select_Boss</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Boss</SFXEvent_Fleet_Move>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
@@ -878,9 +766,7 @@
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
-
 			<Hack_Ability Name="Fixer_Hack_Ability">
 				<Team_Member_With_Ability>Fixer</Team_Member_With_Ability>
 				<Activation_Style>User_Input</Activation_Style>
@@ -919,7 +805,6 @@
 				<Target_Light_Effect_Pulse_Count>25</Target_Light_Effect_Pulse_Count>
 			</Hack_Ability>
 		</Abilities>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
@@ -928,11 +813,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-
-
 	</HeroCompany>
-
 	<HeroUnit Name="Laat_Support_Gunship">
 		<Target_Bones>MISSILE_TARGET00, MISSILE_TARGET01, MISSILE_TARGET02</Target_Bones>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -1082,9 +963,7 @@
 		<Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
 		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
 		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
-
 	</HeroUnit>
-
 	<UniqueUnit Name="Delta_Trasport">
 		<Variant_Of_Existing_Type>Republic_Nu_Shuttle</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -1094,6 +973,4 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_DELTASQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Landing_Transport_Variant>Republic_Nu_Shuttle_Landing</Landing_Transport_Variant>
 	</UniqueUnit>
-
-
 </DeltaSquad_Data>

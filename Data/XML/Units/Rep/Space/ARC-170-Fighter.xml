@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
-
-
 <Arc_170_Fighter_Data>
-
-
-
-
 	<SpaceUnit Name="Arc_170">
 		<No_Colorization_Color>252, 1, 1, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_ARC170</Text_ID>
@@ -15,7 +9,8 @@
 		<Encyclopedia_Vulnerable_To>Cis_Patrol_Frigate Hammer_Class_Picket</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_ARC170.TGA</Icon_Name>
 		<Space_Model_Name>rev_arc170.ALO</Space_Model_Name>
-		<Scale_Factor>0.9</Scale_Factor><!-- From 0.4 -->
+		<Scale_Factor>0.9</Scale_Factor>
+		<!-- From 0.4 -->
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
@@ -52,23 +47,20 @@
 		<Land_Bomber_Type>NTB_630_Bombing_Run</Land_Bomber_Type>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>4</Number_per_Squadron><!-- Rebalance Note: Changed from 5 -->
+		<Number_per_Squadron>4</Number_per_Squadron>
+		<!-- Rebalance Note: Changed from 5 -->
 		<Size_Value>8</Size_Value>
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
-
 		<HardPoints>
 			ARC170_Torpedo,
 			ARC170_RearLaser
 		</HardPoints>
-
-
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-
 		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 1.0</Fire_Inaccuracy_Distance>
@@ -76,14 +68,12 @@
 		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
-
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-
 		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_CF</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_CF</SFXEvent_Move>
@@ -93,8 +83,6 @@
 		<SFXEvent_Assist_Move>Unit_Move_CF</SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack>Unit_Attack_CF</SFXEvent_Assist_Attack>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_CF</SFXEvent_Move_Into_Nebula>
-
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
@@ -108,7 +96,6 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_CF</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_CF</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_CF</SFXEvent_Enemy_Damaged_Health_Low_Warning>
@@ -117,13 +104,10 @@
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_X_Wing_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<CategoryMask>Fighter | AntiBomber</CategoryMask>
 		<Property_Flags>SmallShip</Property_Flags>
-
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<Custom_Footprint_Radius>7.0</Custom_Footprint_Radius>
 		<MovementClass>Space</MovementClass>
 		<FormationOrder>2</FormationOrder>
@@ -134,28 +118,20 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-
-
-
-
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Tactical_Bribe_Cost>115</Tactical_Bribe_Cost>
-
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
-
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
@@ -164,10 +140,8 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Shields_Go_Down</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
 		<Abilities SubObjectList="Yes">
-		
-		<Force_Healing_Ability Name="Astromech_Repair">	
+			<Force_Healing_Ability Name="Astromech_Repair">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Amount> 0.0 </Heal_Amount>
@@ -175,40 +149,25 @@
 				<Heal_Interval_In_Secs>7.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<Applicable_Unit_Categories />
+				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>Arc_170</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
+				<Excluded_Unit_Types/>
 				<SFXEvent_Target_Affected>Unit_Astromech_Repair_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
 				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
 				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Color2/>
 				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
 				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
 				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Color2/>
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-			</Force_Healing_Ability>	
-
-
+			</Force_Healing_Ability>
 		</Abilities>
-
-
 	</SpaceUnit>
-
-
-
-
-
-
-
 	<!-- **** SQUADRON INFORMATION **** -->
-
-
-
-
 	<Squadron Name="Arc_170_Squadron">
 		<Text_ID>TEXT_UNIT_ARC170</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
@@ -237,12 +196,14 @@
 		<!--<Required_Planets>Ord_Mantell</Required_Planets>-->
 		<Required_Special_Structures/>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Arc_170, Arc_170, Arc_170, Arc_170</Squadron_Units><!-- Rebalance Note: Changed Units per Squadron from 5 -->
+		<Squadron_Units>Arc_170, Arc_170, Arc_170, Arc_170</Squadron_Units>
+		<!-- Rebalance Note: Changed Units per Squadron from 5 -->
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,31.0,-10.0</Squadron_Offsets>
 		<Squadron_Offsets>5.0,-30.0,-8.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,57.0,10.0</Squadron_Offsets>
-		<!-- Squadron_Offsets>-58.0,-60.0,12.0</Squadron_Offsets --><!-- Rebalance Note: Changed Units per Squadron from 5 -->
+		<!-- Squadron_Offsets>-58.0,-60.0,12.0</Squadron_Offsets -->
+		<!-- Rebalance Note: Changed Units per Squadron from 5 -->
 		<GUI_Model_Name>rev_arc170.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -259,28 +220,22 @@
 		<Property_Flags>SmallShip</Property_Flags>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-
-
-
-
-
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 375 -->
-		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 8 -->
+		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+		<!-- Rebalance Note: Changed from 375 -->
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 8 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
-
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
@@ -289,48 +244,5 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Arc170</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-
 	</Squadron>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Arc_170_Fighter_Data>

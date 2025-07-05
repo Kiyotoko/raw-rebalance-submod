@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
-
-
 <G400_Fighter_Data>
-
-
-
-
 	<SpaceUnit Name="G400_Fighter">
 		<Text_ID>TEXT_UNIT_G400</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
@@ -14,7 +8,8 @@
 		<Encyclopedia_Vulnerable_To>Hammer_Class_Picket Tri_Droid_Fighter Cis_Patrol_Frigate</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_G400.tga</Icon_Name>
 		<Space_Model_Name>Nv_g-400.alo</Space_Model_Name>
-		<Scale_Factor>0.2</Scale_Factor><!-- From 0.4 -->
+		<Scale_Factor>0.2</Scale_Factor>
+		<!-- From 0.4 -->
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
@@ -55,9 +50,6 @@
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>8</Damage>
-
-
-
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
@@ -68,7 +60,6 @@
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-
 		<SFXEvent_Fire>Unit_G400_Laser</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Tie_Interceptor</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Tie_Interceptor</SFXEvent_Move>
@@ -77,8 +68,6 @@
 		<SFXEvent_Guard>Unit_Guard_Tie_Interceptor</SFXEvent_Guard>
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Tie_Interceptor</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Tie_Interceptor</SFXEvent_Move_Into_Nebula>
-
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tie_Interceptor</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tie_Interceptor</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tie_Interceptor</SFXEvent_Attack_Hardpoint>
@@ -92,7 +81,6 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Tie_Interceptor</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Tie_Interceptor</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Tie_Interceptor</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Tie_Interceptor</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Tie_Interceptor</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Tie_Interceptor</SFXEvent_Enemy_Damaged_Health_Low_Warning>
@@ -101,13 +89,10 @@
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_G400_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<CategoryMask>Fighter | AntiBomber</CategoryMask>
 		<Property_Flags>SmallShip</Property_Flags>
-
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<Custom_Footprint_Radius>7.0</Custom_Footprint_Radius>
 		<MovementClass>Space</MovementClass>
 		<FormationOrder>2</FormationOrder>
@@ -118,34 +103,16 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-
-
-
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
-
-
-
 	</SpaceUnit>
-
-
-
-
-
-
-
 	<!-- **** SQUADRON INFORMATION **** -->
-
-
-
-
 	<Squadron Name="G400_Squadron">
 		<Text_ID>TEXT_UNIT_G400</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
@@ -198,12 +165,6 @@
 		<Property_Flags>SmallShip</Property_Flags>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-
-
-
-
-
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
@@ -213,49 +174,5 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
-
-
-
 	</Squadron>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </G400_Fighter_Data>

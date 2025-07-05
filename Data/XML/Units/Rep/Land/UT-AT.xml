@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <!-- Unit code by Anakin -->
-
 <UT_AT_Data>
-
 	<GroundVehicle Name="UT_AT">
 		<LOD_Bias>4</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
@@ -29,14 +27,12 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Is_Supercrusher>No</Is_Supercrusher>
 		<Property_Flags>CanContainGarrison | GoodInfantryCrusher</Property_Flags>
-
 		<Garrison_Category>Infantry</Garrison_Category>
 		<Num_Garrison_Slots>2</Num_Garrison_Slots>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
 		<Garrison_Radius>30</Garrison_Radius>
 		<Garrison_Bone_Names>B_GARRISON_00</Garrison_Bone_Names>
-
 		<Space_Layer>Land</Space_Layer>
 		<UnitCollisionClass>Large Vehicle</UnitCollisionClass>
 		<OverrideAcceleration>.1</OverrideAcceleration>
@@ -94,7 +90,6 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Engine_Idle_Loop>Unit_Gargantuan_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Gargantuan_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Select>Unit_Select_Sabertank</SFXEvent_Select>
@@ -107,7 +102,6 @@
 		<SFXEvent_Tactical_Build_Started>RHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
-
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
@@ -121,8 +115,10 @@
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Tread_Scroll_Rate>0.167</Tread_Scroll_Rate>
-		<Overall_Length>40.0</Overall_Length><!-- For vehicle pitching up and down on terrain (40 by geometry) -->
-		<Overall_Width>25.0</Overall_Width><!-- For vehicle rolling left and right on terrain (50 by geometry) -->
+		<Overall_Length>40.0</Overall_Length>
+		<!-- For vehicle pitching up and down on terrain (40 by geometry) -->
+		<Overall_Width>25.0</Overall_Width>
+		<!-- For vehicle rolling left and right on terrain (50 by geometry) -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -144,7 +140,6 @@
 		<Death_Clone>Damage_Normal, UT_AT_Death_Clone_01</Death_Clone>
 		<Death_Clone>Damage_Normal, UT_AT_Death_Clone_02</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, Sabertank_Telekinesis_Death_Clone</Death_Clone>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -152,7 +147,6 @@
 				<!-- !!! -->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<!--*********** Needs to be tweaked **********-->
 		<Abilities SubObjectList="Yes">
 			<Redirect_Blaster_Ability Name="RL_Heavy_Reflective_Armor_L1_Bonus">
@@ -186,14 +180,10 @@
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 		</Abilities>
-
-
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
-
-
 	<GroundCompany Name="UT_AT_Company">
 		<Text_ID>TEXT_UNIT_UT-AT</Text_ID>
 		<Encyclopedia_Good_Against>AAT_Tank Persuader_Droid_Enforcer Dwarf_Spider_Droid</Encyclopedia_Good_Against>
@@ -202,7 +192,6 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>70</Damage>
 		<Autoresolve_Health>150</Autoresolve_Health>
-
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>750</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -229,7 +218,6 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Sabertank</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabertank</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -237,8 +225,6 @@
 				<!-- !!! -->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
@@ -252,7 +238,6 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
-
 	<GroundVehicle Name="UT_AT_Death_Clone_01">
 		<Variant_Of_Existing_Type>UT_AT</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
@@ -269,7 +254,6 @@
 		<IsDeathClone>true</IsDeathClone>
 		<Specific_Death_Anim_Index/>
 	</GroundVehicle>
-
 	<GroundVehicle Name="UT_AT_Death_Clone_02">
 		<Variant_Of_Existing_Type>UT_AT</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
@@ -286,6 +270,4 @@
 		<IsDeathClone>true</IsDeathClone>
 		<Specific_Death_Anim_Index/>
 	</GroundVehicle>
-
-
 </UT_AT_Data>

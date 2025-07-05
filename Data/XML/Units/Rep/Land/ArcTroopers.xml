@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Arc_Troopers_Data>
 	<GroundInfantry Name="Arc_Trooper">
 		<Text_ID>TEXT_UNIT_ARCTROOPER</Text_ID>
@@ -46,7 +46,8 @@
 		<Damage>8</Damage>
 		<Sensor_Range>60</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>250</Tactical_Health><!-- From 80 -->
+		<Tactical_Health>250</Tactical_Health>
+		<!-- From 80 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -159,25 +160,21 @@
 		</Abilities>
 		<Movie_Object>false</Movie_Object>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-		
 	<GroundInfantry Name="Arc_Trooper_Lt">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARCTROOPER</Text_ID>
@@ -188,56 +185,49 @@
 		<Death_Clone>Damage_Crush, Arc_Trooper_Lt_Crush_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Arc_Trooper_Lt_Force_Lightning_Death_Clone</Death_Clone>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Lt_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Lt_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Lt_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper_Lt</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Captain">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARCTROOPER_CAPTAIN</Text_ID>
 		<Land_Model_Name>REI_ARC_TROOPER_CAPT.ALO</Land_Model_Name>
 		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
-		<Tactical_Health>275</Tactical_Health><!-- From 85 -->
+		<Tactical_Health>275</Tactical_Health>
+		<!-- From 85 -->
 		<Is_Squashable>Yes</Is_Squashable>
 		<Space_Layer>None</Space_Layer>
 		<Death_Clone>Damage_Force_Whirlwind, Arc_Trooper_Captain_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Arc_Trooper_Captain_Crush_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Arc_Trooper_Captain_Force_Lightning_Death_Clone</Death_Clone>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Captain_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper_Captain</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Captain_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper_Captain</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Captain_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper_Captain</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-		
 	<GroundInfantry Name="Arc_Trooper_Z6">
 		<Variant_Of_Existing_Type>Arc_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARCTROOPER</Text_ID>
@@ -257,25 +247,21 @@
 		<Death_Clone>Damage_Crush, Arc_Trooper_Z6_Crush_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Arc_Trooper_Z6_Force_Lightning_Death_Clone</Death_Clone>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Z6_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper_Z6</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-			
 	<GroundInfantry Name="Arc_Trooper_Z6_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper_Z6</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-	
 	<GroundInfantry Name="Arc_Trooper_Z6_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Arc_Trooper_Z6</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-		
 	<GroundCompany Name="Republic_Arc_Trooper_Squad">
 		<Text_ID>TEXT_UNIT_ARCTROOPER_SQUAD</Text_ID>
 		<Encyclopedia_Good_Against>Battledroids Stap Super_Battledroid</Encyclopedia_Good_Against>
@@ -288,7 +274,8 @@
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>125</Build_Cost_Credits><!-- From 175 -->
+		<Build_Cost_Credits>125</Build_Cost_Credits>
+		<!-- From 175 -->
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
@@ -320,7 +307,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer><!-- From 350 -->
+		<Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer>
+		<!-- From 350 -->
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

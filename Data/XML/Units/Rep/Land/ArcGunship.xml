@@ -83,9 +83,7 @@
 				HP_LAAT_00, HP_LAAT_01, HP_LAAT_02, HP_LAAT_03, HP_LAAT_04		
 
 		</Hardpoints>
-		
 		<Death_Clone>Damage_Normal, Arc_Gunship_Death_Clone</Death_Clone>
-		
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -149,11 +147,13 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>DEPLOY_TROOPERS</Type>
-				<Recharge_Seconds>300</Recharge_Seconds><!-- From 20 -->
+				<Recharge_Seconds>300</Recharge_Seconds>
+				<!-- From 20 -->
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_DEPLOY_ARCS_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_DEPLOY_ARCS_DESCRIPTION</Alternate_Description_Text>
 				<Spawned_Object_Type>LAAT_Deployed_Arctrooper_Squad</Spawned_Object_Type>
-				<Max_Num_Spawned_Objects>1</Max_Num_Spawned_Objects><!-- From 3 -->
+				<Max_Num_Spawned_Objects>1</Max_Num_Spawned_Objects>
+				<!-- From 3 -->
 				<Owner_Attachment_Bone>B_Trooper_00, B_Trooper_01, B_Trooper_02, B_Trooper_03</Owner_Attachment_Bone>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Deploy_Laat_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
@@ -166,7 +166,6 @@
 		<Min_Speed>0</Min_Speed>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 	</GroundVehicle>
-	
 	<GroundVehicle Name="Arc_Gunship_Death_Clone">
 		<Variant_Of_Existing_Type>LAAT</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -181,7 +180,6 @@
 		<IsDeathCloneObstacle>true</IsDeathCloneObstacle>
 		<IsDeathClone>true</IsDeathClone>
 	</GroundVehicle>
-	
 	<GroundCompany Name="Arc_Gunship_Air_Wing">
 		<Text_ID>TEXT_UNIT_ARC_GUNSHIP</Text_ID>
 		<Encyclopedia_Good_Against>Battledroids Destroyer_Droid Crab_Droid</Encyclopedia_Good_Against>
@@ -196,7 +194,8 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>2000</Build_Cost_Credits><!-- From 850 -->
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<!-- From 850 -->
 		<!--<Build_Time_Seconds>60</Build_Time_Seconds>-->
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
@@ -222,7 +221,8 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer><!-- From 1600 -->
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<!-- From 1600 -->
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

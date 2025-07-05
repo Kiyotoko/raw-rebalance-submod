@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <AT_TE_Data>
 	<GroundVehicle Name="AT-TE_Walker">
 		<LOD_Bias>4</LOD_Bias>
@@ -24,9 +24,7 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.35</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-
 		<Target_Bones>Collision</Target_Bones>
-
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>

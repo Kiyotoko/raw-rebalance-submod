@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Nightsister_Data>
-
 	<GroundInfantry Name="Nightsister_Hunter">
 		<Text_ID>TEXT_UNIT_NIGHTSISTER_HUNTER</Text_ID>
 		<No_Colorization_Color>237, 78, 78, 255</No_Colorization_Color>
@@ -10,8 +9,6 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Land_Model_Name>NI_Nightsister_Hunter.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_Nightsister_Hunter.ALO</Land_Model_Anim_Override_Name>
-
-
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
 		<Garrison_Category>Infantry</Garrison_Category>
@@ -22,7 +19,6 @@
 		<Mass>1.0</Mass>
 		<Icon_Name>I_BUTTON_NIGHTSISTER_HUNTER.tga</Icon_Name>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
-
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
 		<Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
 		<Walk_Animation_Speed>.366</Walk_Animation_Speed>
@@ -39,7 +35,6 @@
 		<OverrideAcceleration>0.05</OverrideAcceleration>
 		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<FormationOrder>2</FormationOrder>
-
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -56,9 +51,7 @@
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
-
 		<Armor_Type>Armor_Infantry</Armor_Type>
-
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -66,81 +59,59 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Proj_Ground_Energy_Bow</Projectile_Types>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Projectile_Fire_Recharge_Seconds>0.7</Projectile_Fire_Recharge_Seconds>
-
 		<Fire_Inaccuracy_Distance>Infantry,1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle,10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Air,60.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure,10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>LandHero,5.0</Fire_Inaccuracy_Distance>
-
-		<SFXEvent_Select></SFXEvent_Select>
-		<SFXEvent_Move></SFXEvent_Move>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<SFXEvent_Attack></SFXEvent_Attack>
-		<SFXEvent_Guard></SFXEvent_Guard>
-		<SFXEvent_Fire></SFXEvent_Fire>
-		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
-
-		<SFXEvent_Assist_Move></SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack></SFXEvent_Assist_Attack>
-
+		<SFXEvent_Select/>
+		<SFXEvent_Move/>
+		<SFXEvent_Fleet_Move/>
+		<SFXEvent_Attack/>
+		<SFXEvent_Guard/>
+		<SFXEvent_Fire/>
+		<Death_SFXEvent_Start_Die/>
+		<SFXEvent_Assist_Move/>
+		<SFXEvent_Assist_Attack/>
 		<SFXEvent_Tactical_Build_Started>RHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
-
 		<CategoryMask>Infantry</CategoryMask>
 		<MovementClass>Infantry</MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
-
 		<OccupationStyle>1x1</OccupationStyle>
-
-
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
 		<Ground_Infantry_Turret_Target>Yes</Ground_Infantry_Turret_Target>
 		<Is_Squashable>Yes</Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
-
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
-
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
-
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 		<Movie_Object>false</Movie_Object>
-
 	</GroundInfantry>
-
-
-
 	<GroundCompany Name="Nightsister_Hunter_Party">
 		<Text_ID>TEXT_UNIT_NIGHTSISTER_HUNTER_PARTY</Text_ID>
 		<Encyclopedia_Good_Against>Clone_Trooper_P2 Stap Super_Battledroid</Encyclopedia_Good_Against>
@@ -161,7 +132,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Special_Structures/>
 		<!--<Required_Planets>Carida</Required_Planets>-->
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -188,32 +159,23 @@
 		</Company_Units>
 		<Max_Squad_Size>3</Max_Squad_Size>
 		<Icon_Name>I_BUTTON_NIGHTSISTER_HUNTER.tga</Icon_Name>
-
-
-
 		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Training_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-		
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
-
-
-
 	<Container Name="Nightsister_Hunter_Team">
 		<Select_Box_Scale>45</Select_Box_Scale>
 		<Text_ID>TEXT_UNIT_NIGHTSISTER_HUNTER</Text_ID>
@@ -229,7 +191,6 @@
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
-
 		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer>Land</Space_Layer>
@@ -243,45 +204,34 @@
 		<FormationOrder>2</FormationOrder>
 		<OverrideAcceleration>.05</OverrideAcceleration>
 		<OverrideDeceleration>.05</OverrideDeceleration>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
 		<Icon_Name>I_BUTTON_NIGHTSISTER_HUNTER.tga</Icon_Name>
-
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 		<CategoryMask>Infantry</CategoryMask>
 	</Container>
-
-
-<GroundInfantry Name="Nightsister_Ghost">
+	<GroundInfantry Name="Nightsister_Ghost">
 		<Text_ID>TEXT_UNIT_GHOST</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_GHOST_1 TEXT_TOOLTIP_UNIT_GHOST_2 TEXT_TOOLTIP_UNIT_GHOST_3 TEXT_TOOLTIP_UNIT_GHOST_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GHOST</Encyclopedia_Unit_Class>
 		<Land_Model_Name>Ni_Nightsister_Ghost.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_NIGHTSISTER_GHOST.tga</Icon_Name>
-
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN </LandBehavior>
-
-
 		<Garrison_Category> Infantry </Garrison_Category>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<!-- Special: Obi-Wan doesn't show up on enemy's radar map, but he does show up for allies. -->
@@ -292,7 +242,6 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
 		<Movement_Animation_Speed> 1.1 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> 0.8 </Walk_Animation_Speed>
 		<Max_Speed>0.6</Max_Speed>
@@ -307,12 +256,8 @@
 		<Min_Speed> .1 </Min_Speed>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .25 </OverrideDeceleration>
-
-		
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
-
-
-		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>			
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Scale_Factor>1.8</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -327,7 +272,6 @@
 		<Damage>100</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
-
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Is_Stationary_When_Attacking>No</Is_Stationary_When_Attacking>
 		<Projectile_Types> Proj_Rancor_Hit </Projectile_Types>
@@ -337,15 +281,13 @@
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Appearance_Delay_Frames> 10 </Projectile_Appearance_Delay_Frames>
-
-		<SFXEvent_Select> Unit_General_Ghost </SFXEvent_Select>							  
-		<SFXEvent_Move> Unit_General_Ghost </SFXEvent_Move>                         
-		<SFXEvent_Attack> Unit_General_Ghost </SFXEvent_Attack>                    
-		<SFXEvent_Guard> Unit_General_Ghost </SFXEvent_Guard>                       
-		<SFXEvent_Assist_Move> Unit_General_Ghost </SFXEvent_Assist_Move>		     
-		<SFXEvent_Assist_Attack> Unit_General_Ghost </SFXEvent_Assist_Attack> 
-		<SFXEvent_Ambient_Loop>Unit_Ghost_Loop</SFXEvent_Ambient_Loop> 
-
+		<SFXEvent_Select> Unit_General_Ghost </SFXEvent_Select>
+		<SFXEvent_Move> Unit_General_Ghost </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_General_Ghost </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_General_Ghost </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_General_Ghost </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_General_Ghost </SFXEvent_Assist_Attack>
+		<SFXEvent_Ambient_Loop>Unit_Ghost_Loop</SFXEvent_Ambient_Loop>
 		<CategoryMask> Infantry </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
@@ -354,11 +296,9 @@
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>		
-
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
@@ -367,21 +307,13 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-
 		<Neutralization_Cost>3500.0</Neutralization_Cost>
-
-		
-
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Death_Fade_Time>0.1</Death_Fade_Time>
 		<Death_Persistence_Duration>0.1</Death_Persistence_Duration>
-
-
 		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
-		
 	</GroundInfantry>
-
 	<GroundCompany Name="Nightsister_Ghost_Company">
 		<Text_ID>TEXT_UNIT_GHOST</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_GHOST_1 TEXT_TOOLTIP_UNIT_GHOST_2 TEXT_TOOLTIP_UNIT_GHOST_3 TEXT_TOOLTIP_UNIT_GHOST_4</Encyclopedia_Text>
@@ -400,7 +332,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Special_Structures/>
 		<!--<Required_Planets>Carida</Required_Planets>-->
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -415,17 +347,12 @@
 		</Company_Units>
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Icon_Name>I_BUTTON_NIGHTSISTER_GHOST.tga</Icon_Name>
-
-
-
 		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Training_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
-
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
-
 </Nightsister_Data>

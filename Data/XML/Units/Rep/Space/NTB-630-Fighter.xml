@@ -1,22 +1,17 @@
 <?xml version="1.0"?>
-
-
 <NTB630_Data>
-
 	<SpaceUnit Name="NTB630">
-
 		<Text_ID>TEXT_UNIT_NTB_630</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_NTB630</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Providence_Class_Carrier Lucrehulk_Battleship CIS_Bulwark</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Vulture_Droid_Fighter Tri_Droid_Fighter Cis_Patrol_Frigate</Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>REV_NTB_630.alo</Space_Model_Name>
-		<Scale_Factor>0.35</Scale_Factor><!-- From 0.7 -->
+		<Scale_Factor>0.35</Scale_Factor>
+		<!-- From 0.7 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
-
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
@@ -31,7 +26,8 @@
 		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
-		<Hyperspace>No</Hyperspace><!-- From Yes -->
+		<Hyperspace>No</Hyperspace>
+		<!-- From Yes -->
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Empire</Affiliation>
@@ -64,22 +60,16 @@
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<HardPoints>
 			HP_NTB_BOMBER_01,HP_NTB_BOMBER_00,HP_NTB_BOMBER_02 HP_NTB_BOMBER_03
 		</HardPoints>
-
 		<SFXEvent_Fire>Unit_TIE_Bomber_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_ntb630</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_ntb630</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_ntb630</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_ntb630</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_ntb630</SFXEvent_Guard>
-
-
-
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_Attack_ntb630</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_Attack_ntb630</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_Attack_ntb630</SFXEvent_Attack_Hardpoint>
@@ -93,40 +83,33 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_ntb630</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_ntb630</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_ntb630</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Ambient_Moving>Unit_Y_Wing_Fly_By</SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Y_Wing_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<CategoryMask>Bomber | AntiCapital</CategoryMask>
 		<Property_Flags>SmallShip</Property_Flags>
 		<Icon_Name>I_BUTTON_NTB630.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target>Yes</Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius>15.0</Custom_Footprint_Radius>
 		<MovementClass>Space</MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
-
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>75</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-
 		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -135,12 +118,9 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_ntb630</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
-
 	</SpaceUnit>
-
 	<Squadron Name="NTB_630_Squadron">
 		<Text_ID>TEXT_UNIT_NTB_630</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_NTB630</Encyclopedia_Text>
@@ -178,11 +158,9 @@
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_ntb630</SFXEvent_Build_Complete>
-
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -190,18 +168,15 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags>SmallShip</Property_Flags>
-
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type>NTB_630_Squadron_Container</Create_Team_Type>
 		<Max_Squad_Size>6</Max_Squad_Size>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
@@ -213,8 +188,6 @@
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>700</Score_Cost_Credits>
 	</Squadron>
-
-
 	<Container Name="NTB_630_Squadron_Container">
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against>Providence_Class_Carrier Lucrehulk_Battleship CIS_Bulwark</Encyclopedia_Good_Against>
@@ -227,30 +200,26 @@
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-
 		<Icon_Name/>
-
 		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
-
 		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 				<Recharge_Seconds>20.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
+				<!-- GUI Command Bar support -->
 				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
 			<Ion_Cannon_Shot_Attack_Ability Name="Y_Wing_Container_Ion_Cannon_Shot">
 				<Activation_Style>User_Input</Activation_Style>
@@ -259,16 +228,13 @@
 				<Applicable_Unit_Types/>
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
-
 	</Container>
-
 	<LandBombingUnit Name="NTB_630_Bombing_Run">
 		<Text_ID>TEXT_UNIT_NTB_630</Text_ID>
 		<Land_Model_Name>REV_NTB_630.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_NTB630.tga</Icon_Name>
 		<Mass>0.985</Mass>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
-
 		<Max_Speed>6.0</Max_Speed>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<Max_Thrust>0.2</Max_Thrust>
@@ -286,8 +252,6 @@
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>15</Size_Value>
-
-
 		<Armor_Type>Armor_Speeder</Armor_Type>
 		<Damage>25</Damage>
 		<Shield_Points>50</Shield_Points>
@@ -295,7 +259,6 @@
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
-
 		<SFXEvent_Fire>Unit_Y_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_ntb630</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_ntb630</SFXEvent_Move>
@@ -306,21 +269,18 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>2</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Bomb_Run_Select_Target>Unit_Target_Land_NTB630</SFXEvent_Bomb_Run_Select_Target>
 		<SFXEvent_Bomb_Run_Incoming>Unit_Target_Land_NTB630</SFXEvent_Bomb_Run_Incoming>
-
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Fires_Forward>Yes</Fires_Forward><!-- This must be YES in order to fire missiles without concern of the firing cone in Calculate_Projectile_Facing() -->
+		<Fires_Forward>Yes</Fires_Forward>
+		<!-- This must be YES in order to fire missiles without concern of the firing cone in Calculate_Projectile_Facing() -->
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>20</Turret_Elevate_Extent_Degrees>
 		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-
 		<!-- Note: If switch back to the Y-Wing missile, the missile in incorredly defined as a BOMB and will not work! -->
 		<Projectile_Types>Y_Wing_Bombing_Run_Bomb</Projectile_Types>
-
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.20</Projectile_Fire_Recharge_Seconds>
-
 		<Damage_Hit_Particles>Rebel_Bombing_Run_Explosion_Land</Damage_Hit_Particles>
 		<Shield_Hit_Particles>Projectile_Shield_Absorb_Small</Shield_Hit_Particles>
 		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
@@ -338,7 +298,6 @@
 		<Blob_Shadow_Material_Name/>
 		<Air_Vehicle_Turret_Target>Yes</Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<Space_Layer>Capital</Space_Layer>
 		<Layer_Z_Adjust>100.0</Layer_Z_Adjust>
 		<Min_Speed>2.0</Min_Speed>
@@ -349,28 +308,19 @@
 		<Idle_Chase_Range>145.0</Idle_Chase_Range>
 		<Guard_Chase_Range>400.0</Guard_Chase_Range>
 		<Score_Cost_Credits>700</Score_Cost_Credits>
-
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</LandBombingUnit>
-
-
 	<SpaceUnit Name="NTB6302">
 		<Variant_Of_Existing_Type>NTB630</Variant_Of_Existing_Type>
 	</SpaceUnit>
-
 	<SpaceUnit Name="NTB6303">
 		<Variant_Of_Existing_Type>NTB630</Variant_Of_Existing_Type>
 	</SpaceUnit>
-
-
-
 </NTB630_Data>

@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Supply_Ship_Data>
-
 	<SpaceUnit Name="Supply_Ship">
 		<Text_ID>TEXT_UNIT_SUPPLYSHIP</Text_ID>
 		<Encyclopedia_Good_Against>Rep_Centax_Heavy_Frigate Republic_Light_Cruiser Rep_Acclamator_Assault_Ship</Encyclopedia_Good_Against>
@@ -22,16 +21,13 @@
 		<Space_Layer>Capital</Space_Layer>
 		<Layer_Z_Adjust>-405.0</Layer_Z_Adjust>
 		<Lua_Script>Supplyship</Lua_Script>
-
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<OverrideAcceleration>0.0125</OverrideAcceleration>
 		<OverrideDeceleration>0.0125</OverrideDeceleration>
-
 		<Max_Thrust>0.375</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-
 		<Armor_Type>Armor_Victory_Class</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>70</Damage>
@@ -42,7 +38,6 @@
 		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
-
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -60,22 +55,20 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<AI_Combat_Power>4500</AI_Combat_Power>
-		<Build_Cost_Credits>3800</Build_Cost_Credits><!-- Rebalance Note: Changed from 4300 -->
-		<Build_Time_Seconds>38</Build_Time_Seconds><!-- Rebalance Note: Changed from 40 -->
+		<Build_Cost_Credits>3800</Build_Cost_Credits>
+		<!-- Rebalance Note: Changed from 4300 -->
+		<Build_Time_Seconds>38</Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 40 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-
 		<Death_Clone>Damage_Normal, Supply_Ship_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
-
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -83,9 +76,7 @@
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-	
 		<!-- To make the Supply ship more useful, give it some Hyena Bombers on Tech 5 and some more Tri Droids -->
-		
 		<Starting_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Tri_Droid_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
@@ -93,7 +84,6 @@
 		<Reserve_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 4</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Tri_Droid_Squadron, 4</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_4>
-
 		<HardPoints>
 			HP_Supply_Ship_Shield
 			HP_Supply_Ship_Engine01
@@ -111,7 +101,6 @@
 			HP_Supply_Ship_Bay_01
 			HP_Supply_Ship_Bay_02	
 		</HardPoints>
-
 		<CategoryMask>Capital | AntiFrigate</CategoryMask>
 		<GUI_Model_Name>SeV_Supplyship.ALO</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
@@ -119,7 +108,6 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Supply_Ship</SFXEvent_Build_Complete>
@@ -132,7 +120,6 @@
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Recusant</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Recusant</SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Recusant</SFXEvent_Attack_Hardpoint>
@@ -146,7 +133,6 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Recusant</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Health_Critical_Warning>Unit_CIS_Space_Critical_Health</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Cis_Missle_Launcher</SFXEvent_Hardpoint_Destroyed>
@@ -155,30 +141,22 @@
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Recusant</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Cis_Engines</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Cis_Hangar</SFXEvent_Hardpoint_Destroyed>
-
 		<SFXEvent_Engine_Idle_Loop>Unit_Cis_Cap_Ship_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Cis_Cap_Ship_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Cis_Cap_Ship_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
-
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Visible_On_Radar_When_Fogged>false</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-
-
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Recharge_Seconds>0</Recharge_Seconds>
@@ -189,7 +167,6 @@
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
-
 			<Unit_Ability>
 				<Type>TURBO</Type>
 				<Expiration_Seconds>0</Expiration_Seconds>
@@ -200,48 +177,45 @@
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
-
-        <Abilities SubObjectList="Yes">
-            <Force_Healing_Ability Name="Repair_Facility_Healing">
-                <Activation_Style>Space_Automatic</Activation_Style>
-                <Heal_Range>1000.0</Heal_Range>
-                <Heal_Amount>10.0</Heal_Amount>
-                <Blob_Color>0, 255, 0, 255</Blob_Color>
-                <Heal_Interval_In_Secs>0.3</Heal_Interval_In_Secs>
-                <!-- <Single_Target_Heal>Yes</Single_Target_Heal> -->
-                <Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-                <!-- We can heal the following unit types: -->
-                <Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate, Capital, Hero</Applicable_Unit_Categories>
-                <Applicable_Unit_Types/>
-                <SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-                <Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
-                <Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
-                <Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-                <Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-                <Target_Light_Effect_Color2/>
-                <Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-                <Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-                <Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-                <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-                <Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
-                <Owner_Light_Effect_Color2/>
-                <Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-                <Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-                <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-            </Force_Healing_Ability><!-- Rebalance Note: Add healing ability -->
-        </Abilities>
-
-
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>1000.0</Heal_Range>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>0.3</Heal_Interval_In_Secs>
+				<!-- <Single_Target_Heal>Yes</Single_Target_Heal> -->
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate, Capital, Hero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+			</Force_Healing_Ability>
+			<!-- Rebalance Note: Add healing ability -->
+		</Abilities>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SUPPLYSHIP</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>5700</Score_Cost_Credits>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer><!-- Rebalance Note: Changed from 4300 -->
-		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds><!-- Rebalance Note: Changed from 40 -->
+		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
+		<!-- Rebalance Note: Changed from 4300 -->
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<!-- Rebalance Note: Changed from 40 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -249,7 +223,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
 	</SpaceUnit>
-
 	<SpaceUnit Name="Supply_Ship_Death_Clone">
 		<Text_ID>TEXT_UNIT_SUPPLYSHIP</Text_ID>
 		<Space_Model_Name>SeV_Supplyship_D.ALO</Space_Model_Name>
@@ -266,6 +239,4 @@
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
-
 </Supply_Ship_Data>

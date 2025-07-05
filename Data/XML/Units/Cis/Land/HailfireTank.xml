@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Hailfire_Tank_Data>
 	<GroundVehicle Name="Hailfire_Tank">
 		<Text_ID>TEXT_UNIT_HAILFIRE_TANK</Text_ID>
@@ -62,8 +62,10 @@
 		</Hardpoints>
 		<Projectile_Types>Proj_MAL_Concussion_Missile</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>7</Projectile_Fire_Pulse_Count><!-- From 30 -->
-		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds><!-- From 0.4 -->
+		<Projectile_Fire_Pulse_Count>7</Projectile_Fire_Pulse_Count>
+		<!-- From 30 -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<!-- From 0.4 -->
 		<Projectile_Appearance_Delay_Frames>0</Projectile_Appearance_Delay_Frames>
 		<!-- was 30 -->
 		<Targeting_Fire_Inaccuracy>Infantry, 10.0</Targeting_Fire_Inaccuracy>

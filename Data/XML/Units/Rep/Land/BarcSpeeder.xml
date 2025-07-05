@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Barc_Speeder>
 	<!-- Scale factors changed from 1.0; FormationSpacing changed from 0.1 for scale test -->
 	<GroundInfantry Name="Barc_Speeder">
@@ -61,7 +61,8 @@
 		<Damage>5</Damage>
 		<Sensor_Range>40</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>70</Tactical_Health><!-- From 45 -->
+		<Tactical_Health>70</Tactical_Health>
+		<!-- From 45 -->
 		<!-- hitpoints halved to make the unit more paper-like -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>200</Energy_Capacity>
@@ -149,7 +150,6 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Barc_Trooper_No_Bike">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_BARC_SPEEDER</Text_ID>
@@ -258,7 +258,6 @@
 				Yoda,
 		</Presence_Induced_Animations>
 		<!-- Non-Hero unit abilities description -->
-		
 		<Movie_Object>false</Movie_Object>
 	</GroundInfantry>
 	<GroundCompany Name="Barc_Speeder_Squad">
@@ -302,7 +301,8 @@
 		<SFXEvent_Build_Complete>Unit_Complete_BARC</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer><!-- From 150 -->
+		<Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer>
+		<!-- From 150 -->
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

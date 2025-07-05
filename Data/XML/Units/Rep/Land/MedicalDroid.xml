@@ -1,12 +1,9 @@
 <?xml version="1.0"?>
 <Medical_Droid_Data>
-
-
-
 	<GroundInfantry Name="Medical_Droid">
 		<Text_ID>TEXT_UNIT_21B_MEDICAL_DROID</Text_ID>
 		<No_Colorization_Color>237, 149, 78, 255</No_Colorization_Color>
-		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against/>
 		<Encyclopedia_Vulnerable_To>Destroyer_Droid Battledroids Super_Battledroid</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_21B_MEDICAL_DROID TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
@@ -31,9 +28,7 @@
 		<On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
 		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
 		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
-
 		<Influences_Capture_Point>True</Influences_Capture_Point>
-
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
 		<Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
@@ -50,7 +45,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 		<FormationOrder>2</FormationOrder>
 		<FormationGrouping>Standard</FormationGrouping>
-
 		<Scale_Factor>1.7</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
@@ -65,52 +59,36 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-
-
-
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-
-
 		<SFXEvent_Select>Unit_Select_21b</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_21b</SFXEvent_Move>
 		<SFXEvent_Assist_Move>Unit_Move_21b</SFXEvent_Assist_Move>
 		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Die_21b</Death_SFXEvent_Start_Die>
-
-
-
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask>Infantry</CategoryMask>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
-
 		<Death_Clone>Damage_Force_Whirlwind, Med_Droid_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Med_Droid_Force_Lightning_Death_Clone</Death_Clone>
-
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target>Yes</Ground_Infantry_Turret_Target>
 		<Is_Squashable>Yes</Is_Squashable>
-
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-
 		<AI_Combat_Power>5</AI_Combat_Power>
-
 		<Movie_Object>false</Movie_Object>
-
 		<Abilities SubObjectList="Yes">
-
 			<Force_Healing_Ability Name="Med_Droid_Healing">
-
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>80.0</Heal_Range><!-- From 50 -->
+				<Heal_Range>80.0</Heal_Range>
+				<!-- From 50 -->
 				<Heal_Amount>0.0</Heal_Amount>
 				<Heal_Percent>0.20</Heal_Percent>
 				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-
 				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
 				<Applicable_Unit_Types/>
@@ -129,28 +107,21 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-
 		</Abilities>
-
-
 	</GroundInfantry>
-
 	<Indigenous_Unit Name="Med_Droid_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Medical_Droid</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</Indigenous_Unit>
-
 	<Indigenous_Unit Name="Med_Droid_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Medical_Droid</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</Indigenous_Unit>
-
-
 	<GroundCompany Name="Medical_Droid_Squad">
 		<Text_ID>TEXT_UNIT_21B_MEDICAL_DROID</Text_ID>
-		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against/>
 		<Encyclopedia_Vulnerable_To>Destroyer_Droid Battledroids Super_Battledroid</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_21B_MEDICAL_DROID TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
@@ -159,7 +130,8 @@
 		<Damage>0</Damage>
 		<Autoresolve_Health>50</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>200</Build_Cost_Credits><!-- From 100 -->
+		<Build_Cost_Credits>200</Build_Cost_Credits>
+		<!-- From 100 -->
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
@@ -176,11 +148,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Republic_Nu_Shuttle</Company_Transport_Unit>
-
-
 		<Company_Units>Medical_Droid, Medical_Droid</Company_Units>
-
-
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<Icon_Name>I_BUTTON_21B.TGA</Icon_Name>
 		<GUI_Model_Name>ReI_21b.ALO</GUI_Model_Name>
@@ -192,29 +160,24 @@
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_21b</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_move_21b</SFXEvent_Fleet_Move>
-
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>
-	<!--<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
 		<Abilities SubObjectList="Yes">
-
 			<Force_Healing_Ability Name="Med_Droid_Healing">
-
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>80.0</Heal_Range><!-- From 50 -->
+				<Heal_Range>80.0</Heal_Range>
+				<!-- From 50 -->
 				<Heal_Amount>0.0</Heal_Amount>
 				<Heal_Percent>0.20</Heal_Percent>
 				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-
 				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
 				<Applicable_Unit_Types/>
@@ -233,24 +196,9 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-
 		</Abilities>
-
-
-
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
-
-
-
-
-
-
-
-
-
-
 </Medical_Droid_Data>
-

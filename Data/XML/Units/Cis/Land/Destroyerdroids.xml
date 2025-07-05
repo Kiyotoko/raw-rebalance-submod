@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Destroyer_Droids_Data>
 	<GroundVehicle Name="Destroyer_Droid">
 		<LOD_Bias>4</LOD_Bias>
@@ -54,7 +54,8 @@
 		<Size_Value>75</Size_Value>
 		<Armor_Type>Armor_Destroyer_Droid</Armor_Type>
 		<Damage>6</Damage>
-		<Shield_Points>250</Shield_Points><!-- From 175 -->
+		<Shield_Points>250</Shield_Points>
+		<!-- From 175 -->
 		<Tactical_Health>100</Tactical_Health>
 		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
@@ -62,8 +63,10 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Autoresolve_Health>375</Autoresolve_Health>
 		<Projectile_Types>Proj_Destroyer_Droid_Blaster_Cannon</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds><!-- From 0.5 -->
-		<Projectile_Fire_Pulse_Count>16</Projectile_Fire_Pulse_Count><!-- From 12 -->
+		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
+		<!-- From 0.5 -->
+		<Projectile_Fire_Pulse_Count>16</Projectile_Fire_Pulse_Count>
+		<!-- From 12 -->
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Fire_Inaccuracy_Distance>Infantry, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
@@ -111,7 +114,8 @@
 		<Overall_Width>0.0</Overall_Width>
 		<!-- 0.0 means don't roll left and right on terrain -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>30</AI_Combat_Power><!-- From 70 -->
+		<AI_Combat_Power>30</AI_Combat_Power>
+		<!-- From 70 -->
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
@@ -189,7 +193,8 @@
 		<Size_Value>75</Size_Value>
 		<Armor_Type>Armor_Destroyer_Droid</Armor_Type>
 		<Damage>6</Damage>
-		<Shield_Points>250</Shield_Points><!-- From 175 -->
+		<Shield_Points>250</Shield_Points>
+		<!-- From 175 -->
 		<Tactical_Health>100</Tactical_Health>
 		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
@@ -197,8 +202,10 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Autoresolve_Health>375</Autoresolve_Health>
 		<Projectile_Types>Proj_Destroyer_Droid_Blaster_Cannon</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds><!-- From 0.5 -->
-		<Projectile_Fire_Pulse_Count>16</Projectile_Fire_Pulse_Count><!-- From 12 -->
+		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
+		<!-- From 0.5 -->
+		<Projectile_Fire_Pulse_Count>16</Projectile_Fire_Pulse_Count>
+		<!-- From 12 -->
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Fire_Inaccuracy_Distance>Infantry, 3.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Vehicle, 5.0</Fire_Inaccuracy_Distance>
@@ -246,7 +253,8 @@
 		<Overall_Width>0.0</Overall_Width>
 		<!-- 0.0 means don't roll left and right on terrain -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>30</AI_Combat_Power><!-- From 70 -->
+		<AI_Combat_Power>30</AI_Combat_Power>
+		<!-- From 70 -->
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
@@ -283,7 +291,8 @@
 		<Damage>36</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>400</Build_Cost_Credits><!-- From 350 -->
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<!-- From 350 -->
 		<Build_Time_Seconds>9</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -331,7 +340,8 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>440</Build_Cost_Credits><!-- From 1200 -->
+		<Build_Cost_Credits>440</Build_Cost_Credits>
+		<!-- From 1200 -->
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -346,7 +356,8 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Merc_Infantry_Droid_Shuttle_Rep_VFX</Company_Transport_Unit>
-		<Company_Units>Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid</Company_Units><!-- From 6 to 8 -->
+		<Company_Units>Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid, Hacked_Destroyer_Droid</Company_Units>
+		<!-- From 6 to 8 -->
 		<Max_Squad_Size>1</Max_Squad_Size>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
@@ -358,7 +369,8 @@
 		<Cheap_Bribe_Cost>50</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>100</Expensive_Bribe_Cost>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>440</Tactical_Build_Cost_Multiplayer><!-- From 800 -->
+		<Tactical_Build_Cost_Multiplayer>440</Tactical_Build_Cost_Multiplayer>
+		<!-- From 800 -->
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RL_Merc_Stolen_Equipment_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

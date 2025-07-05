@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
 <Sabaoth_Deployer_data>
-
-
 	<SpaceUnit Name="Sabaoth_Deployer">
 		<Text_ID>TEXT_UNIT_SABAOTH_DEPLOYER</Text_ID>
 		<Encyclopedia_Good_Against>Empire_Star_Base_1 V19_Fighter Rep_Acclamator_Assault_Ship</Encyclopedia_Good_Against>
@@ -14,7 +12,6 @@
 		<Mass>0.9995</Mass>
 		<Scale_Factor>0.6</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
 		<Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>1.8</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
@@ -25,7 +22,6 @@
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<OverrideAcceleration>.06</OverrideAcceleration>
 		<OverrideDeceleration>.06</OverrideDeceleration>
-
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_Missile_Cruiser</Armor_Type>
 		<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
@@ -33,7 +29,6 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>Ground_Hutt_Palace_R</Required_Special_Structures>
@@ -62,32 +57,23 @@
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>BARRAGE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, WEAPON, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-
 		<Death_Clone>Damage_Normal, Sabaoth_Deployer_Death_Clone</Death_Clone>
-
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-
 		<Projectile_Types>Proj_Ship_Trihexalon_Missile</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>8.0</Projectile_Fire_Recharge_Seconds>
-
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-
 		<Targeting_Fire_Inaccuracy_Fixed_Radius>120</Targeting_Fire_Inaccuracy_Fixed_Radius>
 		<Targeting_Min_Attack_Distance>220</Targeting_Min_Attack_Distance>
-
 		<Turret_Rotate_Extent_Degrees>30</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-
 		<CategoryMask>Corvette | AntiFrigate | AntiCapital</CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 		<SFXEvent_Fire>Unit_Boron_Missile_Fire</SFXEvent_Fire>
-
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Broadside_Cruiser</SFXEvent_Build_Complete>
@@ -97,9 +83,7 @@
 		<SFXEvent_Attack>Unit_Attack_Broadside_Cruiser</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Broadside_Cruiser</SFXEvent_Guard>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Broadside_Cruiser</SFXEvent_Move_Into_Nebula>
-
 		<SFXEvent_Attack_With_Non_Hero_Ability>Unit_Barrage_Broadside_Cruiser</SFXEvent_Attack_With_Non_Hero_Ability>
-
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Broadside_Cruiser</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Broadside_Cruiser</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Broadside_Cruiser</SFXEvent_Attack_Hardpoint>
@@ -113,15 +97,11 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Broadside_Cruiser</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Broadside_Cruiser</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_Broadside_Cruiser</SFXEvent_Attack_Hardpoint>
-
 		<SFXEvent_Engine_Idle_Loop>Unit_ATAT_Barge_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_ATAT_Barge_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_ATAT_Barge_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<MovementClass>Space</MovementClass>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
@@ -129,48 +109,33 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>SpaceArtillery</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-
 		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
-		
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>BARRAGE</Type>
-
 				<!-- This parameter is no longer used. Barrage radius is determined by
 					 Projectile_Max_Flight_Distance of the specific projectile for this aility -->
 				<!-- <Effective_Radius>1000.0</Effective_Radius> -->
-
 				<!-- Modify this projectile for blast damage and range, range of barrage mode etc -->
 				<Projectile_Types_Override>Proj_Ship_Trihexalon_Missile_Barrage</Projectile_Types_Override>
-
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>40</Recharge_Seconds>
 				<Mod_Multiplier>FIRE_RATE_MULTIPLIER,			3.0f</Mod_Multiplier>
-
 				<SFXEvent_Target_Ability>Unit_Barrage_Interdictor</SFXEvent_Target_Ability>
-
 				<!-- keep this the same as Targeting_Fire_Inaccuracy_Fixed_Radius_Override -->
 				<Area_Effect_Decal_Distance>320.0</Area_Effect_Decal_Distance>
-
 				<!-- keep this the same as Area_Effect_Decal_Distance -->
 				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>320</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
-
 				<Target_Position_Z_Offset>-150</Target_Position_Z_Offset>
-
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
-
 		<Encyclopedia_Text>TEXT_TOOLTIP_SABAOTH_DEPLOYER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>1400</Score_Cost_Credits>
 		<No_Colorization_Color>80, 129, 218, 255</No_Colorization_Color>
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
@@ -181,7 +146,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 	</SpaceUnit>
-
 	<SpaceUnit Name="Sabaoth_Deployer_Death_Clone">
 		<Text_ID>TEXT_UNIT_SABAOTH_DEPLOYER</Text_ID>
 		<Space_Model_Name>NV_Sabaoth_deployer_D.ALO</Space_Model_Name>
@@ -198,9 +162,5 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
-
-
-
 </Sabaoth_Deployer_data>

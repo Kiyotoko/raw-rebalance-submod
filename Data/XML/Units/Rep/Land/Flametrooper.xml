@@ -8,7 +8,6 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_FLAMETROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLAMETROOPER</Encyclopedia_Unit_Class>
 		<Land_Model_Name>REI_flametrooper.alo</Land_Model_Name>
-		
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT, TURRET</LandBehavior>
 		<Garrison_Category>Infantry</Garrison_Category>
@@ -19,7 +18,6 @@
 		<Mass>1.0</Mass>
 		<Icon_Name>I_BUTTON_FLAMETROOPER.tga</Icon_Name>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
-
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
 		<Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
 		<Walk_Animation_Speed>.366</Walk_Animation_Speed>
@@ -36,8 +34,8 @@
 		<OverrideAcceleration>0.05</OverrideAcceleration>
 		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<FormationOrder>2</FormationOrder>
-
-		<Scale_Factor>1.7</Scale_Factor><!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>1.7</Scale_Factor>
+		<!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -48,24 +46,21 @@
 		<Damage>5</Damage>
 		<Sensor_Range>40</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>90</Tactical_Health><!-- From 70 -->
+		<Tactical_Health>90</Tactical_Health>
+		<!-- From 70 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
-
 		<Armor_Type>Armor_Infantry</Armor_Type>
-
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
-
 		<Turret_Rotate_Extent_Degrees>180</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>60</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>Turret</Turret_Bone_Name>
@@ -73,24 +68,20 @@
 		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
 		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
 		<Turret_Targets_Air_Vehicles>9999</Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
-
 		<Hardpoints>
             HP_Flametrooper
 		</Hardpoints>
-        
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
-
-		<Targeting_Fire_Inaccuracy>Infantry, 2.0</Targeting_Fire_Inaccuracy><!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy>Infantry, 2.0</Targeting_Fire_Inaccuracy>
+		<!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
-
 		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
@@ -98,18 +89,14 @@
 		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
 		<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
-
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Clone_Trooper</SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Clone_Trooper</SFXEvent_Assist_Attack>
-
 		<SFXEvent_Tactical_Build_Started>RHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
-
 		<CategoryMask>Infantry</CategoryMask>
 		<MovementClass>Infantry</MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
-
 		<OccupationStyle>1x1</OccupationStyle>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
@@ -121,54 +108,40 @@
 		<Is_Squashable>Yes</Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>7</AI_Combat_Power>
-
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
-
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
-
-
 		<Death_Clone>Damage_Force_Whirlwind, Flametrooper_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Flametrooper_Crush_Death_Clone</Death_Clone>
-
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-
 		<Presence_Induced_Animations>
 			Attention, 
 			Emperor_Palpatine,
 			Darth_Vader,
 		</Presence_Induced_Animations>
 	</GroundInfantry>
-
-
 	<GroundInfantry Name="Flametrooper_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Flametrooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-
 	<GroundInfantry Name="Flametrooper_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Flametrooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index/>
 	</GroundInfantry>
-
-
 	<GroundInfantry Name="Squad_FLametrooper">
 		<Variant_Of_Existing_Type>Flametrooper</Variant_Of_Existing_Type>
 		<No_Colorization_Color>237, 149, 78, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_FLAMETROOPER</Text_ID>
-
 		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-
 		<Is_Squashable>Yes</Is_Squashable>
 		<Max_Speed>1</Max_Speed>
 		<Space_Layer>None</Space_Layer>
@@ -177,7 +150,6 @@
 		<FormationRaggedness>.2</FormationRaggedness>
 		<MaxJiggleDistance>2</MaxJiggleDistance>
 	</GroundInfantry>
-
 	<GroundCompany Name="Flametrooper_Squad">
 		<Text_ID>TEXT_UNIT_FLAMETROOPER_SQUAD</Text_ID>
 		<Encyclopedia_Good_Against>Battledroids Stap</Encyclopedia_Good_Against>
@@ -189,7 +161,8 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>300</Build_Cost_Credits><!--1500-->
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<!--1500-->
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
@@ -227,8 +200,6 @@
 		<SFXEvent_Build_Cancelled>RHD_Training_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
-
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
@@ -237,12 +208,10 @@
 		<Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 	</GroundCompany>
-
 	<Container Name="Flametrooper_Team">
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_UNIT_FLAMETROOPER_SQUAD</Text_ID>
@@ -258,7 +227,6 @@
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
-
 		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer>Land</Space_Layer>
@@ -272,20 +240,15 @@
 		<FormationOrder>2</FormationOrder>
 		<OverrideAcceleration>.05</OverrideAcceleration>
 		<OverrideDeceleration>.05</OverrideDeceleration>
-
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
 		<Icon_Name>I_BUTTON_FLAMETROOPER.tga</Icon_Name>
-
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-	
 		<CategoryMask>Infantry</CategoryMask>
 	</Container>
-
 </Flametrooper_Data>

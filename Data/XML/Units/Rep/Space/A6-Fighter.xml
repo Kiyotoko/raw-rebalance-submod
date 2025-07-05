@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <A6_Fighter_Data>
 	<SpaceUnit Name="A6_Fighter">
 		<Text_ID>TEXT_UNIT_A6</Text_ID>
@@ -8,7 +8,8 @@
 		<Encyclopedia_Vulnerable_To>Hammer_Class_Picket Scarab_Fighter Cis_Patrol_Frigate</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_REPUBLIC_FIGHTER.tga</Icon_Name>
 		<Space_Model_Name>ReV_Republic_Fighter.ALO</Space_Model_Name>
-		<Scale_Factor>0.1</Scale_Factor><!-- From 0.1 -->
+		<Scale_Factor>0.1</Scale_Factor>
+		<!-- From 0.1 -->
 		<Select_Box_Scale>175</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
@@ -81,9 +82,6 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
-		
-		
-		
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_CF</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_CF</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_CF</SFXEvent_Enemy_Damaged_Health_Low_Warning>
@@ -165,8 +163,10 @@
 		<SFXEvent_Build_Complete>Unit_A_Wing_Fly_By</SFXEvent_Build_Complete>
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>2000.0</Guard_Chase_Range><!-- From 1000 -->
-		<Idle_Chase_Range>1000</Idle_Chase_Range><!-- From 200 -->
+		<Guard_Chase_Range>2000.0</Guard_Chase_Range>
+		<!-- From 1000 -->
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
+		<!-- From 200 -->
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags>SmallShip</Property_Flags>
