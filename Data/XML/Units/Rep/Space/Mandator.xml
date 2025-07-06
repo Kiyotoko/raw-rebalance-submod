@@ -46,11 +46,8 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>12000</Autoresolve_Health>
 		<Shield_Points>30000</Shield_Points>
-		<!-- Rebalance Note: Changed from 8000 -->
 		<Tactical_Health>50000</Tactical_Health>
-		<!-- Rebalance Note: Changed from 9000 -->
 		<Shield_Refresh_Rate>750</Shield_Refresh_Rate>
-		<!-- Rebalance Note: Changed from 100 -->
 		<Energy_Capacity>99000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Ship_Class>super</Ship_Class>
@@ -190,9 +187,8 @@
 		<Radar_Icon_Name>I_RADAR_MANDATOR.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>0.6</Radar_Icon_Scale_Space>
-		<!-- From 1.0 -->
 		<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
-		<Space_Override_Population_Value>8</Space_Override_Population_Value>
+		<Space_Override_Population_Value>16</Space_Override_Population_Value>
 		<!-- Rebalance Note: Changed from 5 -->
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -213,7 +209,6 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
 				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
 				<Recharge_Seconds>90</Recharge_Seconds>
-				<!-- From 50 -->
 				<Expiration_Seconds>7</Expiration_Seconds>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
@@ -261,15 +256,11 @@
 		<Score_Cost_Credits>100000</Score_Cost_Credits>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>60000</Tactical_Build_Cost_Multiplayer>
-		<!-- Rebalance Note: Changed from 70000 -->
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
-		<!-- From 100 -->
-		<!-- Rebalance Note: Changed from 110 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<!-- From -1 -->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
 	<UniqueUnit Name="Mandator_Death_Clone">

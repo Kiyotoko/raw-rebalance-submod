@@ -35,14 +35,10 @@
 		<Armor_Type>Armor_SSD</Armor_Type>
 		<Shield_Armor_Type>Shield_SSD</Shield_Armor_Type>
 		<Damage>140</Damage>
-		<!-- Rebalance Note: Changed from 100 -->
 		<Autoresolve_Health>11000</Autoresolve_Health>
-		<Shield_Points>30000</Shield_Points>
-		<!-- Rebalance Note: Changed from 8000 -->
-		<Tactical_Health>50000</Tactical_Health>
-		<!-- Rebalance Note: Changed from 8000 -->
+		<Shield_Points>40000</Shield_Points>
+		<Tactical_Health>60000</Tactical_Health>
 		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
-		<!-- Rebalance Note: Changed from 100 -->
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Affiliation>Rebel</Affiliation>
@@ -50,7 +46,6 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
 		<Required_Planets>Minntooine</Required_Planets>
 		<Ship_Class>super</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
@@ -63,7 +58,6 @@
 		<Squadron_Capacity>60</Squadron_Capacity>
 		<Build_Cost_Credits>60000</Build_Cost_Credits>
 		<AI_Combat_Power>8000</AI_Combat_Power>
-		<!--<Build_Time_Seconds>50</Build_Time_Seconds>-->
 		<Build_Time_Seconds>120</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -227,7 +221,6 @@
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
 				<Targeting_Max_Attack_Distance>8000</Targeting_Max_Attack_Distance>
-				<!-- From 6000 -->
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Recusant</SFXEvent_GUI_Unit_Ability_Activated>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_IONPULSE_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_IONPULSE_DESCRIPTION</Alternate_Description_Text>
@@ -235,11 +228,9 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
-		<Population_Value>8</Population_Value>
-		<!-- Rebalance Note: Changed from 5 -->
+		<Population_Value>16</Population_Value>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>60000</Tactical_Build_Cost_Multiplayer>
-		<!-- From 80000 -->
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -309,7 +300,6 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
 		<Required_Planets>Minntooine</Required_Planets>
 		<Ship_Class>super</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
@@ -322,7 +312,6 @@
 		<Squadron_Capacity>60</Squadron_Capacity>
 		<Build_Cost_Credits>60000</Build_Cost_Credits>
 		<AI_Combat_Power>13000</AI_Combat_Power>
-		<!--<Build_Time_Seconds>50</Build_Time_Seconds>-->
 		<Build_Time_Seconds>120</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -486,7 +475,6 @@
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
 				<Targeting_Max_Attack_Distance>8000</Targeting_Max_Attack_Distance>
-				<!-- From 6000 -->
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Recusant</SFXEvent_GUI_Unit_Ability_Activated>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_IONPULSE_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_IONPULSE_DESCRIPTION</Alternate_Description_Text>
@@ -494,10 +482,9 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
-		<Population_Value>5</Population_Value>
+		<Population_Value>16</Population_Value>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>60000</Tactical_Build_Cost_Multiplayer>
-		<!-- From 80000 -->
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -551,7 +538,6 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
 		<Required_Planets>Minntooine</Required_Planets>
 		<Ship_Class>super</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
@@ -722,16 +708,14 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
-		<Population_Value>5</Population_Value>
+		<Population_Value>16</Population_Value>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>60000</Tactical_Build_Cost_Multiplayer>
-		<!-- From 80000 -->
 		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<!-- From -1 -->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 </Malevolence_Data>

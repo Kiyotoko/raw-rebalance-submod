@@ -159,7 +159,7 @@
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-		<Population_Value>3</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

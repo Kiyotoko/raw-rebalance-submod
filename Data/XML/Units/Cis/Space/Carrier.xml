@@ -51,7 +51,6 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
-		<!-- Build Cost: Changed from 3700 -->
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>4200</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
@@ -174,12 +173,9 @@
 		<Score_Cost_Credits>2250</Score_Cost_Credits>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
-		<!-- Build Cost: Changed from 3700 -->
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 	<SpaceUnit Name="CIS_Carrier_Death_Clone">
@@ -188,7 +184,7 @@
 		<xxxSpace_Model_Name>SeV_Carrier.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.26</Scale_Factor>
 		<Layer_Z_Adjust>-125.0</Layer_Z_Adjust>
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>

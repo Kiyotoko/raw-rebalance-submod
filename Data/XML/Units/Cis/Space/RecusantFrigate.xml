@@ -153,31 +153,14 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
-		<!-- Rebalance Note: Changed from 3200 to 3800 -->
 		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
-		<!-- Rebalance Note: Changed from 30 to 38 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->
-		<!-- Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies-->
 		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<!--Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-2.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Recusant</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability-->
-			<!-- Rebalance Note: Replaced Ability with below -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
@@ -214,7 +197,6 @@
 				<Laser_Beam_Frames>4</Laser_Beam_Frames>
 				<Laser_Beam_Width>4</Laser_Beam_Width>
 				<Projectile_Dist_Travelled>800</Projectile_Dist_Travelled>
-				<!-- Rebalance Note: Changed from 400 -->
 				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
 				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
 				<Recharge_Time_In_Secs>.25</Recharge_Time_In_Secs>
@@ -223,8 +205,7 @@
 			</Laser_Defense_Ability>
 		</Abilities>
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
-		<Population_Value>3</Population_Value>
-		<!-- Rebalance Note: Changed from 2 -->
+		<Population_Value>4</Population_Value>
 	</SpaceUnit>
 	<SpaceUnit Name="Recusant_Death_Clone">
 		<Text_ID>TEXT_UNIT_PIRATE_FRIGATE</Text_ID>
@@ -232,7 +213,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Persistence_Duration>0</Death_Persistence_Duration>
-		<Scale_Factor>5.5</Scale_Factor>
+		<Scale_Factor>5.0</Scale_Factor>
 		<Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>

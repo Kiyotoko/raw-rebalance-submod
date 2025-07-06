@@ -13,7 +13,6 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
-		<!--<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>-->
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranking_In_Category>7</Ranking_In_Category>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
@@ -34,7 +33,6 @@
 		<Armor_Type>Armor_Calamari_Cruiser</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Shield_Points>2400</Shield_Points>
-		<!-- Rebalance Note: Changed from 1900 -->
 		<Tactical_Health>3600</Tactical_Health>
 		<Damage>22</Damage>
 		<Autoresolve_Health>2900</Autoresolve_Health>
@@ -44,16 +42,12 @@
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
-		<!-- <Squadron_Capacity>0</Squadron_Capacity> -->
-		<!-- <Transport_Capacity>0</Transport_Capacity> -->
-		<!-- <Number_per_Squadron>1</Number_per_Squadron> -->
 		<Size_Value>8</Size_Value>
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>3</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
-		<!-- Rebalace Note: Changed from 3500 to 3000 -->
 		<AI_Combat_Power>4000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -111,7 +105,6 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_SPECIAL, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_DUMMY_ART, Unit_Attack_HP_Rep_Ship</SFXEvent_Attack_Hardpoint>
-		<!--<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Special_Ship_Lost_HP</SFXEvent_Hardpoint_Destroyed>-->
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Dreadnaught_Heavy_Cruiser</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Dreadnaught_Heavy_Cruiser</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Engine_Idle_Loop>Unit_Tartan_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
@@ -130,7 +123,6 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Score_Cost_Credits>1250</Score_Cost_Credits>
 		<Population_Value>3</Population_Value>
-		<!-- Rebalance Note: Changed from 2 -->
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -146,7 +138,6 @@
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			<!-- Rebalance Note: Added ability below -->
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
@@ -183,12 +174,9 @@
 		</Abilities>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
-		<!-- Rebalace Note: Changed from 3500 to 3000 -->
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 	<SpaceUnit Name="Dreadnaught_Death_Clone">

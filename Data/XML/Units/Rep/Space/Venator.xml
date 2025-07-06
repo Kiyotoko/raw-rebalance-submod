@@ -167,7 +167,7 @@
 		</Unit_Abilities_Data>
 		<Abilities SubObjectList="Yes"/>
 		<Score_Cost_Credits>2250</Score_Cost_Credits>
-		<Population_Value>4</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Custom_Hard_XExtent>550</Custom_Hard_XExtent>
 		<Tactical_Build_Cost_Multiplayer>5400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>54</Tactical_Build_Time_Seconds>

@@ -205,7 +205,7 @@
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Population_Value>4</Population_Value>
+		<Population_Value>6</Population_Value>
 		<!-- Rebalance Note: Changed from 3 -->
 	</SpaceUnit>
 	<SpaceUnit Name="Providence_Cruiser_Death_Clone">

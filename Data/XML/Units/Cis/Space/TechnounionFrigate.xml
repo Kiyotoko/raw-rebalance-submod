@@ -14,11 +14,9 @@
 		<GUI_Row>1</GUI_Row>
 		<Mass>0.999</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
-		<!-- From 1.3 -->
 		<Damage>40</Damage>
 		<Autoresolve_Health>3000</Autoresolve_Health>
 		<Shield_Points>1000</Shield_Points>
-		<!-- Rebalance Note: Changed from 700 -->
 		<Tactical_Health>3500</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
@@ -35,7 +33,7 @@
 		<OverrideDeceleration>.05</OverrideDeceleration>
 		<Armor_Type>Armor_Assault_Frigate</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Thrust>1.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -44,12 +42,8 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Hoersch_Kessel</Required_Special_Structures>
-		<Required_Planets>Mechis</Required_Planets>-->
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
-		<!-- Rebalance Note: Changed from 3500 -->
 		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<!-- Rebalance Note: Changed from 35 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Cheap_Bribe_Cost>110</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>220</Expensive_Bribe_Cost>
@@ -151,13 +145,9 @@
 		<Death_Clone>Damage_Normal, Techno_Death_Clone</Death_Clone>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
-		<!-- Rebalance Note: Changed from 3500 -->
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
-		<!-- Rebalance Note: Changed from 35 -->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Lua_Script>ObjectScript_GenericSpace</Lua_Script>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -181,7 +171,6 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<Scale_Factor>0.846154</Scale_Factor>
-		<!-- From 1.0 -->
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>

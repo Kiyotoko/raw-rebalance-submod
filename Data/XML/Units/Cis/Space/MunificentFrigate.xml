@@ -157,7 +157,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Score_Cost_Credits>3200</Score_Cost_Credits>
-		<Population_Value>2</Population_Value>
+		<Population_Value>3</Population_Value>
 	</SpaceUnit>
 	<SpaceUnit Name="Munificent_Frigate_Death_Clone">
 		<Text_ID>TEXT_UNIT_MUNIFICENT</Text_ID>

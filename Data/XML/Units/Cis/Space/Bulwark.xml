@@ -15,7 +15,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-		<Scale_Factor>0.52</Scale_Factor>
+		<Scale_Factor>0.6</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -42,50 +42,36 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<!--Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Sullust, Utapau, Pammant, Ringo_Vinda</Required_Planets-->
 		<Damage>70</Damage>
 		<Autoresolve_Health>9000</Autoresolve_Health>
 		<Shield_Points>2500</Shield_Points>
 		<Tactical_Health>8500</Tactical_Health>
-		<!-- was 6000 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Surface_Bombardment_Capable>No</Surface_Bombardment_Capable>
-		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6000</Build_Cost_Credits>
-		<!-- From 6000 -->
-		<!-- Rebalance Note: Changed from 6500 -->
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>5100</AI_Combat_Power>
-		<!-- From 6000 -->
 		<Build_Time_Seconds>68</Build_Time_Seconds>
-		<!-- From 65 -->
-		<!-- Rebalance Note: Changed from 85 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<!-- From 4 -->
 		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<!-- From 2 -->
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Mankvim_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-		<!-- From 8 -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
-		<!-- From 2 -->
 		<!-- On Tech 4, replace the CIS Bomber with a Hyena -->
 		<Starting_Spawned_Units_Tech_4>CIS_Mankvim_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>CIS_Mankvim_Squadron, 2</Reserve_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_4>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
-		<!-- Rebalance Note: Removed SELF_DESTRUCT -->
 		<SpaceBehavior>ABILITY_COUNTDOWN, LURE, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -142,7 +128,7 @@
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-		<Population_Value>3</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -158,18 +144,6 @@
 		<Lua_Script>ObjectScript_Brace</Lua_Script>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<!-- Rebalance Note: Replaced with ability below -->
-			<!--Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Alternate_Description_Text>TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION</Alternate_Description_Text>
-				<Expiration_Seconds>3.5</Expiration_Seconds>
-				<Recharge_Seconds>10</Recharge_Seconds>
-				<Spawned_Object_Type>Vengeance_Self_Destruct_Blast</Spawned_Object_Type>
-				<GUI_Activated_Ability_Name>Vengeance_Self_Destruct</GUI_Activated_Ability_Name>
-				<Stop_When_Activated>No</Stop_When_Activated>
-				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-			</Unit_Ability-->
-			<!-- Rebalance Note: Added ability -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
@@ -223,7 +197,7 @@
 		<Space_Model_Name>SeV_bulwark_d.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>SeV_bulwark_d.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>1</Scale_Factor>
+		<Scale_Factor>0.6</Scale_Factor>
 		<Layer_Z_Adjust>-420.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
