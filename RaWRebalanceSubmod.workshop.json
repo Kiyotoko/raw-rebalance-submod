@@ -1,0 +1,16 @@
+{
+	"publishedfileid": "3131109252",
+	"contentfolder": "raw-rebalance-submod\\src",
+	"previewfile": "raw-rebalance-submod\\src\\Preview.png",
+	"visibility": 2,
+	"title": "RaWRebalanceSubmod",
+	"description": "Why does this submod exist? In RaW, many units are simply overpowered. If you have ever experienced a good Acclamator Spammer, or the endless bombing runs of ARC-170's to the Providence powerhouse, then you know what I mean. At the same time, it is unlikely that you have ever played against a Wavecrest, simply because this ship is so weak that no one uses it. The goal of this submod is to change that balance: every buildable unit should have a purpose and a role in your fleet. No unit should be so powerful that it is the only unit you build for the rest of the battle, or so powerless that you never build it at all.\r\n\r\n[h3]Disclaimer[/h3]\r\n\r\nThis is a unofficial submod of RaW! All credits go to the original creators! You can find the original mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1129810972]here[/url].\r\n\r\n[h3]Changes[/h3]\r\n\r\nThis mod rebalances many space units from RaW for space multiplayer. It primarly changes build cost and build time, add replaces some abilities. I am currently working on rebalancing the ground battles and galactic conquest. However, this will take some time. Please note that this mod only focuses on multiplayer battles with other players. Therefore campaigns that can only be played in singleplayer will receive no rebalancing in the near future. Release v0.1 will therefore only cover the space skirmishes. You can find the full changelog [url=https://steamcommunity.com/workshop/filedetails/discussion/3131109252/7340374196891815628/]here[/url] and [url=https://github.com/Kiyotoko/republic-at-war-rebalance-submod/blob/master/CHANGELOG.md]here[/url].\r\n\r\n[h3]Installation[/h3]\r\n\r\nThis mod can be installed by subscribing to the Steam Workshop item, via ModDB or GitHub. Unfortunately, Republic At War does not allow submods. Any attempt to create one will fail when loading the mod. Therefore, this mod is a standalone mod, which, unlike submods, does not have to be started via Steam Launch Options, but can be loaded regularly via the in-game menu. For those interested, the ModID can still be found below in the description.\r\n\r\n[h3]Requesting features and reporting bugs[/h3]\r\n\r\nDo you have a problem with a unit? Have you found a bug or do you think something urgently needs balancing? Then please help with the development of this mod by opening an issue. You can open an issue [url=https://steamcommunity.com/workshop/filedetails/discussion/3131109252/7340374196891761361/]here[/url] (bugs), [url=https://steamcommunity.com/workshop/filedetails/discussion/3131109252/7340374196891815628/]here[/url] (feature requests) and [url=https://github.com/Kiyotoko/republic-at-war-rebalance-submod/issues/new]here[/url] (both).\r\n\r\n[hr][/hr]\r\n\r\nMod-ID: 3131109252",
+	"metadata": "",
+	"tags": [
+		"SinglePlayer",
+		"Multiplayer",
+		"Land",
+		"Space",
+		"FOC"
+	]
+}
