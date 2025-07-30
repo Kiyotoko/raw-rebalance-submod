@@ -8,17 +8,19 @@ SOURCE=$(shell pwd)
 # Destination folder to install to
 DEST=~/".steam/steam/steamapps/workshop/content/32470/3131109252/"
 
-DEPLOY=~/"Documents/Kiyotoko/eaw-modtools/WorkshopContent/RaWRebalanceSubmod/"
+all: help
 
-all: update install
+clean:	## Clean build folder
+	# Clean build folder
+	@rm -fr $(TARGET)
 
-update:
+help:	## Display this help message
+	@awk 'BEGIN {FS = ":.*##"; printf "Usage:\n  make \033[36m\033[0m\n"} /^[$$()% a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
+
+update:	## Update this mod from git
 	# Update this project from git
 	@git pull -ff
 
-install:
+install: ## Install this mod to steam
 	# Installing modified xml files
-	@cp --recursive $(SOURCE)/Data $(DEST)
-
-deploy:
-	@cp --recursive $(DEST)/Data $(DEPLOY)
+	@cp --recursive $(SOURCE)/src/* $(DEST)
